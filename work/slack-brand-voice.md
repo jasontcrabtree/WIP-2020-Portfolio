@@ -1,7 +1,8 @@
 ---
-title: 'Reverse Engineering Slacks Brand Voice'
-description: "Slack Work Ya'll"
-date: 2019-01-06
+title: 'Reverse Engineering the Slack Brand Voice (for a good cause!)'
+description: 'Deconstructing the Slack brand voice to excel in a job interview writing exercise. A Case Study about problem solving with limited resources.'
+date: 2019-28-06
+image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573420658/Portfolio-Assets/Slack-Cover-Image.png'
 ---
 
 <nav class="nav__container--layout nav__container--style">

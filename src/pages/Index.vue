@@ -1,21 +1,18 @@
-<template>
-  <Layout>
+<template >
+  <Layout class="page-container">
     <main class="home-container--layout">
-      <h1
-        class="hero-header-h1--style hero-header-h1--layout"
-      >UX Designer & Functional Design Enthusiast</h1>
+      <h1 class="hero-header-h1--style hero-header-h1--layout">
+        UX Designer &
+        <br />Functional Design Enthusiast
+      </h1>
 
-      <!--       <li class="post-list-item">
-        <hr class="line" />
-        <p class="date" v-html="work.date" />
-        <h1 class="title" v-html="work.title" />
-        <p class="description" v-html="work.description" />
-        <b>{{ work.timeToRead }} min read</b> &nbsp;
-        <g-link :to="work.path" class="read">Read work</g-link>
-      </li>-->
+      <div class="body-decoration">
+        <div class="body-decoration"></div>
+      </div>
 
-      <section>
-        <ul class="posts">
+      <section class="work-container">
+        <h2>Case Studies, Visuals & Dribbbles</h2>
+        <ul class="work-list-container">
           <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
         </ul>
       </section>
@@ -29,10 +26,9 @@ import WorkList from "@/components/WorkList";
 export default {
   components: {
     WorkList
-    // PostList
   },
   metaInfo: {
-    title: "Home, Jason Crabtree"
+    title: "Home"
   }
 };
 </script>
@@ -53,6 +49,7 @@ query {
         description
         date (format: "D MMMM YYYY")
         path
+        image
       }
     }
   }
@@ -67,7 +64,10 @@ query {
   margin: 96px 4.5rem;
   /* display: grid;
   grid-template-columns: repeat(13, 1fr); */
-  grid-column: 1 / 10;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-column: 1 / 13;
+  grid-template-rows: repeat(8, auto);
 }
 /*
 .header-two {
@@ -76,7 +76,7 @@ query {
 } */
 
 .nav {
-  grid-column: 10 / 11;
+  /* grid-column: 10 / 11; */
 }
 
 .nav {
@@ -88,7 +88,7 @@ query {
 
 .header {
   display: flex;
-  grid-column: 9 / 12 !important;
+  /* grid-column: 9 / 12 !important; */
 }
 
 .hero-header-h1--style {
@@ -103,11 +103,48 @@ query {
 }
 
 .hero-header-h1--layout {
-  grid-column: 1 / 10;
+  grid-column: 1 / 13;
+  grid-row-start: 1;
 }
 
 .work-list-card {
-  background: lightgoldenrodyellow;
-  border: 1px solid red;
+  background: #f8f9fa;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.work-container {
+  display: grid;
+  grid-column: 1 / 14;
+  margin-top: 4rem;
+  grid-row-start: 2;
+}
+
+.work-container > .work-list-card > p {
+  margin-block-end: 0px;
+  margin-bottom: 0px;
+}
+
+.page-container {
+  display: grid;
+}
+
+.body-decoration {
+  display: inline-flex;
+  /* grid-column: 4 / 6; */
+  grid-row: -1 / 1;
+
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  background: peachpuff;
+}
+
+.work-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 48px;
 }
 </style>

@@ -32,9 +32,9 @@ p {
   line-height: 1.6;
 }
 
-p:not(:last-child) {
+/* p:not(:last-child) {
   margin-bottom: 2rem;
-}
+} */
 
 /*
 

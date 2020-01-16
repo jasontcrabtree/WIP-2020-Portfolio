@@ -21,6 +21,7 @@ export default {
 .work-list-card {
   background: lightgoldenrodyellow;
   border: 1px solid red;
-  padding: 24px;
+  padding: 24px !important;
+  margin: 24px !important;
 }
 </style>

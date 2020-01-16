@@ -29,8 +29,8 @@ nav a:any-link {
 }
 
 .header {
-  display: flex;
-  grid-column: 2 / 12;
+  /* display: flex;
+  grid-column: 2 / 12; */
 }
 
 .header--debugging {
@@ -39,8 +39,8 @@ nav a:any-link {
 
 .default-layout {
   /* display: grid; */
-  margin: 24px;
+  /* margin: 24px;
   display: grid;
-  grid-template-columns: repeat(13, 1fr);
+  grid-template-columns: repeat(13, 1fr); */
 }
 </style>

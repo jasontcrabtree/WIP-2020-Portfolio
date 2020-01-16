@@ -3,6 +3,8 @@
     <main class="blog-content__container--layout">
       <br />
       <g-link to="/" class="link">&larr; Go Back</g-link>
+
+      <!-- <img :src="work.image" :alt="work.title" /> -->
       <div class="post-title">
         <h1>{{ $page.work.title }}</h1>
         <p class="post-date">{{ $page.work.date }} | {{ $page.work.timeToRead }} min read</p>
@@ -17,6 +19,7 @@
 <page-query>
 query Work ($path: String!) {
     work: work (path: $path) {
+      image
         title
         content
         date (format: "D MMMM YYYY")
@@ -49,6 +52,10 @@ export default {};
 .blog-content__container--layout {
   display: grid;
   grid-column: 2 / 11;
+}
+
+img {
+  /* grid-column: 2 / 9; */
 }
 
 p {
