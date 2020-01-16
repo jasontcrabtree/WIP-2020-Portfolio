@@ -1,19 +1,13 @@
 <template>
   <layout>
-    <img width="320" src="https://www.picsum.photos/400" alt="" />
-    <h1>Contact Page!!</h1>
-    <p>This here be the contact page</p>
+    <h1>Contact:</h1>
+    <p>
+      Hello! Want to chat? I'm on twitter!
+      <a href="http://twitter.com/jasontcrabtree">@jasontcrabtree</a>
+    </p>
   </layout>
 </template>
 
 <script>
 export default {};
 </script>
-
-<style>
-img {
-  display: grid;
-  margin: 40px auto;
-  border: 12px solid;
-}
-</style>

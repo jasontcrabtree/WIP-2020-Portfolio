@@ -1,17 +1,18 @@
 <template>
-  <nav class="layout">
-    <header class="header">
-      <strong>
+  <div class="default-layout">
+    <header class="header header--debugging">
+      <!-- <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <ul class="nav">
+      </strong>-->
+      <nav class="nav">
         <g-link class="nav-ul__link" to="/">Home</g-link>
         <g-link class="nav-ul__link" to="/contact/">Contact</g-link>
         <g-link class="nav-ul__link" to="/about/">About</g-link>
-      </ul>
+        <g-link class="nav-ul__link" to="/blog/">Blog</g-link>
+      </nav>
     </header>
     <slot />
-  </nav>
+  </div>
 </template>
 
 <static-query>
@@ -22,44 +23,24 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  font-size: 18px;
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #181818;
-    color: #f0f0d2;
-  }
-
-  a:any-link {
-    color: sandybrown;
-  }
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 24px;
-  padding-right: 24px;
+<style scoped>
+nav a:any-link {
+  padding: 0px 16px;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 24px;
-  height: 80px;
+  grid-column: 2 / 12;
 }
 
-.nav-ul__link {
-  margin-left: 24px;
+.header--debugging {
+  /* border: 1px solid tomato; */
+}
+
+.default-layout {
+  /* display: grid; */
+  margin: 24px;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
 }
 </style>

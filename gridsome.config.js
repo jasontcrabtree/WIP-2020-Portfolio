@@ -6,12 +6,52 @@
 
 module.exports = {
   siteName: "Jason's 2020 Blog",
-  siteDescription: "A buncha words by Jason",
+  siteDescription: 'A buncha words by Jason',
 
   templates: {
-    Post: '/:title',
-    Tag: '/tag/:id'
+    Post: '/blog/:title',
+    Tag: '/tag/:id',
+    // BlogPost: '/blog/:year/:month/:day/:slug',
   },
+
+  templates: {
+    Work: '/work/:title',
+    Tag: '/tag/:id',
+  },
+
+  /*   plugins: [
+    {
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Post',
+        path: 'posts/*.md',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            create: true,
+          },
+        },
+      },
+    },
+    {
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Work',
+        path: 'work/*.md',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            create: true,
+          },
+        },
+      },
+    },
+  ],
+ */
 
   plugins: [
     {
@@ -19,16 +59,31 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Post',
-        path: 'content/posts/*.md',
+        path: 'posts/*.md',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'Tag',
-            create: true
-          }
-        }
-      }
-    }
+            create: true,
+          },
+        },
+      },
+    },
+    {
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Work',
+        path: 'work/*.md',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            create: true,
+          },
+        },
+      },
+    },
   ],
 
   transformers: {
@@ -39,9 +94,9 @@ module.exports = {
       // plugins: [
       //   '@gridsome/remark-prismjs'
       // ]
-    }
+    },
   },
   // templates: {
   //   BlogPost: '/blog/:year/:month/:day/:slug'
   // }
-}
+};

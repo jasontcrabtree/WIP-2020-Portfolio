@@ -1,25 +1,22 @@
 <template>
-  <layout class="blog-parent__container--layout ">
+  <layout class="blog-parent__container--layout">
     <main class="blog-content__container--layout">
       <br />
-      <g-link to="/blog" class="link"> &larr; Go Back</g-link>
+      <g-link to="/" class="link">&larr; Go Back</g-link>
       <div class="post-title">
-        <h1>{{ $page.post.title }}</h1>
-        <p class="post-date">
-          {{ $page.post.date }} | {{ $page.post.timeToRead }} min read
-        </p>
+        <h1>{{ $page.work.title }}</h1>
+        <p class="post-date">{{ $page.work.date }} | {{ $page.work.timeToRead }} min read</p>
       </div>
       <div class="post-content">
-        <p v-html="$page.post.content"></p>
+        <p v-html="$page.work.content"></p>
       </div>
     </main>
   </layout>
 </template>
 
 <page-query>
-query Post ($path: String!) {
-    post: post (path: $path) {
-        id
+query Work ($path: String!) {
+    work: work (path: $path) {
         title
         content
         date (format: "D MMMM YYYY")
