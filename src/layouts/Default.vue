@@ -28,19 +28,23 @@ nav a:any-link {
   padding: 0px 16px;
 }
 
+.nav {
+  column-span: 5;
+}
+
 .header {
   /* display: flex;
   grid-column: 2 / 12; */
-}
-
-.header--debugging {
-  /* border: 1px solid tomato; */
+  column-span: 5;
 }
 
 .default-layout {
-  /* display: grid; */
-  /* margin: 24px;
+  border: 1px solid greenyellow;
+
   display: grid;
-  grid-template-columns: repeat(13, 1fr); */
+  grid-gap: 24px;
+  grid-template-columns: repeat(11, 1fr);
+
+  margin: 0px 4%;
 }
 </style>

@@ -3,7 +3,12 @@
     <main class="blog-content__container--layout">
       <header>
         <h1>Blog</h1>
-        <p>THESE ARE THE BLOG PAGES</p>
+        <p>
+          A personal & professional blog by
+          <a
+            href="http://twitter.com/jasontcrabtree"
+          >@jasontcrabtree.</a> Future topics likely to include design, product strategy, front-end code and general stuff about tech as it relates to my view on ethical, sustainable good for the world. Plus whatever else I'm thinking about related to humanities and society!
+        </p>
       </header>
 
       <section>
@@ -23,7 +28,7 @@ export default {
     PostList
   },
   metaInfo: {
-    title: "JC Write Words"
+    title: "Jason is writing words online"
   }
 };
 </script>
@@ -54,7 +59,7 @@ query {
 .blog-parent__container--layout {
   display: grid;
 
-  padding: 2rem 0px;
+  /* padding: 2rem 0px; */
 
   grid-gap: 1rem;
 }
@@ -65,11 +70,14 @@ query {
 
 .parent-container {
   grid-template-columns: repeat(11, 1fr);
+  margin: 48px 10%;
 }
 
 .blog-content__container--layout {
   display: grid;
-  grid-column: 2 / 11;
+  grid-column: 1 / 11;
+  grid-row: 2;
+  margin: 48px 10%;
 }
 
 p,

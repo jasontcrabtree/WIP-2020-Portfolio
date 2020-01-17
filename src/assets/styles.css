@@ -36,8 +36,6 @@ p {
   margin-bottom: 2rem;
 } */
 
-/*
-
 @media (prefers-color-scheme: dark) {
   body {
     background: #181818;
@@ -48,6 +46,9 @@ p {
     color: sandybrown;
   }
 }
+
+/*
+
 
 .layout {
   max-width: 760px;

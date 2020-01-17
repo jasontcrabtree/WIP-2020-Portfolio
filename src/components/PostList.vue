@@ -18,10 +18,25 @@ export default {
 </script>
 
 <style scoped>
-.work-list-card {
-  background: lightgoldenrodyellow;
+/* .work-list-card {
   border: 1px solid red;
   padding: 24px !important;
   margin: 24px !important;
 }
+
+@media (prefers-color-scheme: light) {
+  .work-list-card {
+    background: lightgoldenrodyellow;
+    border: 1px solid red;
+    padding: 24px !important;
+    margin: 24px !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .work-list-card {
+    background: #1b173b;
+    color: #f0f0d2;
+  }
+} */
 </style>

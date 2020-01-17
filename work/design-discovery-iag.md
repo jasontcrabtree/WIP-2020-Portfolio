@@ -203,7 +203,7 @@ Before our design workshop, the project team gathered customer and staff researc
 
 [Our Customer Research sources relied on existing internal research, a survey completed by 350 customers, and interviews with internal Subject Matter Experts](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081457/IAG-Service-Design/03-Customer-Research.png)
 
-_We utilised existing research and a project specific customer survey._
+_We utilized existing research and a project specific customer survey._
 
 <!-- <fig class="image__asset--layout">![Our Customer Research sources relied on existing internal research, a survey completed by 350 customers, and interviews with internal Subject Matter Experts](assets/svg/placeholder.svg)
 

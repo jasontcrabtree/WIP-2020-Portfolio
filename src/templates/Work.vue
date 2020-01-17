@@ -36,7 +36,7 @@ export default {};
 .blog-parent__container--layout {
   display: grid;
 
-  padding: 2rem 0px;
+  /* padding: 2rem 0px; */
 
   grid-gap: 1rem;
 }
@@ -54,12 +54,8 @@ export default {};
   grid-column: 2 / 11;
 }
 
-img {
-  /* grid-column: 2 / 9; */
-}
-
 p {
-  max-width: 56ch;
+  max-width: 72ch;
   width: auto;
 }
 </style>

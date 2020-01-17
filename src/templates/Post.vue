@@ -35,13 +35,9 @@ export default {};
 .blog-parent__container--layout {
   display: grid;
 
-  padding: 2rem 0px;
+  /* padding: 2rem 0px; */
 
-  grid-gap: 1rem;
-}
-
-.parent-container {
-  margin: 48px 10%;
+  /* grid-gap: 1rem; */
 }
 
 .parent-container {
@@ -51,6 +47,7 @@ export default {};
 .blog-content__container--layout {
   display: grid;
   grid-column: 2 / 11;
+  grid-row: 2;
 }
 
 p {

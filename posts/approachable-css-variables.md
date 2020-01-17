@@ -1,7 +1,7 @@
 ---
 # layout: post
 # author: Jason
-date: 2019-06-01
+date: 2019-05-31
 description: 'An approachable, beginner friendly introduction to designing websites using CSS Variables. No experience with code necessary!'
 title: 'Small Joys of Learning Code; the CSS Edition'
 # meta: An approachable, beginner friendly introduction to designing websites using CSS Variables. No experience with code necessary!`
@@ -20,12 +20,7 @@ HTML without CSS looks the same regardless of content — for Google, Twitter or
 
 ## Here's an Example of A Basic Webpage Without CSS:
 
-<img
-    class="cs-image lazy"
-    src="/assets/placeholder.svg"
-    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/CSS-Variables-Case-Study/html-no-css.png"
-    alt="A Basic HTML Website with no CSS Styling"
-/>
+![A Basic HTML Website with no CSS Styling](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/CSS-Variables-Case-Study/html-no-css.png)
 
 CSS Variables take things to a whole new level. CSS Variables store CSS values in keywords that can later be re-used as many times as you need. CSS Variables follow the same structure you might have learnt about in High School Algebra. I definitely failed High School algebra, potentially contributing to me being slow to pick up CSS Variables, but regardless — similar to Algebra, CSS Variables are assigned by associating a value with the variable name. For example, if we have a math problem such as Z = XY and we know that two of the values are X = 10, and Y = 5, then we can calculate Z as the result of X \* Y. Luckily, there's less math involved in CSS Variables than that, but the general principle of storing a value is the same.
 
@@ -40,12 +35,7 @@ For example, if I had a particular colour that I wanted to use multiple times in
 
 Once we apply these styles, our website now looks like this:
 
-<img
-    class="cs-image lazy"
-    src="/assets/placeholder.svg"
-    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559326204/CSS-Variables-Case-Study/adding-css-colors.png"
-    alt="Adding some basic CSS using our CSS colour variable"
-/>
+![Adding some basic CSS using our CSS colour variable](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559326204/CSS-Variables-Case-Study/adding-css-colors.png)
 
 This concept of using the same variable, again and again as needed has been very compelling and is a technique I've started trying to use on every project. I was probably a bit slow to the Variables party (because of the previously discussed algebra issues). That aside, once I understood how it works, I've become a huge fan. **Mostly because it just makes sense.**
 
@@ -63,12 +53,7 @@ Using CSS Variables I can set the a few relevant spacing Variables, then re-use 
 
 ### Lastly, Let's Apply our Layout Styles (and add a nice font!)
 
-<img
-    class="cs-image lazy"
-    src="/assets/placeholder.svg"
-    data-src="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559413225/CSS-Variables-Case-Study/final-layout-and-styles.png"
-    alt="Using A Few CSS Variables to Layout our Page"
-/>
+![Using A Few CSS Variables to Layout our Page](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559413225/CSS-Variables-Case-Study/final-layout-and-styles.png)
 
 With that, we're left with something closely resembling a real website. We've used a single colour (that we can change easily, just by changing the initial variable) and we've got consistent spacing throughout the page.
 

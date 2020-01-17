@@ -61,22 +61,13 @@ query {
 
 <style scoped>
 .home-container--layout {
-  margin: 96px 4.5rem;
+  margin: 96px 0px;
   /* display: grid;
   grid-template-columns: repeat(13, 1fr); */
   display: grid;
   grid-template-columns: repeat(13, 1fr);
   grid-column: 1 / 13;
   grid-template-rows: repeat(8, auto);
-}
-/*
-.header-two {
-  grid-column-start: 1;
-  grid-column-end: 10;
-} */
-
-.nav {
-  /* grid-column: 10 / 11; */
 }
 
 .nav {
@@ -97,7 +88,9 @@ query {
   -webkit-background-clip: text;
   background-clip: none;
   -webkit-text-fill-color: transparent;
-  font-size: 72px;
+  font-size: 64px;
+  /* font-size: min(max(40px, 5vw), 72px); */
+  word-wrap: break-word;
   line-height: 1.2;
   letter-spacing: -1.8px;
 }
@@ -107,24 +100,42 @@ query {
   grid-row-start: 1;
 }
 
+h2 {
+  font-size: min(max(32px, 5vw), 40px);
+  margin-bottom: 1rem;
+}
+
 .work-list-card {
   background: #f8f9fa;
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   padding: 1.5rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .work-list-card {
+    background: #0d0b1b;
+    color: #aba5e6;
+  }
 }
 
 .work-container {
-  display: grid;
+  /* display: grid; */
   grid-column: 1 / 14;
   margin-top: 4rem;
   grid-row-start: 2;
+  margin: 4rem 0;
 }
 
 .work-container > .work-list-card > p {
   margin-block-end: 0px;
   margin-bottom: 0px;
+}
+
+.work-list-card > p,
+.work-list-card > * > p {
+  margin-bottom: 8px;
 }
 
 .page-container {
@@ -144,7 +155,9 @@ query {
 
 .work-list-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: dense;
+  /* grid-template-columns: repeat(auto-fill, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(31%, 1fr));
   grid-gap: 48px;
 }
 </style>

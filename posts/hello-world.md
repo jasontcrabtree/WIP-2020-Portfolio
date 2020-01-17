@@ -1,15 +1,14 @@
 ---
-title: 'Hello Jekyll'
-description: "work ya'll"
-date: 2019-01-06
+title: 'Hello World'
+# description: "work ya'll"
+date: 2019-03-27
 # layout: post
 # author: Jason
 # Date: 27 Mar 2019
 # title: Hello World
 # image: /assets/JC-Blog-Image.png
+description: 'Welcome to the blog-zone 👉 come on in...'
 ---
-
-# excerpt: Welcome to the blogzone 👉 come on in...
 
 I'm so excited to welcome you to the first blog post published on my own domain.
 

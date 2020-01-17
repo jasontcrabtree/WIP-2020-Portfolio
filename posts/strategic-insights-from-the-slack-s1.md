@@ -1,13 +1,12 @@
 ---
 # layout: post
 # author: Jason
-Date: 2019-04-26
-description: "A brief review of Slack's Strategic Plans, as told by their recent S-1 document"
 title: 'Strategic Insights from the Slack S1'
+description: "A brief review of Slack's Strategic Plans, as told by their recent S-1 document"
+date: 2019-04-26
 # meta: A brief day-of-release review of Slack's Strategic Plans, as told by their recent S-1 document.
 ---
 
-26 April 2019
 Because I'm a total nerd for business software, I just spent the last hour reading [Slack's](https://slack.com) S-1 (document detailed the public sale of their shares), which was filled today.
 
 You can access that here: [Slack's S-1 Document](https://www.sec.gov/Archives/edgar/data/1764925/000162828019004786/slacks-1.html)
