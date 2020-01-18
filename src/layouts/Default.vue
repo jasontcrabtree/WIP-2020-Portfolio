@@ -45,7 +45,7 @@ query {
   .return-home-link {
     grid-column: 1 / 8;
     grid-row-start: 1;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
   }
 
   .top-parent-container {
