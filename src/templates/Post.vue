@@ -60,6 +60,7 @@ article {
   p {
     max-width: 40ch;
     width: auto;
+    font-size: 20px;
   }
 }
 </style>
