@@ -26,9 +26,7 @@
         <hr />
       </section>
 
-      <!-- <div class="background-elem"></div> -->
-
-      <section class="work-container">
+      <section class="work-container" id="work">
         <h2 class="work-title">Case Studies, Visuals & Dribbbles</h2>
         <ul class="work-list-container">
           <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
@@ -94,7 +92,7 @@ query {
 
   line-height: 1.2;
   letter-spacing: -1.8px;
-  color: #5340cc;
+  color: var(--primary-blue);
 }
 
 .hero-social-list {
@@ -110,18 +108,11 @@ query {
 
 hr {
   border: 0px;
-  height: 4px;
-  border-top: solid #fec7b2;
+  border-top: solid #fec7b2 4px;
   width: 32%;
   position: absolute;
-  margin: 32px 0px;
+  margin: 40px 0px;
 }
-
-/* .hero-h2 {
-  text-transform: uppercase;
-  font-size: 40px;
-  color: #36364f;
-} */
 
 .work-list-card {
   background: #f8f9fa;
@@ -131,7 +122,7 @@ hr {
 }
 
 .work-container {
-  margin-top: 6rem;
+  margin-top: 96px;
   grid-column: 1 / -1;
 }
 

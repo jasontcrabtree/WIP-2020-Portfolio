@@ -6,18 +6,6 @@ image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573410855/Portf
 # image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/Workshop-Hero-Image.png'
 ---
 
-<nav class="nav__container--layout nav__container--style nav-styles-reset">
-
-- [Home](https://jasontcrabtree.com/#)
-- [Case Studies](https://jasontcrabtree.com/#portfolio)
-- [CV](https://jasontcrabtree.com/resume.pdf)
-- [Blog](https://blog.jasontcrabtree.com/)
-- [Contact](https://jasontcrabtree.com/#contact)
-
-</nav>
-
-<!-- <header class="hero__container--layout"> -->
-
 ![We spent 2 days assembled in a collaborative design workshop — complete with post-it's and full wall whiteboards.](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/Workshop-Hero-Image.png)
 
 <div class="hero__content--layout">

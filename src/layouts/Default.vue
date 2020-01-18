@@ -53,7 +53,9 @@ query {
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr; */
+    /* grid-template-rows: auto repeat(3, 0.2fr); */
+    grid-template-rows: auto auto auto 0.5fr 144px;
   }
 
   main {
@@ -63,10 +65,11 @@ query {
   .background-elem {
     grid-column: 8 / 11;
     grid-row: 1 / -1;
-    /* background-color: var(--peach-gradient); */
+
     background: linear-gradient(180deg, #fec7b2 0%, #df7d57 100%);
     z-index: -1;
     margin-top: -96px;
+    opacity: 0.5;
   }
 }
 
@@ -76,6 +79,12 @@ query {
     padding: 16px;
     max-width: fit-content;
     width: auto;
+
+    margin-bottom: 64px;
+    padding-top: 32px;
+
+    margin-top: 0px;
+    border-top: 8px solid var(--primary-blue);
   }
 
   h1 {

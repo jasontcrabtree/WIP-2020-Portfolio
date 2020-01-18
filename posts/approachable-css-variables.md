@@ -6,13 +6,14 @@ description: 'An approachable, beginner friendly introduction to designing websi
 title: 'Small Joys of Learning Code; the CSS Edition'
 # meta: An approachable, beginner friendly introduction to designing websites using CSS Variables. No experience with code necessary!`
 ---
+
 One of the most consistently invigorating experiences I've had while learning to code is the joy of learning a seemingly small idea, then later learning how you can build on that initial concept in a super cool way.
 
 The latest instance of this has been with CSS Variables. As a beginner, I always appreciated posts that explained concepts — so now I'm going to do that!
 
 ## The Basic Structure of a Webpage
 
-Imagine a basic website with pictures and words. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) (_**Hypertext Markup Language**_) is the coding language that creates the websites layout and underlying content. [CSS](https://developer.mozilla.org/en-US/docs/Web/css) (_**Cascading Style Sheets**_) is the coding language used to add styles to the original HTML code. It's a relatively controversial coding language, full of debates about whether it's even a real programming language. Personally, I love it because it's incredibly literal. Do you want to change something's colour? Type `background-color: red`. Or maybe you want to change the size of a font? `font-size: 40px` will do the trick.
+Imagine a basic website with pictures and words. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) (_**Hypertext Markup Language**_) is the coding language that creates the websites layout and underlying content. [CSS](https://developer.mozilla.org/en-US/docs/Web/css) (_**Cascading Style Sheets**_) is the coding language used to add styles to the original HTML code. It's a relatively controversial coding language, full of debates about whether it's even a real programming language. Personally, I love it because it's incredibly literal. Do you want to change the colour of something? Type `background-color: red`. Or maybe you want to change the size of a font? `font-size: 40px` will do the trick.
 
 HTML without CSS looks the same regardless of content — for Google, Twitter or this blog. CSS is (part of) what differentiates the design, style and brand of websites and products.
 

@@ -20,8 +20,11 @@ h3,
 h4,
 li,
 ol[class],
-p,
 ul[class] {
+  margin: 0;
+}
+
+p:not(* > .post-container) {
   margin: 0;
 }
 body {

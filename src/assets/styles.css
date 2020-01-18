@@ -1,15 +1,24 @@
 :root {
-  --primary-brand-500: linear-gradient(180deg, #470f8d 0%, #5340cc 101.23%);
+  --brand-gradient: linear-gradient(180deg, #470f8d 0%, #5340cc 101.23%);
 
   --primary-peach: #fec7b2;
   --peach-gradient: linear-gradient(180deg, #fec7b2 0%, #df7d57 100%);
+
+  --text-black: #1f1f31;
+  --primary-blue: #4230b9;
+
+  --heading-black: #353546;
+
+  --subheading-black: #4c4c5a;
+
+  --primary-link: #25168b;
 }
 
 body {
   font-family: 'DM Sans', -apple-system, system-ui, BlinkMacSystemFont, Roboto,
     'Helvetica Neue', sans-serif;
   font-size: 18px;
-  color: #1f1f31;
+  color: var(--text-black);
 }
 
 h1,
@@ -20,11 +29,17 @@ h5,
 h6 {
   font-family: 'Libre Franklin', 'DM Sans', -apple-system, system-ui,
     BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+  line-height: 1.2;
+  color: var(--heading-black);
+}
+
+h1 {
+  color: var(--primary-blue);
 }
 
 a:any-link {
   /* color: #36364f; */
-  color: #25168b;
+  color: var(--primary-link);
   text-decoration: underline;
   letter-spacing: -0.4px;
 }

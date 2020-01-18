@@ -2,7 +2,7 @@
   <layout>
     <main class="blog-main">
       <header>
-        <h1>Blog</h1>
+        <h1>Personal Blog</h1>
         <p>
           A personal & professional blog by
           <a
@@ -59,30 +59,4 @@ query {
 .blog-main {
   grid-column: 2 / 8;
 }
-/* .blog-parent__container--layout {
-  display: grid;
-  grid-gap: 1rem;
-}
-
-.parent-container {
-  margin: 48px 10%;
-}
-
-.parent-container {
-  grid-template-columns: repeat(11, 1fr);
-  margin: 48px 10%;
-}
-
-.blog-content__container--layout {
-  display: grid;
-  grid-column: 1 / 11;
-  grid-row: 2;
-  margin: 48px 10%;
-}
-
-p,
-ul {
-  max-width: 64ch;
-  width: auto;
-} */
 </style>

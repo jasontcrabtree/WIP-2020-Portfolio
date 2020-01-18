@@ -3,9 +3,10 @@
     <div class="header-background-src"></div>
     <nav class="nav-list">
       <g-link to="/">Home</g-link>
-      <g-link to="/contact/">Contact</g-link>
+      <!-- <g-link to="/contact/">Contact</g-link> -->
       <g-link to="/">Resume</g-link>
-      <g-link to="/about/">About</g-link>
+      <!-- <g-link to="/about/">About</g-link> -->
+      <g-link to="/#work">Work</g-link>
       <g-link to="/blog/">Blog</g-link>
     </nav>
   </header>
@@ -35,9 +36,24 @@ export default {
   }
 
   .nav-list > * {
-    margin-right: 8px;
+    margin-right: 16px;
+  }
+
+  .primary-nav > * {
+    margin: 8px 0;
+  }
+
+  .header-background-src {
+    background-image: url("/nav-bg.png");
+    width: 60%;
+    height: 40%;
+    z-index: -1;
+    position: fixed;
+    right: -48px;
+    top: -16px;
   }
 }
+
 @media screen and (min-width: 920px) {
   .nav-list {
     flex-direction: column;

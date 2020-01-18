@@ -5,7 +5,7 @@
       <g-link to="/" class="link">&larr; Go Back</g-link>
 
       <!-- <img :src="work.image" :alt="work.title" /> -->
-      <div class="post-title">
+      <div>
         <h1>{{ $page.work.title }}</h1>
         <p class="post-date">{{ $page.work.date }} | {{ $page.work.timeToRead }} min read</p>
       </div>
