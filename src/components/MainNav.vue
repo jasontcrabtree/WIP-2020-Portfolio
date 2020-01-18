@@ -29,7 +29,7 @@ export default {
   align-content: space-around;
 }
 
-@media screen and (max-width: 859px) {
+@media screen and (max-width: 919px) {
   .nav-list {
     flex-direction: row;
   }
@@ -38,7 +38,7 @@ export default {
     margin-right: 8px;
   }
 }
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 920px) {
   .nav-list {
     flex-direction: column;
   }

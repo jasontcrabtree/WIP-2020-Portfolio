@@ -47,7 +47,7 @@ export default {
   margin-bottom: 8px;
 }
 
-@media screen and (max-width: 859px) {
+@media screen and (max-width: 919px) {
   .work-list-card {
     margin: 1rem 0px;
   }

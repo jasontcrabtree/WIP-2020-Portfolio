@@ -37,7 +37,7 @@ query {
   text-decoration: none;
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 920px) {
   .return-home-h2 {
     font-size: 40px;
   }
@@ -70,7 +70,7 @@ query {
   }
 }
 
-@media screen and (max-width: 859px) {
+@media screen and (max-width: 919px) {
   html {
     margin: 8px auto;
     padding: 16px;

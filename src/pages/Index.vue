@@ -135,7 +135,7 @@ hr {
   grid-column: 1 / -1;
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 920px) {
   .hero-container {
     grid-column: 1 / 9;
     grid-row: 1 / 2;
@@ -170,7 +170,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 859px) {
+@media screen and (max-width: 919px) {
   .hero-children-container > ul {
     margin-right: 24px;
   }
