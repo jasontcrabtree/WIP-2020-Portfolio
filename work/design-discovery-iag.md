@@ -394,19 +394,11 @@ Hello! If you've made it this far, I admire your commitment — either to readi
 
 Now, if you enjoyed this case study so much that you'd like to read more from me, I'd love for you to check out my personal portfolio [https://jasontcrabtree.com](https://jasontcrabtree.com), or check out my blog at [https://blog.jasontcrabtree.com](https://blog.jasontcrabtree.com). I _infrequently_ write about my experiences learning and thinking about Design, Strategy, Code & other things I think are rad.
 
-</section>
 
-</section>
-
-</article>
-
-<footer class="repairer-allocation-foooter-defaults footer--layout-repairer footer-style-repairer cs-footer__layout">
-
-Social ✌️
+<!-- Social ✌️
 
 - [![Twitter](/assets/icons/Twitter-Logo.svg)](https://twitter.com/jasontcrabtree)
 - [![RSS](/assets/icons/Rss.svg)](https://blog.jasontcrabtree.com/feed.xml)
 - [![Dribbble](/assets/icons/dribbble-logo.svg)](https://dribbble.com/jasontcrabtree)
 - [![GitHub](/assets/icons/GitHub-Logo.svg)](https://github.com/jasontcrabtree)
-
-</footer>
+ -->

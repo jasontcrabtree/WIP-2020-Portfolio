@@ -1,6 +1,6 @@
 <template>
-  <layout class="blog-parent__container--layout">
-    <main class="blog-content__container--layout">
+  <layout>
+    <main>
       <br />
       <g-link to="/" class="link">&larr; Go Back</g-link>
 
@@ -33,27 +33,6 @@ export default {};
 </script>
 
 <style scoped>
-.blog-parent__container--layout {
-  display: grid;
-
-  /* padding: 2rem 0px; */
-
-  grid-gap: 1rem;
-}
-
-.parent-container {
-  margin: 48px 10%;
-}
-
-.parent-container {
-  grid-template-columns: repeat(11, 1fr);
-}
-
-.blog-content__container--layout {
-  display: grid;
-  grid-column: 2 / 11;
-}
-
 p {
   max-width: 72ch;
   width: auto;

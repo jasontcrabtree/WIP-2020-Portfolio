@@ -325,22 +325,3 @@ One particular stand out for me is how I was able to use Python and JavaScript t
 Read my [Character Counter Case Study,](https://medium.com/@jasontcrabtree/building-character-counter-2670b30a7ef0) with details on launching on Product Hunt, iterating based on feedback and building a tool to use daily.
 
 Or check out my [Blog](https://blog.jasontcrabtree.com) for posts on Design, Strategy, Code & anything else I've found been thinking about.
-
-</section>
-
-</article>
-
-</main>
-
-<footer class="footer-style footer--layout cs-footer__layout">
-
-Social ✌️
-
-- [![Twitter](/assets/icons/Twitter-Logo.svg)](https://twitter.com/jasontcrabtree)
-- [![RSS](/assets/icons/Rss.svg)](https://blog.jasontcrabtree.com/feed.xml)
-- [![Dribbble](/assets/icons/dribbble-logo.svg)](https://dribbble.com/jasontcrabtree)
-- [![GitHub](/assets/icons/GitHub-Logo.svg)](https://github.com/jasontcrabtree)
-
-</footer>
-
-</nav>

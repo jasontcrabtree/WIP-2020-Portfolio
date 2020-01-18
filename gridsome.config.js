@@ -19,39 +19,11 @@ module.exports = {
     Tag: '/tag/:id',
   },
 
-  /*   plugins: [
-    {
-      // Create posts from markdown files
-      use: '@gridsome/source-filesystem',
-      options: {
-        typeName: 'Post',
-        path: 'posts/*.md',
-        refs: {
-          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
-          tags: {
-            typeName: 'Tag',
-            create: true,
-          },
-        },
-      },
-    },
-    {
-      // Create posts from markdown files
-      use: '@gridsome/source-filesystem',
-      options: {
-        typeName: 'Work',
-        path: 'work/*.md',
-        refs: {
-          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
-          tags: {
-            typeName: 'Tag',
-            create: true,
-          },
-        },
-      },
-    },
-  ],
- */
+  chainWebpack: config => {
+    const svgRule = config.module.rule('svg');
+    svgRule.uses.clear();
+    svgRule.use('vue-svg-loader').loader('vue-svg-loader');
+  },
 
   plugins: [
     {

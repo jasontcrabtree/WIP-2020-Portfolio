@@ -1,6 +1,6 @@
 <template>
-  <layout class="blog-parent__container--layout">
-    <main class="blog-content__container--layout">
+  <layout>
+    <main class="blog-main">
       <header>
         <h1>Blog</h1>
         <p>
@@ -56,11 +56,11 @@ query {
 </page-query>
 
 <style scoped>
-.blog-parent__container--layout {
+.blog-main {
+  grid-column: 2 / 8;
+}
+/* .blog-parent__container--layout {
   display: grid;
-
-  /* padding: 2rem 0px; */
-
   grid-gap: 1rem;
 }
 
@@ -84,5 +84,5 @@ p,
 ul {
   max-width: 64ch;
   width: auto;
-}
+} */
 </style>

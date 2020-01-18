@@ -1,8 +1,14 @@
 <template>
-  <layout class="blog-parent__container--layout">
-    <main class="blog-content__container--layout">
+  <layout>
+    <main>
       <br />
-      <g-link to="/blog" class="link">&larr; Go Back</g-link>
+      <span>
+        <g-link to="/blog" class="link">&larr; Blog</g-link>
+        <span>
+          /
+          {{ $page.post.title }}
+        </span>
+      </span>
 
       <div class="post-title">
         <h1>{{ $page.post.title }}</h1>
@@ -32,26 +38,12 @@ export default {};
 </script>
 
 <style scoped>
-.blog-parent__container--layout {
-  display: grid;
-
-  /* padding: 2rem 0px; */
-
-  /* grid-gap: 1rem; */
-}
-
-.parent-container {
-  grid-template-columns: repeat(11, 1fr);
-}
-
-.blog-content__container--layout {
-  display: grid;
-  grid-column: 2 / 11;
-  grid-row: 2;
-}
-
 p {
   max-width: 56ch;
   width: auto;
+}
+
+main {
+  grid-column: 2/ 8;
 }
 </style>
