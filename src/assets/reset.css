@@ -24,10 +24,10 @@ ol[class],
 ul[class] {
   margin: 0;
 }
-
+/*
 p:not(* > .post-container) {
   margin: 0;
-}
+} */
 
 body {
   min-height: 100vh;

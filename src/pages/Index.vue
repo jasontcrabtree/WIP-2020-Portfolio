@@ -133,7 +133,7 @@ hr {
   }
   .work-list-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(31%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
     grid-gap: 48px;
   }
   .main-parent {
