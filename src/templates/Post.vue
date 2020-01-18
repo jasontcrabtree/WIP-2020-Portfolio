@@ -1,6 +1,6 @@
 <template>
   <layout>
-    <main>
+    <article>
       <span>
         <g-link to="/blog" class="link">&larr; Blog</g-link>
         <span>
@@ -17,7 +17,7 @@
       <!-- <div class="post-content"> -->
       <p v-html="$page.post.content" class="post-container"></p>
       <!-- </div> -->
-    </main>
+    </article>
   </layout>
 </template>
 
@@ -37,23 +37,14 @@ query Post ($path: String!) {
 export default {};
 </script>
 
-<style scoped>
+<style>
 p {
   max-width: 56ch;
   width: auto;
 }
 
-main {
+article {
   grid-column: 2/ 8;
-}
-
-p {
-  margin: 16px 0 32px 0;
-  padding: 8px;
-}
-
-p {
-  margin-block-end: 24px;
 }
 
 .post-info-container {
@@ -61,14 +52,14 @@ p {
   padding-top: 8px;
 }
 
+.post-container > p {
+  margin: 24px 0;
+}
+
 @media screen and (max-width: 919px) {
   p {
     max-width: 40ch;
     width: auto;
-  }
-
-  h1 {
-    /* font-size: 32px; */
   }
 }
 </style>
