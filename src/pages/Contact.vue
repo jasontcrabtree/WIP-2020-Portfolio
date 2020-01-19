@@ -9,11 +9,20 @@
         >@jasontcrabtree</a>
       </p>
     </header>
+    <main>
+      <ImgSmall image="https://picsum.photos/536/354" caption="People laughing while eating salad" />
+    </main>
   </layout>
 </template>
 
 <script>
-export default {};
+import ImgSmall from "@/components/ImgSmall";
+
+export default {
+  components: {
+    ImgSmall
+  }
+};
 </script>
 
 <style>

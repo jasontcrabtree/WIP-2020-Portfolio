@@ -13,13 +13,15 @@
       <div class="post-info-container">
         <h1>{{ $page.post.title }}</h1>
 
-        <p class="post-date">{{ $page.post.date }} | {{ $page.post.timeToRead }} min read</p>
+        <p class="post-date">
+          {{ $page.post.date }} | {{ $page.post.timeToRead }} min read
+        </p>
       </div>
       <!-- <div class="post-content"> -->
       <p v-html="$page.post.content" class="post-container"></p>
       <!-- </div> -->
       <br />
-      <g-link to="/post.path/">{{ $page.post.title }} Test</g-link>
+      <g-link to="/">{{ $page.post.title }} Test</g-link>
     </article>
   </layout>
 </template>
@@ -30,29 +32,27 @@ query Post ($path: String!) {
         id
         title
         content
-        date (format: "D MMMM YYYY")
         timeToRead
+        date (format: "D MMMM YYYY")
     }
 }
 </page-query>
 
-
 <script>
-import BgColumn from "@/components/BgColumn";
+// import BgColumn from '@/components/BgColumn';
 
 export default {
-  components: {
-    BgColumn
-  },
+  // components: {
+  //   BgColumn,
+  // },
   metaInfo() {
     return {
       title: this.$page.post.title,
-      meta: [{ name: "description", content: this.$page.post.excerpt }]
+      meta: [{ name: 'description', content: this.$page.post.excerpt }],
     };
-  }
+  },
 };
 </script>
-
 
 <style>
 p {
@@ -78,6 +78,10 @@ article {
     max-width: 40ch;
     width: auto;
     font-size: 20px;
+  }
+
+  article {
+    margin-bottom: 96px;
   }
 }
 </style>

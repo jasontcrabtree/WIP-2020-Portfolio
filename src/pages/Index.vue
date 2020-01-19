@@ -29,7 +29,11 @@
       <section class="work-container" id="work">
         <h2 class="work-title">Case Studies, Visuals & Dribbbles</h2>
         <ul class="work-list-container">
-          <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
+          <WorkList
+            v-for="edge in $page.allWork.edges"
+            :key="edge.node.id"
+            :work="edge.node"
+          />
         </ul>
       </section>
     </main>
@@ -38,17 +42,17 @@
 </template>
 
 <script>
-import WorkList from "@/components/WorkList";
-import BgColumn from "@/components/BgColumn";
+import WorkList from '@/components/WorkList';
+import BgColumn from '@/components/BgColumn';
 
 export default {
   components: {
     WorkList,
-    BgColumn
+    BgColumn,
   },
   metaInfo: {
-    title: "Home"
-  }
+    title: 'Home',
+  },
 };
 </script>
 
@@ -66,7 +70,7 @@ query {
         id
         timeToRead
         description
-        date (format: "D MMMM YYYY")
+        date (format: "MMMM YYYY")
         path
         image
       }
@@ -97,7 +101,7 @@ query {
 .hero-header-h1--style {
   font-weight: 900;
 
-  line-height: 1.2;
+  line-height: 1.1;
   letter-spacing: -1.8px;
   color: var(--primary-blue);
 }
@@ -140,7 +144,7 @@ hr {
   }
   .work-list-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
     grid-gap: 48px;
   }
   .main-parent {

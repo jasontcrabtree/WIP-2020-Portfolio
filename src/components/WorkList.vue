@@ -4,7 +4,7 @@
       <img :src="work.image" :alt="work.title" class="cover-image" />
       <div class="card-details">
         <h2 class="card-title" v-html="work.title" />
-        <span class="card-date">Work completed: {{work.date}}</span>
+        <span class="card-date">Work completed: {{ work.date }}</span>
         <!-- <p class="date" v-html="work.date" /> -->
         <p class="description" v-html="work.description" />
         <b>{{ work.timeToRead }} min read</b>
@@ -27,10 +27,9 @@ query Work ($path: String!) {
 }
 </page-query>
 
-
 <script>
 export default {
-  props: ["work"]
+  props: ['work'],
 };
 </script>
 
@@ -70,6 +69,8 @@ export default {
 
 .card-date {
   color: var(--subheading-black);
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 919px) {

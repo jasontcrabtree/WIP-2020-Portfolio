@@ -3,11 +3,12 @@
     <div class="header-background-src"></div>
     <nav class="nav-list">
       <g-link to="/">Home</g-link>
-      <!-- <g-link to="/contact/">Contact</g-link> -->
+      <g-link to="/contact/">Contact</g-link>
       <g-link to="/">Resume</g-link>
       <!-- <g-link to="/about/">About</g-link> -->
       <g-link to="/#work">Work</g-link>
       <g-link to="/blog/">Blog</g-link>
+      <!-- <g-link to="/docs/">Docs</g-link> -->
     </nav>
   </header>
 </template>
@@ -44,7 +45,7 @@ export default {
   }
 
   .header-background-src {
-    background-image: url("/nav-bg.png");
+    background-image: url('/nav-bg.png');
     width: 60%;
     height: 40%;
     z-index: -1;
@@ -77,7 +78,7 @@ export default {
   }
 
   .header-background-src {
-    background-image: url("/nav-bg.png");
+    background-image: url('/nav-bg.png');
     width: 30vw;
     height: 25vw;
     z-index: -1;

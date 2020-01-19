@@ -32,7 +32,7 @@ For example, if I had a particular colour that I wanted to use multiple times in
 
 [A Gist of the CSS Variable](https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js)
 
-<script>"https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js"</script>
+<!-- <script>"https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js"</script> -->
 
 Once we apply these styles, our website now looks like this:
 
@@ -50,7 +50,7 @@ Using CSS Variables I can set the a few relevant spacing Variables, then re-use 
 
 ### Setting Size Variables
 
-<script src="https://gist.github.com/jasontcrabtree/027b7a17ceb2ac650c10be22fca8b3b2.js"></script>
+<!-- <script src="https://gist.github.com/jasontcrabtree/027b7a17ceb2ac650c10be22fca8b3b2.js"></script> -->
 
 ### Lastly, Let's Apply our Layout Styles (and add a nice font!)
 

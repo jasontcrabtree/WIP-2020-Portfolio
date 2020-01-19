@@ -7,7 +7,9 @@
       <!-- <img :src="work.image" :alt="work.title" /> -->
       <div class="post-info-container">
         <h1>{{ $page.work.title }}</h1>
-        <p class="post-date">{{ $page.work.date }} | {{ $page.work.timeToRead }} min read</p>
+        <p class="post-date">
+          {{ $page.work.date }} | {{ $page.work.timeToRead }} min read
+        </p>
       </div>
       <article v-html="$page.work.content" class="post-content"></article>
     </main>
@@ -27,7 +29,17 @@ query Work ($path: String!) {
 </page-query>
 
 <script>
-export default {};
+export default {
+  // components: {
+  //   BgColumn,
+  // },
+  metaInfo() {
+    return {
+      title: this.$page.work.title,
+      meta: [{ name: 'description', content: this.$page.work.excerpt }],
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -70,6 +82,10 @@ article > * + * {
     max-width: 40ch;
     width: auto;
     font-size: 20px;
+  }
+
+  article {
+    margin-bottom: 96px;
   }
 }
 </style>

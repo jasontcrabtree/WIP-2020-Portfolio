@@ -56,16 +56,38 @@ module.exports = {
         },
       },
     },
+    /*     {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Post',
+        baseDir: './blog/',
+      },
+    }, */
+    /*     {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Work',
+        baseDir: './work',
+      },
+    }, */
+    /*{  use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Documentation',
+        baseDir: './content/docs',
+        pathPrefix: '/docs',
+        // template: './src/templates/Post.vue',
+      },
+    },*/
   ],
 
   transformers: {
     //Add markdown support to all file-system sources
     remark: {
+      // plugins: ['remark-attr'],
+
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      // plugins: [
-      //   '@gridsome/remark-prismjs'
-      // ]
+      // plugins: ['@gridsome/remark-prismjs', '@gridsome/remark-attr'],
     },
   },
   // templates: {

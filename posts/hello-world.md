@@ -1,14 +1,20 @@
 ---
 title: 'Hello World'
-# description: "work ya'll"
 date: 2019-03-27
+# description: "work ya'll"
 # layout: post
 # author: Jason
 # Date: 27 Mar 2019
-# title: Hello World
+
 # image: /assets/JC-Blog-Image.png
 description: 'Welcome to the blog-zone 👉 come on in...'
 ---
+
+import ImgSmall from "@/components/ImgSmall";
+
+<!-- <ImgSmall image="https://picsum.photos/536/354" /> -->
+
+<!-- ![Seaside Picsum](https://picsum.photos/536/354){ height=50 } -->
 
 I'm so excited to welcome you to the first blog post published on my own domain.
 
