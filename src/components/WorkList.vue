@@ -4,12 +4,9 @@
       <img :src="work.image" :alt="work.title" class="cover-image" />
       <div class="card-details">
         <h2 class="card-title" v-html="work.title" />
-
         <span class="card-date">Work completed: {{work.date}}</span>
-
         <!-- <p class="date" v-html="work.date" /> -->
         <p class="description" v-html="work.description" />
-
         <b>{{ work.timeToRead }} min read</b>
         &nbsp;
         <span class="card-link">View case study</span>
@@ -45,7 +42,6 @@ export default {
 
 .cover-image {
   box-shadow: 0 2px 4px 0 #0000001a;
-
   border-radius: 8px 8px 0 0;
 }
 

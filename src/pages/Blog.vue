@@ -2,6 +2,7 @@
   <layout>
     <main class="blog-main">
       <header>
+        <br />
         <h1>Personal Blog</h1>
         <p>
           A personal & professional blog by
@@ -17,15 +18,18 @@
         </ul>
       </section>
     </main>
+    <BgColumn />
   </layout>
 </template>
 
 <script>
 import PostList from "@/components/PostList";
+import BgColumn from "@/components/BgColumn";
 
 export default {
   components: {
-    PostList
+    PostList,
+    BgColumn
   },
   metaInfo: {
     title: "Jason is writing words online"
@@ -56,7 +60,15 @@ query {
 </page-query>
 
 <style scoped>
+/* .background-elem {
+  opacity: 0.5;
+}
+ */
 .blog-main {
   grid-column: 2 / 8;
+}
+
+header > * {
+  margin-bottom: 24px;
 }
 </style>

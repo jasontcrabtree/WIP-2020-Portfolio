@@ -5,64 +5,15 @@ date: 2019-05-28
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573420658/Portfolio-Assets/Slack-Cover-Image.png'
 ---
 
-<nav class="nav__container--layout nav__container--style">
-
-- [Home](https://jasontcrabtree.com/#)
-- [Case Studies](https://jasontcrabtree.com/#portfolio)
-- [CV](https://jasontcrabtree.com/resume.pdf)
-- [Blog](https://blog.jasontcrabtree.com/)
-- [Contact](https://jasontcrabtree.com/#contact)
-
-<main class="main-grid__grid-structure ">
-
-<header class="cs-title-group__main-title--layout">
-
-# Reverse Engineering a World Famous Brand Voice: Let's Sound like Slack
-
-A Case Study: Problem Solving Under the Hood
-
-Published 28 May 2019 ∙ [Jason Crabtree](https://twitter.com/jasontcrabtree)
-
-</header>
-
-<aside class="cs-image__5-pictures-01">
-
-<!-- <figure class="cs-image__caption--layout tag-span
-            tag-span cs-article__layout--64px-spacer
-            full-bleed--less-margin
-            ">![PLACEHOLDER](assets/svg/placeholder.svg)
-
-<figcaption>***Not a real word cloud, but you get the idea!</figcaption>
-
-</figure> -->
-
 ![*Not a real word cloud](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559166256/Slack-Case-Study/A-few-common-words.png)
-
-</aside>
-
-<section class="cs-article__table-of-contents-container
-            cs-article__layout--sm-media-query cs-article__layout--64px-spacer">
-
-<section class="cs-article__table-of-contents-content
-                cs-article__layout--sm-media-query">
 
 ## Table of Contents:
 
-1.  [Introduction](#introduction)
-2.  [Product Elevator Pitch](#elevator-pitch)
-3.  [Problem & Opportunity](#problem-opportunity)
-4.  [Design Execution](#design-execution)
-5.  [Final Outcomes](#final-outcomes)
-
-</section>
-
-</section>
-
-<article class="
-        cs-article-layout
-        cs-article__text--type-constraints
-        cs-article__layout--sm-media-query
-        ">
+1. [Introduction](#introduction)
+2. [Product Elevator Pitch](#elevator-pitch)
+3. [Problem & Opportunity](#problem-opportunity)
+4. [Design Execution](#design-execution)
+5. [Final Outcomes](#final-outcomes)
 
 ## Introduction:
 
@@ -93,8 +44,6 @@ I designed a basic method of using text analysis on historic tweets to see commo
 
 In a few sentences, I downloaded the contents of 3,200 [@SlackHQ](https://twitter.com/slackhq) tweets, then used an open-source JavaScript CodePen to count how many times different words were repeated. Based on that output, I was able to look at common words and language choices. This output helped me understand the language used by the Slack team, thereby using it for my writing assignment.
 
-<div class="list-paragraph">
-
 ### My Role and Focuses:
 
 - **Research:** The importance of tone of voice
@@ -102,17 +51,6 @@ In a few sentences, I downloaded the contents of 3,200 [@SlackHQ](https://twitte
 - **Code:** Run the code scripts needed
 - **Analysis:** Using Excel to analyse the results
 - **Presentation:** Displaying the top words in a format useful for the initial goal
-
-</div>
-
-<!-- <figure class="
-                cs-image__5-pictures-01
-            tag-span cs-article__layout--64px-spacer
-            full-bleed--less-margin">
-            ![Piles and piles of open books, with thousands of words facing upwards](https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
-
-<figcaption class="tag-span ">Photo by Patrick Tomasso on [Unsplash](https://unsplash.com/photos/Oaqk7qqNh_c?)</figcaption>
-</figure> -->
 
 ![Piles and piles of open books, with thousands of words facing upwards](https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 
@@ -122,22 +60,11 @@ In a few sentences, I downloaded the contents of 3,200 [@SlackHQ](https://twitte
 
 **How Might I** effectively learn Slack’s tone of voice **so that I can** successfully finish the writing assignment part of their interview process.
 
-<!-- <figure class="cs-image__5-pictures-01
-            cs-image__caption--layout
-            tag-span cs-article__layout--64px-spacer
-            full-bleed--less-margin">![Defining the HMW Statement and the Guiding Goal](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160064/Slack-Case-Study/Slack-Brand-Voice-How-Might-We.png)
-
-<figcaption>Defining the How Might We Statement as a Guiding Goal</figcaption>
-
-</figure> -->
-
 ![Defining the HMW Statement and the Guiding Goal](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160064/Slack-Case-Study/Slack-Brand-Voice-How-Might-We.png)
 
 ### What’s the goal?
 
 Develop a practical understanding of the words and language used by the Slack team. Then, apply what I've learn about Slack's brand voice while completing the assigned writing exercise.
-
-<div class="list-paragraph">
 
 ### What are the constraints?
 
@@ -147,13 +74,9 @@ Develop a practical understanding of the words and language used by the Slack te
 - Existing resources on the Slack voice focus on high-level creative direction and how they want the customer to feel, rather than practical words and language decisions.
 - As someone external to Slack, I wasn’t able to ask for help from people within Slack who know and use the Slack voice daily.
 
-</div>
-
 ### Research & Preparation:
 
 Faced with this problem statement, I started by looking for existing resources, blog posts, talks and presentations. This lead to discovering a number of great resources. As I kept researching the subject I started to see the depth of this subject, encouraging me to dive in further. A few of the resources I found:
-
-<div class="list-paragraph">
 
 ### Research on existing resources for Slack’s tone of voice:
 
@@ -163,15 +86,11 @@ Faced with this problem statement, I started by looking for existing resources, 
 - [One voice, many hands](https://slackhq.com/one-voice-many-hands)
 - [Presentable Podcast #15: The Voice of Slack](https://www.relay.fm/presentable/15)
 
-</div>
-
 While these provided a foundational starting point, I still wasn’t sure of a few things. For example, how does Slack use the word ‘sorry’? Is ‘sorry’ reserved for severe mistakes, or commonly used in polite conversation? (Answer: It's used in about 1/3rd of the tweets I downloaded)
 
 I then committed to the idea of downloading and analysing Slack’s tweets to see the exact words they used. At that point I had a second research path; figure out how to execute my plan.
 
 While I had a hunch my idea was possible, my own coding experience with HTML & CSS didn't exactly supporting downloading tweets from the Twitter API or running complex data analysis. Because of these constraints I focused on finding open-source and easy to use solutions for the step by step functions I needed.
-
-<div class="list-paragraph">
 
 ### Research to Find the Required Code Scripts:
 
@@ -179,8 +98,6 @@ While I had a hunch my idea was possible, my own coding experience with HTML & C
 - A way to count how many times, different words were used and repeated. That led to an open source JavaScript CodePen (original: [CodePen: Lalwanivikas/Word-Counter](https://codepen.io/lalwanivikas/))
 - Tweaks to the initial CodePen for my purposes ([CodePen: Jasontcrabtree/Word-Counter](https://codepen.io/jasontcrabtree/pen/bZdqXm))
 - Googling basic Excel filtering to decipher the results.
-
-</div>
 
 The outcome was a set of tools ready to be creatively glued together to achieve my goals.
 
@@ -196,27 +113,9 @@ Once I found Tweepy ( [http://www.tweepy.org/](http://www.tweepy.org/) ), the ac
 
 I’ve never written or used Python before — so figuring this out was a real highlight, showing how much you can achieve with the right google searches.
 
-<!-- <figure class="cs-image__5-pictures-01
-            cs-image__caption--layout
-            tag-span cs-article__layout--64px-spacer
-            full-bleed--less-margin">![A terminal window showing 3053 tweets downloaded](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160579/Slack-Case-Study/downloading-tweets-using-terminal.png)
-
-<figcaption>Downloading tweets from my personal twitter account.</figcaption>
-
-</figure> -->
-
 ![A terminal window showing 3053 tweets downloaded](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160579/Slack-Case-Study/downloading-tweets-using-terminal.png)
 
 The [Codepen Word Counter](https://codepen.io/lalwanivikas/) I used required some minor tweaks. These tweaks included altering the ‘stopWords’ section and increasing the number of top words shown from 4 to 500\. Those changes were all trial and error — fair warning!
-
-<!-- <figure class="cs-image__5-pictures-01
-            cs-image__caption--layout
-            tag-span cs-article__layout--64px-spacer
-            full-bleed--less-margin">![](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160630/Slack-Case-Study/top-words-used-by-slack.png)
-
-<figcaption>The top words used by Slack. A lot of foundational words and 's and 're.</figcaption>
-
-</figure> -->
 
 ![The top words used by the @slack Twitter account](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160630/Slack-Case-Study/top-words-used-by-slack.png)
 
@@ -226,20 +125,14 @@ This process breakdown shows that this was very much a behind-the-scenes, hackin
 
 ### Data Download & Analysis Steps:
 
-1.  Use Tweepy to download tweets from the [@SlackHQ](https://twitter.com/slackhq) Twitter handle.
-2.  Load the exported CSV file and copy the tweets.
-3.  Paste the tweets into the Word Counter Codepen.
-4.  Export the words & word usage counts from the CodePen\*.
-5.  Paste the top words back into Excel to filter and review.
-6.  Note down keywords, trends and phrases for final use.
+1. Use Tweepy to download tweets from the [@SlackHQ](https://twitter.com/slackhq) Twitter handle.
+2. Load the exported CSV file and copy the tweets.
+3. Paste the tweets into the Word Counter Codepen.
+4. Export the words & word usage counts from the CodePen\*.
+5. Paste the top words back into Excel to filter and review.
+6. Note down keywords, trends and phrases for final use.
 
 \*The CodePen disabled copying of the Top Words, so I used Chrome DevTools to copy the code element into a Code Text Editor. Then deleted the HTML tags to copy the final results into Excel. If you need help with this contact me on Twitter!
-
-<!-- <figure class="cs-image__5-pictures-01
-            cs-image__caption--layout
-            tag-span cs-article__layout--64px-spacer
-            full-bleed--less-margin">![Breaking down the process. Copying and pasting text from one file to the next.](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559161175/Slack-Case-Study/Tweet-Download-Process.png)
-</figure> -->
 
 ![Breaking down the process. Copying and pasting text from one file to the next.](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559161175/Slack-Case-Study/Tweet-Download-Process.png)
 
@@ -252,15 +145,6 @@ The results show trends, repeated words and language choices — all wrapped up 
 While the final result (a list of words based on word usage count) is relatively unsophisticated — it gave me what I needed to complete my writing assignment.
 
 I did later find out that the writing assignment was mostly a hygiene test, and as such, I probably spent FAR too much time on it. But that’s a story for another time.
-
-<!-- <figure class="cs-image__5-pictures-01
-            cs-image__caption--layout
-            tag-span cs-article__layout--64px-spacer
-            full-bleed--less-margin">![A few words repeatedly Slack used between February and March 2019 (This isn’t all of them either!)](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160630/Slack-Case-Study/columns-of-different-words-used.png)
-
-<figcaption>A few words repeatedly Slack used between February and March 2019 (This isn’t all of them either!)</figcaption>
-
-</figure> -->
 
 ![A few words repeatedly Slack used between February and March 2019 (This isn’t all of them either!)](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160630/Slack-Case-Study/columns-of-different-words-used.png)
 
@@ -276,7 +160,7 @@ While this project was great for my particular use-case, and I’ve finished wha
 
 There is a lot of further development possible with this base idea. Here are a few of those ideas. Note: these are all abstract ideas — not something I plan to build anytime soon!
 
-<div class="list-paragraph">
+<!-- <div class="list-paragraph"> -->
 
 ### What would take this to the next level?
 
@@ -285,26 +169,13 @@ There is a lot of further development possible with this base idea. Here are a f
 - Add support for counting emojis! 🎉😊
 - Explore additional data sources for adding text data. It doesn't have to be constrained to Twitter!
 
-</div>
-
-<!-- <figure class="cs-image__5-pictures-01
-            cs-image__caption--layout
-            tag-span cs-article__layout--64px-spacer
-            full-bleed--less-margin">![A simple mock-up of a web-app containing the same text analysis functionality](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559158952/Slack-Case-Study/Brand-Voice-Mock-Up.jpg)
-<figcaption>A simple mock-up of a web-app containing the same text analysis functionality</figcaption>
-</figure> -->
-
 [A simple mock-up of a web-app containing the same text analysis functionality](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559158952/Slack-Case-Study/Brand-Voice-Mock-Up.jpg)
-
-<div class="list-paragraph">
 
 ### What could turn this into a large scale product? A few ideas:
 
 - A chrome extension similar to Grammarly that reads your writing and suggests words based on your companies tone of voice.
 - A text editor that provides recommendations as you type based on the pre-set tone of voice guidelines.
 - Classification for different contexts (e.g. this is the tone of voice for Customer Support vs Twitter vs Help Documentation.
-
-</div>
 
 ### Wrapping Up:
 
@@ -314,13 +185,7 @@ One particular stand out for me is how I was able to use Python and JavaScript t
 
 **PS:** I want to give a shout-out to [@annapickard](https://twitter.com/annapickard), who I highly recommend you follow on Twitter. Their commitment to words inspired me to invest the time in this — and I’d encourage you to check out their podcast appearances and blog posts listed throughout this post.
 
-<section class="cs-article__text--type-constraints cs-article__layout--sm-media-query cs-article__layout--64px-spacer">
-
-<header>
-
 ### Want to read more?
-
-</header>
 
 Read my [Character Counter Case Study,](https://medium.com/@jasontcrabtree/building-character-counter-2670b30a7ef0) with details on launching on Product Hunt, iterating based on feedback and building a tool to use daily.
 

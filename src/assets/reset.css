@@ -24,8 +24,8 @@ ol[class],
 ul[class] {
   margin: 0;
 }
-/*
-p:not(* > .post-container) {
+
+/* p:not(* > .post-container) {
   margin: 0;
 } */
 
@@ -47,7 +47,7 @@ img {
   display: block;
 }
 article > * + * {
-  margin-top: 1em;
+  margin-top: 1.4em;
 }
 button,
 input,

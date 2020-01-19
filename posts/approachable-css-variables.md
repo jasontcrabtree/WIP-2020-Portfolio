@@ -30,7 +30,9 @@ For example, if I had a particular colour that I wanted to use multiple times in
 **Setting a CSS variable:**
 (I don't know why the blue hex code is red, I promise it's blue!)
 
-<script src="https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js"></script>
+[A Gist of the CSS Variable](https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js)
+
+<script>"https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js"</script>
 
 Once we apply these styles, our website now looks like this:
 

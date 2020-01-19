@@ -33,15 +33,18 @@
         </ul>
       </section>
     </main>
+    <BgColumn />
   </Layout>
 </template>
 
 <script>
 import WorkList from "@/components/WorkList";
+import BgColumn from "@/components/BgColumn";
 
 export default {
   components: {
-    WorkList
+    WorkList,
+    BgColumn
   },
   metaInfo: {
     title: "Home"
@@ -73,6 +76,10 @@ query {
 </page-query>
 
 <style scoped>
+.background-elem {
+  opacity: 0.8;
+}
+
 .hero-children-container {
   display: flex;
   flex-direction: row;
@@ -111,7 +118,7 @@ hr {
   border-top: solid #fec7b2 4px;
   width: 32%;
   position: absolute;
-  margin: 40px 0px;
+  margin: 32px 0px;
 }
 
 .work-list-card {
@@ -122,13 +129,13 @@ hr {
 }
 
 .work-container {
-  margin-top: 96px;
+  margin-top: 72px;
   grid-column: 1 / -1;
 }
 
 @media screen and (min-width: 920px) {
   .hero-container {
-    grid-column: 1 / 9;
+    grid-column: 1 / 11;
     grid-row: 1 / 2;
   }
   .work-list-container {

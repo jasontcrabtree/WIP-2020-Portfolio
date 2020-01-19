@@ -1,6 +1,7 @@
 <template>
   <layout>
     <article>
+      <br />
       <span>
         <g-link to="/blog" class="link">&larr; Blog</g-link>
         <span>
@@ -17,6 +18,8 @@
       <!-- <div class="post-content"> -->
       <p v-html="$page.post.content" class="post-container"></p>
       <!-- </div> -->
+      <br />
+      <g-link to="/post.path/">{{ $page.post.title }} Test</g-link>
     </article>
   </layout>
 </template>
@@ -33,9 +36,23 @@ query Post ($path: String!) {
 }
 </page-query>
 
+
 <script>
-export default {};
+import BgColumn from "@/components/BgColumn";
+
+export default {
+  components: {
+    BgColumn
+  },
+  metaInfo() {
+    return {
+      title: this.$page.post.title,
+      meta: [{ name: "description", content: this.$page.post.excerpt }]
+    };
+  }
+};
 </script>
+
 
 <style>
 p {

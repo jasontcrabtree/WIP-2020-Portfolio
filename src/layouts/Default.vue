@@ -5,16 +5,18 @@
     </g-link>
     <MainNav />
     <slot />
-    <div class="background-elem"></div>
+    <BgColumn />
   </div>
 </template>
 
 <script>
 import MainNav from "@/components/MainNav";
+import BgColumn from "@/components/BgColumn";
 
 export default {
   components: {
-    MainNav
+    MainNav,
+    BgColumn
   }
 };
 </script>
@@ -28,6 +30,10 @@ query {
 </static-query>
 
 <style>
+.background-elem {
+  opacity: 0.5;
+}
+
 .return-home-h2 {
   text-transform: uppercase;
   color: #36364f;
@@ -38,6 +44,10 @@ query {
 }
 
 @media screen and (min-width: 920px) {
+  /*  html {
+     border-top: 8px solid var(--primary-blue);
+  } */
+
   .return-home-h2 {
     font-size: 40px;
   }
@@ -45,16 +55,13 @@ query {
   .return-home-link {
     grid-column: 1 / 8;
     grid-row-start: 1;
-    /* margin-bottom: 40px; */
   }
 
   .top-parent-container {
-    margin: 64px 120px;
+    margin: 48px 120px;
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(13, 1fr);
-    /* grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr; */
-    /* grid-template-rows: auto repeat(3, 0.2fr); */
     grid-template-rows: auto auto auto 0.5fr 144px;
   }
 
@@ -62,7 +69,8 @@ query {
     grid-row-start: 2;
     grid-column: 1 / -1;
   }
-  .background-elem {
+
+  /*   .background-elem {
     grid-column: 8 / 11;
     grid-row: 1 / -1;
 
@@ -70,7 +78,7 @@ query {
     z-index: -1;
     margin-top: -96px;
     opacity: 0.5;
-  }
+  } */
 }
 
 @media screen and (max-width: 919px) {
