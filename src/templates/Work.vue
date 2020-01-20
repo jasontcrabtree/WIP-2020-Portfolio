@@ -11,7 +11,8 @@
           {{ $page.work.date }} | {{ $page.work.timeToRead }} min read
         </p>
       </div>
-      <article v-html="$page.work.content" class="post-content"></article>
+      <article><VueRemarkContent class="post-container" /></article>
+      <!--       <article v-html="$page.work.content" class="post-content"></article> -->
     </main>
   </layout>
 </template>
@@ -23,12 +24,12 @@ query Work ($path: String!) {
         title
         content
         date (format: "D MMMM YYYY")
-        timeToRead
     }
 }
 </page-query>
 
 <script>
+// timeToRead
 export default {
   // components: {
   //   BgColumn,

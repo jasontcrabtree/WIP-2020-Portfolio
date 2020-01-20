@@ -7,17 +7,19 @@
 module.exports = {
   siteName: "Jason Crabtree's Internet Hangtime",
   siteDescription: 'A buncha words by Jason',
+  // siteDescription: 'Learn about it on Alligator.io! 🐊',
+  // icon: 'src/alligator-favicon.png',
 
-  templates: {
+  /*   templates: {
     Post: '/blog/:title',
     Tag: '/tag/:id',
     // BlogPost: '/blog/:year/:month/:day/:slug',
-  },
+  }, */
 
-  templates: {
-    Work: '/work/:title',
+  /*   templates: {
+    Writeup: '/work/:title',
     Tag: '/tag/:id',
-  },
+  }, */
 
   chainWebpack: config => {
     const svgRule = config.module.rule('svg');
@@ -26,7 +28,7 @@ module.exports = {
   },
 
   plugins: [
-    {
+    /*     {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
@@ -41,7 +43,8 @@ module.exports = {
         },
       },
     },
-    {
+     */
+    /*     {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
@@ -55,39 +58,39 @@ module.exports = {
           },
         },
       },
-    },
-    /*     {
+    }, */
+    {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Post',
-        baseDir: './blog/',
+        baseDir: './posts/',
+        pathPrefix: '/blog/',
+        template: './src/templates/Post.vue',
       },
-    }, */
-    /*     {
+    },
+    {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Work',
         baseDir: './work',
+        pathPrefix: '/blog/',
+        template: './src/templates/Work.vue',
       },
-    }, */
-    /*{  use: '@gridsome/vue-remark',
-      options: {
-        typeName: 'Documentation',
-        baseDir: './content/docs',
-        pathPrefix: '/docs',
-        // template: './src/templates/Post.vue',
-      },
-    },*/
+    },
   ],
 
   transformers: {
     //Add markdown support to all file-system sources
     remark: {
-      // plugins: ['remark-attr'],
-
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       // plugins: ['@gridsome/remark-prismjs', '@gridsome/remark-attr'],
+      plugins: [
+        '@noxify/gridsome-plugin-remark-embed',
+        {
+          enabledProviders: ['Youtube', 'Twitter', 'Gist'],
+        },
+      ],
     },
   },
   // templates: {

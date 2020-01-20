@@ -10,14 +10,14 @@
 </template>
 
 <script>
-import MainNav from "@/components/MainNav";
-import BgColumn from "@/components/BgColumn";
+import MainNav from '@/components/MainNav';
+import BgColumn from '@/components/BgColumn';
 
 export default {
   components: {
     MainNav,
-    BgColumn
-  }
+    BgColumn,
+  },
 };
 </script>
 
@@ -43,7 +43,7 @@ query {
   text-decoration: none;
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   /*  html {
      border-top: 8px solid var(--primary-blue);
   } */
@@ -81,7 +81,26 @@ query {
   } */
 }
 
-@media screen and (max-width: 919px) {
+@media screen and (max-width: 959px) {
+  html {
+    margin: auto 64px;
+    display: grid;
+    padding: 16px;
+    max-width: fit-content;
+    width: auto;
+
+    margin-bottom: 64px;
+    padding-top: 32px;
+
+    margin-top: 0px;
+    /* border-top: 8px solid var(--primary-blue); */
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 459px) {
   html {
     margin: 8px auto;
     padding: 16px;

@@ -32,7 +32,7 @@ For example, if I had a particular colour that I wanted to use multiple times in
 
 [A Gist of the CSS Variable](https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js)
 
-<!-- <script>"https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js"</script> -->
+https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js
 
 Once we apply these styles, our website now looks like this:
 

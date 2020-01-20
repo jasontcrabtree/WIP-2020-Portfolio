@@ -7,8 +7,8 @@
         <span class="card-date">Work completed: {{ work.date }}</span>
         <!-- <p class="date" v-html="work.date" /> -->
         <p class="description" v-html="work.description" />
-        <b>{{ work.timeToRead }} min read</b>
-        &nbsp;
+        <!-- <b>{{ work.timeToRead }} min read</b>
+        &nbsp; -->
         <span class="card-link">View case study</span>
       </div>
     </g-link>
@@ -22,12 +22,12 @@ query Work ($path: String!) {
         title
         content
         date (format: "D MMMM YYYY")
-        timeToRead
     }
 }
 </page-query>
 
 <script>
+// timeToRead
 export default {
   props: ['work'],
 };

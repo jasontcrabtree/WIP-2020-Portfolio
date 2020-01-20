@@ -1,8 +1,9 @@
 :root {
   --brand-gradient: linear-gradient(180deg, #470f8d 0%, #5340cc 101.23%);
 
-  --primary-peach: #fec7b2;
   --peach-gradient: linear-gradient(180deg, #fec7b2 0%, #df7d57 100%);
+
+  --primary-peach: #fec7b2;
 
   --text-black: #1f1f31;
   --primary-blue: #4230b9;
@@ -12,13 +13,13 @@
   --subheading-black: #4c4c5a;
 
   --primary-link: #25168b;
+  --primary-link-dark: hsl(238, 86%, 86%);
 }
 
 body {
   font-family: 'DM Sans', -apple-system, system-ui, BlinkMacSystemFont, Roboto,
     'Helvetica Neue', sans-serif;
   font-size: 18px;
-  color: var(--text-black);
 }
 
 h1,
@@ -30,11 +31,6 @@ h6 {
   font-family: 'Libre Franklin', 'DM Sans', -apple-system, system-ui,
     BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
   line-height: 1.2;
-  color: var(--heading-black);
-}
-
-h1 {
-  color: var(--primary-blue);
 }
 
 a:any-link {
@@ -46,4 +42,49 @@ a:any-link {
 
 p {
   line-height: 1.6;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #fff;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--heading-black);
+  }
+  body {
+    color: var(--text-black);
+  }
+  h1 {
+    color: var(--primary-blue);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: lightsteelblue;
+  }
+  body {
+    color: #fefefe;
+  }
+
+  h1 {
+    color: lightsteelblue;
+  }
+
+  a:any-link {
+    color: var(--primary-link-dark);
+  }
 }

@@ -4,7 +4,7 @@
     <nav class="nav-list">
       <g-link to="/">Home</g-link>
       <g-link to="/contact/">Contact</g-link>
-      <g-link to="/">Resume</g-link>
+      <g-link to="/">Résumé</g-link>
       <!-- <g-link to="/about/">About</g-link> -->
       <g-link to="/#work">Work</g-link>
       <g-link to="/blog/">Blog</g-link>
@@ -64,13 +64,16 @@ export default {
   }
 
   .nav-list {
-    background-color: rgb(255, 255, 255, 0.8);
     border-radius: 8px;
-    padding: 0px 8px;
+    padding: 0px 16px;
   }
 
   .nav-list {
     font-size: 20px;
+  }
+
+  .nav-list {
+    background-color: rgb(255, 255, 255, 0.8);
   }
 
   .nav-list > * {
@@ -90,6 +93,18 @@ export default {
   .primary-nav {
     grid-row-start: 1;
     grid-column: 12 / 13;
+  }
+}
+
+@media all and (max-width: 919px) and (prefers-color-scheme: light) {
+  html {
+    color: red;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .nav-list {
+    background-color: #12121d;
   }
 }
 </style>

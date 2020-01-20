@@ -12,7 +12,7 @@ description: 'Welcome to the blog-zone 👉 come on in...'
 
 import ImgSmall from "@/components/ImgSmall";
 
-<!-- <ImgSmall image="https://picsum.photos/536/354" /> -->
+<ImgSmall image="https://picsum.photos/536/354" />
 
 <!-- ![Seaside Picsum](https://picsum.photos/536/354){ height=50 } -->
 

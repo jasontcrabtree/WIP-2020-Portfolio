@@ -68,7 +68,6 @@ query {
       node {
         title
         id
-        timeToRead
         description
         date (format: "MMMM YYYY")
         path
@@ -80,6 +79,7 @@ query {
 </page-query>
 
 <style scoped>
+/* timeToRead */
 .background-elem {
   opacity: 0.8;
 }
@@ -103,7 +103,7 @@ query {
 
   line-height: 1.1;
   letter-spacing: -1.8px;
-  color: var(--primary-blue);
+  /* color: var(--primary-blue); */
 }
 
 .hero-social-list {

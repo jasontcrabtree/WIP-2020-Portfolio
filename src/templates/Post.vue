@@ -17,8 +17,9 @@
           {{ $page.post.date }} | {{ $page.post.timeToRead }} min read
         </p>
       </div>
+      <VueRemarkContent class="post-container" />
       <!-- <div class="post-content"> -->
-      <p v-html="$page.post.content" class="post-container"></p>
+      <!-- <p v-html="$page.post.content" class="post-container"></p> -->
       <!-- </div> -->
       <br />
       <g-link to="/">{{ $page.post.title }} Test</g-link>
@@ -32,7 +33,6 @@ query Post ($path: String!) {
         id
         title
         content
-        timeToRead
         date (format: "D MMMM YYYY")
     }
 }
@@ -40,6 +40,7 @@ query Post ($path: String!) {
 
 <script>
 // import BgColumn from '@/components/BgColumn';
+// timeToRead
 
 export default {
   // components: {
