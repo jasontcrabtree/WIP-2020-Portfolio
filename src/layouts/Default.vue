@@ -102,12 +102,12 @@ query {
 }
 @media screen and (max-width: 459px) {
   html {
-    margin: 8px auto;
+    margin: 16px auto;
     padding: 16px;
     max-width: fit-content;
     width: auto;
 
-    margin-bottom: 64px;
+    margin-bottom: 80px;
     padding-top: 32px;
 
     margin-top: 0px;
