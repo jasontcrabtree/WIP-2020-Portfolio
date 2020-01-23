@@ -6,7 +6,9 @@
         <h1>Personal Blog</h1>
         <p>
           A personal & professional blog by
-          <a href="http://twitter.com/jasontcrabtree">@jasontcrabtree.</a>
+          <a
+            href="http://twitter.com/jasontcrabtree"
+          >@jasontcrabtree.</a>
           Future topics likely to include design, product strategy, front-end
           code and general stuff about tech as it relates to my view on ethical,
           sustainable good for the world. Plus whatever else I'm thinking about
@@ -16,11 +18,7 @@
 
       <section>
         <ul class="posts">
-          <PostList
-            v-for="edge in $page.allPost.edges"
-            :key="edge.node.id"
-            :post="edge.node"
-          />
+          <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
         </ul>
       </section>
     </main>
@@ -29,17 +27,17 @@
 </template>
 
 <script>
-import PostList from '@/components/PostList';
-import BgColumn from '@/components/BgColumn';
+import PostList from "@/components/PostList";
+import BgColumn from "@/components/BgColumn";
 
 export default {
   components: {
     PostList,
-    BgColumn,
+    BgColumn
   },
   metaInfo: {
-    title: 'Jason is writing words online',
-  },
+    title: "Jason is writing words online"
+  }
 };
 </script>
 

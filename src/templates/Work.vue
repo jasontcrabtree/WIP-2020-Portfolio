@@ -7,11 +7,11 @@
       <!-- <img :src="work.image" :alt="work.title" /> -->
       <div class="post-info-container">
         <h1>{{ $page.work.title }}</h1>
-        <p class="post-date">
-          {{ $page.work.date }} | {{ $page.work.timeToRead }} min read
-        </p>
+        <p class="post-date">{{ $page.work.date }} | {{ $page.work.timeToRead }} min read</p>
       </div>
-      <article><VueRemarkContent class="post-container" /></article>
+      <article>
+        <VueRemarkContent class="post-container" />
+      </article>
       <!--       <article v-html="$page.work.content" class="post-content"></article> -->
     </main>
   </layout>
@@ -37,9 +37,9 @@ export default {
   metaInfo() {
     return {
       title: this.$page.work.title,
-      meta: [{ name: 'description', content: this.$page.work.excerpt }],
+      meta: [{ name: "description", content: this.$page.work.excerpt }]
     };
-  },
+  }
 };
 </script>
 
@@ -58,7 +58,7 @@ export default {
 } */
 
 main {
-  grid-column: 1/ 8;
+  grid-column: 2/ 8;
 }
 
 img {

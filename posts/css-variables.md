@@ -3,6 +3,7 @@
 # author: Jason
 date: 2019-05-31
 description: 'An approachable, beginner friendly introduction to designing websites using CSS Variables. No experience with code necessary!'
+slug: 'approachable css variables'
 title: 'Small Joys of Learning Code; the CSS Edition'
 # meta: An approachable, beginner friendly introduction to designing websites using CSS Variables. No experience with code necessary!`
 ---

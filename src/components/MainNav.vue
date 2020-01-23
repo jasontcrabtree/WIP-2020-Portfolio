@@ -2,7 +2,7 @@
   <header class="primary-nav">
     <div class="header-background-src"></div>
     <nav class="nav-list">
-      <g-link to="/">Home</g-link>
+      <g-link to="/" class="nav-home">Home</g-link>
       <g-link to="/contact/">Contact</g-link>
       <g-link to="/">Résumé</g-link>
       <!-- <g-link to="/about/">About</g-link> -->
@@ -44,8 +44,15 @@ export default {
     margin: 8px 0;
   }
 
+  .nav-home {
+    visibility: hidden;
+    width: 0px;
+    margin-right: 0px;
+  }
+  /* */
+
   .header-background-src {
-    background-image: url('/nav-bg.png');
+    background-image: url("/nav-bg.png");
     width: 60%;
     height: 40%;
     z-index: -1;
@@ -55,7 +62,7 @@ export default {
   }
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 930px) {
   .nav-list {
     flex-direction: column;
   }
@@ -81,7 +88,7 @@ export default {
   }
 
   .header-background-src {
-    background-image: url('/nav-bg.png');
+    background-image: url("/nav-bg.png");
     width: 30vw;
     height: 25vw;
     z-index: -1;
@@ -96,7 +103,7 @@ export default {
   }
 }
 
-@media all and (max-width: 919px) and (prefers-color-scheme: light) {
+@media all and (max-width: 929px) and (prefers-color-scheme: light) {
   html {
     color: red;
   }

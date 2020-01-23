@@ -1,14 +1,14 @@
 <template>
   <li class="list-item work-list-card">
     <g-link :to="work.path" class="read">
-      <img :src="work.image" :alt="work.title" class="cover-image" />
+      <g-image :src="work.image" :alt="work.title" class="cover-image" />
       <div class="card-details">
         <h2 class="card-title" v-html="work.title" />
-        <span class="card-date">Work completed: {{ work.date }}</span>
+        <span class="card-date">Project: {{ work.date }}</span>
         <!-- <p class="date" v-html="work.date" /> -->
         <p class="description" v-html="work.description" />
         <!-- <b>{{ work.timeToRead }} min read</b>
-        &nbsp; -->
+        &nbsp;-->
         <span class="card-link">View case study</span>
       </div>
     </g-link>
@@ -18,7 +18,7 @@
 <page-query>
 query Work ($path: String!) {
     work: work (path: $path) {
-      image
+        image
         title
         content
         date (format: "D MMMM YYYY")
@@ -29,7 +29,7 @@ query Work ($path: String!) {
 <script>
 // timeToRead
 export default {
-  props: ['work'],
+  props: ["work"]
 };
 </script>
 
@@ -77,5 +77,18 @@ export default {
   .work-list-card {
     margin: 32px 0px;
   }
+
+  .work-list-card {
+    width: fit-content;
+    padding: 0px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+  /*
+  .list-item {
+     width: calc(100vw - 32px);
+  } */
 }
 </style>

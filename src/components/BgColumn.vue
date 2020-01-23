@@ -6,7 +6,7 @@
 
 <style scoped>
 .background-elem {
-  grid-column: 8 / 11;
+  grid-column: 9 / 11;
   grid-row: 1 / -1;
 
   z-index: -1;

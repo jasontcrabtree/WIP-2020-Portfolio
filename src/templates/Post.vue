@@ -13,9 +13,7 @@
       <div class="post-info-container">
         <h1>{{ $page.post.title }}</h1>
 
-        <p class="post-date">
-          {{ $page.post.date }} | {{ $page.post.timeToRead }} min read
-        </p>
+        <p class="post-date">{{ $page.post.date }} | {{ $page.post.timeToRead }} min read</p>
       </div>
       <VueRemarkContent class="post-container" />
       <!-- <div class="post-content"> -->
@@ -49,9 +47,9 @@ export default {
   metaInfo() {
     return {
       title: this.$page.post.title,
-      meta: [{ name: 'description', content: this.$page.post.excerpt }],
+      meta: [{ name: "description", content: this.$page.post.excerpt }]
     };
-  },
+  }
 };
 </script>
 
@@ -62,7 +60,8 @@ p {
 }
 
 article {
-  grid-column: 2/ 8;
+  grid-row-start: 3;
+  grid-column: 2/ 9;
 }
 
 .post-info-container {

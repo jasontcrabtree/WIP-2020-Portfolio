@@ -10,14 +10,14 @@
 </template>
 
 <script>
-import MainNav from '@/components/MainNav';
-import BgColumn from '@/components/BgColumn';
+import MainNav from "@/components/MainNav";
+import BgColumn from "@/components/BgColumn";
 
 export default {
   components: {
     MainNav,
-    BgColumn,
-  },
+    BgColumn
+  }
 };
 </script>
 
@@ -116,6 +116,12 @@ query {
 
   h1 {
     font-size: 40px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .return-home-h2 {
+    color: var(--primary-link-dark);
   }
 }
 </style>
