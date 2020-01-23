@@ -124,4 +124,8 @@ query {
     color: var(--primary-link-dark);
   }
 }
+
+.top-parent-container {
+  margin-bottom: 112px;
+}
 </style>
