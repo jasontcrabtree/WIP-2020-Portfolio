@@ -15,7 +15,9 @@
 
 @media (prefers-color-scheme: light) {
   .background-elem {
+    /*   background: linear-gradient(180deg, #ededf1 0%, #e0dff3 100%); */
     background: linear-gradient(180deg, #fec7b2 0%, #df7d57 100%);
+    /* background: linear-gradient(180deg, #fce588 0%, #f0b429 100%); */
   }
 }
 @media (prefers-color-scheme: dark) {

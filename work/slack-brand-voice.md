@@ -6,7 +6,11 @@ image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573420658/Portf
 # image: '~/cover-slack.png'
 ---
 
-![*Not a real word cloud](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559166256/Slack-Case-Study/A-few-common-words.png)
+import ImgLarge from '@/components/ImgLarge'
+
+<!-- ![*Not a real word cloud](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559166256/Slack-Case-Study/A-few-common-words.png) -->
+
+<ImgLarge imageSrc="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559166256/Slack-Case-Study/A-few-common-words.png" caption="*Not a real word cloud" alt="A word cloud of some of Slack's top words; troubles, investigate, writing, roadmap, icons, feedback, patience, email, code, emoji, great"/>
 
 ## Table of Contents
 

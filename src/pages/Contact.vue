@@ -11,20 +11,15 @@
     </header>
     <main>
       <div id="shots"></div>
-
-      <ImgSmall image="https://picsum.photos/536/354" caption="People laughing while eating salad" />
-
       <g-image src="~/cover-slack.png" class="cover-image" with="500" blur="40" />
     </main>
   </layout>
 </template>
 
 <script>
-import ImgSmall from "@/components/ImgSmall";
-
 export default {
   components: {
-    ImgSmall
+    // ImgSmall
   },
   metaInfo: {
     title: "Contact"

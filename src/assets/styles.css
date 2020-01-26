@@ -2,8 +2,12 @@
   --brand-gradient: linear-gradient(180deg, #470f8d 0%, #5340cc 101.23%);
 
   --peach-gradient: linear-gradient(180deg, #fec7b2 0%, #df7d57 100%);
+  /* --primary-peach: #fec7b2; */
 
-  --primary-peach: #fec7b2;
+  --yellow-gradient: linear-gradient(180deg, #fce588 0%, #f0b429 100%);
+
+  /* --primary-peach: #fce588; */
+
   --primary-peach-opacity-50: hsl(17, 97%, 85%, 50%);
   /* --primary-peach: #ffff9e; */
 
@@ -160,6 +164,7 @@ p {
 
 .quote-item:nth-child(odd) {
   background-color: var(--primary-peach-opacity-50);
+  /* background-color: var(--primary-peach); */
 }
 
 .large-paragraph-text {
@@ -176,3 +181,11 @@ p {
 .quote-item {
   height: fit-content;
 }
+
+/* .full-bleed {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 0px 2rem;
+}
+ */

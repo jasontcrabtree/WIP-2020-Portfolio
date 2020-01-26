@@ -11,7 +11,7 @@
       </span>
 
       <div class="post-info-container">
-        <h1>{{ $page.post.title }}</h1>
+        <h1 class="blog-post-title--style">{{ $page.post.title }}</h1>
 
         <p class="post-date">{{ $page.post.date }} | {{ $page.post.timeToRead }} min read</p>
       </div>
@@ -73,6 +73,14 @@ article {
   margin: 24px 0;
 }
 
+img {
+  width: 40vw;
+}
+
+.blog-post-title--style {
+  font-weight: 900;
+}
+
 @media screen and (max-width: 919px) {
   p {
     max-width: 40ch;
@@ -82,6 +90,16 @@ article {
 
   article {
     margin-bottom: 96px;
+  }
+
+  .blog-post-title--style {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .blog-post-title--style {
+    font-size: 48px;
   }
 }
 </style>

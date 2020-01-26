@@ -13,10 +13,10 @@ export default function(Vue, { router, head, isClient }) {
       href:
         'https://fonts.googleapis.com/css?family=DM+Sans:400,500,700|Libre+Franklin:400,700,900&display=swap',
     });
-  Vue.component('Layout', DefaultLayout),
+  /*  Vue.component('Layout', DefaultLayout),
     head.link.push({
       rel: 'stylesheet',
       href:
         'https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap"',
-    });
+    }); */
 }
