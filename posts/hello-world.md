@@ -1,7 +1,6 @@
 ---
 title: 'Hello World'
 date: 2019-03-27
-# description: "work ya'll"
 # layout: post
 # author: Jason
 # Date: 27 Mar 2019

@@ -58,7 +58,10 @@ query {
   }
 
   .top-parent-container {
-    margin: 48px 120px;
+    /* TODO: Figure out with margin I prefer */
+    /* margin: 48px 120px; */
+    /* margin: 48px 160px; */
+    margin: 48px 9.6vw;
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(13, 1fr);
@@ -70,15 +73,23 @@ query {
     grid-column: 1 / -1;
   }
 
-  /*   .background-elem {
-    grid-column: 8 / 11;
-    grid-row: 1 / -1;
+  main {
+    max-width: 1500px;
+  }
+}
 
-    background: linear-gradient(180deg, #fec7b2 0%, #df7d57 100%);
-    z-index: -1;
-    margin-top: -96px;
-    opacity: 0.5;
-  } */
+/* 1440px sscreens */
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+  .top-parent-container {
+    margin-top: 64px;
+  }
+}
+
+/* screens larger than 1440px */
+@media screen and (min-width: 1440px) {
+  .top-parent-container {
+    margin-top: 64px;
+  }
 }
 
 @media screen and (max-width: 959px) {
@@ -93,7 +104,6 @@ query {
     padding-top: 32px;
 
     margin-top: 0px;
-    /* border-top: 8px solid var(--primary-blue); */
   }
 
   h1 {

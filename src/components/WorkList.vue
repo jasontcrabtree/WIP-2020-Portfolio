@@ -40,7 +40,8 @@ export default {
 }
 
 .cover-image {
-  box-shadow: 0 2px 4px 0 #0000001a;
+  /* Internal shadow */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
   border-radius: 8px 8px 0 0;
 }
 
@@ -79,16 +80,20 @@ export default {
   }
 
   .work-list-card {
-    width: fit-content;
+    max-width: fit-content;
+    /* width: 88vw; */
     padding: 0px;
   }
 
   .card-title {
     font-size: 20px;
   }
-  /*
-  .list-item {
-     width: calc(100vw - 32px);
-  } */
+
+  .work-list-card {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 340px) {
 }
 </style>

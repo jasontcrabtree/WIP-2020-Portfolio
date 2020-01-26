@@ -17,6 +17,6 @@ export default function(Vue, { router, head, isClient }) {
     head.link.push({
       rel: 'stylesheet',
       href:
-        '<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap" rel="stylesheet">',
+        'https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap"',
     });
 }

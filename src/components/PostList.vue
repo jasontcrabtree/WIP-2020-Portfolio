@@ -1,7 +1,6 @@
 <template>
-  <li class="list-item post-list-card card-details">
+  <li class="blog-list-item post-list-card card-details">
     <g-link :to="post.path" class="read">
-      <hr class="line" />
       <p class="card-date" v-html="post.date" />
       <h1 class="card-title" v-html="post.title" />
       <p class="description" v-html="post.description" />
@@ -17,34 +16,42 @@ export default {
 };
 </script>
 
+<page-query>
+query {
+  metadata {
+    siteName
+    siteDescription
+  }
+  allPost {
+    totalCount
+    edges {
+      node {
+        id
+        title
+        date (format: "D MMMM YYYY")
+        path
+      }
+    }
+  }
+}
+</page-query>
+
 <style scoped>
-.list-item {
+.blog-list-item {
   /* padding: 8px 0px; */
   margin: 40px 0px;
-  padding: 16px 24px;
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  padding: 32px 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
 
-.list-item > * > * + * {
+.blog-list-item {
+  background: #fff;
+}
+
+.blog-list-item > * > * + * {
   margin: 8px 0;
 }
-
-hr {
-  border: 0px;
-}
-
-/* .read {
-  font-size: 18px;
-} */
-
-/* .card-details > * {
-  margin-bottom: 16px;
-} */
-
-/* .post-list-card > *:last-child {
-  padding-bottom: 32px;
-} */
 
 .post-list-card > a:any-link {
   text-decoration: none;
@@ -52,7 +59,7 @@ hr {
 }
 
 .post-list-card:hover {
-  box-shadow: 0 8px 12px 0 hsla(0, 0%, 0%, 0.2);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 8px 12px 0 hsla(258, 100%, 25%, 0.2);
 }
 

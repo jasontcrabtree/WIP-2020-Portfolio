@@ -2,11 +2,11 @@
   <header class="primary-nav">
     <div class="header-background-src"></div>
     <nav class="nav-list">
-      <g-link to="/" class="nav-home">Home</g-link>
+      <g-link to="/" class>Home</g-link>
       <g-link to="/contact/">Contact</g-link>
       <g-link to="/">Résumé</g-link>
       <!-- <g-link to="/about/">About</g-link> -->
-      <g-link to="/#work">Work</g-link>
+      <g-link class="nav-hidden" to="/#work">Work</g-link>
       <g-link to="/blog/">Blog</g-link>
       <!-- <g-link to="/docs/">Docs</g-link> -->
     </nav>
@@ -14,13 +14,6 @@
 </template>
 
 <script>
-/* import Background from '/assets/images/NavBackground.svg';
-
-export default {
-  components: {
-    NavBackground,
-  },
-}; */
 </script>
 
 <style scoped>
@@ -36,6 +29,10 @@ export default {
     flex-direction: row;
   }
 
+  .nav-list {
+    flex-wrap: wrap;
+  }
+
   .nav-list > * {
     margin-right: 16px;
   }
@@ -44,12 +41,11 @@ export default {
     margin: 8px 0;
   }
 
-  .nav-home {
+  .nav-hidden {
     visibility: hidden;
     width: 0px;
     margin-right: 0px;
   }
-  /* */
 
   .header-background-src {
     background-image: url("/nav-bg.png");
@@ -72,7 +68,7 @@ export default {
 
   .nav-list {
     border-radius: 8px;
-    padding: 0px 16px;
+    padding: 0px 8px;
   }
 
   .nav-list {
@@ -80,7 +76,7 @@ export default {
   }
 
   .nav-list {
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: var(--white-opacity-80);
   }
 
   .nav-list > * {
@@ -104,9 +100,6 @@ export default {
 }
 
 @media all and (max-width: 929px) and (prefers-color-scheme: light) {
-  html {
-    color: red;
-  }
 }
 
 @media (prefers-color-scheme: dark) {

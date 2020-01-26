@@ -59,6 +59,7 @@ module.exports = {
         },
       },
     }, */
+
     {
       use: '@gridsome/vue-remark',
       options: {
@@ -93,6 +94,7 @@ module.exports = {
       ],
     },
   },
+
   // templates: {
   //   BlogPost: '/blog/:year/:month/:day/:slug'
   // }

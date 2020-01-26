@@ -4,6 +4,8 @@
   --peach-gradient: linear-gradient(180deg, #fec7b2 0%, #df7d57 100%);
 
   --primary-peach: #fec7b2;
+  --primary-peach-opacity-50: hsl(17, 97%, 85%, 50%);
+  /* --primary-peach: #ffff9e; */
 
   --text-black: #1f1f31;
   --primary-blue: #4230b9;
@@ -14,14 +16,27 @@
 
   --primary-link: #25168b;
   --primary-link-dark: hsl(238, 86%, 86%);
+
+  --white-opacity-80: rgb(255, 255, 255, 0.8);
+
+  --shadow-large: 0px 16px 24px rgba(0, 0, 0, 0.25);
+
+  --shadow-small: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
+
+  --yellow: #ffff9e;
 }
 
 body {
   /* 'Libre Franklin',  */
   font-family: 'DM Sans', -apple-system, system-ui, BlinkMacSystemFont, Roboto,
     'Helvetica Neue', sans-serif;
-  font-size: 18px;
+  font-size: 19px;
 }
+
+/* ::selection {
+  color: var(--text-black);
+  background: rgb(255, 255, 158);
+} */
 
 h1,
 h2,
@@ -89,4 +104,75 @@ p {
   a:any-link {
     color: var(--primary-link-dark);
   }
+}
+
+@media screen and (min-width: 960px) {
+  .quote-item {
+    width: 40vw;
+  }
+
+  .quote-item:nth-child(even) {
+    margin-left: -80px;
+    margin-top: 80px;
+    z-index: 1;
+  }
+
+  .quote-item:nth-child(odd) {
+    margin-left: 16px;
+  }
+
+  .quote-item {
+    padding: 32px 48px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .quote-item {
+    padding: 32px 16px;
+    margin: 32px 0px;
+  }
+}
+
+.block-quote-callout {
+  font-family: Georgia, Baskerville, sans-serif;
+  font-size: 64px;
+  line-height: 24px;
+}
+
+.block-quote-close {
+  font-family: Georgia, Baskerville, sans-serif;
+}
+
+.quote-container > * > blockquote p:first-child {
+  text-indent: -2ch;
+}
+
+.quote-container > * > footer {
+  text-indent: 0ch;
+}
+
+.quote-item {
+  border: 1px solid #d8d8db;
+  background-color: white;
+
+  border-radius: 8px;
+}
+
+.quote-item:nth-child(odd) {
+  background-color: var(--primary-peach-opacity-50);
+}
+
+.large-paragraph-text {
+  font-size: 22px;
+
+  letter-spacing: -0.4px;
+}
+
+.quote-name--style {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.quote-item {
+  height: fit-content;
 }

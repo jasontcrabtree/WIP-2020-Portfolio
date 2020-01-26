@@ -16,11 +16,11 @@ The document itself is fascinating — if you're that way inclined I'd definitel
 
 A few quotes really stand out:
 
-Under the heading **Customer-centricity is the fundamental tenet of our company** Slack explains _"We built our software and user interface around the real needs of human beings."_ This shows a strong belief in the idea of building a business that focuses on its customers and people first and trusting that the financial results will take care of themselves.
+Under the heading **Customer-centricity is the fundamental tenet of our company** Slack explains _“We built our software and user interface around the real needs of human beings.”_ This shows a strong belief in the idea of building a business that focuses on its customers and people first and trusting that the financial results will take care of themselves.
 
 From a strategic perspective, the **Growth Strategy** heading is a goldmine. I think it's worth emphasising both the bullet points they've used and the order they're listed as showing deep insight into Slack's strategic priorities.
 
-<u>Interpreting the growth pillars they discuss, this is how Slack view their growth plan:</u>
+### With some interpretation of the growth pillars they discuss, this is Slack's growth stragegy
 
 - Improve the Slack product
 - Focus on sales

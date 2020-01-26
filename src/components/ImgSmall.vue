@@ -9,14 +9,14 @@
 export default {
   props: {
     image: { type: String },
-    caption: { type: String },
-  },
+    caption: { type: String }
+  }
 };
 </script>
 
 <style scoped>
 img {
-  width: 1200px !important;
+  width: 70vw;
   border: 12px solid tomato;
   margin: 24px;
   width: fit-content;

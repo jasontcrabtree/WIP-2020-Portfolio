@@ -4,8 +4,8 @@
       <header>
         <br />
         <h1>Personal Blog</h1>
-        <p>
-          A personal & professional blog by
+        <p class="large-paragraph-text">
+          A personal and professional blog by
           <a
             href="http://twitter.com/jasontcrabtree"
           >@jasontcrabtree.</a>

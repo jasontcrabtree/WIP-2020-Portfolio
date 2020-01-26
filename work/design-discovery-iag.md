@@ -1,6 +1,6 @@
 ---
 title: 'Design Discovery in a Traditional Insurance Company'
-description: 'A case study about Service Design, Design Discovery & Facilitation at a large, traditional insurance company'
+description: 'A case study about Service Design, Design Discovery and Facilitation at a large, traditional insurance company'
 date: 2018-10-01
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573410855/Portfolio-Assets/IagDiscovery-Cover-Image-2.png'
 # image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/Workshop-Hero-Image.png'
@@ -8,7 +8,7 @@ image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573410855/Portf
 
 ![We spent 2 days assembled in a collaborative design workshop — complete with post-it's and full wall whiteboards.](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/Workshop-Hero-Image.png)
 
-## Introduction:
+## Introduction
 
 Deciphering Hidden Complexity in how customers can choose Insurance Car Repairers
 
@@ -20,7 +20,7 @@ UX Design
 
 Sep 2018 - Dec 2018
 
-### Company:
+### Company
 
 Insurance Australia Group (IAG)
 
@@ -30,14 +30,14 @@ This case study details my experiences, as part of a team, completing Design Dis
 
 Guided by a 2-day, 8-person design workshop, we created a Service Design Blueprint Map. Ange Black and I planned, led and facilitated the workshop, including running senior stakeholder presentations and making post-workshop recommendations. Our process for this project was based on the Double Diamond Design Process, developed by the [British Design Council in 2005](https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond). We focused on the initial 2 steps of **Discover** and **Define**. We started initial work in the **Develop** stage with plans to begin **Deliver** in following months.
 
-### Discovery Project Core Team:
+### Discovery Project Core Team
 
 - Customer Experience Design Lead: Jason Crabtree
 - Customer Experience Design Manager: Ange Black
 - Project Delivery Manager: Will Stammers-Smith
-- Data & Product Manager: Rahul Singh
+- Data and Product Manager: Rahul Singh
 
-## 0\.
+## 0\
 
 The Project Brief
 
@@ -73,7 +73,7 @@ The project team prioritised subject matter experts from across the organisation
 
 The project team aimed to complete the Define and Discover steps of the Design process within a 3-month period. This meant gathering, analysing and synthesising the data to achieve a deep understanding of the problem.
 
-### Key milestones we achieved during the project:
+### Key milestones we achieved during the project
 
 1. Defined the core problem, and refined and finalised the project scope
 2. Sent a Customer Research to survey 900 IAG customers, receiving a total of 350 responses and a mix of qualitative and quantitative data
@@ -87,7 +87,7 @@ The project team aimed to complete the Define and Discover steps of the Design p
 10. Created a prioritised list of solutions and recommendations; then themed and ranked the ideas by potential impact, difficulty, cost and values
 11. Presented the ranked ideas and recommendations to the Senior Leadership Team to obtain endorsement and support for the next steps of execution
 
-## 1\.
+## 1\
 
 Discover
 
@@ -122,7 +122,7 @@ As well as identifying the impacted stakeholder groups, the project team examine
 
 _Each system and system-connection had to be documented, understood, and considered._
 
-## 2\.
+## 2\
 
 Define
 
@@ -156,7 +156,7 @@ From the service design blueprint, informed via customer research we identified 
 
 _We identified the key stakeholder groups involved in the process._
 
-## 3\.
+## 3\
 
 Develop
 
@@ -185,7 +185,7 @@ The final outcome during the 12-week project cycle was brainstorming ideas, solu
 
 _Our final ideas are summarised as; improve outdated processes, modernise technology systems, and invest in supporting IAG staff and repairer partners._
 
-## 4\.
+## 4\
 
 Outcomes and Results
 
@@ -215,7 +215,7 @@ In addition to including different parts of IAG throughout the process, we also 
 
 The project delivered a number of outcomes. In keeping with the initial scope of the project, our work focused on internal change and a deep-dive discovery on the problem space, rather than delivering final results to customers. Overall, we delivered the main outcomes we set out to achieve. We also pushed the organisational knowledge of IAG — working in a brand-new way.
 
-### Key Outcomes:
+### Key Outcomes
 
 1. Design Principles
 2. Service Design Blueprint Map
@@ -232,11 +232,11 @@ This case study describes work, completed September to December 2018\. My final 
 
 The initial plans for 2019 focused on face-to-face customer interviews based on our initial concepts, bringing on a tech lead to the core project team, and working on implementing quick wins and small fixes balanced amongst ongoing projects.
 
-### Project & Personal Lessons
+### Project and Personal Lessons
 
 This 3-month project was one of the most challenging, and rewarding periods of my career to date. As the CX Design Lead for the project I was directly accountable for progressing the Customer Experience Design aspects of the project. While I had previously participated in similar work, I hadn't been the nominated lead — especially on such a large and complex project.
 
-### Biggest Lessons I learnt as a CX Design Lead:
+### Biggest Lessons I learnt as a CX Design Lead
 
 1. Progress starts when you start, even if you don't quite know what you're doing, just getting started is crucial.
 2. Trust your team, and make sure you check in with each other frequently. Stay on the same page and clarify assumptions.
@@ -246,8 +246,8 @@ Overall, my biggest lesson from this project was learning that I'm capable of ta
 
 All in all, I'm proud to have worked alongside the great team who contributed to the project, and I consider it a success.
 
-### Wrapping Up:
+### Wrapping Up
 
 Hello! If you've made it this far, I admire your commitment — either to reading through everything, or for your skimming ability. This was the final project I completed at IAG over four years. It was a great experience that taught me a whole lot, especially about how I cope with pressure 😅 something we all need to learn!
 
-Now, if you enjoyed this case study so much that you'd like to read more from me, I'd love for you to check out my personal portfolio [https://jasontcrabtree.com](https://jasontcrabtree.com), or check out my blog at [https://blog.jasontcrabtree.com](https://blog.jasontcrabtree.com). I _infrequently_ write about my experiences learning and thinking about Design, Strategy, Code & other things I think are rad.
+Now, if you enjoyed this case study so much that you'd like to read more from me, I'd love for you to check out my personal portfolio [https://jasontcrabtree.com](https://jasontcrabtree.com), or check out my blog at [https://blog.jasontcrabtree.com](https://blog.jasontcrabtree.com). I _infrequently_ write about my experiences learning and thinking about Design, Strategy, Code and other things I think are rad.

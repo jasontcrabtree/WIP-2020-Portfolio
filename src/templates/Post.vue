@@ -37,13 +37,13 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
-// import BgColumn from '@/components/BgColumn';
+// import PostList from "@/components/PostList";
 // timeToRead
 
 export default {
-  // components: {
-  //   BgColumn,
-  // },
+  components: {
+    // PostList
+  },
   metaInfo() {
     return {
       title: this.$page.post.title,

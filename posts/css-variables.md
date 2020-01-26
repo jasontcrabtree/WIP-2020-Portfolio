@@ -18,7 +18,7 @@ Imagine a basic website with pictures and words. [HTML](https://developer.mozill
 
 HTML without CSS looks the same regardless of content — for Google, Twitter or this blog. CSS is (part of) what differentiates the design, style and brand of websites and products.
 
-## Here's an Example of A Basic Webpage Without CSS:
+## Here's an Example of A Basic Webpage Without CSS
 
 ![A Basic HTML Website with no CSS Styling](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559324406/CSS-Variables-Case-Study/html-no-css.png)
 
@@ -33,7 +33,7 @@ For example, if I had a particular colour that I wanted to use multiple times in
 
 [A Gist of the CSS Variable](https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js)
 
-https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js
+<!-- https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34.js -->
 
 Once we apply these styles, our website now looks like this:
 
@@ -61,14 +61,14 @@ With that, we're left with something closely resembling a real website. We've us
 
 Admittedly, while typing this out it DOES feel like I should have known all of this from the start, but it's tough to see what you don't know. But, I know now — and that's fricking cool and all that matters. Plus, now you know too! Mostly, I'm excited to see what else I can do with CSS Variables in the future.
 
-### GitHub Links from this Article:
+### GitHub Links from this Article
 
 - [The Example Website used in this Article](https://jasontcrabtree.github.io/approachable-css-variables/)
 - [Website Example GitHub Source Code](https://github.com/jasontcrabtree/approachable-css-variables)
 - [Gist 1: Setting up Basic Colour CSS Variables](https://gist.github.com/jasontcrabtree/2ce934513ce317cf97de22f0de8aba34)
 - [Gist 2: Defining Size CSS Variables](https://gist.github.com/jasontcrabtree/027b7a17ceb2ac650c10be22fca8b3b2)
 
-### Now, a few additional resources for those brave adventurers who want to learn more:
+### Now, a few additional resources for those brave adventurers who want to learn more
 
 - [Mozilla: CSS Variables Basic Usage](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#Basic_usage)
 - [Smashing Magazine: A Strategy Guide To CSS Custom Properties](https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/)
