@@ -16,9 +16,9 @@ import ImgLeft from "@/components/ImgLeft";
 
 import ImgSplit from "@/components/ImgSplit";
 
-<ImgRight image="https://picsum.photos/536/354" caption="Lovely seaside view" />
+<ImgRight imageSrc="https://picsum.photos/536/354" caption="Lovely seaside view" />
 
-<ImgLeft image="https://picsum.photos/536/384" caption="A spectacular New Zealand summer" />
+<ImgLeft imageSrc="https://picsum.photos/536/384" caption="A spectacular New Zealand summer" />
 
 I'm so excited to welcome you to the first blog post published on my own domain.
 
@@ -30,7 +30,7 @@ This is a personal blog created in March 2019.
 
 Future blog posts topics will include design, technology and long-form-thoughts on things I find interesting in humanities and society.
 
-<ImgSplit imageLeft="https://images.unsplash.com/photo-1580050763399-dd2fd9b951c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" captionLeft="" imageRight="https://images.unsplash.com/photo-1580050763399-dd2fd9b951c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"/>
+<ImgSplit imageLeftSrc="https://images.unsplash.com/photo-1580050763399-dd2fd9b951c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" captionLeft="" imageRightSrc="https://images.unsplash.com/photo-1580050763399-dd2fd9b951c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"/>
 
 **Warning: Future posts WILL be full of em dashes.**
 
