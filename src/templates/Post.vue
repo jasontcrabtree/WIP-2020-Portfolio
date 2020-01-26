@@ -73,10 +73,6 @@ article {
   margin: 24px 0;
 }
 
-img {
-  width: 40vw;
-}
-
 .blog-post-title--style {
   font-weight: 900;
 }
@@ -100,6 +96,10 @@ img {
 @media screen and (min-width: 920px) {
   .blog-post-title--style {
     font-size: 48px;
+  }
+
+  img {
+    width: 40vw;
   }
 }
 </style>
