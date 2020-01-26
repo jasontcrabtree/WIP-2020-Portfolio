@@ -67,7 +67,7 @@ export default {
 }); */
 
 // Set the Access Token
-const accessToken = process.env.GRIDSOME_ACCESS_TOKEN;
+/* const accessToken = process.env.GRIDSOME_ACCESS_TOKEN;
 
 console.log(accessToken);
 
@@ -101,7 +101,7 @@ request.onerror = function() {
   // There was a problem connecting to the URL
 };
 
-request.send();
+request.send(); */
 </script>
 
 <style>
