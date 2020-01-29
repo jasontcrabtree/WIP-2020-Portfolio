@@ -15,8 +15,10 @@ export default {
 </script>
 
 <style>
-.img-container-left {
-  margin-left: -15%;
-  width: 48vw;
+@media screen and (min-width: 960px) {
+  .img-container-left {
+    margin-left: -15%;
+    width: 48vw;
+  }
 }
 </style>

@@ -81,7 +81,7 @@
 
       <section class="latest-posts-container">
         <h2 class="h2-section-title">Latest Blog Posts</h2>
-        <ul class="posts">
+        <ul class="posts index-blog-list-title--style">
           <PostList
             v-for="edge in $page.allPost.edges.slice(0, 3)"
             :key="edge.node.id"
@@ -166,6 +166,20 @@ query {
   width: auto;
 }
 
+.latest-posts-container > .index-blog-list-title--style {
+  /* font-size: 28px; */
+}
+
+.latest-posts-container > .index-blog-list-title--style > li > a > * + * {
+  font-size: 28px;
+}
+
+/* main
+  > section.latest-posts-container
+  > ul
+  > li
+  > a
+  > h3 */
 .hero-header-h1--style {
   font-weight: 900;
 
@@ -197,7 +211,6 @@ hr {
 }
 
 .work-container {
-  /* margin-top: 72px; */
   grid-column: 1 / -1;
 }
 
@@ -207,7 +220,6 @@ hr {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
     gap: 16px;
-
     grid-template-rows: auto;
   }
 
@@ -223,14 +235,10 @@ hr {
   }
 
   .latest-posts-container {
-    /* padding-top: 72px; */
-    /* margin-top: 72px; */
-
     grid-column: 1 / -1;
   }
 
   .quote-container {
-    /* margin: 72px 0px; */
     grid-column: 1/ -1;
   }
 
@@ -247,7 +255,7 @@ hr {
   .posts {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    grid-gap: 24px;
+    grid-gap: 48px;
     flex-direction: row;
   }
 

@@ -26,28 +26,29 @@ export default {
 </script>
 
 <style>
-.img-container-split {
-  display: inline-flex;
-  flex-direction: row;
-  /* justify-content: space-between;
-  justify-content: center; */
-  justify-content: flex-start;
+@media screen and (min-width: 960px) {
+  .img-container-split {
+    display: inline-flex;
+    flex-direction: row;
+    /* justify-content: space-between;
+    justify-content: center; */
+    justify-content: flex-start;
 
-  padding: 1rem;
+    padding: 1rem;
 
-  /* width: 100vw; */
-}
+    /* width: 100vw; */
+  }
+  .split-figure:first-child {
+    margin-left: -9.6%;
+  }
 
-.split-figure:first-child {
-  margin-left: -9.6%;
-}
+  .img-container-split > * {
+    width: 40vw;
+  }
 
-.img-container-split > * {
-  width: 40vw;
-}
-
-.img-container-split > *:nth-child(1) {
-  /* padding-right: 1rem; */
-  margin-right: 1rem;
+  .img-container-split > *:nth-child(1) {
+    /* padding-right: 1rem; */
+    margin-right: 1rem;
+  }
 }
 </style>

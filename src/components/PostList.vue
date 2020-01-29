@@ -2,7 +2,7 @@
   <li class="blog-list-item post-list-card card-details">
     <g-link :to="post.path" class="read">
       <p class="card-date" v-html="post.date" />
-      <h1 class="card-title" v-html="post.title" />
+      <h3 class="card-title" v-html="post.title" />
       <p class="description" v-html="post.description" />
       <!-- <b>{{ post.timeToRead }} min read</b> &nbsp; -->
       <span class="post-link">Read blog post</span>
@@ -60,11 +60,15 @@ query {
 
 .post-list-card:hover {
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 8px 12px 0 hsla(258, 100%, 25%, 0.2);
+  /* box-shadow: 0 8px 12px 0 hsla(258, 100%, 25%, 0.2); */
 }
 
 .card-title {
   color: var(--primary-blue);
+}
+
+.card-title {
+  font-size: 1.6rem;
 }
 
 .post-link {

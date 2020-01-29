@@ -18,6 +18,10 @@ import ImgSplit from "@/components/ImgSplit";
 
 <ImgRight imageSrc="https://picsum.photos/536/354" caption="Lovely seaside view" />
 
+![Slack Cover Image](../src/assets/images/cover-slack.png)
+
+<ImgRight imageSrc="~/assets/images/cover-slack.png" caption="Lovely seaside view" />
+
 <ImgLeft imageSrc="https://picsum.photos/536/384" caption="A spectacular New Zealand summer" />
 
 I'm so excited to welcome you to the first blog post published on my own domain.

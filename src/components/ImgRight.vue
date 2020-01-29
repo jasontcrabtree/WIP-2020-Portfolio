@@ -15,10 +15,12 @@ export default {
 </script>
 
 <style>
-.img-container-right {
-  /* Moves image 50% to the right */
-  /*   transform: translateX(50%); */
-  margin-left: 40%;
-  width: 48vw;
+@media screen and (min-width: 960px) {
+  .img-container-right {
+    /* Moves image 50% to the right */
+    /*   transform: translateX(50%); */
+    margin-left: 40%;
+    width: 48vw;
+  }
 }
 </style>

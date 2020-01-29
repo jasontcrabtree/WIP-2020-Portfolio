@@ -1,5 +1,5 @@
 ---
-title: "A Prediction about Slack's Future Product Development"
+title: "A Prediction about Slack's Product Roadmap"
 description: 'Writing this down so I can look back in a few years to see if my hunch has paid off — that Slack becomes a full-blown <strong>Business Operating System</strong>'
 date: 2019-05-13
 # author: Jason

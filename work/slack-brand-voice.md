@@ -2,7 +2,7 @@
 title: 'Reverse Engineering the Slack Brand Voice (for a good cause!)'
 description: 'Deconstructing the Slack brand voice to excel in a job interview writing exercise. A Case Study about problem solving with limited resources.'
 date: 2019-05-28
-image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573420658/Portfolio-Assets/Slack-Cover-Image.png'
+image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,q_auto,w_830/v1573420658/Portfolio-Assets/Slack-Cover-Image.png'
 # image: '~/cover-slack.png'
 ---
 
@@ -37,7 +37,7 @@ One of Slack’s strengths is its brand voice, writing and personality. Their vo
 - [Brands that are doing super well it with voice, tone and style (and how you can, too)](https://uxdesign.cc/brands-that-are-totally-killing-it-with-voice-tone-style-and-how-you-can-too-47792613b267)
 - [Day in the Life: How Slack’s Anna Pickard makes software sound human](https://digiday.com/uk/day-life-slacks-anna-pickard-makes-software-sound-human/)
 
-During the interview process I did two writing exercises, one before an on-site interview and one during the on-site interview. As I was preparing for these exercises, and knowing that writing is such an important focus for the Slack team, I wanted to everything I could to prepare. That lead to researching existing resources describing Slack’s voice and brainstorming ways I could take things to the next level. While doing that research I had the idea of reverse-engineering their voice using old tweets (they've tweeted 230,000 times at [@SlackHQ](https://twitter.com/slackhq)), leading to this case study.
+During the interview process I did two writing exercises, one before an on-site interview and one during the on-site interview. As I was preparing for these exercises, and knowing that writing is such an important focus for the Slack team, I wanted to do everything I could to prepare. That lead to researching existing resources describing Slack’s voice and brainstorming ways I could take things to the next level. While doing that research I had the idea of reverse-engineering their voice using old tweets (they've tweeted 230,000 times at [@SlackHQ](https://twitter.com/slackhq)), leading to this case study.
 
 ## Product Elevator Pitch
 
@@ -122,7 +122,7 @@ I’ve never written or used Python before — so figuring this out was a real h
 
 The [Codepen Word Counter](https://codepen.io/lalwanivikas/) I used required some minor tweaks. These tweaks included altering the ‘stopWords’ section and increasing the number of top words shown from 4 to 500\. Those changes were all trial and error — fair warning!
 
-![The top words used by the @slack Twitter account](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160630/Slack-Case-Study/top-words-used-by-slack.png)
+![The top words used by the @slack Twitter account](https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,w_920/v1559160630/Slack-Case-Study/top-words-used-by-slack.png)
 
 ### Breaking Down the Process
 
@@ -139,7 +139,7 @@ This process breakdown shows that this was very much a behind-the-scenes, hackin
 
 \*The CodePen disabled copying of the Top Words, so I used Chrome DevTools to copy the code element into a Code Text Editor. Then deleted the HTML tags to copy the final results into Excel. If you need help with this contact me on Twitter!
 
-![Breaking down the process. Copying and pasting text from one file to the next.](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559161175/Slack-Case-Study/Tweet-Download-Process.png)
+![Breaking down the process. Copying and pasting text from one file to the next.](https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,w_930/v1559161175/Slack-Case-Study/Tweet-Download-Process.png)
 
 ### Summarising the Results
 
@@ -151,7 +151,7 @@ While the final result (a list of words based on word usage count) is relatively
 
 I did later find out that the writing assignment was mostly a hygiene test, and as such, I probably spent FAR too much time on it. But that’s a story for another time.
 
-![A few words repeatedly Slack used between February and March 2019 (This isn’t all of them either!)](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160630/Slack-Case-Study/columns-of-different-words-used.png)
+![A few words repeatedly Slack used between February and March 2019 (This isn’t all of them either!)](https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,w_930/v1559160630/Slack-Case-Study/columns-of-different-words-used.png)
 
 ## Final Outcomes
 
@@ -172,7 +172,7 @@ There is a lot of further development possible with this base idea. Here are a f
 - Add support for counting emojis! 🎉😊
 - Explore additional data sources for adding text data. It doesn't have to be constrained to Twitter!
 
-[A simple mock-up of a web-app containing the same text analysis functionality](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559158952/Slack-Case-Study/Brand-Voice-Mock-Up.jpg)
+![A simple mock-up of a web-app containing the same text analysis functionality](https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,w_930/v1559158952/Slack-Case-Study/Brand-Voice-Mock-Up.jpg)
 
 ### Ideas for a comprehensive tone of voice tool
 

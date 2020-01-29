@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 970px) {
   .nav-list {
     flex-direction: column;
   }
@@ -99,7 +99,7 @@
   }
 }
 
-@media all and (max-width: 929px) and (prefers-color-scheme: light) {
+@media all and (max-width: 970px) and (prefers-color-scheme: light) {
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,27 +1,27 @@
 <template>
   <ul class="hero-social-list">
     <li>
-      <a href="https://twitter.com/jasontcrabtree">
+      <a aria-label="twitter-link" href="https://twitter.com/jasontcrabtree">
         <Twitter />
       </a>
     </li>
     <li>
-      <a href="mailto:jasontcrabtree@gmail.com">
+      <a aria-label="email-link" href="mailto:jasontcrabtree@gmail.com">
         <Email />
       </a>
     </li>
     <li>
-      <a href="https://dribbble.com/jasontcrabtree">
+      <a aria-label="dribbble-link" href="https://dribbble.com/jasontcrabtree">
         <Dribbble />
       </a>
     </li>
     <li>
-      <a href="https://github.com/jasontcrabtree">
+      <a aria-label="github-link" href="https://github.com/jasontcrabtree">
         <Github />
       </a>
     </li>
     <li>
-      <a href="#">
+      <a aria-label="rss-link" href="#">
         <RSS />
       </a>
     </li>

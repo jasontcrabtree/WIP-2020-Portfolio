@@ -19,12 +19,14 @@ export default {
 
 
 <style scoped>
-.large-image--layout {
-  margin: 40px 0px;
-  margin-right: calc(-40vw + 61.9%);
-}
-
 figcaption {
   font-style: italic;
+}
+
+@media screen and (min-width: 960px) {
+  .large-image--layout {
+    margin: 40px 0px;
+    margin-right: calc(-40vw + 61.9%);
+  }
 }
 </style>
