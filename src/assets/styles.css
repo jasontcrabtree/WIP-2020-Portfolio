@@ -162,7 +162,7 @@ p {
     color: var(--text-black);
   }
   h1 {
-    /* color: var(--primary-blue); */
+    color: var(--primary-blue);
   }
 }
 
@@ -193,9 +193,5 @@ p {
 
   .quote-item {
     background-color: #353546;
-  }
-
-  .card-title {
-    /* color: #0a6c74 !important; */
   }
 }

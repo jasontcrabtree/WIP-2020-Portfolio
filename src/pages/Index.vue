@@ -182,6 +182,7 @@ query {
   > h3 */
 .hero-header-h1--style {
   font-weight: 900;
+  color: var(--primary-blue);
 
   line-height: 1.1;
   letter-spacing: -1.8px;

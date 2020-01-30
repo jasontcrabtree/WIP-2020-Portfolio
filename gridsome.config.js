@@ -78,6 +78,28 @@ module.exports = {
         template: './src/templates/Work.vue',
       },
     },
+
+    {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'Post',
+        latest: true,
+        feedOptions: {
+          title: "Jason Crabtree's words on the ww wide",
+          feed_url: 'https://elated-tereshkova-ed12e9.netlify.com/rss.xml',
+          site_url: 'https://elated-tereshkova-ed12e9.netlify.com/',
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.description,
+          url: 'https://elated-tereshkova-ed12e9.netlify.com/blog/' + node.slug,
+        }),
+        output: {
+          dir: './static',
+          name: 'rss.xml',
+        },
+      },
+    },
   ],
 
   transformers: {
