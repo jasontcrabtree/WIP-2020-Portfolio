@@ -21,7 +21,7 @@
       </a>
     </li>
     <li>
-      <a aria-label="rss-link" href="#">
+      <a aria-label="rss-link" href="/rss.xml">
         <RSS />
       </a>
     </li>

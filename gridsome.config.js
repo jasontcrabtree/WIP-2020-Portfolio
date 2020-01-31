@@ -92,7 +92,7 @@ module.exports = {
         feedItemOptions: node => ({
           title: node.title,
           description: node.description,
-          url: 'https://elated-tereshkova-ed12e9.netlify.com/blog/' + node.slug,
+          url: 'https://elated-tereshkova-ed12e9.netlify.com/blog/' + node.path,
         }),
         output: {
           dir: './static',
