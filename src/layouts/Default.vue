@@ -31,7 +31,7 @@ query {
 
 <style>
 .background-elem {
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 .return-home-h2 {
@@ -61,7 +61,8 @@ query {
     /* TODO: Figure out with margin I prefer */
     /* margin: 48px 120px; */
     /* margin: 48px 160px; */
-    margin: 48px 9.6vw;
+    /* margin: 48px 9.6vw; */
+    margin: 72px 144px;
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(13, 1fr);

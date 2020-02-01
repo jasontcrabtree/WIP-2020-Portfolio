@@ -4,6 +4,20 @@
 
 <script>
 import axios from 'axios';
+
+const accessToken = process.env.ACCESS_TOKEN;
+//console.log(accessToken);
+
+const apiURL =
+  'https://api.dribbble.com/v2/user/shots?access_token=' + '{{accessToken}}';
+
+// console.log(apiURL);
+
+const baseURL = 'https://api.dribbble.com/v2/user/shots?access_token=';
+const callURL = baseURL + accessToken;
+
+// console.log(callURL);
+
 export default {
   name: 'DribbbleGallery',
   data() {
@@ -13,21 +27,83 @@ export default {
   },
   async mounted() {
     try {
+      // console.log(accessToken);
+      const apiURL =
+        'https://api.dribbble.com/v2/user/shots?access_token=' +
+        '{{accessToken}}';
       const results = await axios.get(
-        'https://jsonplaceholder.typicode.com/todos'
+        //'https://jsonplaceholder.typicode.com/todos'
+        callURL
       );
 
-      this.todos = results.data;
+      const shotsParent = document.querySelector('.shots');
 
-      console.log(results);
+      // console.log(results.data[0]);
+
+      // console.log(results.data[0].images.hidpi);
+
+      console.log(typeof results);
+
+      const url = results.data[(0, 11)].html_url;
+      const title = results.data[(0, 11)].title;
+      const image = results.data[(0, 11)].images.hidpi;
+
+      // console.table(url, title, image);
+      // const {url, title, image} = results.data
+
+      const apiDataReseponse = results.data;
+
+      console.log(apiDataReseponse.length);
+
+      apiDataReseponse.slice(0, apiDataReseponse.length);
+
+      apiDataReseponse.forEach(function(resultsObject) {
+        const apiResponse = `
+        <li class="shot">
+            <a target="_blank"
+            href="${resultsObject.html_url}"
+            title="${resultsObject.title}">
+                <div class="title">
+                    ${resultsObject.title}
+                </div>
+            <img src="${resultsObject.images.hidpi}"/>
+            </a>
+          </li>`;
+        const appendResponse = document
+          .createRange()
+          .createContextualFragment(apiResponse);
+
+        shotsParent.appendChild(appendResponse);
+      });
+      /* const apiResponse = `
+        <li class="shot">
+            <a target="_blank" href="${results.data[0].html_url}" title="${results.data[0].title}">
+            <div class="title">${results.data[0].title}
+            </div>
+            <img src="${results.data[0].images.hidpi}"/>
+            </a>
+          </li>`;
+      const appendResponse = document
+        .createRange()
+        .createContextualFragment(apiResponse);
+
+      shotsParent.appendChild(appendResponse); */
+
+      //   const resultsParse = JSON.parse(results);
+      // this.todos = results.data;
+
+      console.log('dribbble success!!');
+
+      // console.log(results);
+
+      // console.log(this.todos);
+
+      //   console.log(typeof this.todos[0]);
     } catch (error) {
       console.log(error);
     }
   },
 };
-
-const accessToken = process.env.ACCESS_TOKEN;
-console.log(accessToken);
 
 // const shotsParent = document.querySelector('.shots');
 /*
@@ -74,6 +150,58 @@ request.send(); */
 
 <style>
 .shots {
-  min-height: 32vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44%, 1fr));
+  grid-gap: 48px;
+}
+
+/* .shot:nth-child(odd) {
+  margin: 24px 0px;
+} */
+
+.shot {
+  padding: 48px 48px;
+}
+
+li > a > img {
+  border: 1px solid #f1f1f1;
+}
+
+/* .shot:nth-child(even) {
+  padding: 64px 0px;
+} */
+
+.shot {
+  background: rgb(255, 255, 255);
+
+  border: 1px solid #f1f1f1;
+
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.shot > img:hover {
+  opacity: 0.1;
+}
+
+.title:hover {
+  opacity: 1;
+}
+
+.title {
+  position: absolute;
+
+  padding: 1rem;
+  width: 20ch;
+
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+
+  color: #000;
+  background: #fff;
+
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 </style>

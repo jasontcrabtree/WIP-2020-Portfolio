@@ -13,8 +13,7 @@
   </header>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style scoped>
 .nav-list {
@@ -48,7 +47,7 @@
   }
 
   .header-background-src {
-    background-image: url("/nav-bg.png");
+    background-image: url('/nav-bg.png');
     width: 60%;
     height: 40%;
     z-index: -1;
@@ -68,7 +67,7 @@
 
   .nav-list {
     border-radius: 8px;
-    padding: 0px 8px;
+    padding: 0px 24px;
   }
 
   .nav-list {
@@ -84,7 +83,7 @@
   }
 
   .header-background-src {
-    background-image: url("/nav-bg.png");
+    background-image: url('/nav-bg.png');
     width: 30vw;
     height: 25vw;
     z-index: -1;

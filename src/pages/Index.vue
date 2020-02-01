@@ -3,8 +3,7 @@
     <main class="main-parent">
       <section class="hero-container">
         <h1 class="hero-header-h1--style">
-          UX Designer and
-          Functional
+          UX Designer and Functional
           <br />Design Enthusiast
         </h1>
         <div class="hero-children-container">
@@ -22,7 +21,11 @@
       <section class="work-container" id="work">
         <h2 class="work-title">Case Studies and Process</h2>
         <ul class="work-list-container">
-          <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
+          <WorkList
+            v-for="edge in $page.allWork.edges"
+            :key="edge.node.id"
+            :work="edge.node"
+          />
         </ul>
       </section>
 
@@ -33,19 +36,19 @@
         <div>
           <blockquote class="quote-item">
             <p>
-              <span class="block-quote-callout">“</span>Jason has a creative but practical out of the box way of thinking and to top it off, a relaxed demeanor that makes you naturally feel at ease around him.
-              <span
-                class="block-quote-close"
-              >”</span>
+              <span class="block-quote-callout">“</span>Jason has a creative but
+              practical out of the box way of thinking and to top it off, a
+              relaxed demeanor that makes you naturally feel at ease around him.
+              <span class="block-quote-close">”</span>
             </p>
             <footer>
               <cite class="quote-name--style">Dini Paranagama</cite>
               <div class="quote-details-text--layout">
                 <span>
                   Digital Product Manager at IAG Insurance, NZ,
-                  <a
-                    href="https://www.linkedin.com/in/dini-paranagama/"
-                  >LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/dini-paranagama/"
+                    >LinkedIn</a
+                  >
                 </span>
               </div>
             </footer>
@@ -53,14 +56,19 @@
 
           <blockquote class="quote-item">
             <p>
-              <span class="block-quote-callout">“</span>When I think about Jason I think of his wealth of knowledge and intellect.
+              <span class="block-quote-callout">“</span>When I think about Jason
+              I think of his wealth of knowledge and intellect.
             </p>
-            <p>He automatically creates a safe space to share, learn and collaborate; inviting others opinions before his own, Jason actively asks questions to understand the ‘why’ and seeks to see things from a different perspective.</p>
             <p>
-              Jason has a creative yet pragmatic approach & you can rely on him to stand up for what’s right.
-              <span
-                class="block-quote-close"
-              >”</span>
+              He automatically creates a safe space to share, learn and
+              collaborate; inviting others opinions before his own, Jason
+              actively asks questions to understand the ‘why’ and seeks to see
+              things from a different perspective.
+            </p>
+            <p>
+              Jason has a creative yet pragmatic approach & you can rely on him
+              to stand up for what’s right.
+              <span class="block-quote-close">”</span>
             </p>
             <footer>
               <cite class="quote-name--style">Natalie van Baarlen</cite>
@@ -69,12 +77,20 @@
                   Customer Experience Design Lead at IAG Insurance, NZ,
                   <a
                     href="https://www.linkedin.com/in/natalie-van-baarlen-60ab73107/"
-                  >LinkedIn</a>
+                    >LinkedIn</a
+                  >
                 </span>
               </div>
             </footer>
           </blockquote>
         </div>
+      </section>
+
+      <hr />
+
+      <section class="latest-posts-container">
+        <h2 class="h2-section-title">Latest Dribbble Shots</h2>
+        <DribbbleGallery />
       </section>
 
       <hr />
@@ -89,26 +105,19 @@
           />
         </ul>
       </section>
-
-      <hr />
-
-      <section class="latest-posts-container">
-        <h2>Latest Dribbble Shots</h2>
-        <DribbbleGallery />
-      </section>
     </main>
     <BgColumn />
   </Layout>
 </template>
 
 <script>
-import WorkList from "@/components/WorkList";
-import PostList from "@/components/PostList";
+import WorkList from '@/components/WorkList';
+import PostList from '@/components/PostList';
 
-import BgColumn from "@/components/BgColumn";
-import Social from "@/components/Social";
+import BgColumn from '@/components/BgColumn';
+import Social from '@/components/Social';
 
-import DribbbleGallery from "@/components/DribbbleGallery";
+import DribbbleGallery from '@/components/DribbbleGallery';
 
 export default {
   components: {
@@ -116,11 +125,11 @@ export default {
     BgColumn,
     Social,
     PostList,
-    DribbbleGallery
+    DribbbleGallery,
   },
   metaInfo: {
-    title: "Home"
-  }
+    title: 'Home',
+  },
 };
 </script>
 
