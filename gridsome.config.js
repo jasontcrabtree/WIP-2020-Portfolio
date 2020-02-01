@@ -7,7 +7,7 @@
 module.exports = {
   siteName: "Jason Crabtree's Internet Hangtime",
   siteDescription: 'A buncha words by Jason',
-  // siteDescription: 'Learn about it on Alligator.io! 🐊',
+
   // icon: 'src/alligator-favicon.png',
 
   /*   templates: {
@@ -25,7 +25,14 @@ module.exports = {
     const svgRule = config.module.rule('svg');
     svgRule.uses.clear();
     svgRule.use('vue-svg-loader').loader('vue-svg-loader');
+
+    require('dotenv').config({ path: '.env' });
+    config
+      .plugin('env')
+      .use(require.resolve('webpack/lib/EnvironmentPlugin'), ['ACCESS_TOKEN']);
   },
+
+  accessToken: process.env.ACCESS_TOKEN,
 
   plugins: [
     /*     {
@@ -59,7 +66,12 @@ module.exports = {
         },
       },
     }, */
-
+    /*    {
+      use: 'gridsome-source-plugin',
+      options: {
+        ACCESS_TOKEN: process.env.ACCESS_TOKEN,
+      },
+    }, */
     {
       use: '@gridsome/vue-remark',
       options: {
@@ -76,6 +88,8 @@ module.exports = {
         baseDir: './work',
         pathPrefix: '/blog/',
         template: './src/templates/Work.vue',
+        ACCESS_TOKEN: process.env.ACCESS_TOKEN,
+        accessToken: process.env.ACCESS_TOKEN,
       },
     },
 
@@ -93,6 +107,7 @@ module.exports = {
           title: node.title,
           description: node.description,
           url: 'https://elated-tereshkova-ed12e9.netlify.com' + node.path,
+          content: node.content,
         }),
         output: {
           dir: './static',
@@ -107,7 +122,6 @@ module.exports = {
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      // plugins: ['@gridsome/remark-prismjs', '@gridsome/remark-attr'],
       plugins: [
         '@noxify/gridsome-plugin-remark-embed',
         {
@@ -116,8 +130,7 @@ module.exports = {
       ],
     },
   },
-
-  // templates: {
-  //   BlogPost: '/blog/:year/:month/:day/:slug'
-  // }
+};
+const config = {
+  accessToken: process.env.ACCESS_TOKEN,
 };

@@ -89,6 +89,13 @@
           />
         </ul>
       </section>
+
+      <hr />
+
+      <section class="latest-posts-container">
+        <h2>Latest Dribbble Shots</h2>
+        <DribbbleGallery />
+      </section>
     </main>
     <BgColumn />
   </Layout>
@@ -101,12 +108,15 @@ import PostList from "@/components/PostList";
 import BgColumn from "@/components/BgColumn";
 import Social from "@/components/Social";
 
+import DribbbleGallery from "@/components/DribbbleGallery";
+
 export default {
   components: {
     WorkList,
     BgColumn,
     Social,
-    PostList
+    PostList,
+    DribbbleGallery
   },
   metaInfo: {
     title: "Home"
@@ -145,6 +155,7 @@ query {
         title
         date (format: "D MMMM YYYY")
         path
+        content
       }
     }
   }
@@ -166,9 +177,9 @@ query {
   width: auto;
 }
 
-.latest-posts-container > .index-blog-list-title--style {
-  /* font-size: 28px; */
-}
+/* .latest-posts-container > .index-blog-list-title--style {
+   font-size: 28px;
+} */
 
 .latest-posts-container > .index-blog-list-title--style > li > a > * + * {
   font-size: 28px;

@@ -10,14 +10,14 @@
 </template>
 
 <script>
-import MainNav from "@/components/MainNav";
-import BgColumn from "@/components/BgColumn";
+import MainNav from '@/components/MainNav';
+import BgColumn from '@/components/BgColumn';
 
 export default {
   components: {
     MainNav,
-    BgColumn
-  }
+    BgColumn,
+  },
 };
 </script>
 
