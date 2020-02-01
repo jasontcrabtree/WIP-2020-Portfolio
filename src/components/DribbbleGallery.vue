@@ -44,9 +44,9 @@ export default {
 
       console.log(typeof results);
 
-      const url = results.data[(0, 11)].html_url;
-      const title = results.data[(0, 11)].title;
-      const image = results.data[(0, 11)].images.hidpi;
+      const url = results.data[(0, 6)].html_url;
+      const title = results.data[(0, 6)].title;
+      const image = results.data[(0, 6)].images.hidpi;
 
       // console.table(url, title, image);
       // const {url, title, image} = results.data
@@ -57,7 +57,7 @@ export default {
 
       apiDataReseponse.slice(0, apiDataReseponse.length);
 
-      apiDataReseponse.forEach(function(resultsObject) {
+      apiDataReseponse.slice(0, 6).forEach(function(resultsObject) {
         const apiResponse = `
         <li class="shot">
             <a target="_blank"
