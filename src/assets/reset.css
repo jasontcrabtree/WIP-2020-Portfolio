@@ -52,12 +52,16 @@ article > * + * {
 article > * > * + * {
   margin-top: 1.4em;
 }
+img:not([alt]) {
+  filter: blur(5px);
+}
 button,
 input,
 select,
 textarea {
   font: inherit;
 }
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0s !important;

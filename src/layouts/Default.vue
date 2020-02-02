@@ -150,4 +150,7 @@ query {
 .top-parent-container {
   margin-bottom: 0px;
 }
+h1 {
+  margin-top: 0.6em !important;
+}
 </style>

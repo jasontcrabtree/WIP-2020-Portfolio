@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer-parent--layout footer-parent--spacing">
+  <footer class="footer-parent footer-parent--layout footer-parent--spacing">
     <section class="footer-text--layout">
       <h3>With thanks</h3>
       <p>
@@ -130,12 +130,17 @@ export default {
     margin-top: 136px;
   }
 
+  .footer-parent--layout {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .footer-parent--layout > section {
-    margin: 40px 0px;
+    margin: 24px 0px;
   }
 
   .footer-parent--layout > section > h3 {
-    padding-bottom: 8px;
+    padding-bottom: -8px;
   }
 
   .nav-list > * {
@@ -146,9 +151,12 @@ export default {
     margin-left: 0px;
   }
 
-  .nav-list {
+  .footer-parent > * > .nav-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
+    margin: 8px 24px 8px 0px;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
 
@@ -161,5 +169,13 @@ export default {
   .footer-parent--layout {
     width: calc(100vw - 32px);
   }
+}
+
+/* .subscribe-form--style > * + * > * {
+  margin: 24px 0px;
+} */
+
+.subscribe-form-fieldset--layout {
+  margin: 24px 0px;
 }
 </style>

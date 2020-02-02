@@ -2,7 +2,6 @@
   <layout>
     <main class="blog-main">
       <header>
-        <br />
         <h1>Personal Blog</h1>
         <p class="large-paragraph-text">
           A personal and professional blog by

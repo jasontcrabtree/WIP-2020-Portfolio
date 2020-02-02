@@ -98,6 +98,13 @@
   }
 }
 
+@media screen and (max-width: 350px) {
+  .primary-nav {
+    max-width: calc(100vw - 32px);
+    width: auto;
+  }
+}
+
 @media all and (max-width: 960px) and (prefers-color-scheme: light) {
 }
 

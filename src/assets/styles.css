@@ -60,11 +60,6 @@ body {
   font-size: 19px;
 }
 
-/* ::selection {
-  color: var(--text-black);
-  background: rgb(255, 255, 158);
-} */
-
 h1,
 h2,
 h3,
@@ -75,6 +70,10 @@ h6 {
   font-family: 'Libre Franklin', 'DM Sans', -apple-system, system-ui,
     BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
   line-height: 1.2;
+}
+
+label {
+  font-weight: 500;
 }
 
 a:any-link {
@@ -220,4 +219,15 @@ p {
   width: 100vw;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+
+button,
+.base-button--style {
+  background-color: var(--primary-blue);
+  padding: 8px 32px;
+  border-radius: 4px;
+  color: var(--white-100);
+  cursor: pointer;
+  box-shadow: var(--shadow-small);
+  font-weight: bold;
 }

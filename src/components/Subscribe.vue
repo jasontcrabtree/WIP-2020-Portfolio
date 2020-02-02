@@ -1,6 +1,6 @@
 <template>
   <form
-    class="subscribe-form--style"
+    class="subscribe-form--style tinyletter-sub-form"
     style
     action="https://tinyletter.com/jasontcrabtree"
     method="post"
@@ -8,14 +8,16 @@
     onsubmit="window.open('https://tinyletter.com/jasontcrabtree', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
   >
     <p>
-      <label
-        for="tlemail"
-      >Subscribe to receive infrequent personal & professional blog posts by me, Jason Crabtree! Topics may include thoughts on: Design, Technology, Society.</label>
+      Subscribe for emails of my infrequent personal & professional blog posts!
+      Topics: Design, Technology, Society.
     </p>
-    <p>
+    <fieldset class="subscribe-form-fieldset--layout sub-fieldset--style">
+      <label class="subscribe-label--style" for="tlemail">Your Email</label>
       <input type="text" placeholder="hello@email.com" name="email" id="tlemail" required />
-    </p>
+    </fieldset>
+
     <input type="hidden" value="1" name="embed" />
+
     <button class="newsletter-" type="submit" value="Subscribe">Subscribe</button>
   </form>
 </template>
@@ -25,24 +27,23 @@ export default {};
 </script>
 
 <style>
-.subscribe-form--style > * {
+fieldset {
   margin: 8px 0px;
 }
 
-input {
-  width: 24ch;
+.sub-fieldset--style {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.tinyletter-sub-form > * > input {
+  max-width: 32ch;
+  width: 100%;
   height: 48px;
   padding: 8px;
   border: 1px solid var(--grey-400);
   border-radius: 4px;
-}
-
-button {
-  background-color: var(--primary-blue);
-  padding: 8px 32px;
-  border-radius: 4px;
-  color: var(--white-100);
-  cursor: pointer;
 }
 
 .subscribe-credit--style {
