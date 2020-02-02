@@ -16,7 +16,8 @@
         </p>
       </header>
 
-      <section>
+      <section class="blog-list-section--layout">
+        <h2>Latest Posts:</h2>
         <ul class="posts">
           <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
         </ul>
@@ -74,5 +75,13 @@ query {
 
 header > * {
   margin-bottom: 24px;
+}
+
+.blog-list-section--layout {
+  margin-top: 48px;
+}
+
+.blog-list-section--layout > h2 {
+  margin-bottom: -16px;
 }
 </style>

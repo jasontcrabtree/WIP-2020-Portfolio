@@ -59,6 +59,10 @@ p {
   width: auto;
 }
 
+p {
+  font-size: 19px;
+}
+
 article {
   grid-row-start: 3;
   grid-column: 2/ 9;
@@ -77,7 +81,7 @@ article {
   font-weight: 900;
 }
 
-@media screen and (max-width: 919px) {
+@media screen and (max-width: 960px) {
   p {
     max-width: 40ch;
     width: auto;

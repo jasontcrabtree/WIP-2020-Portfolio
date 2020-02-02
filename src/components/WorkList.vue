@@ -1,7 +1,7 @@
 <template>
   <li class="list-item work-list-card">
     <g-link :to="work.path" class="read">
-      <g-image :src="work.image" :alt="work.title" class="cover-image" />
+      <g-image :src="work.image" :alt="work.title" class="cover-image" loading="lazy" />
       <div class="card-details">
         <h2 class="card-title" v-html="work.title" />
         <span class="card-date">Project: {{ work.date }}</span>
@@ -41,7 +41,7 @@ export default {
 
 .cover-image {
   /* Internal shadow */
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: var(--shadow-extra-small);
   border-radius: 8px 8px 0 0;
 }
 
@@ -74,26 +74,18 @@ export default {
   font-weight: 500;
 }
 
-@media screen and (max-width: 919px) {
+@media screen and (max-width: 960px) {
   .work-list-card {
     margin: 32px 0px;
   }
 
   .work-list-card {
     max-width: fit-content;
-    /* width: 88vw; */
     padding: 0px;
   }
 
   .card-title {
     font-size: 20px;
   }
-
-  .work-list-card {
-    margin-right: 16px;
-  }
-}
-
-@media screen and (max-width: 340px) {
 }
 </style>

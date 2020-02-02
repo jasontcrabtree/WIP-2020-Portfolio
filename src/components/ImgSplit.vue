@@ -20,8 +20,8 @@ export default {
     captionRight: { type: String },
     alt: { type: String },
     source: { type: String },
-    date: { type: String }
-  }
+    date: { type: String },
+  },
 };
 </script>
 
@@ -30,13 +30,10 @@ export default {
   .img-container-split {
     display: inline-flex;
     flex-direction: row;
-    /* justify-content: space-between;
-    justify-content: center; */
+
     justify-content: flex-start;
 
     padding: 1rem;
-
-    /* width: 100vw; */
   }
   .split-figure:first-child {
     margin-left: -9.6%;
@@ -47,7 +44,6 @@ export default {
   }
 
   .img-container-split > *:nth-child(1) {
-    /* padding-right: 1rem; */
     margin-right: 1rem;
   }
 }

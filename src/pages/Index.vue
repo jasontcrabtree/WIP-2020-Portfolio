@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <main class="main-parent">
+    <main class="main-parent" id="home">
       <section class="hero-container">
         <h1 class="hero-header-h1--style">
           UX Designer and Functional
@@ -18,14 +18,12 @@
       </section>
       <hr />
 
+      <!-- <g-image src="~/cover-slack.png" class="cover-image" width="500" blur="40" /> -->
+
       <section class="work-container" id="work">
         <h2 class="work-title">Case Studies and Process</h2>
         <ul class="work-list-container">
-          <WorkList
-            v-for="edge in $page.allWork.edges"
-            :key="edge.node.id"
-            :work="edge.node"
-          />
+          <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
         </ul>
       </section>
 
@@ -39,16 +37,18 @@
               <span class="block-quote-callout">“</span>Jason has a creative but
               practical out of the box way of thinking and to top it off, a
               relaxed demeanor that makes you naturally feel at ease around him.
-              <span class="block-quote-close">”</span>
+              <span
+                class="block-quote-close"
+              >”</span>
             </p>
             <footer>
               <cite class="quote-name--style">Dini Paranagama</cite>
               <div class="quote-details-text--layout">
                 <span>
                   Digital Product Manager at IAG Insurance, NZ,
-                  <a href="https://www.linkedin.com/in/dini-paranagama/"
-                    >LinkedIn</a
-                  >
+                  <a
+                    href="https://www.linkedin.com/in/dini-paranagama/"
+                  >LinkedIn</a>
                 </span>
               </div>
             </footer>
@@ -68,7 +68,9 @@
             <p>
               Jason has a creative yet pragmatic approach & you can rely on him
               to stand up for what’s right.
-              <span class="block-quote-close">”</span>
+              <span
+                class="block-quote-close"
+              >”</span>
             </p>
             <footer>
               <cite class="quote-name--style">Natalie van Baarlen</cite>
@@ -77,8 +79,7 @@
                   Customer Experience Design Lead at IAG Insurance, NZ,
                   <a
                     href="https://www.linkedin.com/in/natalie-van-baarlen-60ab73107/"
-                    >LinkedIn</a
-                  >
+                  >LinkedIn</a>
                 </span>
               </div>
             </footer>
@@ -106,18 +107,19 @@
         </ul>
       </section>
     </main>
-    <BgColumn />
+    <!-- <BgColumn /> -->
+    <hr />
   </Layout>
 </template>
 
 <script>
-import WorkList from '@/components/WorkList';
-import PostList from '@/components/PostList';
+import WorkList from "@/components/WorkList";
+import PostList from "@/components/PostList";
 
-import BgColumn from '@/components/BgColumn';
-import Social from '@/components/Social';
+import BgColumn from "@/components/BgColumn";
+import Social from "@/components/Social";
 
-import DribbbleGallery from '@/components/DribbbleGallery';
+import DribbbleGallery from "@/components/DribbbleGallery";
 
 export default {
   components: {
@@ -125,11 +127,11 @@ export default {
     BgColumn,
     Social,
     PostList,
-    DribbbleGallery,
+    DribbbleGallery
   },
   metaInfo: {
-    title: 'Home',
-  },
+    title: "Home"
+  }
 };
 </script>
 
@@ -184,22 +186,13 @@ query {
 .hero-bio--layout {
   max-width: 48ch;
   width: auto;
+  font-size: 22px;
 }
-
-/* .latest-posts-container > .index-blog-list-title--style {
-   font-size: 28px;
-} */
 
 .latest-posts-container > .index-blog-list-title--style > li > a > * + * {
   font-size: 28px;
 }
 
-/* main
-  > section.latest-posts-container
-  > ul
-  > li
-  > a
-  > h3 */
 .hero-header-h1--style {
   font-weight: 900;
   color: var(--primary-blue);
@@ -214,21 +207,23 @@ query {
 
 hr {
   border: 0px;
-  border-top: solid #fec7b2 4px;
+  border-top: solid var(--primary-peach) 4px;
+  border-top: solid 4px var(--horiz-spacer);
   width: 32%;
   margin: 40px 0px;
   grid-column: 1 / -1;
 }
 
 .work-list-card {
-  background: #f8f9fa;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.25);
+  background: var(--card-background-white);
+
+  box-shadow: var(--shadow-large);
   border-radius: 8px;
   padding: 0px;
 }
 
 .work-list-card:hover {
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: var(--shadow-medium);
 }
 
 .work-container {
@@ -236,7 +231,7 @@ hr {
 }
 
 /* Desktop Media Query */
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 960px) {
   .main-parent {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
@@ -312,13 +307,6 @@ hr {
   }
 }
 
-/* 1x1 Pixel Size Hero Font Size */
-@media screen and (max-width: 1440px) {
-  .hero-header-h1--style {
-    font-size: 56px;
-  }
-}
-
 /* 1/1.3 Scaled Size Hero Font Size */
 @media screen and (min-width: 1440px) {
   .hero-header-h1--style {
@@ -326,8 +314,20 @@ hr {
   }
 }
 
+/* 1x1 Pixel Size Hero Font Size */
+@media screen and (max-width: 1440px) {
+  .hero-header-h1--style {
+    font-size: 56px;
+    padding: 0px;
+  }
+
+  hr {
+    margin: 0px 0px;
+  }
+}
+
 /* Narrow screens, tablets & phones */
-@media screen and (max-width: 919px) {
+@media screen and (max-width: 960px) {
   .hero-children-container > ul {
     margin-right: 24px;
   }
@@ -335,6 +335,8 @@ hr {
   .hero-header-h1--style {
     font-size: 40px;
     max-width: 88vw;
+
+    letter-spacing: -0.6px;
   }
 
   .hero-children-container {
@@ -362,6 +364,15 @@ hr {
 
   .top-parent-container {
     padding-bottom: 96px;
+  }
+
+  .return-home-h2 {
+    font-size: 1rem !important;
+  }
+
+  .quote-container {
+    margin-top: 24px;
+    /* margin-right: 16px; */
   }
 }
 </style>

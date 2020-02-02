@@ -2,13 +2,12 @@
   <header class="primary-nav">
     <div class="header-background-src"></div>
     <nav class="nav-list">
-      <g-link to="/" class>Home</g-link>
+      <g-link to="/#home" class>Home</g-link>
       <g-link to="/contact/">Contact</g-link>
       <g-link to="/">Résumé</g-link>
       <!-- <g-link to="/about/">About</g-link> -->
       <g-link class="nav-hidden" to="/#work">Work</g-link>
       <g-link to="/blog/">Blog</g-link>
-      <!-- <g-link to="/docs/">Docs</g-link> -->
     </nav>
   </header>
 </template>
@@ -21,9 +20,10 @@
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  border: 1px solid var(--card-background-white);
 }
 
-@media screen and (max-width: 919px) {
+@media screen and (max-width: 960px) {
   .nav-list {
     flex-direction: row;
   }
@@ -40,14 +40,14 @@
     margin: 8px 0;
   }
 
-  .nav-hidden {
+  /*   .nav-hidden {
     visibility: hidden;
     width: 0px;
     margin-right: 0px;
-  }
+  } */
 
   .header-background-src {
-    background-image: url('/nav-bg.png');
+    background-image: url("/nav-bg.png");
     width: 60%;
     height: 40%;
     z-index: -1;
@@ -57,7 +57,7 @@
   }
 }
 
-@media screen and (min-width: 970px) {
+@media screen and (min-width: 960px) {
   .nav-list {
     flex-direction: column;
   }
@@ -83,7 +83,7 @@
   }
 
   .header-background-src {
-    background-image: url('/nav-bg.png');
+    background-image: url("/nav-bg.png");
     width: 30vw;
     height: 25vw;
     z-index: -1;
@@ -98,7 +98,7 @@
   }
 }
 
-@media all and (max-width: 970px) and (prefers-color-scheme: light) {
+@media all and (max-width: 960px) and (prefers-color-scheme: light) {
 }
 
 @media (prefers-color-scheme: dark) {

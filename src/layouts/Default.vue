@@ -6,18 +6,22 @@
     <MainNav />
     <slot />
     <BgColumn />
+    <Footer />
   </div>
 </template>
 
 <script>
-import MainNav from '@/components/MainNav';
-import BgColumn from '@/components/BgColumn';
+import MainNav from "@/components/MainNav";
+import BgColumn from "@/components/BgColumn";
+
+import Footer from "@/components/Footer";
 
 export default {
   components: {
     MainNav,
     BgColumn,
-  },
+    Footer
+  }
 };
 </script>
 
@@ -36,7 +40,7 @@ query {
 
 .return-home-h2 {
   text-transform: uppercase;
-  color: #36364f;
+  color: var(--link-low-emphasis-bluegrey);
 }
 
 #app > a:first-child {
@@ -62,11 +66,11 @@ query {
     /* margin: 48px 120px; */
     /* margin: 48px 160px; */
     /* margin: 48px 9.6vw; */
-    margin: 72px 144px;
+    margin: 72px 144px 0px 144px;
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: auto auto auto 0.5fr 144px;
+    grid-template-rows: auto auto auto auto auto auto auto;
   }
 
   main {
@@ -82,7 +86,7 @@ query {
 /* 1440px sscreens */
 @media screen and (max-width: 1440px) and (min-width: 960px) {
   .top-parent-container {
-    margin-top: 64px;
+    margin: 72px 112px 0px 112px;
   }
 }
 
@@ -93,7 +97,7 @@ query {
   }
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 960px) {
   html {
     margin: auto 64px;
     display: grid;
@@ -101,7 +105,7 @@ query {
     max-width: fit-content;
     width: auto;
 
-    margin-bottom: 64px;
+    margin-bottom: 0px;
     padding-top: 32px;
 
     margin-top: 0px;
@@ -118,7 +122,7 @@ query {
     max-width: fit-content;
     width: auto;
 
-    margin-bottom: 80px;
+    margin-bottom: 32px;
     padding-top: 32px;
 
     margin-top: 0px;
@@ -130,6 +134,13 @@ query {
   }
 }
 
+@media screen and (max-width: 360px) {
+  main {
+    margin-right: 16px;
+    width: calc(100vw - 32px);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .return-home-h2 {
     color: var(--primary-link-dark);
@@ -137,6 +148,6 @@ query {
 }
 
 .top-parent-container {
-  margin-bottom: 112px;
+  margin-bottom: 0px;
 }
 </style>

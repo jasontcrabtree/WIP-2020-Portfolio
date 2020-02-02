@@ -78,7 +78,7 @@ img {
 article > * + * {
   margin-top: 1.4em;
 }
-@media screen and (max-width: 919px) {
+@media screen and (max-width: 960px) {
   p {
     max-width: 40ch;
     width: auto;

@@ -58,10 +58,10 @@ export default {
   padding: 8px 0px;
 }
 
-@media screen and (max-width: 919px) {
+@media screen and (max-width: 961px) {
   .hero-social-list {
     display: flex;
-    justify-items: space-around;
+    flex-direction: row;
   }
 
   .hero-social-list > * {
@@ -70,4 +70,11 @@ export default {
     justify-items: space-around;
   }
 }
+
+/* @media screen and (min-width: 960px) {
+  .hero-social-list {
+    display: flex;
+    flex-direction: row;
+  }
+} */
 </style>
