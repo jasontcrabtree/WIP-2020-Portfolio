@@ -13,7 +13,14 @@
     </p>
     <fieldset class="subscribe-form-fieldset--layout sub-fieldset--style">
       <label class="subscribe-label--style" for="tlemail">Your Email</label>
-      <input type="text" placeholder="hello@email.com" name="email" id="tlemail" required />
+      <input
+        class="subscribe-email-input"
+        type="text"
+        placeholder="hello@email.com"
+        name="email"
+        id="tlemail"
+        required
+      />
     </fieldset>
 
     <input type="hidden" value="1" name="embed" />
@@ -37,6 +44,10 @@ fieldset {
   margin: 0px;
 }
 
+.subscribe-form-fieldset--layout {
+  margin: 24px 0px;
+}
+
 .tinyletter-sub-form > * > input {
   max-width: 32ch;
   width: 100%;
@@ -51,7 +62,7 @@ fieldset {
 }
 
 @media screen and (max-width: 460px) {
-  input {
+  .subscribe-email-input {
     width: 80vw;
   }
 }

@@ -18,7 +18,13 @@
       </section>
       <hr />
 
-      <!-- <g-image src="~/cover-slack.png" class="cover-image" width="500" blur="40" /> -->
+      <g-image
+        src="~/cover-slack.png"
+        alt="slack-cvoer-iamge"
+        class="cover-image"
+        width="1200"
+        blur="40"
+      />
 
       <section class="work-container" id="work">
         <h2 class="work-title">Case Studies and Process</h2>
@@ -373,6 +379,18 @@ hr {
   .quote-container {
     margin-top: 24px;
     /* margin-right: 16px; */
+  }
+}
+
+@media all and (max-width: 960px) and (prefers-color-scheme: light) {
+  .nav-list {
+    border: 1px solid var(--card-background-white);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero-header-h1--style {
+    color: var(--dm-white-text);
   }
 }
 </style>

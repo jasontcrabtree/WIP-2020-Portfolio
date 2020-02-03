@@ -48,10 +48,6 @@ query {
 }
 
 @media screen and (min-width: 960px) {
-  /*  html {
-     border-top: 8px solid var(--primary-blue);
-  } */
-
   .return-home-h2 {
     font-size: 40px;
   }
@@ -150,6 +146,7 @@ query {
 .top-parent-container {
   margin-bottom: 0px;
 }
+
 h1 {
   margin-top: 0.6em !important;
 }

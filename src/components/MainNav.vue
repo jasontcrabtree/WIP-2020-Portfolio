@@ -20,7 +20,10 @@
   display: flex;
   flex-direction: column;
   align-content: space-around;
-  border: 1px solid var(--card-background-white);
+}
+
+.primary-nav {
+  z-index: 1;
 }
 
 @media screen and (max-width: 960px) {
@@ -39,12 +42,6 @@
   .primary-nav > * {
     margin: 8px 0;
   }
-
-  /*   .nav-hidden {
-    visibility: hidden;
-    width: 0px;
-    margin-right: 0px;
-  } */
 
   .header-background-src {
     background-image: url("/nav-bg.png");
@@ -106,11 +103,15 @@
 }
 
 @media all and (max-width: 960px) and (prefers-color-scheme: light) {
+  .nav-list {
+    border: 1px solid var(--card-background-white);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .nav-list {
-    background-color: #12121d;
+    background-color: #102a43;
+    opacity: 0.8;
   }
 }
 </style>

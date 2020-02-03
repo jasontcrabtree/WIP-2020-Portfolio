@@ -55,6 +55,7 @@ export default {
 .footer-parent--layout {
   grid-column: 1 / -1;
 }
+
 @media screen and (min-width: 1060px) {
   /* FLEXBOX WRAP ALIGNMENT */
   .footer-parent--layout {
@@ -63,9 +64,21 @@ export default {
     justify-content: space-around;
   }
 
-  .footer-parent--layout > section {
-    margin: 0px 64px;
+  .footer-parent--layout > * {
+    padding-right: 112px;
+    padding-right: 7.2vw;
+    padding-left: 0px;
   }
+
+  /*
+  .footer-parent--layout > * {
+    width: fit-content;
+    justify-content: space-between;
+  } */
+
+  /*   .footer-parent--layout > section {
+    margin: 0px 64px;
+  } */
 
   .footer-parent--layout > section > p {
     padding-bottom: 16px;
@@ -102,6 +115,7 @@ export default {
   }
 }
 
+/* 1440px > 1060px screens */
 @media screen and (max-width: 1440px) and (min-width: 1060px) {
   .footer-parent--layout {
     display: flex;
@@ -125,6 +139,7 @@ export default {
   }
 }
 
+/* 1060px and smaller screen */
 @media screen and (max-width: 1060px) {
   .footer-parent--layout {
     margin-top: 136px;
@@ -165,17 +180,10 @@ export default {
   }
 }
 
+/* tiny little screen */
 @media screen and (max-width: 360px) {
   .footer-parent--layout {
     width: calc(100vw - 32px);
   }
-}
-
-/* .subscribe-form--style > * + * > * {
-  margin: 24px 0px;
-} */
-
-.subscribe-form-fieldset--layout {
-  margin: 24px 0px;
 }
 </style>

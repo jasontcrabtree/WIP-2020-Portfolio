@@ -3,9 +3,9 @@
     <main class="contact-parent">
       <header class="contact-header">
         <h1 class="contact-h1-title--style">Getting in touch 👋</h1>
-        <p>Hello! If you want to talk about a new project I'd love to learn more. Please contact me using the form below.</p>
+        <p>Hello! If you want to talk about a commercial project, I'd love to learn more. Please contact me with the form below.</p>
         <p>
-          If you want to chat about a personal project I'd love to hear about that too! Get in touch via twitter as
+          If you want to chat about a personal project, I'd love to hear about that too! Get in touch on twitter at
           <a
             href="https://twitter.com/jasontcrabtree"
           >@jasontcrabtree</a>,
@@ -84,45 +84,15 @@ export default {
 .contact-parent {
   display: grid;
   grid-column: 1/ 9;
-  grid-row-start: 2;
 }
 
 .contact-form--spacing > * > * > * {
   margin: 1em 0px;
 }
 
-input,
-select,
-textarea {
-  border: 1px solid var(--grey-400);
-  border-radius: 4px;
-  box-shadow: inset var(--shadow-extra-small);
-}
-
-textarea {
-  resize: vertical;
-  width: 100%;
-}
-
-label {
-  display: flex;
-  flex-direction: column;
-}
-
-fieldset > p {
+.contact-form-fieldset--style > p {
   line-height: 1.6;
   font-size: 17px;
-}
-
-/* button {
-  display: flex;
-  align-content: right;
-} */
-
-input,
-select,
-textarea {
-  padding: 8px;
 }
 
 .contact-form-fieldset--style {
@@ -137,13 +107,13 @@ textarea {
     grid-column: 1/ 5;
   }
 
-  input,
-  select,
-  textarea {
+  .contact-form-fieldset--style > * > input,
+  .contact-form-fieldset--style > * > select,
+  .contact-form-fieldset--style > * > textarea {
     width: 60%;
   }
 
-  fieldset {
+  .contact-form-fieldset--style {
     padding: 8px 24px;
   }
 }
@@ -152,13 +122,13 @@ textarea {
   .contact-h1-title--style {
     font-size: 32px;
   }
-  fieldset {
+  .contact-form-fieldset--style {
     padding: 8px 16px;
   }
 
-  input,
-  select,
-  textarea {
+  .contact-form-fieldset--style > * > input,
+  .contact-form-fieldset--style > * > select,
+  .contact-form-fieldset--style > * > textarea {
     width: 100%;
   }
 }

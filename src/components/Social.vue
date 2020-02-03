@@ -70,11 +70,4 @@ export default {
     justify-items: space-around;
   }
 }
-
-/* @media screen and (min-width: 960px) {
-  .hero-social-list {
-    display: flex;
-    flex-direction: row;
-  }
-} */
 </style>
