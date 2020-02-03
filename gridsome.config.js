@@ -86,7 +86,7 @@ module.exports = {
       options: {
         typeName: 'Work',
         baseDir: './work',
-        pathPrefix: '/blog/',
+        pathPrefix: '/work/',
         template: './src/templates/Work.vue',
         ACCESS_TOKEN: process.env.ACCESS_TOKEN,
         accessToken: process.env.ACCESS_TOKEN,

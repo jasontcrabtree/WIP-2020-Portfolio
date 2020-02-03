@@ -1,6 +1,6 @@
 <template>
   <figure class="large-image--layout">
-    <g-image :src="imageSrc"></g-image>
+    <g-image :src="imageSrc" alt="alt"></g-image>
     <figcaption>{{ caption }}</figcaption>
   </figure>
 </template>

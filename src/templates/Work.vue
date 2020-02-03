@@ -7,7 +7,7 @@
       <!-- <img :src="work.image" :alt="work.title" /> -->
       <div class="post-info-container">
         <h1>{{ $page.work.title }}</h1>
-        <p class="post-date">{{ $page.work.date }} | {{ $page.work.timeToRead }} min read</p>
+        <!-- <p class="post-date">{{ $page.work.date }} | {{ $page.work.timeToRead }} min read</p> -->
       </div>
       <article>
         <VueRemarkContent class="post-container" />
@@ -82,7 +82,6 @@ article > * + * {
   p {
     max-width: 40ch;
     width: auto;
-    font-size: 20px;
   }
 
   article {

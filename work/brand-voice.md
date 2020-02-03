@@ -2,11 +2,15 @@
 title: 'Reverse Engineering the Slack Brand Voice (for a good cause!)'
 description: 'Deconstructing the Slack brand voice to excel in a job interview writing exercise. A Case Study about problem solving with limited resources.'
 date: 2019-05-28
-# image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,q_auto,w_830/v1573420658/Portfolio-Assets/Slack-Cover-Image.png'
+image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,q_auto,w_830/v1573420658/Portfolio-Assets/Slack-Cover-Image.png'
 # image: '~/cover-slack.png'
-image: 'assets/static/src/cover-slack.png'
+# image: '/assets/static/src/cover-slack.png'
 # image: '~/cover-slack.png'
 ---
+
+import CaseStudyReadTime from "@/components/CaseStudyReadTime";
+
+<CaseStudyReadTime readTime="9"/>
 
 import ImgLarge from '@/components/ImgLarge'
 

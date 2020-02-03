@@ -1,7 +1,14 @@
 <template>
   <li class="list-item work-list-card">
     <g-link :to="work.path" class="read">
-      <g-image :src="work.image" :alt="work.title" class="cover-image" loading="lazy" width="300px" height="200px"/>
+      <g-image
+        :src="work.image"
+        :alt="work.title"
+        class="cover-image"
+        loading="lazy"
+        width="300px"
+        height="200px"
+      />
       <div class="card-details">
         <h2 class="card-title" v-html="work.title" />
         <span class="card-date">Project: {{ work.date }}</span>
@@ -35,7 +42,7 @@ export default {
 
 <style>
 .card-details {
-  padding: 1rem;
+  padding: 20px;
   margin: auto 0;
 }
 
@@ -85,7 +92,7 @@ export default {
   }
 
   .card-title {
-    font-size: 20px;
+    font-size: var(--size-24);
   }
 }
 </style>

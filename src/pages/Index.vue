@@ -2,7 +2,7 @@
   <Layout>
     <main class="main-parent" id="home">
       <section class="hero-container">
-        <h1 class="hero-header-h1--style">
+        <h1 class="hero-header-h1--style hero-header-h1--layout">
           UX Designer and Functional
           <br />Design Enthusiast
         </h1>
@@ -18,13 +18,13 @@
       </section>
       <hr />
 
-      <g-image
+      <!--       <g-image
         src="~/cover-slack.png"
         alt="slack-cvoer-iamge"
         class="cover-image"
         width="1200"
         blur="40"
-      />
+      />-->
 
       <section class="work-container" id="work">
         <h2 class="work-title">Case Studies and Process</h2>
@@ -196,28 +196,36 @@ query {
 }
 
 .latest-posts-container > .index-blog-list-title--style > li > a > * + * {
-  font-size: 28px;
+  font-size: var(--size-28);
 }
 
 .hero-header-h1--style {
   font-weight: 900;
   color: var(--primary-blue);
+  color: #333;
+  color: #ffffff;
+  background: #fadb5f;
+  background: #fab8d9;
+  background: #3ebd93;
+  background: #0c6b58;
+  background: #421987;
+  background: #01337d;
+  background: #2e2282;
+  width: fit-content;
+  padding: 24px;
 
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: -1.8px;
+
+  margin: 24px 0px !important;
 }
 
-.hero-container > * {
+/* .hero-container > * {
   padding: 16px 0px;
-}
+} */
 
-hr {
-  border: 0px;
-  border-top: solid var(--primary-peach) 4px;
-  border-top: solid 4px var(--horiz-spacer);
-  width: 32%;
-  margin: 40px 0px;
-  grid-column: 1 / -1;
+.hero-header-h1--layout {
+  padding: 24px;
 }
 
 .work-list-card {
@@ -286,7 +294,7 @@ hr {
   }
 
   .hero-header-h1--style {
-    font-size: 64px;
+    font-size: var(--size-64);
   }
 
   .hero-children-container {
@@ -295,7 +303,7 @@ hr {
 
   .work-title,
   .h2-section-title {
-    font-size: 40px;
+    font-size: var(--size-40);
     margin-bottom: 40px;
   }
 
@@ -309,27 +317,26 @@ hr {
   }
 
   main > * + * {
-    margin: 1.6rem 0px;
+    margin: 32px 0px;
   }
 }
 
 /* 1/1.3 Scaled Size Hero Font Size */
 @media screen and (min-width: 1440px) {
   .hero-header-h1--style {
-    font-size: 72px;
+    font-size: var(--size-64);
   }
 }
 
 /* 1x1 Pixel Size Hero Font Size */
 @media screen and (max-width: 1440px) {
   .hero-header-h1--style {
-    font-size: 56px;
-    padding: 0px;
+    font-size: var(--size-56);
   }
 
-  hr {
+  /*   hr {
     margin: 0px 0px;
-  }
+  } */
 }
 
 /* Narrow screens, tablets & phones */
@@ -339,8 +346,7 @@ hr {
   }
 
   .hero-header-h1--style {
-    font-size: 40px;
-    max-width: 88vw;
+    font-size: var(--size-40);
 
     letter-spacing: -0.6px;
   }
@@ -354,31 +360,26 @@ hr {
     flex-direction: column-reverse;
   }
 
-  .latest-posts-container {
+  /*   .latest-posts-container {
     padding-top: 24px;
     margin-top: 72px;
-  }
+  } */
 
   .work-title {
-    font-size: 30px;
+    font-size: var(--size-32);
     margin-bottom: 24px;
-  }
-
-  .card-title {
-    font-size: 28px;
   }
 
   .top-parent-container {
     padding-bottom: 96px;
   }
 
-  .return-home-h2 {
-    font-size: 1rem !important;
-  }
-
   .quote-container {
     margin-top: 24px;
-    /* margin-right: 16px; */
+  }
+
+  .hero-header-h1--style {
+    padding: 24px 8px;
   }
 }
 

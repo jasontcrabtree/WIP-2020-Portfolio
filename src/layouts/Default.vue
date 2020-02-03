@@ -1,7 +1,7 @@
 <template>
   <div class="top-parent-container">
     <g-link class="return-home-link" to="/">
-      <h2 class="return-home-h2">Jason Crabtree</h2>
+      <h2 class="return-home-h2--color return-home-h2--type">Jason Crabtree</h2>
     </g-link>
     <MainNav />
     <slot />
@@ -38,9 +38,13 @@ query {
   opacity: 0.1;
 }
 
-.return-home-h2 {
-  text-transform: uppercase;
+.return-home-h2--color {
   color: var(--link-low-emphasis-bluegrey);
+}
+
+.return-home-h2--type {
+  text-transform: uppercase;
+  font-size: var(--size-24);
 }
 
 #app > a:first-child {
@@ -48,10 +52,6 @@ query {
 }
 
 @media screen and (min-width: 960px) {
-  .return-home-h2 {
-    font-size: 40px;
-  }
-
   .return-home-link {
     grid-column: 1 / 8;
     grid-row-start: 1;
@@ -106,10 +106,6 @@ query {
 
     margin-top: 0px;
   }
-
-  h1 {
-    font-size: 40px;
-  }
 }
 @media screen and (max-width: 459px) {
   html {
@@ -124,10 +120,6 @@ query {
     margin-top: 0px;
     border-top: 8px solid var(--primary-blue);
   }
-
-  h1 {
-    font-size: 40px;
-  }
 }
 
 @media screen and (max-width: 360px) {
@@ -138,16 +130,12 @@ query {
 }
 
 @media (prefers-color-scheme: dark) {
-  .return-home-h2 {
+  .return-home-h2--color {
     color: var(--primary-link-dark);
   }
 }
 
 .top-parent-container {
   margin-bottom: 0px;
-}
-
-h1 {
-  margin-top: 0.6em !important;
 }
 </style>

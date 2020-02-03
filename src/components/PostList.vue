@@ -4,7 +4,7 @@
       <p class="card-date" v-html="post.date" />
       <h3 class="card-title" v-html="post.title" />
       <p class="description" v-html="post.description" />
-      <!-- <b>{{ post.timeToRead }} min read</b> &nbsp; -->
+      <b>{{ post.timeToRead }} min read</b> &nbsp;
       <span class="post-link">Read blog post</span>
     </g-link>
   </li>
@@ -38,7 +38,6 @@ query {
 
 <style scoped>
 .blog-list-item {
-  /* padding: 8px 0px; */
   margin: 40px 0px;
   padding: 32px 24px;
   box-shadow: var(--shadow-small);
@@ -67,20 +66,13 @@ query {
 }
 
 .card-title {
-  font-size: 1.6rem;
+  font-size: var(--size-28);
 }
 
 .post-link {
   color: var(--primary-link);
   text-decoration: underline;
   font-weight: bold;
-}
-
-.card-date {
-  color: var(--subheading-black);
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
 }
 
 @media screen and (max-width: 360px) {

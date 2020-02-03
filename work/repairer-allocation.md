@@ -6,6 +6,10 @@ image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573410855/Portf
 # image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/Workshop-Hero-Image.png'
 ---
 
+import CaseStudyReadTime from "@/components/CaseStudyReadTime";
+
+<CaseStudyReadTime readTime="13"/>
+
 ![We spent 2 days assembled in a collaborative design workshop — complete with post-it's and full wall whiteboards.](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/Workshop-Hero-Image.png)
 
 ## Introduction

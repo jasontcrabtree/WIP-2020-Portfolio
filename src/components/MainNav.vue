@@ -4,7 +4,7 @@
     <nav class="nav-list">
       <g-link to="/#home" class>Home</g-link>
       <g-link to="/contact/">Contact</g-link>
-      <g-link to="/">Résumé</g-link>
+      <g-link to="/jason-crabtree-design-cv-2020.pdf">Résumé</g-link>
       <!-- <g-link to="/about/">About</g-link> -->
       <g-link class="nav-hidden" to="/#work">Work</g-link>
       <g-link to="/blog/">Blog</g-link>
@@ -64,11 +64,11 @@
 
   .nav-list {
     border-radius: 8px;
-    padding: 0px 24px;
-  }
 
-  .nav-list {
-    font-size: 20px;
+    /* TODO TESTING NAV PADDING */
+    padding: 0px 0px;
+
+    padding: 0px 8px;
   }
 
   .nav-list {
@@ -92,6 +92,9 @@
   .primary-nav {
     grid-row-start: 1;
     grid-column: 12 / 13;
+
+    /* TODO: TESTING COLUMN POSITION */
+    grid-column: 13 / 14;
   }
 }
 

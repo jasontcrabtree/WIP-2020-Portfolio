@@ -54,14 +54,24 @@
 
   --white-100: #ffffff;
 
-  font-size: 19px;
+  font-size: 20px;
+  line-height: 1.5;
+
+  --size-16: 16px;
+  --size-20: 20px;
+  --size-24: 24px;
+  --size-28: 28px;
+  --size-32: 32px;
+  --size-40: 40px;
+  --size-48: 48px;
+  --size-56: 56px;
+  --size-64: 64px;
+  --size-72: 72px;
 }
 
 body {
-  /* 'Libre Franklin',  */
   font-family: 'DM Sans', -apple-system, system-ui, BlinkMacSystemFont, Roboto,
     'Helvetica Neue', sans-serif;
-  font-size: 19px;
 }
 
 h1,
@@ -70,10 +80,13 @@ h3,
 h4,
 h5,
 h6 {
-  /* 'Libre Franklin',  */
   font-family: 'Libre Franklin', 'DM Sans', -apple-system, system-ui,
     BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
   line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--size-40);
 }
 
 label {
@@ -111,10 +124,6 @@ a:any-link {
   letter-spacing: -0.4px;
 }
 
-p {
-  line-height: 1.6;
-}
-
 @media screen and (min-width: 960px) {
   .quote-item {
     width: 40vw;
@@ -138,15 +147,15 @@ p {
 @media screen and (max-width: 960px) {
   .quote-item {
     padding: 32px 16px;
-    /* margin: 32px 16px 32px 0px; */
     margin: 32px 0px;
   }
 }
 
 .block-quote-callout {
   font-family: Georgia, Baskerville, sans-serif;
-  font-size: 64px;
-  line-height: 24px;
+  font-size: var(--size-64);
+  /* Rem value to shrink line-height to arrange layout */
+  line-height: 1.2rem;
 }
 
 .block-quote-close {
@@ -177,8 +186,8 @@ p {
 }
 
 .quote-name--style {
-  font-size: 1.4rem;
-  font-weight: 500;
+  font-size: var(--size-24);
+  font-weight: 700;
 }
 
 .quote-item {
@@ -242,6 +251,13 @@ p {
   transform: translateX(-50%);
 }
 
+.card-date {
+  color: var(--subheading-black);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: var(--size-16);
+}
+
 button,
 .base-button--style {
   background-color: var(--primary-blue);
@@ -251,6 +267,15 @@ button,
   cursor: pointer;
   box-shadow: var(--shadow-small);
   font-weight: bold;
+}
+
+hr {
+  border: 0px;
+  border-top: solid var(--primary-peach) 4px;
+  border-top: solid 4px var(--horiz-spacer);
+  width: 32%;
+  margin: 48px 0px;
+  grid-column: 1 / -1;
 }
 
 @media (prefers-color-scheme: light) {

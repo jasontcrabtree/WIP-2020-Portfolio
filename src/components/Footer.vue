@@ -1,6 +1,6 @@
 <template>
   <footer class="footer-parent footer-parent--layout footer-parent--spacing">
-    <section class="footer-text--layout">
+    <section class="footer-text--layout footer-text-style">
       <h3>With thanks</h3>
       <p>
         Made with care in
@@ -13,6 +13,12 @@
         <a href="https://www.netlify.com/">Netlify</a>,
         <a href="https://github.com/jasontcrabtree">Github</a>, and
         <a href="https://tinyletter.com/">Tinyletter.</a> A big thanks to those generous services.
+      </p>
+      <p>
+        <small>
+          &copy; Copyright 2018-2020. Jason Crabtee.
+          <br />All rights reserved.
+        </small>
       </p>
     </section>
     <section>
@@ -61,29 +67,26 @@ export default {
   .footer-parent--layout {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .footer-parent--layout > * {
-    padding-right: 112px;
-    padding-right: 7.2vw;
-    padding-left: 0px;
+    width: 10%;
   }
 
-  /*
-  .footer-parent--layout > * {
-    width: fit-content;
-    justify-content: space-between;
-  } */
+  .footer-parent--layout > *:first-child {
+    padding-right: 80px;
+    width: 40%;
+  }
 
-  /*   .footer-parent--layout > section {
-    margin: 0px 64px;
-  } */
+  .footer-parent--layout > *:last-child {
+    padding-left: 80px;
+    width: 40%;
+  }
 
-  .footer-parent--layout > section > p {
+  .footer-text-style > p {
     padding-bottom: 16px;
     line-height: 1.5;
-    font-size: 19px;
   }
 
   .footer-parent--layout > section > .nav-list {
@@ -101,7 +104,7 @@ export default {
   }
 
   .footer-parent--layout > section > h3 {
-    padding-bottom: 16px;
+    padding-bottom: 24px;
     text-decoration: underline;
   }
 
@@ -121,17 +124,6 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .footer-parent--layout > :first-child,
-  .footer-parent--layout > :last-child {
-    width: 320px;
-  }
-
-  .footer-parent--layout > section {
-    /* margin-right: 16px; */
-    margin: 8px 40px;
   }
 
   .footer-parent--layout {

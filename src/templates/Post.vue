@@ -12,15 +12,10 @@
 
       <div class="post-info-container">
         <h1 class="blog-post-title--style">{{ $page.post.title }}</h1>
-
-        <p class="post-date">{{ $page.post.date }} | {{ $page.post.timeToRead }} min read</p>
       </div>
       <VueRemarkContent class="post-container" />
-      <!-- <div class="post-content"> -->
-      <!-- <p v-html="$page.post.content" class="post-container"></p> -->
-      <!-- </div> -->
       <br />
-      <g-link to="/">{{ $page.post.title }} Test</g-link>
+      <!-- <g-link to="/">{{ $page.post.title }} Test</g-link> -->
     </article>
   </layout>
 </template>
@@ -37,9 +32,6 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
-// import PostList from "@/components/PostList";
-// timeToRead
-
 export default {
   components: {
     // PostList
@@ -57,10 +49,6 @@ export default {
 p {
   max-width: 56ch;
   width: auto;
-}
-
-p {
-  font-size: 19px;
 }
 
 article {
@@ -85,7 +73,6 @@ article {
   p {
     max-width: 40ch;
     width: auto;
-    font-size: 20px;
   }
 
   article {
@@ -93,13 +80,13 @@ article {
   }
 
   .blog-post-title--style {
-    font-size: 40px;
+    font-size: var(--size-40);
   }
 }
 
 @media screen and (min-width: 920px) {
   .blog-post-title--style {
-    font-size: 48px;
+    font-size: var(--size-48);
   }
 
   img {

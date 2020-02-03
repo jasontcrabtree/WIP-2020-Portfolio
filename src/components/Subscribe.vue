@@ -58,7 +58,7 @@ fieldset {
 }
 
 .subscribe-credit--style {
-  font-size: 16px;
+  font-size: var(--size-16);
 }
 
 @media screen and (max-width: 460px) {

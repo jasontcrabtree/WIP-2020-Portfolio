@@ -91,8 +91,7 @@ export default {
 }
 
 .contact-form-fieldset--style > p {
-  line-height: 1.6;
-  font-size: 17px;
+  line-height: 1.2;
 }
 
 .contact-form-fieldset--style {
@@ -120,7 +119,7 @@ export default {
 
 @media screen and (max-width: 960px) {
   .contact-h1-title--style {
-    font-size: 32px;
+    font-size: var(--size-32);
   }
   .contact-form-fieldset--style {
     padding: 8px 16px;

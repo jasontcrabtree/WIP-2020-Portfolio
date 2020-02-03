@@ -1,6 +1,6 @@
 <template>
   <figure class="img-container-right">
-    <g-image :src="imageSrc"></g-image>
+    <g-image :src="imageSrc" class="alt"></g-image>
     <figcaption>{{ caption }}</figcaption>
   </figure>
 </template>
@@ -9,7 +9,8 @@
 export default {
   props: {
     imageSrc: { type: String },
-    caption: { type: String }
+    caption: { type: String },
+    alt: { type: String }
   }
 };
 </script>

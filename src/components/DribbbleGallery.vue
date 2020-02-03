@@ -94,10 +94,10 @@ export default {
 .title {
   position: absolute;
 
-  padding: 1rem;
+  padding: 16px;
   width: 20ch;
 
-  font-size: 1rem;
+  font-size: var(--size-20);
   font-weight: 700;
   letter-spacing: -0.2px;
 

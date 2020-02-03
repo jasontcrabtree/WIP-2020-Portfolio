@@ -1,11 +1,11 @@
 <template>
   <section class="img-container-split">
     <figure class="split-figure">
-      <g-image :src="imageLeftSrc"></g-image>
+      <g-image :src="imageLeftSrc" class="altLeft"></g-image>
       <figcaption>{{ captionLeft }}</figcaption>
     </figure>
     <figure>
-      <g-image :src="imageRightSrc"></g-image>
+      <g-image :src="imageRightSrc" class="altRight"></g-image>
       <figcaption>{{ captionRight }}</figcaption>
     </figure>
   </section>
@@ -18,10 +18,11 @@ export default {
     imageRightSrc: { type: String },
     captionLeft: { type: String },
     captionRight: { type: String },
-    alt: { type: String },
+    altLeft: { type: String },
+    altRight: { type: String },
     source: { type: String },
-    date: { type: String },
-  },
+    date: { type: String }
+  }
 };
 </script>
 
@@ -33,7 +34,7 @@ export default {
 
     justify-content: flex-start;
 
-    padding: 1rem;
+    padding: 20px;
   }
   .split-figure:first-child {
     margin-left: -9.6%;
@@ -44,7 +45,7 @@ export default {
   }
 
   .img-container-split > *:nth-child(1) {
-    margin-right: 1rem;
+    margin-right: 20px;
   }
 }
 </style>
