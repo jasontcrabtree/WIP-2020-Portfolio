@@ -4,7 +4,7 @@
     <nav class="nav-list">
       <g-link to="/#home" class>Home</g-link>
       <g-link to="/contact/">Contact</g-link>
-      <g-link to="/resume.pdf">Résumé</g-link>
+      <a href="/jason-crabtree-resume.pdf">Résumé</a>
       <!-- <g-link to="/about/">About</g-link> -->
       <g-link class="nav-hidden" to="/#work">Work</g-link>
       <g-link to="/blog/">Blog</g-link>
