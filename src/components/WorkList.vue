@@ -11,7 +11,7 @@
       />
       <div class="card-details">
         <h2 class="card-title" v-html="work.title" />
-        <span class="card-date">Project: {{ work.date }}</span>
+        <span class="date--style">Project: {{ work.date }}</span>
         <!-- <p class="date" v-html="work.date" /> -->
         <p class="description" v-html="work.description" />
         <!-- <b>{{ work.timeToRead }} min read</b>
@@ -75,7 +75,7 @@ export default {
   font-weight: bold;
 }
 
-.card-date {
+.date--style {
   color: var(--subheading-black);
   text-transform: uppercase;
   font-weight: 500;

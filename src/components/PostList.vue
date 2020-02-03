@@ -1,7 +1,7 @@
 <template>
   <li class="blog-list-item post-list-card card-details">
     <g-link :to="post.path" class="read">
-      <p class="card-date" v-html="post.date" />
+      <p class="date--style" v-html="post.date" />
       <h3 class="card-title" v-html="post.title" />
       <p class="description" v-html="post.description" />
       <b>{{ post.timeToRead }} min read</b> &nbsp;

@@ -1,6 +1,6 @@
 <template>
   <aside>
-    <p>{{ $page.work.date }} | {{ readTime }} min read</p>
+    <p class="date-style">{{ $page.work.date }} | {{ readTime }} min read</p>
   </aside>
 </template>
 
@@ -25,6 +25,4 @@ export default {
 </script>
 
 <style>
-@media screen and (min-width: 960px) {
-}
 </style>

@@ -251,7 +251,7 @@ a:any-link {
   transform: translateX(-50%);
 }
 
-.card-date {
+.date--style {
   color: var(--subheading-black);
   text-transform: uppercase;
   font-weight: 500;
