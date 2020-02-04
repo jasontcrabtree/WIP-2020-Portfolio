@@ -62,7 +62,11 @@ export default {
   grid-column: 1 / -1;
 }
 
-@media screen and (min-width: 1060px) {
+.footer-parent--layout {
+  border-top: 2px solid var(--horiz-spacer);
+}
+
+@media screen and (min-width: 1061px) {
   /* FLEXBOX WRAP ALIGNMENT */
   .footer-parent--layout {
     display: flex;
@@ -118,19 +122,6 @@ export default {
   }
 }
 
-/* 1440px > 1060px screens */
-@media screen and (max-width: 1440px) and (min-width: 1060px) {
-  .footer-parent--layout {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .footer-parent--layout {
-    margin-top: 72px;
-  }
-}
-
 /* 1060px and smaller screen */
 @media screen and (max-width: 1060px) {
   .footer-parent--layout {
@@ -146,29 +137,25 @@ export default {
     margin: 24px 0px;
   }
 
-  .footer-parent--layout > section > h3 {
-    padding-bottom: -8px;
-  }
-
   .nav-list > * {
     line-height: 2;
-  }
-
-  .social-parent > * > *:nth-child(:first-child) {
-    margin-left: 0px;
   }
 
   .footer-parent > * > .nav-list {
     display: flex;
     flex-direction: row;
-
-    margin: 8px 24px 8px 0px;
-    justify-content: space-between;
     flex-wrap: wrap;
   }
+  .footer-parent > * > .nav-list > * {
+    margin-right: 24px;
+  }
 
-  .footer-parent--layout {
-    border-top: 4px solid var(--primary-peach);
+  .footer-parent > * > .hero-social-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-parent > * > .social-parent > * {
+    margin: 24px 24px 0px 0px;
   }
 }
 

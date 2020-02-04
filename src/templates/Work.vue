@@ -3,7 +3,6 @@
     <main>
       <br />
       <g-link to="/" class="link">&larr; Go Back</g-link>
-
       <!-- <img :src="work.image" :alt="work.title" /> -->
       <div class="post-info-container">
         <h1>{{ $page.work.title }}</h1>
@@ -20,7 +19,7 @@
 <page-query>
 query Work ($path: String!) {
     work: work (path: $path) {
-      image
+        image
         title
         content
         date (format: "D MMMM YYYY")

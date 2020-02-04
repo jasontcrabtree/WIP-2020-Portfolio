@@ -1,14 +1,7 @@
 <template>
   <li class="list-item work-list-card">
     <g-link :to="work.path" class="read">
-      <g-image
-        :src="work.image"
-        :alt="work.title"
-        class="cover-image"
-        loading="lazy"
-        width="300px"
-        height="200px"
-      />
+      <g-image :src="work.image" :alt="work.title" class="cover-image" />
       <div class="card-details">
         <h2 class="card-title" v-html="work.title" />
         <span class="date--style">Project: {{ work.date }}</span>
@@ -34,7 +27,9 @@ query Work ($path: String!) {
 </page-query>
 
 <script>
-// timeToRead
+// (width: 463, height: 321, quality: 90)
+// "~/assets/images/dribbble-shots/app-platform-website.png"
+
 export default {
   props: ["work"]
 };
@@ -50,6 +45,10 @@ export default {
   /* Internal shadow */
   box-shadow: var(--shadow-extra-small);
   border-radius: 8px 8px 0 0;
+}
+
+.cover-image {
+  width: auto;
 }
 
 .card-details > * {

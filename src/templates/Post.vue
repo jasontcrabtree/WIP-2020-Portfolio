@@ -93,4 +93,10 @@ article {
     width: 40vw;
   }
 }
+
+img[alt*="gist"] {
+  width: 1200px !important;
+  margin-left: 50% !important;
+  transform: translateX(-50%) !important;
+}
 </style>

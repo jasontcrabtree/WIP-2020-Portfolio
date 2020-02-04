@@ -3,9 +3,6 @@ title: 'Reverse Engineering the Slack Brand Voice (for a good cause!)'
 description: 'Deconstructing the Slack brand voice to excel in a job interview writing exercise. A Case Study about problem solving with limited resources.'
 date: 2019-05-28
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,q_auto,w_830/v1573420658/Portfolio-Assets/Slack-Cover-Image.png'
-# image: '~/cover-slack.png'
-# image: '/assets/static/src/cover-slack.png'
-# image: '~/cover-slack.png'
 ---
 
 import CaseStudyReadTime from "@/components/CaseStudyReadTime";
@@ -14,9 +11,7 @@ import CaseStudyReadTime from "@/components/CaseStudyReadTime";
 
 import ImgLarge from '@/components/ImgLarge'
 
-<!-- ![*Not a real word cloud](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559166256/Slack-Case-Study/A-few-common-words.png) -->
-
-<ImgLarge imageSrc="https://res.cloudinary.com/jasontcrabtree/image/upload/v1559166256/Slack-Case-Study/A-few-common-words.png" caption="*Not a real word cloud" alt="A word cloud of some of Slack's top words; troubles, investigate, writing, roadmap, icons, feedback, patience, email, code, emoji, great"/>
+![A word cloud of some of Slack's top words; troubles, investigate, writing, roadmap, icons, feedback, patience, email, code, emoji, great](~/assets/images/brand-voice/slack-wordcloud.png)
 
 ## Table of Contents
 
@@ -28,13 +23,11 @@ import ImgLarge from '@/components/ImgLarge'
 
 ## Introduction
 
-This Case Study describes how I solved a problem I was personally experiencing, and the steps along that path. In doing so, I’ve focused on my problem-solving process, rather than presenting a final, polished interface. That focus reflects both the context and how I think about design. I firmly believe that a lot of problems can be solved via spreadsheets and text documents — and that not everything needs pixel-perfect presentations (although some things do need that!).
-
-If you’d like to hear more about this or anything else say hello on [twitter](https://twitter.com/jasontcrabtree) or [via email](mailto:jasontcrabtree@gmail.com). And if you’re hiring Product Designers, I’m actively looking for opportunities in Dublin, London or remote!
+This Case Study describes how I approach problem solving. In doing so, I’ve focused on my problem-solving process, rather than presenting a final, polished interface. That focus reflects both the context and how I think about design. I firmly believe that a lot of problems can be solved via spreadsheets and text documents — and that not everything needs visual artifacts.
 
 ### Setting the Scene
 
-A few months ago, I applied for a job at Slack. At the time I was deciding between two worlds — customer operations, the field I’ve spent most of my career working in, and design, my future career. As you might be able to guess, I didn't get the job. However, now that I’ve committed full-time to looking for design jobs, this seems like a great time to talk about one of the ways I prepared for the Slack interview.
+In early 2019, I applied for a job at Slack. At the time I was deciding between two worlds — customer operations, the field I’ve spent most of my career working in, and design, my future career. As you might be able to guess, I didn't get the job. However, now that I’ve committed full-time to looking for design jobs, this seems like a great time to talk about one of the ways I prepared for the Slack interview.
 
 **Spoilers:** I designed a small but practical solution to a problem I had during the interview with Slack. That should have been a hint to my design ambitions!
 
@@ -63,7 +56,7 @@ In a few sentences, I downloaded the contents of 3,200 [@SlackHQ](https://twitte
 - **Analysis:** Using Excel to analyse the results
 - **Presentation:** Displaying the top words in a format useful for the initial goal
 
-![Piles and piles of open books, with thousands of words facing upwards](https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+![Piles and piles of open books, with thousands of words facing upwards. Unsplash photo by Patrick Tomasso](~/assets/images/brand-voice/p-tomasso-unsplash-books.jpg)
 
 ## Problem and Opportunity
 
@@ -71,7 +64,7 @@ In a few sentences, I downloaded the contents of 3,200 [@SlackHQ](https://twitte
 
 **How Might I** effectively learn Slack’s tone of voice **so that I can** successfully finish the writing assignment part of their interview process.
 
-![Defining the HMW Statement and the Guiding Goal](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160064/Slack-Case-Study/Slack-Brand-Voice-How-Might-We.png)
+![Defining the HMW Statement and the Guiding Goal](~/assets/images/brand-voice/hmw-brand-voice.png)
 
 ### The goal
 
@@ -116,19 +109,19 @@ The outcome was a set of tools ready to be creatively glued together to achieve 
 
 ### Designing the Solution
 
-Because Slack has such a strong presence on [Twitter (233,000+ tweets)](https://twitter.com/slackhq), I immediately knew I wanted to use tweets as my data source. At that point, it was about figuring out the logistics of downloading those tweets. From my research, I also knew that the Slack team used a slightly different brand voice for tweets compared to blog posts or press releases. Based on the writing assignment I was given — the Twitter voice fit my particular use-case.
+Because Slack has such a strong presence on [Twitter (233,000+ tweets)](https://twitter.com/slackhq), I knew I wanted to use tweets as my data source. At that point, it was about figuring out the logistics of downloading those tweets. From my research, I also knew that the Slack team used a slightly different brand voice for tweets compared to blog posts or press releases. Based on the writing assignment I was given — the Twitter voice fit my particular use-case.
 
 I experimented with a few resources and found that a lot of existing tools either **A)** Were outside of my budget, **B)** Didn’t export a CSV/Excel readable data file, or **C)** I couldn’t get to work at all.
 
-Once I found Tweepy ( [http://www.tweepy.org/](http://www.tweepy.org/) ), the actual design execution became simple. Tweepy is a python script that you can run from your terminal after signing up for a Twitter Developer API key. Using that script, you choose which profile to download tweets from, then execute the script like so. Here’s me downloading tweets from my account!
+Once I found Tweepy [http://www.tweepy.org/](http://www.tweepy.org/), the actual design execution became simple. Tweepy is a python script that you can run from your terminal after signing up for a Twitter Developer API key. Using that script, you choose which profile to download tweets from, then execute the script like so. Here’s me downloading tweets from my account!
 
 I’ve never written or used Python before — so figuring this out was a real highlight, showing how much you can achieve with the right google searches.
 
-![A terminal window showing 3053 tweets downloaded](https://res.cloudinary.com/jasontcrabtree/image/upload/v1559160579/Slack-Case-Study/downloading-tweets-using-terminal.png)
+![A terminal window showing 3053 tweets downloaded](~/assets/images/brand-voice/downloading-tweets.png)
 
 The [Codepen Word Counter](https://codepen.io/lalwanivikas/) I used required some minor tweaks. These tweaks included altering the ‘stopWords’ section and increasing the number of top words shown from 4 to 500\. Those changes were all trial and error — fair warning!
 
-![The top words used by the @slack Twitter account](https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,w_920/v1559160630/Slack-Case-Study/top-words-used-by-slack.png)
+![The top words used by the @slack Twitter account](~/assets/images/brand-voice/18-top-words.png)
 
 ### Breaking Down the Process
 
@@ -145,7 +138,7 @@ This process breakdown shows that this was very much a behind-the-scenes, hackin
 
 \*The CodePen disabled copying of the Top Words, so I used Chrome DevTools to copy the code element into a Code Text Editor. Then deleted the HTML tags to copy the final results into Excel. If you need help with this contact me on Twitter!
 
-![Breaking down the process. Copying and pasting text from one file to the next.](https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,w_930/v1559161175/Slack-Case-Study/Tweet-Download-Process.png)
+![Breaking down the process. Copying and pasting text from one file to the next.](~/assets/images/brand-voice/download-process.png)
 
 ### Summarising the Results
 
@@ -157,7 +150,7 @@ While the final result (a list of words based on word usage count) is relatively
 
 I did later find out that the writing assignment was mostly a hygiene test, and as such, I probably spent FAR too much time on it. But that’s a story for another time.
 
-![A few words repeatedly Slack used between February and March 2019 (This isn’t all of them either!)](https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,w_930/v1559160630/Slack-Case-Study/columns-of-different-words-used.png)
+![Four columns of the words used thousands and hundreds of times each between February 2019 and March 2019](~/assets/images/brand-voice/most-frequent-words.png)
 
 ## Final Outcomes
 
@@ -178,7 +171,7 @@ There is a lot of further development possible with this base idea. Here are a f
 - Add support for counting emojis! 🎉😊
 - Explore additional data sources for adding text data. It doesn't have to be constrained to Twitter!
 
-![A simple mock-up of a web-app containing the same text analysis functionality](https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,w_930/v1559158952/Slack-Case-Study/Brand-Voice-Mock-Up.jpg)
+![A simple mock-up of a web-app containing the same text analysis functionality](~/assets/images/brand-voice/brand-voice-sketch.jpg)
 
 ### Ideas for a comprehensive tone of voice tool
 
@@ -198,4 +191,4 @@ One particular stand out for me is how I was able to use Python and JavaScript t
 
 Read my [Character Counter Case Study,](https://medium.com/@jasontcrabtree/building-character-counter-2670b30a7ef0) with details on launching on Product Hunt, iterating based on feedback and building a tool to use daily.
 
-Or check out my [Blog](https://blog.jasontcrabtree.com) for posts on Design, Strategy, Code and anything else I've found been thinking about.
+Or check out my [Blog](https://jasontcrabtree.com/blog) for posts on Design, Strategy, Code and anything else I've found been thinking about.

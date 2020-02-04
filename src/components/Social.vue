@@ -62,12 +62,12 @@ export default {
   .hero-social-list {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .hero-social-list > * {
     margin: 16px;
     margin-bottom: 0px;
-    justify-items: space-around;
   }
 }
 </style>

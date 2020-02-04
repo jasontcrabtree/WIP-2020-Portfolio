@@ -1,13 +1,8 @@
 ---
 title: 'Hello World'
 date: 2019-03-27
-# layout: post
-# author: Jason
-# Date: 27 Mar 2019
-# image: /assets/JC-Blog-Image.png
 description: 'Welcome to the blog-zone 👉 come on in...'
 ---
-<!-- <ImgRight imageSrc="https://picsum.photos/536/354" caption="Lovely seaside view" /> -->
 
 import BlogReadTime from "@/components/BlogReadTime";
 

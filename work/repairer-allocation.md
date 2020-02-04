@@ -3,24 +3,24 @@ title: 'Design Discovery in a Traditional Insurance Company'
 description: 'A case study about Service Design, Design Discovery and Facilitation at a large, traditional insurance company'
 date: 2018-10-01
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573410855/Portfolio-Assets/IagDiscovery-Cover-Image-2.png'
-# image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/Workshop-Hero-Image.png'
 ---
 
 import CaseStudyReadTime from "@/components/CaseStudyReadTime";
 
 <CaseStudyReadTime readTime="13"/>
 
-![We spent 2 days assembled in a collaborative design workshop — complete with post-it's and full wall whiteboards.](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/Workshop-Hero-Image.png)
+![Workshop in action photo, heavily blurred for privacy reasons. The group sitting around our table working with post-its on the wall.](~/assets/images/repairer-allocation/workshop-hero-image.png)
+_We spent 2 days assembled in a collaborative design workshop — complete with post-it's and full wall whiteboards._
 
 ## Introduction
 
-Deciphering Hidden Complexity in how customers can choose Insurance Car Repairers
+Design Discovery and deciphering hidden complexity in how customers can choose and select their insurance car repairers.
 
-## Work
+### Project
 
 UX Design
 
-### Date
+### Dates
 
 Sep 2018 - Dec 2018
 
@@ -28,7 +28,9 @@ Sep 2018 - Dec 2018
 
 Insurance Australia Group (IAG)
 
-## Summary: Design Discovery for an Online Insurance Car Repairer Selection Experience™️
+---
+
+## Design Discovery for an Online Insurance Car Repairer Selection Experience™️
 
 This case study details my experiences, as part of a team, completing Design Discovery for a proposed new experience for [IAG NZ](https://www.iag.co.nz/) car insurance customers. The focus of our Discovery was exploring a new way for [State (400,000)](https://www.state.co.nz/about) and [AMI (500,000)](https://www.ami.co.nz/about) customers to choose car insurance repairers during car damage claims.
 
@@ -41,11 +43,11 @@ Guided by a 2-day, 8-person design workshop, we created a Service Design Bluepri
 - Project Delivery Manager: Will Stammers-Smith
 - Data and Product Manager: Rahul Singh
 
-## 0\
+---
 
-The Project Brief
+## 0. The Project Brief
 
-Establishing the project brief and the team approach, goals and timelines.
+_Establishing the project brief and the team approach, goals and timelines._
 
 ### The Design Problem
 
@@ -77,7 +79,7 @@ The project team prioritised subject matter experts from across the organisation
 
 The project team aimed to complete the Define and Discover steps of the Design process within a 3-month period. This meant gathering, analysing and synthesising the data to achieve a deep understanding of the problem.
 
-### Key milestones we achieved during the project
+### Key milestones achieved during project
 
 1. Defined the core problem, and refined and finalised the project scope
 2. Sent a Customer Research to survey 900 IAG customers, receiving a total of 350 responses and a mix of qualitative and quantitative data
@@ -91,11 +93,11 @@ The project team aimed to complete the Define and Discover steps of the Design p
 10. Created a prioritised list of solutions and recommendations; then themed and ranked the ideas by potential impact, difficulty, cost and values
 11. Presented the ranked ideas and recommendations to the Senior Leadership Team to obtain endorsement and support for the next steps of execution
 
-## 1\
+---
 
-Discover
+## 1. Discover
 
-Research, data-gathering, talking with people and gaining insight into the design problem.
+_Research, data-gathering, talking with people and gaining insight into the design problem._
 
 The project began with data-gathering. After the fact, it's easy to see how everything connects together and present the results using a clear narrative timeline. In reality however, life is never so tidy. A lot of the early focus on the project was figuring out what we knew, what we knew what we didn't know, and what we didn't know we didn't know.
 
@@ -106,31 +108,28 @@ After gathering all of the relevant, impactful or important data we could, we be
 Collaborating with Stakeholders
 As a large, complex organisation — any changes at IAG have far reaching consequences. Car repair claims are the most common claim type AMI and State, the two main consumer brands IAG offers. Any change to the customer experiences of these claims requires careful consideration. That requires consulting and working alongside all impacted stakeholders.
 
-![The four key stakeholder groups of IAG Claims staff, Customers, Vehicle Repairers and IAG Vehicle Assessors](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081457/IAG-Service-Design/01-Stakeholder-map.png)
-
+![The four key stakeholder groups of IAG Claims staff, Customers, Vehicle Repairers and IAG Vehicle Assessors](~/assets/images/repairer-allocation/01-stakeholder-map.png)
 _We identified the key stakeholder groups involved in the process._
 
 ### Gathering Research and Data
 
 Before our design workshop, the project team gathered customer and staff research to inform decisions. This helped us understand the different pain points and important considerations of customers and staff. Our main research tool was a survey completed by ~350 customers. This informed the service design blueprint, with plans to run further face-to-face customer interviews as the project progresses into solution design.
 
-[Our Customer Research sources relied on existing internal research, a survey completed by 350 customers, and interviews with internal Subject Matter Experts](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081457/IAG-Service-Design/03-Customer-Research.png)
+![Our Customer Research sources relied on existing internal research, a survey completed by 350 customers, and interviews with internal Subject Matter Experts](~/assets/images/repairer-allocation/03-customer-research.png)
+_We used existing research as well as running a project specific customer survey._
 
-_We utilized existing research and a project specific customer survey._
-
-### Identifying System and Technology Considerations</span>
+### Identifying System and Technology Considerations
 
 As well as identifying the impacted stakeholder groups, the project team examined the different technical systems currently in use, both internally and externally. This aspect of the project was led by the Digital team, and helped identify the technical architecture systems that enable each step of the process to connect.
 
-![Between the IAG claims team, external repairers and IAG assessors, there is six main systems involved in the overall process](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081457/IAG-Service-Design/02-Systems-Map.png)
-
+![Between the IAG claims team, external repairers and IAG assessors, there is six main systems involved in the overall process](~/assets/images/repairer-allocation/02-systems-map.png)
 _Each system and system-connection had to be documented, understood, and considered._
 
-## 2\
+---
 
-Define
+## 2. Define
 
-Synthesising, processing and attempting to understand all of the information at hand to identify the areas to focus on.
+_Synthesising, processing and attempting to understand all of the information at hand to identify the areas to focus on._
 
 The Discover step involved a wide exploration, and was followed by a dive deep to begin to understand the information we had gathered. Based on the stakeholder map, we knew there was a large number of different groups involved in this process — groups who had previously had minimal interaction with each other, which needed to be considered.
 
@@ -140,34 +139,28 @@ During the Define phase, our primary goal was to understand the information we h
 
 An essential step before the design workshop was identifying the happy path most commonly experienced by customers. This influenced the service design blueprint. An immediate pain-point we identified was that customers who lodged their claims online experienced extra steps above and beyond phone-call claim lodgements.
 
-![The overall process has ten main steps for online customers, whereas over the phone customers have 8 main steps](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081457/IAG-Service-Design/04-Service-Design-Blueprint.png)
-
+![The overall process has ten main steps for online customers, whereas over the phone customers have 8 main steps](~/assets/images/repairer-allocation/04-service-design-blueprint.png)
 _The most common happy path for customers. Identified before our workshop to inform the eventual service design blueprint map._
 
-### An Amazing Presentation and Display Tool
+### Service Blueprint Presentation Tool
 
 Our completed service design blueprint mapped the four key stakeholder groups, the points each group interconnected and the possible opportunities where pain points and divergences from the happy path could occur. This map was a great tool for presenting our work to senior stakeholders, helping receive buy-in and organisational support.
 
-![The service blueprint is split into four swim lanes; Customers, Claims Staff, Vehicle Assessors and Vehicle Repairers](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081457/IAG-Service-Design/05-Service-Blueprint.png)
-
-_We utilised existing research and a project specific customer survey._
+![The service blueprint is split into four swim lanes; Customers, Claims Staff, Vehicle Assessors and Vehicle Repairers](~/assets/images/repairer-allocation/05-service-blueprint.png)
+_Using the information discovered we started our service blueprint. This mapped the four key stakeholder group._
 
 ### Identifying Customer Partner and Employee Pain and Delight Points
 
-From the service design blueprint, informed via customer research we identified key pain and delight points, including the themes that had the most significant impact on our customers, IAG’s employees and IAG’s partners. Identifying these points helped us craft design principles, which in turn let us balance competing priorities, constraints and needs while proposing solutions to test and prototype.
+From the service design blueprint informed via customer research, we identified key pain and delight points. This included the themes that had the most significant impact on our customers, IAG’s employees and IAG’s partners. Identifying these points helped us craft design principles, which in turn let us balance competing priorities, constraints and needs while proposing solutions to test and prototype.
 
-![We identified a range of pain and delight points; with the primary pain points being communication and expectations, whereas staff are the primary delight point.](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081457/IAG-Service-Design/06-Pain-Delight-Points.png)
+![We identified a range of pain and delight points; with the primary pain points being communication and expectations, whereas staff are the primary delight point.](~/assets/images/repairer-allocation/06-pain-delight-points.png)
+_We identified key pain and delight points based on each impacted stakeholder group._
 
-_We identified the key stakeholder groups involved in the process._
+---
 
-## 3\
+## 3. Develop
 
-Develop
-
-Brainstorming ideas, solutions and concepts to address the pain-points identified during the discovery and define process steps.
-
-<!--
-</section> -->
+_Brainstorming ideas, solutions and concepts to address the pain-points identified during the discovery and define process steps._
 
 After completing the service design blueprint, the project team began presenting the project to the wider IAG organisation. A key focus of this was presenting the three guiding Design Principles we had designed. These principles helped the project team tell a compelling story to senior and impacted stakeholders. Simultaneously, the principles also helped unify the project team towards a common direction and goal.
 
@@ -177,47 +170,36 @@ Using the Design Principles, the project team then began to explore and develop 
 
 The guiding Design Principles were created by combining everything the project team learnt into unified statements. During the 2-day workshop we identified approximately 75 pain and delight points. To create the design principles, the pain and delight points were grouped and combined into 6 high level themes, which were then combined into the complete 3 principles. This approach proved successful as we presented the principles to different stakeholder groups, each group quickly saw their experience and perspective had been included.
 
-![We used the pain and delight points to create three guiding design principles, focused on our core stakeholder groups of customers, staff and repairers](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/07-Design-Principles.png)
-
+![We used the pain and delight points to create three guiding design principles, focused on our core stakeholder groups of customers, staff and repairers](~/assets/images/repairer-allocation/07-design-principles.png)
 _Each Design Principle aligns to a different stakeholder group. This was unplanned, but endorses the overall process we used to create these principles._
 
 ### Brainstorming and Analysing Ideas; a Pragmatic Approach
 
 The final outcome during the 12-week project cycle was brainstorming ideas, solutions and concepts to address the pain points we had identified. We brainstormed ideas by bringing together the initial workshop participants — and focused on each individual Design Principle. Following the brainstorming session, we grouped similar ideas into 7 overall strategies to be reviewed and progressed.
 
-![Using the pain and delight points, plus our guiding Design Principles, we brainstormed potential solutions](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/08-Ideas-Brainstorming.png)
-
-_Our final ideas are summarised as; improve outdated processes, modernise technology systems, and invest in supporting IAG staff and repairer partners._
-
-## 4\
-
-Outcomes and Results
-
-Reviewing the project results, lessons, wins and losses.
-
-Our goal for this project was to build an understanding of the repairer allocation process, and consider how that process differed for online vs. on the phone customers. Using that information, we would then build a new solution — benefiting the different interaction channels, IAG staff and repairers along the way. In seeking these goals, we needed to consider the different stakeholder groups involved.
+![Using the pain and delight points, plus our guiding Design Principles, we brainstormed potential solutions](~/assets/images/repairer-allocation/08-ideas-brainstorming.png)
+_Our core ideas; improve old processes, modernise technology systems, and invest in supporting IAG staff and repairer partners._
 
 ---
 
+## 4. Outcomes and Results
+
+Reviewing the project results, lessons, wins and losses.
+
+Our goal for this project was to build an understanding of the repairer allocation process, and consider how that process differed for online vs. on the phone customers. Using that information, we would then build a new solution — benefiting the different interaction channels, IAG staff and repairers along the way.
+
 We achieved these goals through the creation of a Service Design Blueprint, which was later summarised and presented through the creation of three Design Principles. The project was a cross-team, collaborative effort, utilised customer research and pushed our boundaries and comfort zones.
 
-![Our work in progress service blueprint wall — a white-boarded wall covered end-end with post-its.](https://res.cloudinary.com/jasontcrabtree/image/upload/v1564081458/IAG-Service-Design/Service-Blueprint.png)
-
-### The Completed Service Design Blueprint Map
+![Our work in progress service blueprint wall — a white-boarded wall covered end-end with post-its.](~/assets/images/repairer-allocation/service-blueprint-photo.png)
+_The Completed Service Design Blueprint Map_
 
 It's a mouthful of a title, but the service design map we created is the foundation of this entire project. With it, we took information, data, insights and knowledge from all over IAG and combined everything together in such a way that helped us understand exactly what our customers and staff cared about.
-
-An interesting challenge we faced was presenting our work. As shown in the (pixelated for confidentiality) photo, the wall was a working artifact. We briefly considered creating a hi-fi well designed version, but decided to prioritise our time in other areas.
 
 ### Stakeholder Inclusion
 
 One of the most impactful things the project team did was prioritise time, energy and social capital to include different stakeholders groups from across IAG. This was important because in the past IAG has operated with different business units heavily siloed from one another.
 
 In addition to including different parts of IAG throughout the process, we also prioritised regularly presenting updates to even wider parts of the organisation. We held presentations at the end of each day of the workshop, presenting to ~30+ people. Following the workshop, we presented the in progress and final Service Design Blueprint to 4-5 smaller groups. These regular presentations and updates helped us keep everyone up to date, helped to create buy-in and take stakeholders through the project change journey.
-
-### Results and Delivered Outcomes
-
-The project delivered a number of outcomes. In keeping with the initial scope of the project, our work focused on internal change and a deep-dive discovery on the problem space, rather than delivering final results to customers. Overall, we delivered the main outcomes we set out to achieve. We also pushed the organisational knowledge of IAG — working in a brand-new way.
 
 ### Key Outcomes
 
@@ -232,26 +214,20 @@ Considering the outcomes we achieved, the project team created a strong case to 
 
 ### Next Steps
 
-This case study describes work, completed September to December 2018\. My final contribution to this project was handing over the work the project team had completed to the newly hired Service Designer, [Amy Sekhon Cunliffe.](https://www.linkedin.com/in/amysekhon/) Amy was employed to run the final stages of Develop and Deliver in 2019\. The completed work was documented in a slide deck ready for Amy to use as she joined the committed and determined team.
+This case study describes work, completed September to December 2018. My final contribution to this project was handing over the work the project team had completed to the newly hired Service Designer, [Amy Sekhon Cunliffe.](https://www.linkedin.com/in/amysekhon/) Amy was employed to run the final stages of Develop and Deliver in 2019. The completed work was documented in a slide deck ready for Amy to use as she joined the committed and determined team.
 
 The initial plans for 2019 focused on face-to-face customer interviews based on our initial concepts, bringing on a tech lead to the core project team, and working on implementing quick wins and small fixes balanced amongst ongoing projects.
 
 ### Project and Personal Lessons
 
-This 3-month project was one of the most challenging, and rewarding periods of my career to date. As the CX Design Lead for the project I was directly accountable for progressing the Customer Experience Design aspects of the project. While I had previously participated in similar work, I hadn't been the nominated lead — especially on such a large and complex project.
+This 3-month project was one of the most challenging, and rewarding periods of my career to date. As the CX Design Lead for the project I was directly accountable for progressing the Customer Experience Design aspects of the project. While I had previously participated in similar work, I hadn't been the nominated lead — especially on such a large and complex project. Overall, I'm proud to have worked alongside the great team who contributed to this massive project.
 
-### Biggest Lessons I learnt as a CX Design Lead
+### Biggest Lessons as project Customer Experience Design Lead
 
-1. Progress starts when you start, even if you don't quite know what you're doing, just getting started is crucial.
+1. Progress starts when you start, even if you aren't sure what you're doing, just getting started is crucial.
 2. Trust your team, and make sure you check in with each other frequently. Stay on the same page and clarify assumptions.
 3. Stick to convictions about uncomfortable conversations — this was especially relevant to how we approached customer research on this project, something I think I should have pushed for much more heavily than I did.
-
-Overall, my biggest lesson from this project was learning that I'm capable of taking ownership of an ambiguous, complex problem, and delivering successful results. Against that, I learnt for future projects the importance of maintaining conviction on pushing against project directions I disagree with — even when they go against the crowd.
-
-All in all, I'm proud to have worked alongside the great team who contributed to the project, and I consider it a success.
 
 ### Wrapping Up
 
 Hello! If you've made it this far, I admire your commitment — either to reading through everything, or for your skimming ability. This was the final project I completed at IAG over four years. It was a great experience that taught me a whole lot, especially about how I cope with pressure 😅 something we all need to learn!
-
-Now, if you enjoyed this case study so much that you'd like to read more from me, I'd love for you to check out my personal portfolio [https://jasontcrabtree.com](https://jasontcrabtree.com), or check out my blog at [https://blog.jasontcrabtree.com](https://blog.jasontcrabtree.com). I _infrequently_ write about my experiences learning and thinking about Design, Strategy, Code and other things I think are rad.
