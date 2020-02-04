@@ -99,6 +99,8 @@ query {
     display: grid;
     padding: 16px;
     max-width: fit-content;
+    max-width: -moz-max-content; /* Firefox/Gecko */
+    max-width: -webkit-max-content; /* Chrome */
     width: auto;
 
     margin-bottom: 0px;
@@ -112,6 +114,8 @@ query {
     margin: 16px auto;
     padding: 16px;
     max-width: fit-content;
+    max-width: -moz-max-content; /* Firefox/Gecko */
+    max-width: -webkit-max-content; /* Chrome */
     width: auto;
 
     margin-bottom: 32px;

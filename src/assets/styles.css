@@ -193,6 +193,15 @@ a:any-link {
 
 .quote-item {
   height: fit-content;
+  height: -moz-max-content;
+}
+
+.quote-item:nth-child(odd) {
+  max-height: fit-content;
+  height: -moz-max-content;
+  height: 50%;
+  border: solid 1px black;
+  overflow: auto;
 }
 
 @media (prefers-color-scheme: light) {
@@ -286,5 +295,13 @@ hr {
   .quote-item:nth-child(odd) {
     color: var(--dm-white-100);
     background-color: #102a43;
+  }
+
+  .figcaption--layout > span {
+    color: var(--heading-black);
+  }
+
+  figure {
+    background: #4c4c5a;
   }
 }

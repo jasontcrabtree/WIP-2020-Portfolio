@@ -1,6 +1,6 @@
 ---
 title: 'Reverse Engineering the Slack Brand Voice (for a good cause!)'
-description: 'Deconstructing the Slack brand voice to excel in a job interview writing exercise. A Case Study about problem solving with limited resources.'
+description: 'Deconstructing the Slack brand voice to excel in a job interview exercise. A Case Study on creative problem solving.'
 date: 2019-05-28
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/c_scale,q_auto,w_830/v1573420658/Portfolio-Assets/Slack-Cover-Image.png'
 ---

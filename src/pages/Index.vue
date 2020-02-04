@@ -181,7 +181,7 @@ query {
 
 <style scoped>
 .background-elem {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .hero-children-container {
@@ -211,7 +211,11 @@ query {
   background: #421987;
   background: #01337d;
   background: #2e2282;
-  width: fit-content;
+
+  max-width: fit-content;
+  max-width: -moz-max-content; /* Firefox/Gecko */
+  max-width: -webkit-max-content; /* Chrome */
+
   padding: 24px;
 
   line-height: 1.2;
@@ -388,6 +392,8 @@ query {
 @media (prefers-color-scheme: dark) {
   .hero-header-h1--style {
     color: var(--dm-white-text);
+    background: inherit;
+    padding-left: 0px;
   }
 }
 </style>

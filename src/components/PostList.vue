@@ -40,7 +40,7 @@ query {
 .blog-list-item {
   margin: 40px 0px;
   padding: 32px 24px;
-  box-shadow: var(--shadow-small);
+  box-shadow: var(--shadow-medium);
   border-radius: 8px;
 }
 
@@ -58,7 +58,7 @@ query {
 }
 
 .post-list-card:hover {
-  box-shadow: var(--shadow-medium);
+  box-shadow: var(--shadow-small);
 }
 
 .card-title {

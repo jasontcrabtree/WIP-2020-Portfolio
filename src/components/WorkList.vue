@@ -4,7 +4,7 @@
       <g-image :src="work.image" :alt="work.title" class="cover-image" />
       <div class="card-details">
         <h2 class="card-title" v-html="work.title" />
-        <span class="date--style">Project: {{ work.date }}</span>
+        <span class="date--style">Project time: {{ work.date }}</span>
         <!-- <p class="date" v-html="work.date" /> -->
         <p class="description" v-html="work.description" />
         <!-- <b>{{ work.timeToRead }} min read</b>
@@ -87,6 +87,8 @@ export default {
 
   .work-list-card {
     max-width: fit-content;
+    max-width: -moz-max-content; /* Firefox/Gecko */
+    max-width: -webkit-max-content; /* Chrome */
     padding: 0px;
   }
 

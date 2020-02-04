@@ -139,17 +139,21 @@ export default {
 </script>
 
 <style>
-figure {
+.dribbble-gallery--layout > * > figure {
   background: rgb(255, 255, 255);
 
-  border: 1px solid #f1f1f1;
+  border: 1px solid var(--blue-white-100);
 
-  box-shadow: var(--shadow-large);
+  box-shadow: var(--shadow-medium);
   border-radius: 8px;
 }
 
-figure > img {
-  border: 1px solid #e0dfdf;
+.dribbble-gallery--layout > * > figure:hover {
+  box-shadow: var(--shadow-small);
+}
+
+.dribbble-gallery--layout > * > figure > img {
+  border: 1px solid var(--blue-white-100);
 }
 
 .fade-enter-active {
@@ -160,7 +164,7 @@ figure > img {
   opacity: 0;
 }
 
-figcaption {
+.dribbble-gallery--layout > * > figure > figcaption {
   margin-top: 16px;
 }
 
@@ -183,7 +187,6 @@ figcaption {
   }
 }
 
-.dribbble-gallery--layout {
-  min-height: fit-content;
+@media (prefers-color-scheme: dark) {
 }
 </style>

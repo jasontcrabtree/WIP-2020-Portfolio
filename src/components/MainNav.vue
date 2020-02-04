@@ -114,7 +114,7 @@
 @media (prefers-color-scheme: dark) {
   .nav-list {
     background-color: #102a43;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 }
 </style>
