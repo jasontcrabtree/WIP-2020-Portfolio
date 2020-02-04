@@ -220,10 +220,6 @@ query {
   margin: 24px 0px !important;
 }
 
-/* .hero-container > * {
-  padding: 16px 0px;
-} */
-
 .hero-header-h1--layout {
   padding: 24px;
 }

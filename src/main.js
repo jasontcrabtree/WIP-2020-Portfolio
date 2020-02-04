@@ -13,18 +13,4 @@ export default function(Vue, { router, head, isClient }) {
       href:
         'https://fonts.googleapis.com/css?family=DM+Sans:400,500,700|Libre+Franklin:400,700,900&display=swap',
     });
-
-  // require('dotenv').config();
-  //  const accessToken = process.env.ACCESS_TOKEN;
-
-  const config = {
-    accessToken: process.env.ACCESS_TOKEN,
-  };
-  // accessToken: process.env.ACCESS_TOKEN;
-  // console.log(accessToken);
 }
-const config = {
-  accessToken: process.env.ACCESS_TOKEN,
-};
-const accessToken = process.env.ACCESS_TOKEN;
-// console.log(accessToken);

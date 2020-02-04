@@ -25,11 +25,6 @@ module.exports = {
     const svgRule = config.module.rule('svg');
     svgRule.uses.clear();
     svgRule.use('vue-svg-loader').loader('vue-svg-loader');
-
-    require('dotenv').config({ path: '.env' });
-    config
-      .plugin('env')
-      .use(require.resolve('webpack/lib/EnvironmentPlugin'), ['ACCESS_TOKEN']);
   },
 
   accessToken: process.env.ACCESS_TOKEN,
@@ -66,12 +61,6 @@ module.exports = {
         },
       },
     }, */
-    /*    {
-      use: 'gridsome-source-plugin',
-      options: {
-        ACCESS_TOKEN: process.env.ACCESS_TOKEN,
-      },
-    }, */
     {
       use: '@gridsome/vue-remark',
       options: {
@@ -88,8 +77,6 @@ module.exports = {
         baseDir: './work',
         pathPrefix: '/work/',
         template: './src/templates/Work.vue',
-        ACCESS_TOKEN: process.env.ACCESS_TOKEN,
-        accessToken: process.env.ACCESS_TOKEN,
       },
     },
 
