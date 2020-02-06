@@ -217,7 +217,7 @@ a:any-link {
 .quote-item:nth-child(odd) {
   max-height: fit-content;
   height: -moz-max-content;
-  height: 50%;
+  height: 56%;
   border: solid 1px black;
   overflow: auto;
 }
@@ -299,20 +299,21 @@ button,
 
 hr {
   border: 0px;
-  border-top: solid var(--primary-peach) 4px;
-  border-top: solid 4px var(--horiz-spacer);
   width: 32%;
   margin: 48px 0px;
   grid-column: 1 / -1;
 }
 
 @media (prefers-color-scheme: light) {
+  hr {
+    border-top: solid 4px var(--horiz-spacer);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .quote-item:nth-child(odd) {
     color: var(--dm-white-100);
-    background-color: #102a43;
+    background-color: #021322;
   }
 
   .figcaption--layout > span {
@@ -321,5 +322,15 @@ hr {
 
   figure {
     background: #4c4c5a;
+  }
+
+  hr {
+    border-top: solid 4px #8977ff;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .quote-container > * > blockquote p:first-child {
+    text-indent: -1ch;
   }
 }

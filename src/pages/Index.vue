@@ -2,10 +2,16 @@
   <Layout>
     <main class="main-parent" id="home">
       <section class="hero-container">
-        <h1 class="hero-header-h1--style hero-header-h1--layout">
-          UX Designer and Functional
-          <br />Design Enthusiast
-        </h1>
+        <div class="hero-header-parent">
+          <h1 class="hero-header-h1--style hero-header-h1--layout">
+            UX Designer and Functional
+            <br />Design Enthusiast
+          </h1>
+          <DecoDots
+            style="box-sizing: content-box;"
+            class="decoration-dots-header--layout decoration-dots--color"
+          />
+        </div>
         <div class="hero-children-container">
           <Social />
           <p class="hero-bio--layout hero-bio--bg large-paragraph-text">
@@ -119,13 +125,16 @@ import Social from "@/components/Social";
 
 import DribbbleGallery from "@/components/DribbbleGallery";
 
+import DecoDots from "~/assets/svgs/DecoDots.svg";
+
 export default {
   components: {
     WorkList,
     BgColumn,
     Social,
     PostList,
-    DribbbleGallery
+    DribbbleGallery,
+    DecoDots
   },
   metaInfo: {
     title: "Home"
@@ -311,6 +320,23 @@ query {
   main > * + * {
     margin: 32px 0px;
   }
+
+  .decoration-dots-header--layout {
+    z-index: 2;
+    margin-left: -4.5em;
+    /* margin-top: 3em; */
+    margin-top: 7em;
+  }
+
+  .decoration-dots--color {
+    color: #2cb1bc;
+  }
+
+  .hero-header-parent {
+    display: flex;
+    flex-direction: row;
+    box-sizing: content-box;
+  }
 }
 
 /* 1/1.3 Scaled Size Hero Font Size */
@@ -373,6 +399,20 @@ query {
   .hero-header-h1--style {
     padding: 24px 8px;
   }
+
+  .decoration-dots-header--layout {
+    z-index: 1;
+    /* margin-left: -4.5em; */
+    /* margin-top: 3em; */
+    /* padding-top: 4em; */
+    transform: rotate(180deg);
+    margin-bottom: 32px;
+  }
+
+  .hero-header-parent {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media all and (max-width: 960px) and (prefers-color-scheme: light) {
@@ -386,6 +426,10 @@ query {
     color: var(--dm-white-text);
     background: inherit;
     padding-left: 0px;
+  }
+  .decoration-dots-header--layout {
+    /* opacity: 0.3; */
+    color: #19c0cf;
   }
 }
 </style>

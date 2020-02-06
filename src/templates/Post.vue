@@ -70,7 +70,7 @@ export default {
   }
 
   .blog-post-title--style {
-    font-size: var(--size-40);
+    font-size: var(--size-32);
   }
 }
 

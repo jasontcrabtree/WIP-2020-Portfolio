@@ -5,7 +5,7 @@
       <g-link to="/" class="link">&larr; Go Back</g-link>
       <!-- <img :src="work.image" :alt="work.title" /> -->
       <div class="work-title-container">
-        <h1>{{ $page.work.title }}</h1>
+        <h1 class="work-title--style">{{ $page.work.title }}</h1>
         <!-- <p class="post-date">{{ $page.work.date }} | {{ $page.work.timeToRead }} min read</p> -->
       </div>
       <article>
@@ -70,6 +70,10 @@ article > * + * {
 
   article {
     margin-bottom: 96px;
+  }
+
+  .work-title--style {
+    font-size: var(--size-32);
   }
 }
 </style>

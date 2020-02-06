@@ -119,11 +119,12 @@ query {
     max-width: -webkit-max-content; /* Chrome */
     width: auto;
 
-    margin-bottom: 32px;
+    margin-bottom: 96px;
     padding-top: 32px;
 
     margin-top: 0px;
-    border-top: 8px solid var(--primary-blue);
+    /* border-top: 8px solid var(--primary-blue); */
+    border-top: 8px solid #2cb1bc;
   }
 }
 

@@ -1,7 +1,8 @@
 <template>
   <header class="primary-nav">
-    <div class="header-background-src"></div>
+    <!-- <div class="header-background-src"></div> -->
     <nav class="nav-list">
+      <NavDots style="box-sizing: content-box" class="nav-dots--layout decoration-dots--color" />
       <g-link to="/#home" class>Home</g-link>
       <g-link to="/contact/">Contact</g-link>
       <a href="/jason-crabtree-resume.pdf">Résumé</a>
@@ -12,7 +13,15 @@
   </header>
 </template>
 
-<script></script>
+<script>
+import NavDots from "~/assets/svgs/NavDots.svg";
+
+export default {
+  components: {
+    NavDots
+  }
+};
+</script>
 
 <style scoped>
 .nav-list {
@@ -24,6 +33,14 @@
 
 .primary-nav {
   z-index: 1;
+}
+
+.nav-list > *:first-child {
+  margin-bottom: -16px !important;
+}
+
+.decoration-dots--color {
+  color: #2cb1bc;
 }
 
 @media screen and (max-width: 960px) {
@@ -41,16 +58,6 @@
 
   .primary-nav > * {
     margin: 8px 0;
-  }
-
-  .header-background-src {
-    background-image: url("/nav-bg.png");
-    width: 60%;
-    height: 40%;
-    z-index: -1;
-    position: fixed;
-    right: -48px;
-    top: -16px;
   }
 }
 
@@ -79,22 +86,18 @@
     margin: 8px 0px;
   }
 
-  .header-background-src {
-    background-image: url("/nav-bg.png");
-    width: 30vw;
-    height: 25vw;
-    z-index: -1;
-    position: fixed;
-    right: 0;
-    top: 0;
-  }
-
   .primary-nav {
     grid-row-start: 1;
     grid-column: 12 / 13;
 
     /* TODO: TESTING COLUMN POSITION */
     grid-column: 13 / 14;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .nav-dots--layout {
+    display: none;
   }
 }
 
@@ -115,6 +118,12 @@
   .nav-list {
     background-color: #102a43;
     opacity: 0.9;
+  }
+
+  .decoration-dots--color {
+    /* opacity: 0.3; */
+    /* color: #92e6ee; */
+    color: #19c0cf;
   }
 }
 </style>
