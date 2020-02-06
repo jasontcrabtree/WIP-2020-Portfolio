@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: "Jason Crabtree's Internet Hangtime",
-  siteDescription: 'A buncha words by Jason',
+  // siteDescription: 'A buncha words by Jason',
 
   // icon: 'src/alligator-favicon.png',
 

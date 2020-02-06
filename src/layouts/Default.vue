@@ -66,7 +66,7 @@ query {
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
   }
 
   main {
@@ -75,6 +75,7 @@ query {
   }
 
   main {
+    width: auto;
     max-width: 1500px;
   }
 }

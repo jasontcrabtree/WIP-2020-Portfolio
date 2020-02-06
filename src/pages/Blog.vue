@@ -36,7 +36,7 @@ export default {
     BgColumn
   },
   metaInfo: {
-    title: "Jason is writing words online"
+    title: "Blog: Jason is writing words online"
   }
 };
 </script>

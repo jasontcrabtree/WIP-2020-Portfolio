@@ -1,15 +1,15 @@
 <template>
   <layout>
-    <main>
+    <main class="work-post-parent--layout">
       <br />
       <g-link to="/" class="link">&larr; Go Back</g-link>
       <!-- <img :src="work.image" :alt="work.title" /> -->
-      <div class="post-info-container">
+      <div class="work-title-container">
         <h1>{{ $page.work.title }}</h1>
         <!-- <p class="post-date">{{ $page.work.date }} | {{ $page.work.timeToRead }} min read</p> -->
       </div>
       <article>
-        <VueRemarkContent class="post-container" />
+        <VueRemarkContent class="work-container" />
       </article>
       <!--       <article v-html="$page.work.content" class="post-content"></article> -->
     </main>
@@ -42,41 +42,26 @@ export default {
 };
 </script>
 
-<style scoped>
-/* p {
-  max-width: 72ch;
-  width: auto;
-} */
-
-/* header > * {
-  margin-bottom: 24px;
-} */
-
-/* img {
-  margin: 16px 0;
-} */
-
-main {
-  grid-column: 2/ 8;
+<style>
+.work-post-parent--layout {
+  grid-column: 2 / 9;
 }
 
-img {
-  margin-left: -200px !important;
+.work-container {
+  display: grid;
+  grid-column: 2 / 9;
 }
 
-/* p {
-  max-width: auto;
-  width: 22ch;
-} */
-
-.post-info-container > * {
-  margin: 8px 0;
-  padding-bottom: 8px;
+.work-title-container > * {
+  /* margin: 8px 0; */
+  margin: 16px 0px;
+  /* padding-bottom: 8px; */
 }
 
 article > * + * {
   margin-top: 1.4em;
 }
+
 @media screen and (max-width: 960px) {
   p {
     max-width: 40ch;

@@ -1,6 +1,6 @@
 <template>
   <layout>
-    <article>
+    <article class="blog-post--layout">
       <br />
       <span>
         <g-link to="/blog" class="link">&larr; Blog</g-link>
@@ -10,12 +10,11 @@
         </span>
       </span>
 
-      <div class="post-info-container">
+      <div class="post-title-container">
         <h1 class="blog-post-title--style">{{ $page.post.title }}</h1>
       </div>
       <VueRemarkContent class="post-container" />
       <br />
-      <!-- <g-link to="/">{{ $page.post.title }} Test</g-link> -->
     </article>
   </layout>
 </template>
@@ -39,30 +38,21 @@ export default {
   metaInfo() {
     return {
       title: this.$page.post.title,
-      meta: [{ name: "description", content: this.$page.post.excerpt }]
+      meta: [{ name: "description", content: this.$page.post.description }]
     };
   }
 };
 </script>
 
 <style>
-p {
-  max-width: 56ch;
-  width: auto;
-}
-
-article {
+.blog-post--layout {
   grid-row-start: 3;
   grid-column: 2/ 9;
 }
 
-.post-info-container {
+.post-title-container {
   margin: 16px 0;
   padding-top: 8px;
-}
-
-.post-container > p {
-  margin: 24px 0;
 }
 
 .blog-post-title--style {
@@ -88,15 +78,5 @@ article {
   .blog-post-title--style {
     font-size: var(--size-48);
   }
-
-  img {
-    width: 40vw;
-  }
-}
-
-img[alt*="gist"] {
-  width: 1200px !important;
-  margin-left: 50% !important;
-  transform: translateX(-50%) !important;
 }
 </style>

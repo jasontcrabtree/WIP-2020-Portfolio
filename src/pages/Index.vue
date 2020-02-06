@@ -16,15 +16,8 @@
           </p>
         </div>
       </section>
-      <hr />
 
-      <!--       <g-image
-        src="~/cover-slack.png"
-        alt="slack-cvoer-iamge"
-        class="cover-image"
-        width="1200"
-        blur="40"
-      />-->
+      <hr />
 
       <section class="work-container" id="work">
         <h2 class="work-title">Case Studies and Process</h2>
@@ -114,7 +107,6 @@
       </section>
     </main>
     <!-- <BgColumn /> -->
-    <hr />
   </Layout>
 </template>
 

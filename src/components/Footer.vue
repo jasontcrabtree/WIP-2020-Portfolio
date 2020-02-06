@@ -59,6 +59,7 @@ export default {
 
 <style>
 .footer-parent--layout {
+  margin-top: 96px;
   grid-column: 1 / -1;
 }
 
@@ -125,7 +126,8 @@ export default {
 /* 1060px and smaller screen */
 @media screen and (max-width: 1060px) {
   .footer-parent--layout {
-    margin-top: 136px;
+    margin-top: 160px;
+    padding-top: 24px;
   }
 
   .footer-parent--layout {

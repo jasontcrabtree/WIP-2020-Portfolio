@@ -118,6 +118,24 @@ label {
   flex-direction: column;
 }
 
+article > .work-container > h2 {
+  margin-bottom: -16px;
+}
+article > .work-container > h3,
+article > .work-container > h4,
+article > .work-container > h5 {
+  margin-bottom: -32px;
+}
+
+article > .post-container > h2 {
+  margin-bottom: -16px;
+}
+article > .post-container > h3,
+article > .post-container > h4,
+article > .post-container > h5 {
+  margin-bottom: -32px;
+}
+
 a:any-link {
   /* color: #36364f; */
   color: var(--primary-link);
