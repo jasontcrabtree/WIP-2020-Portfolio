@@ -23,8 +23,6 @@ HTML without CSS looks the same regardless of content — for Google, Twitter or
 
 ![A Basic HTML Website with no CSS Styling](~/assets/images/css-variables/html-no-css.jpg)
 
-![alt](https://picsum.photos/1200/600)
-
 CSS Variables take things to a whole new level. CSS Variables store CSS values in keywords that can later be re-used as many times as you need. CSS Variables follow the same structure you might have learnt about in High School Algebra. I definitely failed High School algebra, potentially contributing to me being slow to pick up CSS Variables, but regardless — similar to Algebra, CSS Variables are assigned by associating a value with the variable name. For example, if we have a math problem such as Z = XY and we know that two of the values are X = 10, and Y = 5, then we can calculate Z as the result of X \* Y. Luckily, there's less math involved in CSS Variables than that, but the general principle of storing a value is the same.
 
 > CSS Variables store CSS values in keywords that can later be re-used as many times as you need.

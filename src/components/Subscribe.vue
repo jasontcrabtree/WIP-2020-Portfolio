@@ -7,10 +7,7 @@
     target="popupwindow"
     onsubmit="window.open('https://tinyletter.com/jasontcrabtree', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
   >
-    <p>
-      Subscribe for emails of my infrequent personal & professional blog posts!
-      Topics: Design, Technology, Society.
-    </p>
+    <p>Subscribe to receive emails containing my infrequent new blog posts. Loose Topics; Design, Technology, Society, Life!</p>
     <fieldset class="subscribe-form-fieldset--layout sub-fieldset--style">
       <label class="subscribe-label--style" for="tlemail">Your Email</label>
       <input

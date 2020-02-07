@@ -90,6 +90,15 @@ h1 {
   font-size: var(--size-40);
 }
 
+.post-container > blockquote,
+.work-container > blockquote {
+  border-left: 4px solid var(--primary-blue);
+  color: #5a566e;
+  padding-left: var(--size-16);
+  font-size: var(--size-24);
+  font-style: italic;
+}
+
 label {
   font-weight: 500;
 }
@@ -326,6 +335,11 @@ hr {
 
   hr {
     border-top: solid 4px #8977ff;
+  }
+
+  .post-container > blockquote,
+  .work-container > blockquote {
+    color: #cdc5ff;
   }
 }
 

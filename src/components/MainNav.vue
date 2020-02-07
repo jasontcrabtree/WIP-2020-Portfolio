@@ -117,7 +117,7 @@ export default {
 @media (prefers-color-scheme: dark) {
   .nav-list {
     background-color: #102a43;
-    opacity: 0.9;
+    opacity: 0.95;
   }
 
   .decoration-dots--color {

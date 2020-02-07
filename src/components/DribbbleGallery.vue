@@ -188,5 +188,8 @@ export default {
 }
 
 @media (prefers-color-scheme: dark) {
+  .figcaption--layout > a:any-link {
+    color: var(--primary-blue);
+  }
 }
 </style>
