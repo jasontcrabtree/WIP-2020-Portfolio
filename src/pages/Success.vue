@@ -21,52 +21,11 @@
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <fieldset class="contact-form-fieldset--style">
-            <h2>Contact Form</h2>
-            <input type="hidden" name="form-name" value="contact" />
-            <p class="hidden">
-              <label>
-                Don’t fill this out if you're human:
-                <input name="bot-field" />
-              </label>
-            </p>
-            <p class="sender-info">
-              <label for="name" class="label">Your Name</label>
-              <input type="text" name="name" v-model="formData.name" autocomplete="name" />
-            </p>
-            <p class="sender-info">
-              <label for="email">Your Email*</label>
-              <input
-                type="email"
-                name="email"
-                v-model="formData.email"
-                required
-                autocomplete="email"
-              />
-            </p>
-            <p>
-              <label type="select" for="project">Project Type:</label>
-              <select name="project" id="project" v-model="formData.project">
-                <option value></option>
-                <option value>Website Design</option>
-                <option value>Website Development</option>
-                <option value>Mobile Design</option>
-                <option value>Personal</option>
-                <option value>Other</option>
-              </select>
-            </p>
-            <p>
-              <label for="budget">Available Budget</label>
-              <input type="text" name="budget" placeholder="$" v-model="formData.budget" />
-            </p>
-            <p class="message-wrapper">
-              <label for="message">Project Details</label>
-              <textarea name="message" v-model="formData.message" rows="4"></textarea>
-            </p>
-            <p>
-              <button class="base-button--style" type="submit">Submit</button>
-            </p>
-          </fieldset>
+          <section class="contact-form-fieldset--style">
+            <h2>Success!</h2>
+            <p>The form successsfully submitted 🎉</p>
+            <p>Thanks for getting in touch! I'll respond to you as quickly as possible, which mostly means in 2-4 days.</p>
+          </section>
         </form>
       </section>
     </main>

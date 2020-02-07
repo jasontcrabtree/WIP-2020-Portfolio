@@ -1,5 +1,5 @@
 ---
-title: 'CharacterCounter Case Study: Building A Text Character Counting Tool'
+title: 'Product Design: Building CharacterCounter, A Text Character Counting Tool'
 description: 'Building a tool to improve my workflow, and learning a small amount of JavaScript in the process.'
 date: 2019-02-26
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573418454/Portfolio-Assets/CharCount-Cover-Image-4.png'
@@ -16,7 +16,7 @@ _Note: This was originally published on Medium in Feb of 2019, which you can fin
 
 CharacterCounter is a simple, lightweight tool to count how many characters you’ve entered into a simple textbox.
 
-Focused on working as quickly as possible, CharacterCounter gets you the information you need exactly when you need it. Then, you can get back to what you were doing.
+Focused on working as quickly as possible, CharacterCounter gives you the information you need exactly when you need it. Then you can get straight back to what you were doing.
 
 Having a precise, easy way to count the number of characters they’re using helps writers be measured and deliberate when they’re writing, editing and creating content. This can be useful for writing headlines, ad copy, tweets, email subject lines, designing interfaces or filling in web forms.
 
@@ -26,15 +26,15 @@ You can also visit the Product Hunt launch if you’d like to see how that went 
 
 <GIFImage gifSource="https://res.cloudinary.com/jasontcrabtree/image/upload/v1581088985/Portfolio-2020/hello-world-count.gif" altGIF="GIF of CharacterCounter showing the 12 characters in the phrase Hello World"/>
 
-> CharacterCounter gives you the info you need when you need it, getting you back to what you were doing.
+> CharacterCounter gives you the info you need when you need it, letting you get straight back to what you were doing.
 
 ## Project Overview, Lessons and Contributions
 
 This was a personal project built to scratch a personal itch while [learning about typography ideal line-lengths.](https://practicaltypography.com/line-length.html)
 
-As I worked on the design and development of this project I realised just how often I had previously been opening Google Docs for just this purpose. CharacterCounter is custom built for to do one thing quickly and well.
+As I worked on the design and development of this project I realised just how often I had previously been opening Google Docs for just this purpose. CharacterCounter is custom built to do one thing quickly and well.
 
-My design goals focused on speed, simplicity and clear visual hierarchy. People who use the tool should be able to open a new tab, type or copy in their content and instantly get the results they need before moving on.
+My design goals focused on speed, simplicity and clear visual hierarchy. People who use the tool can open a new tab, type or copy in their content and instantly get the results they need before moving on.
 
 This project was a joy to work on and is one of the first JavaScript tools I’ve conceived, designed and built from scratch. It was a ton of fun (and a great learning opportunity)
 
@@ -143,6 +143,6 @@ I can load a new tab (**⌘ + T** on Mac, **Ctrl + T** on Windows + Linux), type
 
 Overall, this was a great mini-project to hack on. I discovered a lovely sense of joy in creating a solution for a problem I was experiencing myself. For now, onwards to the next one!
 
-_PS._ After publishing this I spoke with [Kostya Gorskiy](https://twitter.com/k00) — a designer manager at Intercom. While chatting over coffee Kostya was kind enough to give me some feedback on how I could improve and refine the visual design of Character Counter.
+_PS._ After publishing this I spoke with [Kostya Gorskiy](https://twitter.com/k00) — a design manager at Intercom. While chatting over coffee Kostya was kind enough to give me some feedback on how I could improve and refine the visual design of Character Counter.
 
-The main feedback focused on simplifying typography. As a result, we’ve gone from 8 different slight colour/boldness/size variations (it sounds like so many said like that!) to 4 different variations. These changes have been updated in the images — so you get to see the resulting outcome! Enjoy.
+The main feedback focused on simplifying typography. As a result, we’ve gone from 8 different slight colour/boldness/size variations (it sounds like so many said like that!) to 4 different variations. These changes have been updated in the images so you get to see the final outcome! Enjoy.

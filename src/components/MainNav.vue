@@ -122,8 +122,7 @@ export default {
 
   .decoration-dots--color {
     /* opacity: 0.3; */
-    /* color: #92e6ee; */
-    color: #19c0cf;
+    color: #92e6ee;
   }
 }
 </style>

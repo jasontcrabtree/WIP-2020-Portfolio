@@ -15,10 +15,12 @@
         <div class="hero-children-container">
           <Social />
           <p class="hero-bio--layout hero-bio--bg large-paragraph-text">
-            Hello, I’m Jason. I'm a Designer interested in thoughtfully,
-            creatively solving meaningful problems. I’m motivated by
+            Hello, I’m Jason. I'm a Designer interested in thoughtfully solving meaningful, tough problems. I’m motivated by
             mission-driven work, shared values and a diverse, welcoming and
-            inclusive workplace culture.
+            inclusive workplace culture. I'm
+            <span
+              class="current-status-text"
+            >currently looking</span> for a UX Designer role in London, UK.
           </p>
         </div>
       </section>
@@ -328,10 +330,6 @@ query {
     margin-top: 7em;
   }
 
-  .decoration-dots--color {
-    color: #2cb1bc;
-  }
-
   .hero-header-parent {
     display: flex;
     flex-direction: row;
@@ -418,6 +416,18 @@ query {
 @media all and (max-width: 960px) and (prefers-color-scheme: light) {
   .nav-list {
     border: 1px solid var(--card-background-white);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .decoration-dots--color {
+    color: #2cb1bc;
+  }
+
+  .current-status-text {
+    font-weight: bold;
+    color: var(--primary-blue);
+    border-bottom: 2px solid var(--primary-blue);
   }
 }
 
