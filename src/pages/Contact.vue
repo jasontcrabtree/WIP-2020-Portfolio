@@ -47,12 +47,12 @@
             <p>
               <label type="select" for="project">Project Type:</label>
               <select name="project" id="project" v-model="formData.project">
-                <option value></option>
-                <option value>Website Design</option>
-                <option value>Website Development</option>
-                <option value>Mobile Design</option>
-                <option value>Personal</option>
-                <option value>Other</option>
+                <option value disabled></option>
+                <option value="website-design">Website Design</option>
+                <option value="website-development">Website Development</option>
+                <option value="mobile-design">Mobile Design</option>
+                <option value="personal">Personal</option>
+                <option value="other">Other</option>
               </select>
             </p>
             <p>
