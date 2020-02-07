@@ -32,4 +32,4 @@ Integrate all of your collaboration, communication, productivity and workload wi
 
 It’s a total coincidence that my first two blog posts are about Slack — future posts will be on a range of subjects (I’ve got a long list of post ideas about digital product design, coding, tech, careers, and a few other hard to label topics).
 
-If you enjoyed this post and want to read future posts, please follow my [RSS feed](https://blog.jasontcrabtree.com/feed.xml) and follow me at [@jasontcrabtree](https://twitter.com/jasontcrabtree) on Twitter.
+If you enjoyed this post and want to read future posts, please follow my [RSS feed](https://jasontcrabtree.com/feed.xml) and follow me at [@jasontcrabtree](https://twitter.com/jasontcrabtree) on Twitter.

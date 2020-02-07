@@ -87,13 +87,13 @@ module.exports = {
         latest: true,
         feedOptions: {
           title: "Jason Crabtree's words on the ww wide",
-          feed_url: 'https://elated-tereshkova-ed12e9.netlify.com/rss.xml',
-          site_url: 'https://elated-tereshkova-ed12e9.netlify.com/',
+          feed_url: 'https://jasontcrabtree.com/rss.xml',
+          site_url: 'https://jasontcrabtree.com/',
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.description,
-          url: 'https://elated-tereshkova-ed12e9.netlify.com' + node.path,
+          url: 'https://jasontcrabtree.com/' + node.path,
           content: node.content,
         }),
         output: {
@@ -117,6 +117,7 @@ module.exports = {
       ],
     },
   },
+  // prefetch: { mask: '^$' },
 };
 const config = {
   accessToken: process.env.ACCESS_TOKEN,
