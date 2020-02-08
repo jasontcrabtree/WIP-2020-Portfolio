@@ -19,6 +19,7 @@
     "gridsome-plugin-rss": "^1.2.0"
   },
   "devDependencies": {
+    "gridsome-plugin-service-worker": "^0.1.4",
     "vue-svg-loader": "^0.15.0"
   }
 }
