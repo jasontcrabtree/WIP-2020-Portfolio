@@ -4,7 +4,7 @@ date: 2019-03-27
 description: 'Welcome to the blog-zone 👉 come on in...'
 ---
 
-import BlogReadTime from "@/components/BlogReadTime";
+import BlogReadTime from "@/components/utils/BlogReadTime";
 
 <BlogReadTime readTime="1"/>
 

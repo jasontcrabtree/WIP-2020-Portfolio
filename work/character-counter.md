@@ -5,8 +5,8 @@ date: 2019-02-26
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573418454/Portfolio-Assets/CharCount-Cover-Image-4.png'
 ---
 
-import CaseStudyReadTime from "@/components/CaseStudyReadTime";
-import GIFImage from "@/components/GIFImage";
+import CaseStudyReadTime from "@/components/utils/CaseStudyReadTime";
+import GIFImage from "@/components/Images/GIFImage";
 
 <CaseStudyReadTime readTime="6"/>
 

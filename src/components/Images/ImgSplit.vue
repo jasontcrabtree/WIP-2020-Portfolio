@@ -1,11 +1,11 @@
 <template>
   <section class="img-container-split">
     <figure class="split-figure">
-      <g-image :src="imageLeftSrc" class="altLeft"></g-image>
+      <g-image :src="imageLeftSrc" class="altLeft" alt="altLeft"></g-image>
       <figcaption>{{ captionLeft }}</figcaption>
     </figure>
     <figure>
-      <g-image :src="imageRightSrc" class="altRight"></g-image>
+      <g-image :src="imageRightSrc" class="altRight" alt="altRight"></g-image>
       <figcaption>{{ captionRight }}</figcaption>
     </figure>
   </section>
@@ -46,6 +46,10 @@ export default {
 
   .img-container-split > *:nth-child(1) {
     margin-right: 20px;
+  }
+
+  div {
+    margin-top: var(--size-16);
   }
 }
 </style>

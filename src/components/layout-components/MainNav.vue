@@ -40,7 +40,11 @@ export default {
 }
 
 .decoration-dots--color {
+  /* Old color */
   color: #2cb1bc;
+  /* New color test */
+  color: #92e6ee;
+  color: #a2cdd1;
 }
 
 @media screen and (max-width: 960px) {
@@ -121,8 +125,8 @@ export default {
   }
 
   .decoration-dots--color {
-    /* opacity: 0.3; */
     color: #92e6ee;
+    color: #a2cdd1;
   }
 }
 </style>

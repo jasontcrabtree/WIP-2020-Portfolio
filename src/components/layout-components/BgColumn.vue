@@ -17,8 +17,8 @@
   .background-elem {
     background: linear-gradient(
       180deg,
-      var(--peach-light) 0%,
-      var(--peach-med) 100%
+      var(--blue-white-100) 0%,
+      var(--med-blue) 100%
     );
   }
 }

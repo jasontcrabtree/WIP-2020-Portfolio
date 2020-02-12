@@ -50,7 +50,7 @@ fieldset {
   width: 100%;
   height: 48px;
   padding: 8px;
-  border: 1px solid var(--grey-400);
+  border: 1px solid var(--grey-200);
   border-radius: 4px;
 }
 

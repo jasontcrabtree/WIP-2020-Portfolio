@@ -6,7 +6,7 @@ date: 2019-05-13
 # meta: A prediction about Slack's Future Product Roadmap — and an Explanation about why Slack is a Business Operating System
 ---
 
-import BlogReadTime from "@/components/BlogReadTime";
+import BlogReadTime from "@/components/utils/BlogReadTime";
 
 <BlogReadTime readTime="2"/>
 

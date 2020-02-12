@@ -114,18 +114,17 @@
         </ul>
       </section>
     </main>
-    <!-- <BgColumn /> -->
   </Layout>
 </template>
 
 <script>
-import WorkList from "@/components/WorkList";
-import PostList from "@/components/PostList";
+import WorkList from "@/components/content/WorkList";
+import PostList from "@/components/content/PostList";
 
-import BgColumn from "@/components/BgColumn";
-import Social from "@/components/Social";
+import BgColumn from "@/components/layout-components/BgColumn";
+import Social from "@/components/utils/Social";
 
-import DribbbleGallery from "@/components/DribbbleGallery";
+import DribbbleGallery from "@/components/content/DribbbleGallery";
 
 import DecoDots from "~/assets/svgs/DecoDots.svg";
 
@@ -205,14 +204,7 @@ query {
 .hero-header-h1--style {
   font-weight: 900;
   color: var(--primary-blue);
-  color: #333;
   color: #ffffff;
-  background: #fadb5f;
-  background: #fab8d9;
-  background: #3ebd93;
-  background: #0c6b58;
-  background: #421987;
-  background: #01337d;
   background: #2e2282;
 
   max-width: fit-content;
@@ -440,6 +432,7 @@ query {
   .decoration-dots-header--layout {
     /* opacity: 0.3; */
     color: #19c0cf;
+    color: #a2cdd1;
   }
 }
 </style>

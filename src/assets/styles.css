@@ -1,59 +1,36 @@
 :root {
-  --brand-gradient: linear-gradient(180deg, #470f8d 0%, #5340cc 101.23%);
+  --text-black: #1f1f31;
 
-  --peach-gradient: linear-gradient(180deg, #fec7b2 0%, #df7d57 100%);
+  --heading-black: #353546;
 
-  /* ORIGINAL COLOURS */
-  --primary-peach: #fec7b2;
-  --peach-light: #fec7b2;
-  --peach-med: #df7d57;
+  --subheading-black-blue: #4c4c5a;
 
-  --primary-peach: #eef1ff;
+  --med-blue: #3c56e7;
 
-  --peach-light: #eef1ff;
-  --peach-med: #3c56e7;
+  --primary-link: #25168b;
 
-  --horiz-spacer: #eef1ff;
-  --horiz-spacer: #5a566e;
+  --primary-blue: #4230b9;
+
+  --primary-link-dark: #2cb1bc;
+
+  --grey-200: #dfe3f3;
+
+  --white-opacity-80: #ffffffcc;
+
+  --card-background-white: #f8f9fa;
+
+  --white-100: #ffffff;
+
   --horiz-spacer: #e1dfe9;
 
   --blue-white-100: #eef1ff;
 
   --dm-white-text: #f0f4f8;
 
-  --yellow-gradient: linear-gradient(180deg, #fce588 0%, #f0b429 100%);
-
-  --primary-peach-opacity-50: hsl(17, 97%, 85%, 50%);
-  --primary-peach-opacity-50: #eef1ff;
-
-  --text-black: #1f1f31;
-  --primary-blue: hsl(248, 59%, 76%);
-  --primary-blue: #4230b9;
-
-  --heading-black: #353546;
-
-  --subheading-black: #4c4c5a;
-
-  --grey-400: #9f9fa8;
-
-  --link-low-emphasis-bluegrey: #36364f;
-
-  --primary-link: #25168b;
-
-  --primary-link-dark: #2cb1bc;
-
-  --white-opacity-80: rgb(255, 255, 255, 0.8);
-
-  --card-background-white: #f8f9fa;
-
   --shadow-large: 0px 16px 24px rgba(0, 0, 0, 0.25);
   --shadow-medium: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
   --shadow-small: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
   --shadow-extra-small: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
-
-  --yellow: #ffff9e;
-
-  --white-100: #ffffff;
 
   font-size: 20px;
   line-height: 1.5;
@@ -113,7 +90,7 @@ input,
 select,
 textarea {
   border-radius: 4px;
-  border: 1px solid var(--grey-400);
+  border: 1px solid var(--grey-200);
   box-shadow: inset var(--shadow-extra-small);
 }
 
@@ -199,9 +176,8 @@ a:any-link {
 }
 
 .quote-item {
-  border: 1px solid var(--grey-400);
-  background-color: var(--card-background-white);
-
+  border: 1px solid var(--grey-200);
+  background-color: var(--blue-white-100);
   border-radius: 8px;
 }
 
@@ -272,12 +248,10 @@ a:any-link {
   }
 
   a:any-link {
-    /* color: var(--primary-link-dark); */
     color: #2cb1bc;
   }
 
   .quote-item {
-    background-color: #353546;
     background-color: #181820;
   }
 }
@@ -289,7 +263,7 @@ a:any-link {
 }
 
 .date--style {
-  color: var(--subheading-black);
+  color: var(--subheading-black-blue);
   text-transform: uppercase;
   font-weight: 500;
   font-size: var(--size-16);

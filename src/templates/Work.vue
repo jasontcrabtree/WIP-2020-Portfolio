@@ -28,10 +28,9 @@ query Work ($path: String!) {
 </page-query>
 
 <script>
-// timeToRead
 export default {
   // components: {
-  //   BgColumn,
+
   // },
   metaInfo() {
     return {
@@ -53,9 +52,16 @@ export default {
 }
 
 .work-title-container > * {
-  /* margin: 8px 0; */
   margin: 16px 0px;
-  /* padding-bottom: 8px; */
+}
+
+.work-container > ol,
+.work-container > ul {
+  padding-inline-start: 24px;
+}
+
+img {
+  border: 1px solid var(--grey-200);
 }
 
 article > * + * {
@@ -63,15 +69,6 @@ article > * + * {
 }
 
 @media screen and (max-width: 960px) {
-  p {
-    max-width: 40ch;
-    width: auto;
-  }
-
-  article {
-    margin-bottom: 96px;
-  }
-
   .work-title--style {
     font-size: var(--size-32);
   }

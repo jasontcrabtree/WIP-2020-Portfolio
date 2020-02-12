@@ -75,7 +75,7 @@ export default {
 }
 
 .date--style {
-  color: var(--subheading-black);
+  color: var(--subheading-black-blue);
   text-transform: uppercase;
   font-weight: 500;
 }

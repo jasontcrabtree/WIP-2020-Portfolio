@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import MainNav from "@/components/MainNav";
-import BgColumn from "@/components/BgColumn";
+import MainNav from "@/components/layout-components/MainNav";
+import BgColumn from "@/components/layout-components/BgColumn";
 
-import Footer from "@/components/Footer";
+import Footer from "@/components/layout-components/Footer";
 
 export default {
   components: {
@@ -39,7 +39,7 @@ query {
 }
 
 .return-home-h2--color {
-  color: var(--link-low-emphasis-bluegrey);
+  color: var(--subheading-black-blue);
 }
 
 .return-home-h2--type {

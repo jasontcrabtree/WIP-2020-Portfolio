@@ -5,7 +5,7 @@ date: 2018-10-01
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573410855/Portfolio-Assets/IagDiscovery-Cover-Image-2.png'
 ---
 
-import CaseStudyReadTime from "@/components/CaseStudyReadTime";
+import CaseStudyReadTime from "@/components/utils/CaseStudyReadTime";
 
 <CaseStudyReadTime readTime="13"/>
 

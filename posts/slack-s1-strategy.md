@@ -7,7 +7,7 @@ date: 2019-04-26
 # meta: A brief day-of-release review of Slack's Strategic Plans, as told by their recent S-1 document.
 ---
 
-import BlogReadTime from "@/components/BlogReadTime";
+import BlogReadTime from "@/components/utils/BlogReadTime";
 
 <BlogReadTime readTime="3"/>
 

@@ -5,7 +5,7 @@ slug: 'approachable css variables'
 title: 'Small Joys of Learning Code; the CSS Edition'
 ---
 
-import BlogReadTime from "@/components/BlogReadTime";
+import BlogReadTime from "@/components/utils/BlogReadTime";
 
 <BlogReadTime readTime="4"/>
 

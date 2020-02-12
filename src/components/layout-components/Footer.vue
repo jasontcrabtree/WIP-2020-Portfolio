@@ -44,9 +44,9 @@
 </template>
 
 <script>
-import MainNav from "@/components/MainNav";
-import Social from "@/components/Social";
-import Subscribe from "@/components/Subscribe";
+import MainNav from "@/components/layout-components/MainNav";
+import Social from "@/components/utils/Social";
+import Subscribe from "@/components/utils/Subscribe";
 
 export default {
   components: {
