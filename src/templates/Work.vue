@@ -60,6 +60,11 @@ export default {
   padding-inline-start: 24px;
 }
 
+.work-container > ol > *,
+.work-container > ul > * {
+  padding-bottom: var(--size-8);
+}
+
 img {
   border: 1px solid var(--grey-200);
 }
