@@ -27,7 +27,7 @@
 
       <hr />
 
-      <section class="work-container" id="work">
+      <section class="work-list-container" id="work">
         <h2 class="work-title">Case Studies and Process</h2>
         <ul class="work-list-container">
           <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
@@ -235,8 +235,9 @@ query {
   box-shadow: var(--shadow-medium);
 }
 
-.work-container {
+.work-list-container {
   grid-column: 1 / -1;
+  margin: auto 0px;
 }
 
 /* Desktop Media Query */
@@ -300,6 +301,7 @@ query {
   .h2-section-title {
     font-size: var(--size-40);
     margin-bottom: 40px;
+    column-span: all;
   }
 
   .hero-bio-bg {

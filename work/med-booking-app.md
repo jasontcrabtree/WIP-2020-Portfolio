@@ -38,7 +38,7 @@ rightCaption="This project was a great success. Highlights include getting more 
 
 1. My initial design process helped uncover useful product insights. But, once I started designing in Figma I didn't refer back to those insights nearly enough!
 2. I didn't do enough user research for such a complicated product area. I did background and competitor research but further research is essential.
-3. The visual design and branding can be refined. Starting from the Apple HIG gave the app has a solid foundation. More refinement is needed on the information-heavy screens such as search centre and records.
+3. The visual design and branding can be refined. Starting from the Apple HIG gave the app a solid foundation. More refinement is needed on the information-heavy screens, such as search-centre and records.
 
 ---
 
