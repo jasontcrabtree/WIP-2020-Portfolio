@@ -228,6 +228,10 @@ This 3-month project was one of the most challenging, and rewarding periods of m
 2. Trust your team, and make sure you check in with each other frequently. Stay on the same page and clarify assumptions.
 3. Stick to convictions about uncomfortable conversations — this was especially relevant to how we approached customer research on this project, something I think I should have pushed for much more heavily than I did.
 
-### Wrapping Up
+This was the final project I completed at IAG over four years. It was a great experience that taught me a whole lot, especially about how I cope with pressure 😅 something we all need to learn!
 
-Hello! If you've made it this far, I admire your commitment — either to reading through everything, or for your skimming ability. This was the final project I completed at IAG over four years. It was a great experience that taught me a whole lot, especially about how I cope with pressure 😅 something we all need to learn!
+---
+
+## Wrapping Up
+
+Read next case study about completing a [prompts.io](https://prompts.io) design challenge [iOS App Design Concept: OpenMed Personal Medical Care Managementy](/work/character-counter).

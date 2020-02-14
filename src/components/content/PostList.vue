@@ -4,7 +4,6 @@
       <p class="date--style" v-html="post.date" />
       <h3 class="card-title" v-html="post.title" />
       <p class="description" v-html="post.description" />
-      <!-- <b>{{ post.timeToRead }} min read</b> &nbsp; -->
       <span class="post-link">Read blog post</span>
     </g-link>
   </li>

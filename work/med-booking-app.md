@@ -1,8 +1,9 @@
 ---
 title: 'iOS App Design Concept: OpenMed Personal Medical Care Management'
-description: 'A conceptual app for managing your personal medical care, treatments, appointments and practioners.'
+description: 'A conceptual app for patients to manage personal medical care, treatments, appointments and practioners.'
 date: 2019-06-18
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1581522542/Portfolio-2020/openmed-header-x2.png'
+# image: '~/assets/images/med-care-app/process.png'
 ---
 
 import CaseStudyReadTime from "@/components/utils/CaseStudyReadTime";
@@ -23,7 +24,7 @@ leftTitle="Challenge"
 leftCaption="Starting with the design prompt of “How might we reduce in-person visits to the doctor?”, design a mobile experience. Following the design challenge constraints, I designed an iOS app based on currently available technologies."
  right="true"
 rightTitle="Outcome"
-rightCaption="This project was a great success. Highlights include getting more comfortable with the Apple Human Interface Guidelines, applying an end-end design process, and developing a unique visual language."
+rightCaption="This project was a great success. Highlights included getting more comfortable with the Apple Human Interface Guidelines, applying an end-end design process, and developing a unique visual language."
 />
 
 ### Design Process
@@ -51,19 +52,34 @@ I won't subject you to reading my messy handwriting, circular thought process an
 
 ### Brand Exploration
 
-![Brand research focusing on 70-80's color palettes, with earthy blues, oranges, yellows and greens.](~/assets/images/med-care-app/brand-research.png)
+![Brand research focusing on 70-80's colour palettes, with earthy blues, oranges, yellows and greens.](~/assets/images/med-care-app/brand-research.png)
+I chose to focus brand exploration on colour palettes from the 70's and 80's due to the warm, cheerful tone.
 
 ### Exploring Human Interface Guideline Components
 
 ![Massive background image of 16+ frames with the different base HIG components I used, adapted and employed.](~/assets/images/med-care-app/apple-hig-components.png)
+I started with components from the Apple Human Interface Guideline, then adapted based on brand colours, typography and spacing.
 
 ### Halfway Work-in-Progress Shot
 
 ![A work in progress shot containing the seven final screens.](~/assets/images/med-care-app/wip-midway.png)
+This progress shot shows a mix of bold colour blocks.
 
-### The Final Frames
+### The Final Eight Screens
 
 ![The final designed screens, highlighting the consistentcy from screen to screen.](~/assets/images/med-care-app/final-frames.png)
+The final screens have more consistentcy and a focused blue button finish. The app has five main screens, a splash screen, and two support screens.
+
+#### Breaking down the Eight Screens
+
+- Splash Screen
+- Home
+- Treatments
+- Calendar
+- Search Centre
+- Records
+- Contact
+- Notifications
 
 ---
 
@@ -72,35 +88,50 @@ I won't subject you to reading my messy handwriting, circular thought process an
 ### Landing Splash Screen
 
 ![Landing splash screen: Main call-to-action of Get Started.](~/assets/images/med-care-app/landing.png)
+The splash screen represents a very basic entry to the app, with a CTA of 'Get Started'.
 
 ### Home View
 
 ![Home screen view; key elements show scheduled appointments, information centre search-bar and prescription refil centre.](~/assets/images/med-care-app/home.png)
+The main user navigation screen.
 
 ### Ongoing Treatment Plans
 
 ![Treatments view; key elements of search field and current and past prescriptions and treatments.](~/assets/images/med-care-app/treatments.png)
+Request and view new, past and present treatments.
 
 ### Calendar, Upcoming and Past Appointments
 
-![The](~/assets/images/med-care-app/calendar.png)
+![Calendar view: Showing the month of June and a form to request new appointments, plus past appointments](~/assets/images/med-care-app/calendar.png)
+Appointments: View future, book new, and view past.
 
 ### Search Centre
 
-![The](~/assets/images/med-care-app/search.png)
+![Search Centre view: Highlighting trending questions, Search Bar and recent searches](~/assets/images/med-care-app/search.png)
+An area to highlight trending medical questions and search vetted medical information sources.
 
 ### Personal Records
 
-![The](~/assets/images/med-care-app/records.png)
+![Records view: Patient personal information, preferred medical practioners and different practices of GP, Physiotherapist and Dentist as some examples](~/assets/images/med-care-app/records.png)
+A single source for the user to store their personal information to share with medical practioners, and to store details of ongoing medical practioners.
 
 ### Contact View
 
-![The](~/assets/images/med-care-app/contact.png)
+![Contact Screen showing emergency contact details for local 111 services, and contact info for registered medical practioners](~/assets/images/med-care-app/contact.png)
+Emergency contact methods for the local area, and contact methods for the users medical practioners.
 
 ### Notifications
 
-![The](~/assets/images/med-care-app/notifications.png)
+![Notification view highlighting recent messages, emails and calendar reminders, with each notification alongside a related icon](~/assets/images/med-care-app/notifications.png)
+A screen to display notifications for upcoming appointments, emails, prescription reminders and general medical care messages.
 
 ### The Final Frames with Prototyping Connections
 
-![The](~/assets/images/med-care-app/final-frames-prototypes.png)
+![A final shot of all eight frames with the prototyping lines from Figma connecting each image](~/assets/images/med-care-app/final-frames-prototypes.png)
+A final shot showing the prototype connections between each screen, tab bar and button.
+
+---
+
+## Wrapping Up
+
+Read next case study about designing a simple web app to help improve typography [Character Counter Typography Web App Case Study](/work/character-counter).

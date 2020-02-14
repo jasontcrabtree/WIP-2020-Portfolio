@@ -18,9 +18,11 @@
             Hello, I’m Jason. I'm a Designer interested in thoughtfully solving meaningful, tough problems. I’m motivated by
             mission-driven work, shared values and a diverse, welcoming and
             inclusive workplace culture. I'm
-            <span
-              class="current-status-text"
-            >currently looking</span> for a UX Designer role in London, UK.
+            <a
+              a
+              href="/jason-crabtree-resume.pdf"
+            >currently looking</a>
+            for a UX Designer role in London, UK.
           </p>
         </div>
       </section>
@@ -301,7 +303,10 @@ query {
   .h2-section-title {
     font-size: var(--size-40);
     margin-bottom: 40px;
-    column-span: all;
+  }
+
+  .work-title {
+    width: 150%;
   }
 
   .hero-bio-bg {
@@ -320,7 +325,6 @@ query {
   .decoration-dots-header--layout {
     z-index: 2;
     margin-left: -4.5em;
-    /* margin-top: 3em; */
     margin-top: 7em;
   }
 
@@ -343,10 +347,6 @@ query {
   .hero-header-h1--style {
     font-size: var(--size-56);
   }
-
-  /*   hr {
-    margin: 0px 0px;
-  } */
 }
 
 /* Narrow screens, tablets & phones */
@@ -370,11 +370,6 @@ query {
     flex-direction: column-reverse;
   }
 
-  /*   .latest-posts-container {
-    padding-top: 24px;
-    margin-top: 72px;
-  } */
-
   .work-title {
     font-size: var(--size-32);
     margin-bottom: 24px;
@@ -394,9 +389,6 @@ query {
 
   .decoration-dots-header--layout {
     z-index: 1;
-    /* margin-left: -4.5em; */
-    /* margin-top: 3em; */
-    /* padding-top: 4em; */
     transform: rotate(180deg);
     margin-bottom: 32px;
   }

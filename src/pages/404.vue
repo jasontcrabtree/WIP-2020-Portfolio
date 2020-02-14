@@ -12,7 +12,7 @@
       </section>
       <g-link to="/">Return Home</g-link>
 
-      <SplitContent
+      <!--       <SplitContent
         left="true"
         leftTitle="Hello World"
         leftImage="https://picsum.photos/601/301"
@@ -23,17 +23,17 @@
         rightImage="https://picsum.photos/600/300"
         rightAlt="Hello Picsum"
         rightCaption="Understanding art takes more than just knowing different styles of art. To know and understand art you have to unlearn everything you know about art because what you know as “art” is through someone's eyes (the artist)."
-      />
+      />-->
     </main>
   </layout>
 </template>
 
 <script>
-import SplitContent from "@/components/content/SplitContent";
+// import SplitContent from "@/components/content/SplitContent";
 
 export default {
   components: {
-    SplitContent
+    // SplitContent
   },
   metaInfo: {
     title: "404"

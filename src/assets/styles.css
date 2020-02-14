@@ -124,7 +124,6 @@ article > .post-container > h5 {
 }
 
 a:any-link {
-  /* color: #36364f; */
   color: var(--primary-link);
   text-decoration: underline;
   letter-spacing: -0.4px;
@@ -309,7 +308,8 @@ hr {
   }
 
   hr {
-    border-top: solid 4px #8977ff;
+    border-top: solid 4px #2cb1bc;
+    opacity: 0.5;
   }
 
   .post-container > blockquote,

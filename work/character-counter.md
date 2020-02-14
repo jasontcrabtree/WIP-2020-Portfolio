@@ -1,6 +1,6 @@
 ---
-title: 'Product Design: Building CharacterCounter, A Text Character Counting Tool'
-description: 'Building a tool to improve my workflow, and learning a small amount of JavaScript in the process.'
+title: 'Product Design: Building CharacterCounter, A Typography Tool'
+description: 'Building a web app to improve my design workflow and learning a small but mighty bit of JavaScript in the process.'
 date: 2019-02-26
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573418454/Portfolio-Assets/CharCount-Cover-Image-4.png'
 ---
@@ -141,8 +141,14 @@ I can load a new tab (**⌘ + T** on Mac, **Ctrl + T** on Windows + Linux), type
 4. The goal of speed was met which feels very rewarding.
    The visual design and usability feel solid, I’ll happily load this multiple times a day as needed!
 
-Overall, this was a great mini-project to hack on. I discovered a lovely sense of joy in creating a solution for a problem I was experiencing myself. For now, onwards to the next one!
+Overall, this was a great mini-project to hack on. I discovered a lovely sense of joy in creating a solution for a problem I was experiencing. For now, onwards to the next one!
 
 _PS._ After publishing this I spoke with [Kostya Gorskiy](https://twitter.com/k00) — a design manager at Intercom. While chatting over coffee Kostya was kind enough to give me some feedback on how I could improve and refine the visual design of Character Counter.
 
 The main feedback focused on simplifying typography. As a result, we’ve gone from 8 different slight colour/boldness/size variations (it sounds like so many said like that!) to 4 different variations. These changes have been updated in the images so you get to see the final outcome! Enjoy.
+
+---
+
+## Wrapping Up
+
+Read next case study about being a design lead for [Design Discovery in a Traditional Insurance Company](/work/repairer-allocation).

@@ -12,7 +12,7 @@
         <a href="https://gridsome.org/">Gridsome</a>,
         <a href="https://www.netlify.com/">Netlify</a>,
         <a href="https://github.com/jasontcrabtree">Github</a>, and
-        <a href="https://tinyletter.com/">Tinyletter.</a> A big thanks to those generous services.
+        <a href="https://tinyletter.com/">Tinyletter.</a> A big thanks for those great services.
       </p>
       <p>
         <small>
