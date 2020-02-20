@@ -46,7 +46,7 @@ rightCaption="This project was a great success. Highlights included getting more
 
 Experiment with the final Figma prototype and click, tap and scroll to the different screens throughout the app.
 
-*The fullscreen button for the Figma prototype is in the top right!*
+*Tip: the fullscreen button for the Figma prototype is in the top right!*
 <OpenMedPrototype />
 
 ---
