@@ -9,6 +9,7 @@ image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1581522542/Portf
 import CaseStudyReadTime from "@/components/utils/CaseStudyReadTime";
 import SplitContent from "@/components/content/SplitContent";
 import ImgLarge from "@/components/Images/ImgLarge";
+import OpenMedPrototype from "@/components/content/OpenMedPrototype";
 
 <CaseStudyReadTime readTime="4"/>
 
@@ -40,6 +41,13 @@ rightCaption="This project was a great success. Highlights included getting more
 1. My initial design process helped uncover useful product insights. But, once I started designing in Figma I didn't refer back to those insights nearly enough!
 2. I didn't do enough user research for such a complicated product area. I did background and competitor research but further research is essential.
 3. The visual design and branding can be refined. Starting from the Apple HIG gave the app a solid foundation. More refinement is needed on the information-heavy screens, such as search-centre and records.
+
+### Final Prototype
+
+Experiment with the final Figma prototype and click, tap and scroll to the different screens throughout the app.
+
+*The fullscreen button for the Figma prototype is in the top right!*
+<OpenMedPrototype />
 
 ---
 
