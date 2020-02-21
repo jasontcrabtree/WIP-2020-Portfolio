@@ -58,6 +58,10 @@ export default {
   padding: 8px 0px;
 }
 
+.hero-social-list > li {
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 961px) {
   .hero-social-list {
     display: flex;

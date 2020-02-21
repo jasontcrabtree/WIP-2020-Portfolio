@@ -32,7 +32,7 @@ h1 {
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizeLegibility;
 }
 ol[class],
 ul[class] {

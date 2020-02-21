@@ -123,6 +123,13 @@ article > .post-container > h5 {
   margin-bottom: -32px;
 }
 
+ol > li,
+ul > li,
+li {
+  /* margin-bottom: var(--size-16); */
+  padding-bottom: 8px;
+}
+
 a:any-link {
   color: var(--primary-link);
   text-decoration: underline;

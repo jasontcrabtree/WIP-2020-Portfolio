@@ -59,6 +59,11 @@ export default {
   font-weight: 900;
 }
 
+.post-container > ol > li,
+.post-container ul > li {
+  padding-bottom: var(--size-16);
+}
+
 @media screen and (max-width: 960px) {
   p {
     max-width: 40ch;
