@@ -1,7 +1,7 @@
 ---
 date: 2020-02-21
 description: '*A few minutes tweaking values and defaults and applying best practices can produce great results. Being considerate about how you design your type and text can produce outsize outcomes.* *Getting to good is as simple as a few steps.*'
-title: "10 Small but Mighty Tips I've Recently Learnt about Designing Great Typography"
+title: "10 Small but Mighty Tips I've Learnt for Designing Great Typography"
 ---
 
 import BlogReadTime from "@/components/utils/BlogReadTime";
@@ -29,8 +29,8 @@ All in all, these lessons can be summarised by this idea
 
 ### Sources and in-depth references to learn more
 
-- [https://practicaltypography.com/](https://practicaltypography.com/)
-- [https://practicaltypography.com/typography-in-ten-minutes.html](https://practicaltypography.com/typography-in-ten-minutes.html)
-- [https://www.goodreads.com/book/show/3065213-the-layout-book](https://www.goodreads.com/book/show/3065213-the-layout-book)
-- [https://betterwebtype.com/articles/2018/10/15/rhythm-in-web-typography/](https://betterwebtype.com/articles/2018/10/15/rhythm-in-web-typography/)
-- [https://frankchimero.com/blog/2020/picking-typefaces/](https://frankchimero.com/blog/2020/picking-typefaces/)
+- [Practical Typography](https://practicaltypography.com/)
+- [Practical Typography: Typography in Ten Minutes](https://practicaltypography.com/typography-in-ten-minutes.html)
+- [The Layout Book](https://www.goodreads.com/book/show/3065213-the-layout-book)
+- [Rhythm in Web Typography/](https://betterwebtype.com/articles/2018/10/15/rhythm-in-web-typography/)
+- [Picking Typefaces](https://frankchimero.com/blog/2020/picking-typefaces/)
