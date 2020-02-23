@@ -40,11 +40,7 @@ export default {
 }
 
 .decoration-dots--color {
-  /* Old color */
-  color: #2cb1bc;
-  /* New color test */
-  color: #92e6ee;
-  color: #a2cdd1;
+  color: var(--dots-color);
 }
 
 @media screen and (max-width: 960px) {
@@ -75,10 +71,6 @@ export default {
 
   .nav-list {
     border-radius: 8px;
-
-    /* TODO TESTING NAV PADDING */
-    padding: 0px 0px;
-
     padding: 0px 8px;
   }
 
@@ -93,8 +85,6 @@ export default {
   .primary-nav {
     grid-row-start: 1;
     grid-column: 12 / 13;
-
-    /* TODO: TESTING COLUMN POSITION */
     grid-column: 13 / 14;
   }
 }
@@ -115,6 +105,13 @@ export default {
 @media all and (max-width: 960px) and (prefers-color-scheme: light) {
   .nav-list {
     border: 1px solid var(--card-background-white);
+    border: 1px solid red;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .nav-list {
+    border: 1px solid var(--card-background-white);
   }
 }
 
@@ -125,8 +122,7 @@ export default {
   }
 
   .decoration-dots--color {
-    color: #92e6ee;
-    color: #a2cdd1;
+    color: var(--dots-color);
   }
 }
 </style>

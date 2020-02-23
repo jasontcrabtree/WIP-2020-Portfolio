@@ -15,6 +15,8 @@
 
   --grey-200: #dfe3f3;
 
+  --grey-300: #cbd0e4;
+
   --white-opacity-80: #ffffffcc;
 
   --card-background-white: #f8f9fa;
@@ -22,10 +24,13 @@
   --white-100: #ffffff;
 
   --horiz-spacer: #e1dfe9;
+  --horiz-spacer: #cbd0e4;
 
   --blue-white-100: #eef1ff;
 
   --dm-white-text: #f0f4f8;
+
+  --dots-color: #2cb1bc;
 
   --shadow-large: 0px 16px 24px rgba(0, 0, 0, 0.25);
   --shadow-medium: 0 8px 12px 0 rgba(0, 0, 0, 0.25);
@@ -51,6 +56,10 @@
 body {
   font-family: 'DM Sans', -apple-system, system-ui, BlinkMacSystemFont, Roboto,
     'Helvetica Neue', sans-serif;
+}
+
+html {
+  margin-top: 0px;
 }
 
 h1,
@@ -106,7 +115,7 @@ label {
 }
 
 article > .work-container > h2 {
-  margin-bottom: -16px;
+  margin-bottom: -32px;
 }
 article > .work-container > h3,
 article > .work-container > h4,
@@ -144,7 +153,6 @@ a:any-link {
   .quote-item:nth-child(even) {
     margin-left: -80px;
     margin-top: 80px;
-    /* z-index: 1; */
   }
 
   .quote-item:nth-child(odd) {
@@ -183,7 +191,8 @@ a:any-link {
 }
 
 .quote-item {
-  border: 1px solid var(--grey-200);
+  border: 1px solid var(--grey-300);
+
   background-color: var(--blue-white-100);
   border-radius: 8px;
 }
@@ -296,7 +305,7 @@ hr {
 
 @media (prefers-color-scheme: light) {
   hr {
-    border-top: solid 4px var(--horiz-spacer);
+    border-top: solid 2px var(--horiz-spacer);
   }
 }
 

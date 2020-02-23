@@ -1,6 +1,6 @@
 ---
 date: 2020-02-21
-description: '*A few minutes tweaking values and defaults and applying best practices can produce great results. Being considerate about how you design your type and text can produce outsize outcomes.* *Getting to good is as simple as a few steps.*'
+description: "I've recently been learning exactly how much typography can be hugely improved through tweaking a few values and defaults and applying straightforward best practices. Read more for those tips!"
 title: "10 Small but Mighty Tips I've Learnt for Designing Great Typography"
 ---
 
@@ -23,9 +23,7 @@ Over the last few weeks, I've had several reasons to dive deep into learning mor
 9. Contrary to common beliefs, uppercase text isn't inherently harder or easier to read than lowercase text. But! We are less familiar with uppercase text, so in turn, we find it more difficult due to familiarity.
 10. Font sizes for print designs should be considered separately from digital designs. I don't fully understand why, but my résumé is size 12px printed, whereas my website is size 18px. Both are perfect for their medium. I guess that's the lesson?
 
-All in all, these lessons can be summarised by this idea
-
->A few minutes tweaking values and defaults and applying best practices can produce great results. Being considerate about how you design your type and text can produce outsize outcomes. Getting to good is as simple as a few steps.
+All in all, a few minutes tweaking values and defaults and applying best practices can produce great results. Being considerate about how you design your text can produce outsize outcomes. Getting to good is just a few steps away!
 
 ### Sources and in-depth references to learn more
 

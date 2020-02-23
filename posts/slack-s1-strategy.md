@@ -2,7 +2,7 @@
 # layout: post
 # author: Jason
 title: 'Strategic Insights from the Slack S1'
-description: "A brief review of Slack's Strategic Plans, as told by their recent S-1 document"
+description: "A brief review of Slack's Strategic Plans, as told by their recent S-1 document."
 date: 2019-04-26
 # meta: A brief day-of-release review of Slack's Strategic Plans, as told by their recent S-1 document.
 ---

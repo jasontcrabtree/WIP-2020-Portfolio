@@ -52,7 +52,7 @@ export default {
 }
 
 .card-details > * {
-  margin-bottom: 16px;
+  margin-bottom: var(--size-16);
 }
 
 .work-list-card > *:last-child {

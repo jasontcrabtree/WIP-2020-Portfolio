@@ -4,6 +4,7 @@
       <p class="date--style" v-html="post.date" />
       <h3 class="card-title" v-html="post.title" />
       <p class="description" v-html="post.description" />
+
       <span class="post-link">Read blog post</span>
     </g-link>
   </li>
@@ -29,6 +30,7 @@ query {
         title
         date (format: "D MMMM YYYY")
         path
+        description
       }
     }
   }
@@ -37,8 +39,8 @@ query {
 
 <style scoped>
 .blog-list-item {
-  margin: 40px 0px;
-  padding: 32px 24px;
+  margin: 56px 0px;
+  padding: 40px 32px;
   box-shadow: var(--shadow-medium);
   border-radius: 8px;
 }

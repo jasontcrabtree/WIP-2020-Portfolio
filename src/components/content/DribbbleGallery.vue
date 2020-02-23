@@ -165,12 +165,12 @@ export default {
 }
 
 .dribbble-gallery--layout > * > figure > figcaption {
-  margin-top: 16px;
+  margin-top: var(--size-16);
 }
 
 @media screen and (max-width: 720px) {
   .dribbble-gallery--layout > * > figure {
-    margin: 48px 0px;
+    margin: var(--size-48) 0px;
     padding: 32px 16px;
   }
 }

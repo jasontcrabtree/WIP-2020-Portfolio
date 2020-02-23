@@ -5,7 +5,9 @@
         <h1>Personal Blog</h1>
         <p class="large-paragraph-text">
           A personal and professional blog by
-          <a href="http://twitter.com/jasontcrabtree">@jasontcrabtree.</a>
+          <a
+            href="http://twitter.com/jasontcrabtree"
+          >@jasontcrabtree.</a>
           Future topics likely to include design, product strategy, front-end
           code and general stuff about tech as it relates to my view on ethical,
           sustainable good for the world. Plus whatever else I'm thinking about
@@ -17,11 +19,7 @@
         <h2>Latest Posts:</h2>
 
         <ul class="posts">
-          <PostList
-            v-for="edge in $page.allPost.edges"
-            :key="edge.node.id"
-            :post="edge.node"
-          />
+          <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
         </ul>
         <Pager
           class="pager-component--style"
@@ -36,20 +34,20 @@
 </template>
 
 <script>
-import PostList from '@/components/content/PostList';
-import BgColumn from '@/components/layout-components/BgColumn';
+import PostList from "@/components/content/PostList";
+import BgColumn from "@/components/layout-components/BgColumn";
 
-import { Pager } from 'gridsome';
+import { Pager } from "gridsome";
 
 export default {
   components: {
     PostList,
     BgColumn,
-    Pager,
+    Pager
   },
   metaInfo: {
-    title: 'Blog: Jason is writing words online',
-  },
+    title: "Blog: Jason is writing words online"
+  }
 };
 </script>
 
@@ -66,6 +64,7 @@ query ($page: Int) {
         title
         date (format: "D MMMM YYYY")
         path
+        description
       }
     }
   },
@@ -81,20 +80,18 @@ query ($page: Int) {
   display: flex;
   justify-content: flex-start;
   justify-content: center;
-  font-family: 'Libre Franklin' !important;
+  font-family: "Libre Franklin" !important;
   font-weight: 500;
 }
 
 .pager-component--style > * {
   text-decoration: none;
   padding: 4px 32px;
-  /* padding: 4px 40px; */
   border-radius: 4px;
   margin: 0px 16px;
 }
 
 .pager-component--style > .active {
-  /* border: 1px solid white; */
   background: #3d36b2;
   color: white;
 }
@@ -107,15 +104,11 @@ query ($page: Int) {
   grid-column: 2 / 8;
 }
 
-header > * {
-  margin-bottom: 24px;
+.blog-main > header > * {
+  margin-bottom: var(--size-32);
 }
 
-.blog-list-section--layout {
-  margin-top: 48px;
-}
-
-.blog-list-section--layout > h2 {
-  margin-bottom: -16px;
+.blog-main > * {
+  margin: var(--size-32) 0px;
 }
 </style>

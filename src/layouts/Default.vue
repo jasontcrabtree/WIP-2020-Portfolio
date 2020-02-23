@@ -58,10 +58,6 @@ query {
   }
 
   .top-parent-container {
-    /* TODO: Figure out with margin I prefer */
-    /* margin: 48px 120px; */
-    /* margin: 48px 160px; */
-    /* margin: 48px 9.6vw; */
     margin: 72px 144px 0px 144px;
     display: grid;
     gap: 16px;
@@ -72,11 +68,6 @@ query {
   main {
     grid-row-start: 2;
     grid-column: 1 / -1;
-  }
-
-  main {
-    width: auto;
-    max-width: 1500px;
   }
 }
 
@@ -90,7 +81,7 @@ query {
 /* screens larger than 1440px */
 @media screen and (min-width: 1440px) {
   .top-parent-container {
-    margin-top: 64px;
+    margin-top: var(--size-64);
   }
 }
 
@@ -104,10 +95,7 @@ query {
     max-width: -webkit-max-content; /* Chrome */
     width: auto;
 
-    margin-bottom: 0px;
     padding-top: 32px;
-
-    margin-top: 0px;
   }
 }
 @media screen and (max-width: 459px) {
@@ -119,11 +107,9 @@ query {
     max-width: -webkit-max-content; /* Chrome */
     width: auto;
 
-    margin-bottom: 96px;
+    margin-bottom: 72px;
     padding-top: 32px;
 
-    margin-top: 0px;
-    /* border-top: 8px solid var(--primary-blue); */
     border-top: 8px solid #2cb1bc;
   }
 }
@@ -139,9 +125,5 @@ query {
   .return-home-h2--color {
     color: var(--primary-link-dark);
   }
-}
-
-.top-parent-container {
-  margin-bottom: 0px;
 }
 </style>

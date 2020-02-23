@@ -101,7 +101,7 @@ export default {
   }
 
   .footer-parent--layout > section > .nav-list > * {
-    margin-top: 8px;
+    margin-top: var(--size-8);
   }
 
   .footer-parent--layout > section > .nav-list > * {
