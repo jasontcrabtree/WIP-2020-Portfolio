@@ -82,6 +82,10 @@ query {
 @media screen and (min-width: 1440px) {
   .top-parent-container {
     margin-top: var(--size-64);
+    max-width: calc(1400px - 10vw);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

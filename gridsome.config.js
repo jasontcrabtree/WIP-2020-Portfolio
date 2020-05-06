@@ -21,6 +21,7 @@ module.exports = {
     Tag: '/tag/:id',
   }, */
 
+  // eslint-disable-next-line no-shadow
   chainWebpack: config => {
     const svgRule = config.module.rule('svg');
     svgRule.uses.clear();
@@ -101,7 +102,7 @@ module.exports = {
         feedItemOptions: node => ({
           title: node.title,
           description: node.description,
-          url: 'https://jasontcrabtree.com/' + node.path,
+          url: `https://jasontcrabtree.com/${node.path}`,
           content: node.content,
         }),
         output: {
@@ -113,7 +114,7 @@ module.exports = {
   ],
 
   transformers: {
-    //Add markdown support to all file-system sources
+    // Add markdown support to all file-system sources
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
