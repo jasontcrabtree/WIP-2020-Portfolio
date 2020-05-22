@@ -53,7 +53,7 @@ export default {
 
 <page-query>
 query ($page: Int) {
-  allPost(perPage: 3, page: $page) @paginate {
+  allPost(perPage: 999, page: $page) @paginate {
     pageInfo {
       totalPages
       currentPage
@@ -101,7 +101,7 @@ query ($page: Int) {
 }
 
 .blog-main {
-  grid-column: 2 / 8;
+  grid-column: 2 / 9;
 }
 
 .blog-main > header > * {

@@ -1,5 +1,5 @@
 :root {
-  --text-black: #1f1f31;
+  --text-black: #151518;
 
   --heading-black: #353546;
 
@@ -54,8 +54,8 @@
 }
 
 body {
-  font-family: 'DM Sans', -apple-system, system-ui, BlinkMacSystemFont, Roboto,
-    'Helvetica Neue', sans-serif;
+  font-family: -apple-system, system-ui, 'DM Sans', system-ui,
+    BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
 }
 
 html {

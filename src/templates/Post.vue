@@ -47,7 +47,7 @@ export default {
 <style>
 .blog-post--layout {
   grid-row-start: 3;
-  grid-column: 2/ 9;
+  grid-column: 2 / 9;
 }
 
 .post-title-container {
