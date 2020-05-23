@@ -52,7 +52,7 @@ Here are the main categories:
 - Blog posts. I want to publish ~8ish blog posts talking about Figma prototyping, tips and tricks, what I learn, getting started, advanced techniques, and everything in between
 - Contact cool people: There’s a bunch of cool people I follow on twitter or via newsletters interested in prototyping/motion design/Figma that I think would be interested in Scaffold, and then maybe maybe some of them will share it. This feels awkward af, but I’m gonna do it anyway!
 - Videos and tutorials: Scaffold is designed most of all to ***save time***. Save time for designers building prototypes from scratch, save time for designers figuring out how to do complex Figma interactions, and save time for designers looking for inspiration on different UI motion transitions. In order to validate that promise, I’m going to record some (extremely low budget) videos demonstrating how that works. Clickbait titles likely to include hits such as “How to Rebuild the Stripe Desktop Menu in 5 minutes”. I want to show people how Scaffold can simplify their day! Because it’s rad and built just for that!
-- Community: Finally, keep taking about Scaffold. Write blog posts like this. Share Scaffold with communities like Product Hunt and Indie Hackers, and whoever else might be interested!
+- Community: Finally, keep talking about Scaffold. Write blog posts like this. Share Scaffold with communities like Product Hunt and Indie Hackers, and whoever else might be interested!
 
 And so, that’s the plan. Write blog posts about Scaffold. Contact cool people. Make some videos and tutorials. And share with communities.
 
