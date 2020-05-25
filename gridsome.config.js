@@ -134,14 +134,14 @@ module.exports = {
         },
       },
     },
-    {
-      use: '@gridsome/plugin-critical',
-      options: {
-        paths: ['/'],
-        width: 1280,
-        height: 900,
-      },
-    },
+    // {
+    //   use: '@gridsome/plugin-critical',
+    //   options: {
+    //     paths: ['/'],
+    //     width: 1280,
+    //     height: 900,
+    //   },
+    // },
   ],
 
   transformers: {
