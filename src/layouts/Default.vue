@@ -11,10 +11,9 @@
 </template>
 
 <script>
-import MainNav from "@/components/layout-components/MainNav";
-import BgColumn from "@/components/layout-components/BgColumn";
-
-import Footer from "@/components/layout-components/Footer";
+import MainNav from "@/components/layout/MainNav";
+import BgColumn from "@/components/layout/BgColumn";
+import Footer from "@/components/layout/Footer";
 
 export default {
   components: {
@@ -55,14 +54,22 @@ query {
   .return-home-link {
     grid-column: 1 / 8;
     grid-row-start: 1;
+    margin: auto 0;
+    align-self: center;
   }
 
   .top-parent-container {
-    margin: 72px 144px 0px 144px;
+    margin: 64px 112px 0px 112px;
+    max-width: calc(1440px - 12vw);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     gap: 16px;
+    padding-left: 2rem;
+    padding-right: 2rem;
     grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: 64px auto auto auto auto auto;
   }
 
   main {
@@ -72,26 +79,26 @@ query {
 }
 
 /* 1440px sscreens */
-@media screen and (max-width: 1440px) and (min-width: 960px) {
+/* @media screen and (max-width: 1440px) and (min-width: 960px) {
   .top-parent-container {
-    margin: 72px 112px 0px 112px;
+    margin: 72px 144px 0px 144px;
   }
-}
+} */
 
 /* screens larger than 1440px */
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .top-parent-container {
     margin-top: var(--size-64);
-    max-width: calc(1400px - 10vw);
+    max-width: calc(1400px - 14vw);
     width: auto;
     margin-left: auto;
     margin-right: auto;
   }
-}
+} */
 
 @media screen and (max-width: 960px) {
   html {
-    margin: auto 64px;
+    margin: auto 32px;
     display: grid;
     padding: 16px;
     max-width: fit-content;

@@ -1,5 +1,5 @@
 <template>
-  <div class="background-elem"></div>
+  <div class="background-elem hide-bg-column" v-show="$route.name!=='/blog/*'"></div>
 </template>
 
 <script></script>

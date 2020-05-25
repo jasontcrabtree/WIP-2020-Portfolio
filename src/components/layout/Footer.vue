@@ -31,7 +31,6 @@
         <g-link to="/">Home</g-link>
         <g-link to="/contact/">Contact</g-link>
         <g-link to="/">Résumé</g-link>
-        <!-- <g-link to="/about/">About</g-link> -->
         <g-link class="nav-hidden" to="/#work">Work</g-link>
         <g-link to="/blog/">Blog</g-link>
       </nav>
@@ -44,7 +43,7 @@
 </template>
 
 <script>
-import MainNav from "@/components/layout-components/MainNav";
+import MainNav from "@/components/layout/MainNav";
 import Social from "@/components/utils/Social";
 import Subscribe from "@/components/utils/Subscribe";
 
@@ -61,6 +60,7 @@ export default {
 .footer-parent--layout {
   margin-top: 96px;
   grid-column: 1 / -1;
+  grid-row-start: -1;
 }
 
 .footer-parent--layout {

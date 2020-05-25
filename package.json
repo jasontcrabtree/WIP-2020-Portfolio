@@ -7,6 +7,8 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/plugin-critical": "^0.1.6",
+    "@gridsome/plugin-sitemap": "^0.2.3",
     "@gridsome/remark-prismjs": "^0.3.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.4.0",
@@ -16,7 +18,8 @@
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
     "gridsome": "^0.7.14",
-    "gridsome-plugin-rss": "^1.2.0"
+    "gridsome-plugin-rss": "^1.2.0",
+    "gridsome-source-buttondown": "^1.0.0"
   },
   "devDependencies": {
     "gridsome-plugin-service-worker": "^0.1.5",

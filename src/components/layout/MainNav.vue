@@ -1,8 +1,8 @@
 <template>
   <header class="primary-nav">
     <!-- <div class="header-background-src"></div> -->
+    <NavDots style="box-sizing: content-box" class="nav-dots--layout decoration-dots--color" />
     <nav class="nav-list">
-      <NavDots style="box-sizing: content-box" class="nav-dots--layout decoration-dots--color" />
       <g-link to="/#home" class>Home</g-link>
       <g-link to="/contact/">Contact</g-link>
       <a href="/jason-crabtree-resume.pdf">Résumé</a>
@@ -26,6 +26,7 @@ export default {
 <style scoped>
 .nav-list {
   text-align: center;
+
   display: flex;
   flex-direction: column;
   align-content: space-around;
@@ -35,7 +36,7 @@ export default {
   z-index: 1;
 }
 
-.nav-list > *:first-child {
+.primary-nav > *:first-child {
   margin-bottom: -16px !important;
 }
 
@@ -66,12 +67,13 @@ export default {
     flex-direction: column;
   }
   .nav-list {
-    position: fixed;
+    position: static;
   }
 
   .nav-list {
     border-radius: 8px;
     padding: 0px 8px;
+    width: 112px;
   }
 
   .nav-list {
@@ -84,7 +86,6 @@ export default {
 
   .primary-nav {
     grid-row-start: 1;
-    grid-column: 12 / 13;
     grid-column: 13 / 14;
   }
 }
@@ -102,23 +103,10 @@ export default {
   }
 }
 
-@media all and (max-width: 960px) and (prefers-color-scheme: light) {
-  .nav-list {
-    border: 1px solid var(--card-background-white);
-    border: 1px solid red;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .nav-list {
-    border: 1px solid var(--card-background-white);
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   .nav-list {
-    background-color: #102a43;
-    opacity: 0.95;
+    opacity: 1;
+    background: inherit;
   }
 
   .decoration-dots--color {

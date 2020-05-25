@@ -1,5 +1,6 @@
 :root {
-  --text-black: #151518;
+  /* --text-black: #181818; */
+  --text-black: #211636;
 
   --heading-black: #353546;
 
@@ -38,7 +39,7 @@
   --shadow-extra-small: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
 
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.7;
 
   --size-8: 8px;
   --size-16: 16px;
@@ -54,8 +55,10 @@
 }
 
 body {
-  font-family: -apple-system, system-ui, 'DM Sans', system-ui,
-    BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  letter-spacing: -0.2px;
 }
 
 html {
@@ -68,8 +71,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Libre Franklin', 'DM Sans', -apple-system, system-ui,
-    BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+  font-family: sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.2;
 }
 
@@ -124,12 +127,12 @@ article > .work-container > h5 {
 }
 
 article > .post-container > h2 {
-  margin-bottom: -16px;
+  margin-bottom: -24px;
 }
 article > .post-container > h3,
 article > .post-container > h4,
 article > .post-container > h5 {
-  margin-bottom: -32px;
+  margin-bottom: -24px;
 }
 
 ol > li,
@@ -137,6 +140,11 @@ ul > li,
 li {
   /* margin-bottom: var(--size-16); */
   padding-bottom: 8px;
+}
+
+ol,
+ul {
+  list-style-position: outside;
 }
 
 a:any-link {
@@ -162,6 +170,11 @@ a:any-link {
   .quote-item {
     padding: 32px 48px;
   }
+
+  ol,
+  ul {
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -169,13 +182,18 @@ a:any-link {
     padding: 32px 16px;
     margin: 32px 0px;
   }
+
+  ol,
+  ul {
+    padding-left: 16px;
+  }
 }
 
 .block-quote-callout {
   font-family: Georgia, Baskerville, sans-serif;
   font-size: var(--size-64);
   /* Rem value to shrink line-height to arrange layout */
-  line-height: 1.2rem;
+  line-height: 22px;
 }
 
 .block-quote-close {
@@ -246,7 +264,7 @@ a:any-link {
 
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #102a43;
+    background-color: hsl(209, 61%, 10%);
   }
   h1,
   h2,

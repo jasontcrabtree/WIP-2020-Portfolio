@@ -1,6 +1,6 @@
-<template>
+<template >
   <layout>
-    <article class="blog-post--layout">
+    <article class="blog-post--layout blog-post-type">
       <br />
       <span>
         <g-link to="/blog" class="link">&larr; Blog</g-link>
@@ -9,7 +9,6 @@
           {{ $page.post.title }}
         </span>
       </span>
-
       <div class="post-title-container">
         <h1 class="blog-post-title--style">{{ $page.post.title }}</h1>
       </div>
@@ -44,10 +43,30 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+@font-face {
+  font-family: "p22-mackinac-pro";
+  src: local(serif), local(serif), url(https://use.typekit.net/npd1kgb.css);
+  font-display: swap;
+}
+
+.blog-post-type {
+  font-family: "p22-mackinac-pro", serif;
+  font-display: swap;
+}
+
+h1 {
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 800;
+}
+
 .blog-post--layout {
   grid-row-start: 3;
-  grid-column: 2 / 9;
+
+  grid-column: 1 / -1;
+  margin: 0 0 0 0;
+  max-width: 34rem;
+  width: auto;
 }
 
 .post-title-container {
@@ -66,7 +85,7 @@ export default {
 
 @media screen and (max-width: 960px) {
   p {
-    max-width: 40ch;
+    max-width: 48ch;
     width: auto;
   }
 

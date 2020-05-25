@@ -1,5 +1,5 @@
 <template>
-  <form
+  <!-- <form
     class="subscribe-form--style tinyletter-sub-form"
     style
     action="https://tinyletter.com/jasontcrabtree"
@@ -9,7 +9,10 @@
   >
     <p>Subscribe to receive new blog posts and updates. Loose Topics; Design, Technology, Society, Life!</p>
     <fieldset class="subscribe-form-fieldset--layout sub-fieldset--style">
-      <label class="subscribe-label--style" for="tlemail">Your Email</label>
+
+      <label class="subscribe-label--style" for="tlemail">Your Email
+      </label>
+
       <input
         class="subscribe-email-input"
         type="text"
@@ -18,12 +21,35 @@
         id="tlemail"
         required
       />
-    </fieldset>
+  </fieldset>-->
 
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/jasontcrabtree"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/jasontcrabtree', 'popupwindow')"
+    class="subscribe-form--style tinyletter-sub-form"
+  >
+    <p>Subscribe to receive new blog posts and updates. Loose Topics; Design, Technology, Society, Life!</p>
+    <fieldset class="subscribe-form-fieldset--layout sub-fieldset--style">
+      <label class="subscribe-label--style" for="bd-email">Your Email</label>
+      <input
+        placeholder="hello@email.com"
+        type="email"
+        name="email"
+        id="bd-email"
+        class="subscribe-email-input"
+      />
+    </fieldset>
     <input type="hidden" value="1" name="embed" />
 
-    <button class="newsletter-" type="submit" value="Subscribe">Subscribe</button>
+    <button class="newsletter" type="submit" value="Subscribe">Subscribe</button>
   </form>
+
+  <!-- <input type="hidden" value="1" name="embed" />
+
+    <button class="newsletter-" type="submit" value="Subscribe">Subscribe</button>
+  </form>-->
 </template>
 
 <script>

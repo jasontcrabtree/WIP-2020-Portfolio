@@ -123,7 +123,7 @@
 import WorkList from "@/components/content/WorkList";
 import PostList from "@/components/content/PostList";
 
-import BgColumn from "@/components/layout-components/BgColumn";
+import BgColumn from "@/components/layout/BgColumn";
 import Social from "@/components/utils/Social";
 
 import DribbbleGallery from "@/components/content/DribbbleGallery";
@@ -196,7 +196,7 @@ query {
 .hero-bio--layout {
   max-width: 48ch;
   width: auto;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .latest-posts-container > .index-blog-list-title--style > li > a > * + * {
@@ -217,6 +217,9 @@ query {
 
   line-height: 1.2;
   letter-spacing: -1.8px;
+
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 800;
 
   margin: 24px 0px !important;
 }
@@ -329,8 +332,8 @@ query {
 
   .decoration-dots-header--layout {
     z-index: 2;
-    margin-left: -4.5em;
-    margin-top: 7em;
+    margin-left: -88px;
+    margin-top: 120px;
   }
 
   .hero-header-parent {

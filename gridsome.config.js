@@ -6,13 +6,15 @@
 
 module.exports = {
   siteName: "Jason Crabtree's Internet Hangtime",
+  siteUrl: 'https://jasontcrabtree.com',
   // siteDescription: 'A buncha words by Jason',
 
   // icon: 'src/alligator-favicon.png',
 
-  /*   templates: {
-    Post: '/blog/:title',
-    Tag: '/tag/:id',
+  /*
+  templates: {
+    // Post: '/blog/:title',
+    // Tag: '/tag/:id',
     // BlogPost: '/blog/:year/:month/:day/:slug',
   }, */
 
@@ -80,15 +82,15 @@ module.exports = {
         template: './src/templates/Work.vue',
       },
     },
-    {
-      use: 'gridsome-plugin-service-worker',
-      options: {
-        networkFirst: {
-          cacheName: 'nf-v1',
-          routes: ['/', /\.(js|css|png)/],
-        },
-      },
-    },
+    // {
+    //   use: 'gridsome-plugin-service-worker',
+    //   options: {
+    //     networkFirst: {
+    //       cacheName: 'nf-v1',
+    //       routes: ['/', /\.(js|css|png)/],
+    //     },
+    //   },
+    // },
     {
       use: 'gridsome-plugin-rss',
       options: {
@@ -109,6 +111,35 @@ module.exports = {
           dir: './static',
           name: 'rss.xml',
         },
+      },
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        // exclude: ['/exclude-me'],
+        config: {
+          '/blog/*': {
+            changefreq: 'weekly',
+            priority: 0.7,
+          },
+          '/work/*': {
+            changefreq: 'monthly',
+            priority: 0.5,
+          },
+          '/*': {
+            changefreq: 'monthly',
+            priority: 0.4,
+          },
+        },
+      },
+    },
+    {
+      use: '@gridsome/plugin-critical',
+      options: {
+        paths: ['/'],
+        width: 1280,
+        height: 900,
       },
     },
   ],

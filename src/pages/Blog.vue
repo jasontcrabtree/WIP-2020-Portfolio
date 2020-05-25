@@ -35,7 +35,7 @@
 
 <script>
 import PostList from "@/components/content/PostList";
-import BgColumn from "@/components/layout-components/BgColumn";
+import BgColumn from "@/components/layout/BgColumn";
 
 import { Pager } from "gridsome";
 
