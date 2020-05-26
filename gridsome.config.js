@@ -159,6 +159,6 @@ module.exports = {
   },
   // prefetch: { mask: '^$' },
 };
-const config = {
+/* const config = {
   accessToken: process.env.ACCESS_TOKEN,
-};
+}; */
