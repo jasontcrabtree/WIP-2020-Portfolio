@@ -51,12 +51,12 @@ export default {
 }
 
 .blog-post-type {
-  font-family: "p22-mackinac-pro", serif;
+  font-family: "p22-mackinac-pro", Georgia, serif;
   font-display: swap;
 }
 
 h1 {
-  font-family: p22-mackinac-pro, serif;
+  font-family: p22-mackinac-pro, Georgia, serif;
   font-weight: 800;
 }
 

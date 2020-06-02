@@ -2,12 +2,11 @@
 title: "Launching Scaffold: A Figma Prototyping Library, Small Starts and Forward Progress"
 description: 'Scaffold is a (paid) Figma Prototyping Library containing 285 different prototype Bases. That’s worth celebrating — the project successes, and reflecting on the things to improve and do next.'
 date: 2020-05-22
-
 ---
 
 import BlogReadTime from "@/components/utils/BlogReadTime";
 
-<BlogReadTime readTime="5"/>
+<BlogReadTime readTime="5" />
 
 Here’s a short note for me to reflect on in the years to come! Maybe you’ll enjoy it too.
 
