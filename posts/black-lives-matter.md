@@ -16,13 +16,13 @@ One of the reaons I'm interested in keeping an online blog is learning in public
 
 But some subjects dwarf tech in importance. As a privileged white man, unlearning a lifetime of living in a world of systemic racism, police brutality and inequity means I need to put in the work. White people, particularly white men — create, enforce and perpetuate systemic racism. That racism exists around the world — in USA, in NZ, and in the UK where I currently live.
 
-I won’t record everything I consume here but I believe it’s important to show a record of learning and be public about it. For all the reasons learning tech in public is good — accounability, progress, showing others the way, self-growth, creating shared resources. People in tech and designers love to learn, read, and celebrate about being well studied. Time for me to put my actions where it matters. If I happily read 50 articles about UX design, this is the least I can do.
+I won’t record everything I consume here but I believe it’s important to show a record of learning and be public about it. For all the reasons learning tech in public is good — accounability, progress, showing others the way, self-growth, creating shared resources. People in tech and designers especially love to learn, read, and celebrate being well studied. Time for me to put my actions where it matters. If I happily read 50 articles about UX design, this is the least I can do. Please read these or other resources and do your own learning too.
 
 This is an ongoing list of the books and resources I’m learning from as I learn to do better in matters of systematic racism and inequity.
 
 ### Read
 
-- My twitter feed, in which I follow a wide range of Black Women and Black men, actively listening, observing and learning
+- My twitter feed, where I follow a wide range of Black people, especially Black Women who are experts in this field, actively listening, observing and learning
 - Read 1 June 2020 [Becoming a Parent in the Age of Black Lives Matters](https://www.theatlantic.com/ideas/archive/2020/06/becoming-a-parent-in-the-age-of-black-lives-matter/612448/)
 - Read 1 June 2020 [American Nightmare](https://www.theatlantic.com/ideas/archive/2020/06/american-nightmare/612457/)
 - Read 2 June 2020 [Letter from a Birmingham Jail [King, Jr.]](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html)
@@ -31,7 +31,7 @@ This is an ongoing list of the books and resources I’m learning from as I lear
 
 - Books, names and resources to research [A list of Notable scholars and research sources](https://twitter.com/mireillecharper/status/1266337060459352064)
 - Books to read [Curated list of books to read](https://twitter.com/TatianaTMac/status/1165781104122634240)
-- Curated list of books, including specific to tech [Curated list of books to read for white men](https://tatianamac.com/posts/white-guyde/)
+- Curated list of books, including specific to tech [Curated list of books for white men](https://tatianamac.com/posts/white-guyde/)
 - Articles and scholars suggested by [@thebryreed](https://twitter.com/thebryreed/status/1266071139115241473)
   - [Malcolm and Martin](https://classic.esquire.com/article/1972/4/1/malcolm-and-martin)
   - [Are Prisons Obsolete?](https://www.feministes-radicales.org/wp-content/uploads/2010/11/Angela-Davis-Are_Prisons_Obsolete.pdf)
