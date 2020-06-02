@@ -1,5 +1,5 @@
 ---
-title: "#BlackLivesMatter. <br/> Educating myself about Systemic Racism"
+title: "#BlackLivesMatter. Educating myself about Systemic Racism"
 description: 'Educating myself on matters of systematic racism and taking a stand for what is right.'
 date: 2020-06-02
 ---
@@ -10,20 +10,24 @@ import BlogReadTime from "@/components/utils/BlogReadTime";
 
 Make a donation here: [Support the Equal Justice Initiative](https://support.eji.org/give/153413/#!/donation/checkout)
 
-One thing I want to use this blog for is learning in public. I expected that to be product design, typography, code and other tech related things.
+Published on the 2nd of June, 2020, after 6 days of ongoing protests against police brutality and systemic racism in the USA.
+
+One of the reaons I'm interested in keeping an online blog is learning in public. Previously, I expected that to be product design, typography, code and other tech related things.
 
 But some subjects dwarf tech in importance. As a privileged white man, unlearning a lifetime of living in a world of systemic racism, police brutality and inequity means I need to put in the work. White people, particularly white men — create, enforce and perpetuate systemic racism. That racism exists around the world — in USA, in NZ, and in the UK where I currently live.
 
 I won’t record everything I consume here but I believe it’s important to show a record of learning and be public about it. For all the reasons learning tech in public is good — accounability, progress, showing others the way, self-growth, creating shared resources. People in tech and designers love to learn, read, and celebrate about being well studied. Time for me to put my actions where it matters. If I happily read 50 articles about UX design, this is the least I can do.
 
-This is an ongoing list of the books and resources I’m learning from as I learn to do better in matters of systematic racism and inequity:
+This is an ongoing list of the books and resources I’m learning from as I learn to do better in matters of systematic racism and inequity.
+
+### Read
 
 - My twitter feed, in which I follow a wide range of Black Women and Black men, actively listening, observing and learning
 - Read 1 June 2020 [Becoming a Parent in the Age of Black Lives Matters](https://www.theatlantic.com/ideas/archive/2020/06/becoming-a-parent-in-the-age-of-black-lives-matter/612448/)
 - Read 1 June 2020 [American Nightmare](https://www.theatlantic.com/ideas/archive/2020/06/american-nightmare/612457/)
 - Read 2 June 2020 [Letter from a Birmingham Jail [King, Jr.]](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html)
 
-#### WIP / To-read in the future (currently blocked due to price)
+#### WIP / To Read (currently blocked due to price)
 
 - Books, names and resources to research [A list of Notable scholars and research sources](https://twitter.com/mireillecharper/status/1266337060459352064)
 - Books to read [Curated list of books to read](https://twitter.com/TatianaTMac/status/1165781104122634240)
