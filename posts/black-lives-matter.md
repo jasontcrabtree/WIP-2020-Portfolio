@@ -8,6 +8,8 @@ import BlogReadTime from "@/components/utils/BlogReadTime";
 
 <BlogReadTime readTime="3"/>
 
+*Updated 6 June 2020*
+
 Make a donation here: [Support the Equal Justice Initiative](https://support.eji.org/give/153413/#!/donation/checkout)
 
 Published on the 2nd of June, 2020, after 6 days of ongoing protests against police brutality and systemic racism in the USA.
@@ -23,9 +25,11 @@ This is an ongoing list of the books and resources I’m learning from as I lear
 ### Read
 
 - My twitter feed, where I follow a wide range of Black people, especially Black Women who are experts in this field, actively listening, observing and learning
-- Read 1 June 2020 [Becoming a Parent in the Age of Black Lives Matters](https://www.theatlantic.com/ideas/archive/2020/06/becoming-a-parent-in-the-age-of-black-lives-matter/612448/)
 - Read 1 June 2020 [American Nightmare](https://www.theatlantic.com/ideas/archive/2020/06/american-nightmare/612457/)
+- Read 1 June 2020 [Becoming a Parent in the Age of Black Lives Matters](https://www.theatlantic.com/ideas/archive/2020/06/becoming-a-parent-in-the-age-of-black-lives-matter/612448/)
 - Read 2 June 2020 [Letter from a Birmingham Jail [King, Jr.]](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html)
+- Watched 3 June 2020 [Uncomfortable Conversations with a Black Man](https://youtu.be/h8jUA7JBkF4)
+- Read 6 June 2020 [White Men Privilege](https://www.nytimes.com/2019/07/17/magazine/white-men-privilege.html)
 
 #### WIP / To Read (currently blocked due to price)
 
