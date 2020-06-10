@@ -13,20 +13,20 @@
         </p>
       </header>
       <section class="contact-form--layout contact-form--spacing">
-        <form
+        <!-- <form
           name="contact"
           method="post"
           v-on:submit.prevent="handleSubmit"
           action="/success/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-        >
-          <section class="contact-form-fieldset--style">
-            <h2>Success!</h2>
-            <p>The form successsfully submitted 🎉</p>
-            <p>Thanks for getting in touch! I'll respond to you as quickly as possible, which mostly means in 2-4 days.</p>
-          </section>
-        </form>
+        >-->
+        <section class="contact-form-fieldset--style">
+          <h2>Success!</h2>
+          <p>The form successsfully submitted 🎉</p>
+          <p>Thanks for getting in touch! I'll respond to you as quickly as possible, which mostly means in 2-4 days.</p>
+        </section>
+        <!-- </form> -->
       </section>
     </main>
   </layout>
@@ -39,8 +39,8 @@ export default {
   },
   metaInfo: {
     title: "Contact"
-  },
-  data() {
+  }
+  /* data() {
     return {
       formData: {}
     };
@@ -65,7 +65,7 @@ export default {
         .then(() => this.$router.push("/success"))
         .catch(error => alert(error));
     }
-  }
+  } */
 };
 </script>
 
