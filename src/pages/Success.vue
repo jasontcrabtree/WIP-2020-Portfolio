@@ -13,20 +13,11 @@
         </p>
       </header>
       <section class="contact-form--layout contact-form--spacing">
-        <!-- <form
-          name="contact"
-          method="post"
-          v-on:submit.prevent="handleSubmit"
-          action="/success/"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >-->
         <section class="contact-form-fieldset--style">
           <h2>Success!</h2>
           <p>The form successsfully submitted 🎉</p>
           <p>Thanks for getting in touch! I'll respond to you as quickly as possible, which mostly means in 2-4 days.</p>
         </section>
-        <!-- </form> -->
       </section>
     </main>
   </layout>
@@ -40,51 +31,21 @@ export default {
   metaInfo: {
     title: "Contact"
   }
-  /* data() {
-    return {
-      formData: {}
-    };
-  },
-  methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-    },
-    handleSubmit(e) {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
-          "form-name": e.target.getAttribute("name"),
-          ...this.formData
-        })
-      })
-        .then(() => this.$router.push("/success"))
-        .catch(error => alert(error));
-    }
-  } */
 };
 </script>
 
 <style>
-.contact-header > p {
-  margin: 1.4em 0px;
+.contact-form-fieldset--style > * {
+  margin: 1rem 0px;
+}
+
+.contact-form-fieldset--style {
+  padding: 4rem 0px;
 }
 
 .contact-parent {
   display: grid;
   grid-column: 1/ 9;
-}
-
-.contact-form--spacing > * > * > * {
-  margin: 1em 0px;
-}
-
-.contact-form-fieldset--style > p {
-  line-height: 1.2;
 }
 
 .contact-form-fieldset--style {
@@ -106,7 +67,7 @@ export default {
   }
 
   .contact-form-fieldset--style {
-    padding: 8px 24px;
+    padding: 2rem;
   }
 }
 
