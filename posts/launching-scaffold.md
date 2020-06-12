@@ -46,7 +46,7 @@ As I mentioned at the start of this rapidly growing blog post, I’ve been apply
 
 So now that I’ve launched Scaffold publicly, and finished the v1.0 release, it’s time to talk and build and share in public, en masse. Luckily, I have some ideas to help catch up. Basically, do all the things suggested about (that is normally done while working on the on-going product), except do it now after the fact.
 
-Here are the main categories:
+### Here are the main categories
 
 - Blog posts. I want to publish ~8ish blog posts talking about Figma prototyping, tips and tricks, what I learn, getting started, advanced techniques, and everything in between
 - Contact cool people: There’s a bunch of cool people I follow on twitter or via newsletters interested in prototyping/motion design/Figma that I think would be interested in Scaffold, and then maybe maybe some of them will share it. This feels awkward af, but I’m gonna do it anyway!

@@ -19,7 +19,10 @@
             meaningful, tough problems. I’m motivated by mission-driven work,
             shared values and a diverse, welcoming and inclusive workplace
             culture. I'm
-            <a a href="/jason-crabtree-resume.pdf">currently looking</a>
+            <a
+              a
+              href="/jason-crabtree-resume.pdf"
+            >currently looking</a>
             for a UX Designer role in London, UK.
           </p>
         </div>
@@ -30,11 +33,7 @@
       <section class="work-list-container" id="work">
         <h2 class="work-title">Case Studies and Process</h2>
         <ul class="work-list-container">
-          <WorkList
-            v-for="edge in $page.allWork.edges"
-            :key="edge.node.id"
-            :work="edge.node"
-          />
+          <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
         </ul>
       </section>
 
@@ -48,16 +47,18 @@
               <span class="block-quote-callout">“</span>Jason has a creative but
               practical out of the box way of thinking and to top it off, a
               relaxed demeanor that makes you naturally feel at ease around him.
-              <span class="block-quote-close">”</span>
+              <span
+                class="block-quote-close"
+              >”</span>
             </p>
             <footer>
               <cite class="quote-name--style">Dini Paranagama</cite>
               <div class="quote-details-text--layout">
                 <span>
                   Digital Product Manager at IAG Insurance, NZ,
-                  <a href="https://www.linkedin.com/in/dini-paranagama/"
-                    >LinkedIn</a
-                  >
+                  <a
+                    href="https://www.linkedin.com/in/dini-paranagama/"
+                  >LinkedIn</a>
                 </span>
               </div>
             </footer>
@@ -77,7 +78,9 @@
             <p>
               Jason has a creative yet pragmatic approach & you can rely on him
               to stand up for what’s right.
-              <span class="block-quote-close">”</span>
+              <span
+                class="block-quote-close"
+              >”</span>
             </p>
             <footer>
               <cite class="quote-name--style">Natalie van Baarlen</cite>
@@ -86,8 +89,7 @@
                   Customer Experience Design Lead at IAG Insurance, NZ,
                   <a
                     href="https://www.linkedin.com/in/natalie-van-baarlen-60ab73107/"
-                    >LinkedIn</a
-                  >
+                  >LinkedIn</a>
                 </span>
               </div>
             </footer>
@@ -119,15 +121,15 @@
 </template>
 
 <script>
-import WorkList from '@/components/content/WorkList';
-import PostList from '@/components/content/PostList';
+import WorkList from "@/components/content/WorkList";
+import PostList from "@/components/content/PostList";
 
-import BgColumn from '@/components/layout/BgColumn';
-import Social from '@/components/utils/Social';
+import BgColumn from "@/components/layout/BgColumn";
+import Social from "@/components/utils/Social";
 
-import DribbbleGallery from '@/components/content/DribbbleGallery';
+import DribbbleGallery from "@/components/content/DribbbleGallery";
 
-import DecoDots from '~/assets/svgs/DecoDots.svg';
+import DecoDots from "~/assets/svgs/DecoDots.svg";
 
 export default {
   components: {
@@ -136,11 +138,11 @@ export default {
     Social,
     PostList,
     DribbbleGallery,
-    DecoDots,
+    DecoDots
   },
   metaInfo: {
-    title: 'Home',
-  },
+    title: "Home"
+  }
 };
 </script>
 
@@ -195,7 +197,7 @@ query {
 .hero-bio--layout {
   max-width: 48ch;
   width: auto;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .latest-posts-container > .index-blog-list-title--style > li > a > * + * {
@@ -364,7 +366,7 @@ query {
 
   .hero-header-h1--style {
     font-size: var(--size-40);
-    letter-spacing: -0.6px;
+    letter-spacing: -0.4px;
   }
 
   .hero-children-container {

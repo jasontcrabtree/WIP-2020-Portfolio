@@ -44,16 +44,10 @@ export default {
 </script>
 
 <style scoped>
-@font-face {
-  font-family: "p22-mackinac-pro";
-  src: local(serif), local(serif), url(https://use.typekit.net/npd1kgb.css);
-  font-display: swap;
-}
-
 .blog-post-type {
-  font-family: "p22-mackinac-pro", Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
   font-weight: 400;
-  font-display: swap;
 }
 
 h1 {

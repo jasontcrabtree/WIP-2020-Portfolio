@@ -1,12 +1,12 @@
 <template>
   <section class="split-columns-parent">
     <article v-if="left">
-      <h3 v-if="leftTitle">{{ leftTitle }}</h3>
+      <h3 class="split-title" v-if="leftTitle">{{ leftTitle }}</h3>
       <g-image v-if="leftImage && leftAlt" :src="leftImage" :alt="leftAlt"></g-image>
       <p v-if="leftCaption">{{ leftCaption }}</p>
     </article>
     <article v-if="right">
-      <h3 v-if="rightTitle">{{ rightTitle }}</h3>
+      <h3 class="split-title" v-if="rightTitle">{{ rightTitle }}</h3>
       <g-image v-if="rightImage && rightAlt" :src="rightImage" :alt="rightAlt"></g-image>
       <p v-if="rightCaption">{{rightCaption}}</p>
     </article>

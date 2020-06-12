@@ -73,6 +73,11 @@ article > * + * {
   margin-top: 1.4em;
 }
 
+.split-title {
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+}
+
 @media screen and (max-width: 960px) {
   .work-title--style {
     font-size: var(--size-32);
