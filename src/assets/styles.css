@@ -1,5 +1,4 @@
 :root {
-  /* --text-black: #181818; */
   --text-black: #1a1919;
 
   --heading-black: #1d1d30;
@@ -155,9 +154,12 @@ ul {
 }
 
 code {
-  background: var(--blue-white-100);
+  color: var(--primary-blue);
+  background: var(--dm-white-text);
   letter-spacing: 0.2px;
   padding: 2px 4px;
+  padding: 1rem;
+  display: inline-block;
 }
 
 a:any-link {

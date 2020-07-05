@@ -15,7 +15,13 @@ The latest instance of this has been with CSS Variables. As a beginner, I always
 
 ## The Basic Structure of a Webpage
 
-Imagine a basic website with pictures and words. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) (_**Hypertext Markup Language**_) is the coding language that creates the websites layout and underlying content. [CSS](https://developer.mozilla.org/en-US/docs/Web/css) (_**Cascading Style Sheets**_) is the coding language used to add styles to the original HTML code. It's a relatively controversial coding language, full of debates about whether it's even a real programming language. Personally, I love it because it's incredibly literal. Do you want to change the colour of something? Type `background-color: red`. Or maybe you want to change the size of a font? `font-size: 40px` will do the trick.
+Imagine a basic website with pictures and words. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) (_**Hypertext Markup Language**_) is the coding language that creates the websites layout and underlying content. [CSS](https://developer.mozilla.org/en-US/docs/Web/css) (_**Cascading Style Sheets**_) is the coding language used to add styles to the original HTML code. It's a relatively controversial coding language, full of debates about whether it's even a real programming language. Personally, I love it because it's incredibly literal. Do you want to change the colour of something?
+
+`background-color: red`
+
+Or maybe you want to change the size of a font? Font size will do the trick.
+
+`font-size: 40px`
 
 HTML without CSS looks the same regardless of content — for Google, Twitter or this blog. CSS is (part of) what differentiates the design, style and brand of websites and products.
 

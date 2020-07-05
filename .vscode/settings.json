@@ -1,8 +1,19 @@
-{
+/* {
     "spellright.language": [
         "en"
     ],
     "spellright.documentTypes": [
         "latex"
-    ]
+    ],
+}
+ */
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#eef1ff",
+    "titleBar.inactiveForeground": "#1d1d30",
+    "titleBar.activeBackground": "#25168b",
+    "titleBar.inactiveBackground": "#4c4c5a"
+  },
+  "workbench.colorTheme": "Night Owl"
+  // "workbench.colorTheme": "Yi Light"
 }
