@@ -49,6 +49,8 @@ export default {
     title: "Blog: Jason is writing words online"
   }
 };
+
+console.log("hello blogs");
 </script>
 
 <page-query>
@@ -80,7 +82,6 @@ query ($page: Int) {
   display: flex;
   justify-content: flex-start;
   justify-content: center;
-  font-family: "Libre Franklin" !important;
   font-weight: 500;
 }
 
