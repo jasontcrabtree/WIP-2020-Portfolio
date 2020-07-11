@@ -1,18 +1,8 @@
 module.exports = {
   siteName: "Jason Crabtree's Internet Hangtime",
   siteUrl: 'https://jasontcrabtree.com',
+  icon: './static/star.svg',
   // siteDescription: 'A buncha words by Jason',
-  // icon: 'src/alligator-favicon.png',
-  /*
-  templates: {
-    // Post: '/blog/:title',
-    // Tag: '/tag/:id',
-    // BlogPost: '/blog/:year/:month/:day/:slug',
-  }, */
-  /*   templates: {
-    Writeup: '/work/:title',
-    Tag: '/tag/:id',
-  }, */
   // eslint-disable-next-line no-shadow
   chainWebpack: config => {
     const svgRule = config.module.rule('svg');
@@ -25,18 +15,18 @@ module.exports = {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Post',
-        baseDir: './posts/',
+        baseDir: './src/blog-posts/',
         pathPrefix: '/blog/',
-        template: './src/templates/Post.vue',
+        template: './src/_templates/Post.vue',
       },
     },
     {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Work',
-        baseDir: './work',
+        baseDir: './src/case-studies',
         pathPrefix: '/work/',
-        template: './src/templates/Work.vue',
+        template: './src/_templates/Work.vue',
       },
     },
     {
@@ -83,7 +73,6 @@ module.exports = {
       },
     },
   ],
-
   transformers: {
     // Add markdown support to all file-system sources
     remark: {
@@ -97,5 +86,4 @@ module.exports = {
       ],
     },
   },
-  // prefetch: { mask: '^$' },
 };

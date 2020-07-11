@@ -1,12 +1,9 @@
 <script>
 import WorkList from "@/components/WorkList";
 import PostList from "@/components/PostList";
-
 import BgColumn from "@/components/BgColumn";
 import Social from "@/components/utils/Social";
-
 import DribbbleGallery from "@/components/DribbbleGallery";
-
 import DecoDots from "~/assets/svgs/DecoDots.svg";
 
 export default {
@@ -43,10 +40,6 @@ query {
       }
     }
   },
-  metadata {
-    siteName
-    siteDescription
-  }
   allPost {
     totalCount
     edges {
@@ -55,7 +48,6 @@ query {
         title
         date (format: "D MMMM YYYY")
         path
-        content
       }
     }
   }
