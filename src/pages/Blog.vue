@@ -14,6 +14,8 @@ export default {
     title: "Blog: Jason is writing words online"
   }
 };
+
+console.log("mroe blogs");
 </script>
 
 <page-query>
