@@ -1,28 +1,8 @@
+<script>
+export default {};
+</script>
+
 <template>
-  <!-- <form
-    class="subscribe-form--style tinyletter-sub-form"
-    style
-    action="https://tinyletter.com/jasontcrabtree"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://tinyletter.com/jasontcrabtree', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-  >
-    <p>Subscribe to receive new blog posts and updates. Loose Topics; Design, Technology, Society, Life!</p>
-    <fieldset class="subscribe-form-fieldset--layout sub-fieldset--style">
-
-      <label class="subscribe-label--style" for="tlemail">Your Email
-      </label>
-
-      <input
-        class="subscribe-email-input"
-        type="text"
-        placeholder="hello@email.com"
-        name="email"
-        id="tlemail"
-        required
-      />
-  </fieldset>-->
-
   <form
     action="https://buttondown.email/api/emails/embed-subscribe/jasontcrabtree"
     method="post"
@@ -42,19 +22,9 @@
       />
     </fieldset>
     <input type="hidden" value="1" name="embed" />
-
     <button class="newsletter" type="submit" value="Subscribe">Subscribe</button>
   </form>
-
-  <!-- <input type="hidden" value="1" name="embed" />
-
-    <button class="newsletter-" type="submit" value="Subscribe">Subscribe</button>
-  </form>-->
 </template>
-
-<script>
-export default {};
-</script>
 
 <style>
 fieldset {

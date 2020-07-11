@@ -1,19 +1,7 @@
-<template>
-  <div class="top-parent-container">
-    <g-link class="return-home-link" to="/">
-      <h2 class="return-home-h2--color return-home-h2--type">Jason Crabtree</h2>
-    </g-link>
-    <MainNav />
-    <slot />
-    <BgColumn />
-    <Footer />
-  </div>
-</template>
-
 <script>
-import MainNav from "@/components/layout/MainNav";
-import BgColumn from "@/components/layout/BgColumn";
-import Footer from "@/components/layout/Footer";
+import MainNav from "@/components/MainNav";
+import BgColumn from "@/components/BgColumn";
+import Footer from "@/components/Footer";
 
 export default {
   components: {
@@ -31,6 +19,18 @@ query {
   }
 }
 </static-query>
+
+<template>
+  <div class="top-parent-container">
+    <g-link class="return-home-link" to="/">
+      <h2 class="return-home-h2--color return-home-h2--type">Jason Crabtree</h2>
+    </g-link>
+    <MainNav />
+    <slot />
+    <BgColumn />
+    <Footer />
+  </div>
+</template>
 
 <style>
 .background-elem {

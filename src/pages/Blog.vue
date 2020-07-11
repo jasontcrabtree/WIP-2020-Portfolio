@@ -1,41 +1,6 @@
-<template>
-  <layout>
-    <main class="blog-main">
-      <header>
-        <h1>Personal Blog</h1>
-        <p class="large-paragraph-text">
-          A personal and professional blog by
-          <a
-            href="http://twitter.com/jasontcrabtree"
-          >@jasontcrabtree.</a>
-          Future topics likely to include design, product strategy, front-end
-          code and general stuff about tech as it relates to my view on ethical,
-          sustainable good for the world. Plus whatever else I'm thinking about
-          related to humanities and society!
-        </p>
-      </header>
-
-      <section class="blog-list-section--layout">
-        <h2>Latest Posts:</h2>
-
-        <ul class="posts">
-          <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
-        </ul>
-        <Pager
-          class="pager-component--style"
-          :info="$page.allPost.pageInfo"
-          :showNavigation="false"
-          :showLinks="true"
-        />
-      </section>
-    </main>
-    <BgColumn />
-  </layout>
-</template>
-
 <script>
-import PostList from "@/components/content/PostList";
-import BgColumn from "@/components/layout/BgColumn";
+import PostList from "@/components/PostList";
+import BgColumn from "@/components/BgColumn";
 
 import { Pager } from "gridsome";
 
@@ -76,6 +41,42 @@ query ($page: Int) {
   }
 }
 </page-query>
+
+
+<template>
+  <layout>
+    <main class="blog-main">
+      <header>
+        <h1>Personal Blog</h1>
+        <p class="large-paragraph-text">
+          A personal and professional blog by
+          <a
+            href="http://twitter.com/jasontcrabtree"
+          >@jasontcrabtree.</a>
+          Future topics likely to include design, product strategy, front-end
+          code and general stuff about tech as it relates to my view on ethical,
+          sustainable good for the world. Plus whatever else I'm thinking about
+          related to humanities and society!
+        </p>
+      </header>
+
+      <section class="blog-list-section--layout">
+        <h2>Latest Posts:</h2>
+
+        <ul class="posts">
+          <PostList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
+        </ul>
+        <Pager
+          class="pager-component--style"
+          :info="$page.allPost.pageInfo"
+          :showNavigation="false"
+          :showLinks="true"
+        />
+      </section>
+    </main>
+    <BgColumn />
+  </layout>
+</template>
 
 <style scoped>
 .pager-component--style {

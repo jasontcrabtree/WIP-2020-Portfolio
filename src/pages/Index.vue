@@ -1,3 +1,67 @@
+<script>
+import WorkList from "@/components/WorkList";
+import PostList from "@/components/PostList";
+
+import BgColumn from "@/components/BgColumn";
+import Social from "@/components/utils/Social";
+
+import DribbbleGallery from "@/components/DribbbleGallery";
+
+import DecoDots from "~/assets/svgs/DecoDots.svg";
+
+export default {
+  components: {
+    WorkList,
+    BgColumn,
+    Social,
+    PostList,
+    DribbbleGallery,
+    DecoDots
+  },
+  metaInfo: {
+    title: "Home"
+  }
+};
+</script>
+
+<page-query>
+query {
+  metadata {
+    siteName
+    siteDescription
+  }
+  allWork {
+    totalCount
+    edges {
+      node {
+        title
+        id
+        description
+        date (format: "MMMM YYYY")
+        path
+        image
+      }
+    }
+  },
+  metadata {
+    siteName
+    siteDescription
+  }
+  allPost {
+    totalCount
+    edges {
+      node {
+        id
+        title
+        date (format: "D MMMM YYYY")
+        path
+        content
+      }
+    }
+  }
+}
+</page-query>
+
 <template>
   <Layout>
     <main class="main-parent" id="home">
@@ -120,69 +184,6 @@
   </Layout>
 </template>
 
-<script>
-import WorkList from "@/components/content/WorkList";
-import PostList from "@/components/content/PostList";
-
-import BgColumn from "@/components/layout/BgColumn";
-import Social from "@/components/utils/Social";
-
-import DribbbleGallery from "@/components/content/DribbbleGallery";
-
-import DecoDots from "~/assets/svgs/DecoDots.svg";
-
-export default {
-  components: {
-    WorkList,
-    BgColumn,
-    Social,
-    PostList,
-    DribbbleGallery,
-    DecoDots
-  },
-  metaInfo: {
-    title: "Home"
-  }
-};
-</script>
-
-<page-query>
-query {
-  metadata {
-    siteName
-    siteDescription
-  }
-  allWork {
-    totalCount
-    edges {
-      node {
-        title
-        id
-        description
-        date (format: "MMMM YYYY")
-        path
-        image
-      }
-    }
-  },
-  metadata {
-    siteName
-    siteDescription
-  }
-  allPost {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        date (format: "D MMMM YYYY")
-        path
-        content
-      }
-    }
-  }
-}
-</page-query>
 
 <style scoped>
 .background-elem {

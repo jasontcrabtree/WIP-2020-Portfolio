@@ -1,3 +1,40 @@
+<script>
+export default {
+  components: {
+    // ImgSmall
+  },
+  metaInfo: {
+    title: "Contact"
+  },
+  data() {
+    return {
+      formData: {}
+    };
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
+    },
+    handleSubmit(e) {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: this.encode({
+          "form-name": e.target.getAttribute("name"),
+          ...this.formData
+        })
+      })
+        .then(() => this.$router.push("/success"))
+        .catch(error => alert(error));
+    }
+  }
+};
+</script>
+
 <template>
   <layout>
     <main class="contact-parent">
@@ -72,43 +109,6 @@
     </main>
   </layout>
 </template>
-
-<script>
-export default {
-  components: {
-    // ImgSmall
-  },
-  metaInfo: {
-    title: "Contact"
-  },
-  data() {
-    return {
-      formData: {}
-    };
-  },
-  methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-    },
-    handleSubmit(e) {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
-          "form-name": e.target.getAttribute("name"),
-          ...this.formData
-        })
-      })
-        .then(() => this.$router.push("/success"))
-        .catch(error => alert(error));
-    }
-  }
-};
-</script>
 
 <style>
 .contact-header > p {

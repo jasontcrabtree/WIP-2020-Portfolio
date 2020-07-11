@@ -1,3 +1,27 @@
+<page-query>
+query Work ($path: String!) {
+    work: work (path: $path) {
+        image
+        title
+        content
+        date (format: "D MMMM YYYY")
+    }
+}
+</page-query>
+
+<script>
+export default {
+  // components: {
+  // },
+  metaInfo() {
+    return {
+      title: this.$page.work.title,
+      meta: [{ name: "description", content: this.$page.work.excerpt }]
+    };
+  }
+};
+</script>
+
 <template>
   <layout>
     <main class="work-post-parent--layout">
@@ -15,31 +39,6 @@
     </main>
   </layout>
 </template>
-
-<page-query>
-query Work ($path: String!) {
-    work: work (path: $path) {
-        image
-        title
-        content
-        date (format: "D MMMM YYYY")
-    }
-}
-</page-query>
-
-<script>
-export default {
-  // components: {
-
-  // },
-  metaInfo() {
-    return {
-      title: this.$page.work.title,
-      meta: [{ name: "description", content: this.$page.work.excerpt }]
-    };
-  }
-};
-</script>
 
 <style>
 .work-post-parent--layout {

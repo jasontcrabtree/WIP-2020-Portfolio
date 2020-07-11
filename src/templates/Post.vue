@@ -1,23 +1,3 @@
-<template >
-  <layout>
-    <article class="blog-post--layout blog-post-type">
-      <br />
-      <span>
-        <g-link to="/blog" class="link">&larr; Blog</g-link>
-        <span>
-          /
-          {{ $page.post.title }}
-        </span>
-      </span>
-      <div class="post-title-container">
-        <h1 class="blog-post-title--style">{{ $page.post.title }}</h1>
-      </div>
-      <VueRemarkContent class="post-container" />
-      <br />
-    </article>
-  </layout>
-</template>
-
 <page-query>
 query Post ($path: String!) {
     post: post (path: $path) {
@@ -43,6 +23,26 @@ export default {
 };
 </script>
 
+<template>
+  <layout>
+    <article class="blog-post--layout blog-post-type">
+      <br />
+      <span>
+        <g-link to="/blog" class="link">&larr; Blog</g-link>
+        <span>
+          /
+          {{ $page.post.title }}
+        </span>
+      </span>
+      <div class="post-title-container">
+        <h1 class="blog-post-title--style">{{ $page.post.title }}</h1>
+      </div>
+      <VueRemarkContent class="post-container" />
+    </article>
+  </layout>
+</template>
+
+
 <style scoped>
 .blog-post-type {
   -webkit-font-smoothing: antialiased;
@@ -57,9 +57,8 @@ h1 {
 
 .blog-post--layout {
   grid-row-start: 3;
-
   grid-column: 1 / -1;
-  margin: 0 0 0 0;
+  margin: 0px;
   max-width: 34rem;
   width: auto;
 }

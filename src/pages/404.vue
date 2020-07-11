@@ -1,3 +1,12 @@
+<script>
+export default {
+  components: {},
+  metaInfo: {
+    title: "404"
+  }
+};
+</script>
+
 <template>
   <layout>
     <main class="four-oh-four-parent">
@@ -15,14 +24,6 @@
   </layout>
 </template>
 
-<script>
-export default {
-  components: {},
-  metaInfo: {
-    title: "404"
-  }
-};
-</script>
 <style scoped>
 .four-oh-four-parent {
   grid-column: 1 / -7;

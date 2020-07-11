@@ -1,15 +1,15 @@
 ---
 title: 'iOS App Design Concept: OpenMed Personal Medical Care Management'
-description: 'A conceptual app for patients to manage personal medical care, treatments, appointments and practioners.'
+description: 'A conceptual app for patients to manage personal medical care, treatments, appointments and practitioners.'
 date: 2019-06-18
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1581522542/Portfolio-2020/openmed-header-x2.png'
 # image: '~/assets/images/med-care-app/process.png'
 ---
 
 import CaseStudyReadTime from "@/components/utils/CaseStudyReadTime";
-import SplitContent from "@/components/content/SplitContent";
-import ImgLarge from "@/components/Images/ImgLarge";
-import OpenMedPrototype from "@/components/content/OpenMedPrototype";
+import SplitContent from "@/components/SplitContent";
+import ImgLarge from "@/components/ImgLarge";
+import OpenMedPrototype from "@/components/OpenMedPrototype";
 
 <CaseStudyReadTime readTime="4"/>
 

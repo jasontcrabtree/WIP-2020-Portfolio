@@ -1,3 +1,11 @@
+<script>
+export default {
+  metaInfo: {
+    title: "About"
+  }
+};
+</script>
+
 <template>
   <Layout>
     <header class="contact-header">
@@ -6,14 +14,6 @@
     </header>
   </Layout>
 </template>
-
-<script>
-export default {
-  metaInfo: {
-    title: "About"
-  }
-};
-</script>
 
 <style scoped>
 .contact-header {

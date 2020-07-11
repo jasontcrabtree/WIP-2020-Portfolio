@@ -6,7 +6,7 @@ image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573418454/Portf
 ---
 
 import CaseStudyReadTime from "@/components/utils/CaseStudyReadTime";
-import GIFImage from "@/components/Images/GIFImage";
+import GIFImage from "@/components/GIFImage";
 
 <CaseStudyReadTime readTime="6"/>
 
