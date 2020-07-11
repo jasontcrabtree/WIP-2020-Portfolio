@@ -1,27 +1,24 @@
-<template>
-  <header class="primary-nav">
-    <!-- <div class="header-background-src"></div> -->
-    <NavDots style="box-sizing: content-box" class="nav-dots--layout decoration-dots--color" />
-    <nav class="nav-list">
-      <g-link to="/#home" class>Home</g-link>
-      <g-link to="/contact/">Contact</g-link>
-      <a href="/jason-crabtree-resume.pdf">Résumé</a>
-      <!-- <g-link to="/about/">About</g-link> -->
-      <g-link class="nav-hidden" to="/#work">Work</g-link>
-      <g-link to="/blog/">Blog</g-link>
-    </nav>
-  </header>
-</template>
-
 <script>
 import NavDots from "~/assets/svgs/NavDots.svg";
-
 export default {
   components: {
     NavDots
   }
 };
 </script>
+
+<template>
+  <header class="primary-nav">
+    <NavDots style="box-sizing: content-box" class="nav-dots--layout decoration-dots--color" />
+    <nav class="nav-list">
+      <g-link to="/#home" class>Home</g-link>
+      <g-link to="/contact/">Contact</g-link>
+      <a href="/jason-crabtree-resume.pdf">Résumé</a>
+      <g-link class="nav-hidden" to="/#work">Work</g-link>
+      <g-link to="/blog/">Blog</g-link>
+    </nav>
+  </header>
+</template>
 
 <style scoped>
 .nav-list {

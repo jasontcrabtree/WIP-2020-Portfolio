@@ -1,3 +1,21 @@
+<script>
+import Email from "~/assets/svgs/email.svg";
+import Twitter from "~/assets/svgs/twitter.svg";
+import Github from "~/assets/svgs/github.svg";
+import Dribbble from "~/assets/svgs/dribbble.svg";
+import RSS from "~/assets/svgs/rss.svg";
+
+export default {
+  components: {
+    Email,
+    Twitter,
+    Github,
+    Dribbble,
+    RSS
+  }
+};
+</script>
+
 <template>
   <ul class="hero-social-list">
     <li>
@@ -27,24 +45,6 @@
     </li>
   </ul>
 </template>
-
-<script>
-import Email from "~/assets/svgs/email.svg";
-import Twitter from "~/assets/svgs/twitter.svg";
-import Github from "~/assets/svgs/github.svg";
-import Dribbble from "~/assets/svgs/dribbble.svg";
-import RSS from "~/assets/svgs/rss.svg";
-
-export default {
-  components: {
-    Email,
-    Twitter,
-    Github,
-    Dribbble,
-    RSS
-  }
-};
-</script>
 
 <style>
 .hero-social-list {

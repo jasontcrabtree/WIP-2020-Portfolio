@@ -14,8 +14,6 @@ export default {
     title: "Blog: Jason is writing words online"
   }
 };
-
-console.log("hello blogs");
 </script>
 
 <page-query>
@@ -41,7 +39,6 @@ query ($page: Int) {
   }
 }
 </page-query>
-
 
 <template>
   <layout>

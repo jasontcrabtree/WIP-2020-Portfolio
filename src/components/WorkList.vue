@@ -1,7 +1,7 @@
 <template>
   <li class="list-item work-list-card">
     <g-link :to="work.path" class="read">
-      <img loading="lazy" :src="work.image" :alt="work.title" class="cover-image" />
+      <img :src="work.image" :alt="work.title" class="cover-image" />
       <div class="card-details">
         <h2 class="card-title" v-html="work.title" />
         <span class="date--style">Project time: {{ work.date }}</span>
