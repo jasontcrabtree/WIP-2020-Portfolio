@@ -27,11 +27,19 @@ export default function(Vue, { router, head, isClient }) {
   head.meta.push({
     key: 'og:image',
     content:
-      'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594586894/Portfolio-2020/social-card.png',
+      'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png',
   });
   head.meta.push({
     key: 'twitter:image',
     content:
-      'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594586894/Portfolio-2020/social-card.png',
+      'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png',
+  });
+  head.meta.push({
+    key: 'twitter:card',
+    content: 'summary_large_image',
+  });
+  head.meta.push({
+    key: 'twitter:url',
+    content: 'https://jasontcrabtree.com/',
   });
 }

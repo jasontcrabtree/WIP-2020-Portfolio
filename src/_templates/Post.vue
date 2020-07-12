@@ -29,11 +29,6 @@ export default {
           content: this.$page.post.title,
         },
         {
-          name: 'twitter:card',
-          content:
-            'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594586894/Portfolio-2020/social-card.png',
-        },
-        {
           name: 'twitter:creator',
           content: '@jasontcrabtree',
         },
@@ -45,7 +40,7 @@ export default {
           property: 'og:image',
           content:
             this.$page.post.image ||
-            'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594586894/Portfolio-2020/social-card.png',
+            'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png',
         },
       ],
     };
