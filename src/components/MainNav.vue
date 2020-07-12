@@ -1,15 +1,18 @@
 <script>
-import NavDots from "~/assets/svgs/NavDots.svg";
+import NavDots from '~/assets/svgs/NavDots.svg';
 export default {
   components: {
-    NavDots
-  }
+    NavDots,
+  },
 };
 </script>
 
 <template>
   <header class="primary-nav">
-    <NavDots style="box-sizing: content-box" class="nav-dots--layout decoration-dots--color" />
+    <NavDots
+      style="box-sizing: content-box"
+      class="nav-dots--layout decoration-dots--color"
+    />
     <nav class="nav-list">
       <g-link to="/#home" class>Home</g-link>
       <g-link to="/contact/">Contact</g-link>

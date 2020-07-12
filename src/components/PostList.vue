@@ -1,15 +1,3 @@
-<template>
-  <li class="blog-list-item post-list-card card-details">
-    <g-link :to="post.path" class="read">
-      <p class="date--style" v-html="post.date" />
-      <h3 class="card-title" v-html="post.title" />
-      <p class="description" v-html="post.description" />
-
-      <span class="post-link">Read blog post</span>
-    </g-link>
-  </li>
-</template>
-
 <script>
 export default {
   props: ["post"]
@@ -36,6 +24,18 @@ query {
   }
 }
 </page-query>
+
+<template>
+  <li class="blog-list-item post-list-card card-details">
+    <g-link :to="post.path" class="read">
+      <p class="date--style" v-html="post.date" />
+      <h3 class="card-title" v-html="post.title" />
+      <p class="description" v-html="post.description" />
+
+      <span class="post-link">Read blog post</span>
+    </g-link>
+  </li>
+</template>
 
 <style scoped>
 .blog-list-item {

@@ -1,6 +1,8 @@
 <template>
   <aside>
-    <p class="date-style">{{ $page.post.date }} | {{ readTime }} min read</p>
+    <p class="date-style"
+      >{{ $page.post.date }} | {{ readTime }} min read time</p
+    >
   </aside>
 </template>
 
@@ -18,10 +20,9 @@ query Post ($path: String!) {
 <script>
 export default {
   props: {
-    readTime: { type: String }
-  }
+    readTime: { type: String },
+  },
 };
 </script>
 
-<style>
-</style>
+<style></style>

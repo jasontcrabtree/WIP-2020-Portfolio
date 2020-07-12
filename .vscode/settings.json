@@ -14,6 +14,14 @@
     "titleBar.activeBackground": "#25168b",
     "titleBar.inactiveBackground": "#4c4c5a"
   },
-  "workbench.colorTheme": "Night Owl"
+  "workbench.colorTheme": "Night Owl",
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ]
   // "workbench.colorTheme": "Yi Light"
 }

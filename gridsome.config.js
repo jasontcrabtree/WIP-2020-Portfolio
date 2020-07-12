@@ -1,8 +1,9 @@
 module.exports = {
+  icon: './static/star.svg',
   siteName: "Jason Crabtree's Internet Hangtime",
   siteUrl: 'https://jasontcrabtree.com',
-  icon: './static/star.svg',
-  // siteDescription: 'A buncha words by Jason',
+  siteDescription:
+    'Online home of Jason Crabtree, Product Designer and kiwi. Fan of tech, people, social justice and seeing the world.',
   // eslint-disable-next-line no-shadow
   chainWebpack: config => {
     const svgRule = config.module.rule('svg');
