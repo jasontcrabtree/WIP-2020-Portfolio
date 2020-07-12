@@ -29,19 +29,15 @@ export default {
           content: this.$page.post.title,
         },
         {
-          name: 'twitter:creator',
-          content: '@jasontcrabtree',
-        },
-        {
           property: 'og:description',
           cotent: this.$page.post.description,
         },
-        {
+        /*  {
           property: 'og:image',
           content:
             this.$page.post.image ||
             'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png',
-        },
+        }, */
       ],
     };
   },
