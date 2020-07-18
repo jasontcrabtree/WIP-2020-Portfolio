@@ -52,10 +52,7 @@ query ($page: Int) {
           <a
             href="http://twitter.com/jasontcrabtree"
           >@jasontcrabtree.</a>
-          Future topics likely to include design, product strategy, front-end
-          code and general stuff about tech as it relates to my view on ethical,
-          sustainable good for the world. Plus whatever else I'm thinking about
-          related to humanities and society!
+          I write blog posts about learning Product Design and Development, and opinion blog posts analysing business strategy design and design in society.
         </p>
       </header>
 

@@ -14,6 +14,7 @@ export default function(Vue, { router, head, isClient }) {
       rel: 'stylesheet',
       href: 'https://use.typekit.net/npd1kgb.css',
     });
+
   head.meta.push({
     key: 'og:description',
     name: 'og:description',
