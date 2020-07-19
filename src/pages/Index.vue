@@ -1,10 +1,10 @@
 <script>
-import WorkList from '@/components/WorkList';
-import PostList from '@/components/PostList';
-import BgColumn from '@/components/BgColumn';
-import Social from '@/components/utils/Social';
-import DribbbleGallery from '@/components/DribbbleGallery';
-import DecoDots from '~/assets/svgs/DecoDots.svg';
+import WorkList from "@/components/WorkList";
+import PostList from "@/components/PostList";
+import BgColumn from "@/components/BgColumn";
+import Social from "@/components/utils/Social";
+import DribbbleGallery from "@/components/DribbbleGallery";
+import DecoDots from "~/assets/svgs/DecoDots.svg";
 
 export default {
   components: {
@@ -13,20 +13,20 @@ export default {
     Social,
     PostList,
     DribbbleGallery,
-    DecoDots,
+    DecoDots
   },
   metaInfo: {
-    title: 'Home',
-  },
+    title: "Home"
+  }
 };
+/*   metadata {
+    siteName
+    siteDescription
+  } */
 </script>
 
 <page-query>
 query {
-  metadata {
-    siteName
-    siteDescription
-  }
   allWork {
     totalCount
     edges {
@@ -75,7 +75,10 @@ query {
             meaningful, tough problems. I’m motivated by mission-driven work,
             shared values and a diverse, welcoming and inclusive workplace
             culture. I'm
-            <a a href="/jason-crabtree-resume.pdf">currently looking</a>
+            <a
+              a
+              href="/jason-crabtree-resume.pdf"
+            >currently looking</a>
             for a UX Designer role in London, UK.
           </p>
         </div>
@@ -86,11 +89,7 @@ query {
       <section class="work-list-container" id="work">
         <h2 class="work-title">Case Studies and Process</h2>
         <ul class="work-list-container">
-          <WorkList
-            v-for="edge in $page.allWork.edges"
-            :key="edge.node.id"
-            :work="edge.node"
-          />
+          <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
         </ul>
       </section>
 
@@ -104,16 +103,18 @@ query {
               <span class="block-quote-callout">“</span>Jason has a creative but
               practical out of the box way of thinking and to top it off, a
               relaxed demeanor that makes you naturally feel at ease around him.
-              <span class="block-quote-close">”</span>
+              <span
+                class="block-quote-close"
+              >”</span>
             </p>
             <footer>
               <cite class="quote-name--style">Dini Paranagama</cite>
               <div class="quote-details-text--layout">
                 <span>
                   Digital Product Manager at IAG Insurance, NZ,
-                  <a href="https://www.linkedin.com/in/dini-paranagama/"
-                    >LinkedIn</a
-                  >
+                  <a
+                    href="https://www.linkedin.com/in/dini-paranagama/"
+                  >LinkedIn</a>
                 </span>
               </div>
             </footer>
@@ -133,7 +134,9 @@ query {
             <p>
               Jason has a creative yet pragmatic approach & you can rely on him
               to stand up for what’s right.
-              <span class="block-quote-close">”</span>
+              <span
+                class="block-quote-close"
+              >”</span>
             </p>
             <footer>
               <cite class="quote-name--style">Natalie van Baarlen</cite>
@@ -142,8 +145,7 @@ query {
                   Customer Experience Design Lead at IAG Insurance, NZ,
                   <a
                     href="https://www.linkedin.com/in/natalie-van-baarlen-60ab73107/"
-                    >LinkedIn</a
-                  >
+                  >LinkedIn</a>
                 </span>
               </div>
             </footer>

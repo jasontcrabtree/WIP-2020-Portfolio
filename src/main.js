@@ -5,7 +5,8 @@
 import DefaultLayout from '~/_layouts/Default.vue';
 import '~/assets/styles.css';
 import '~/assets/reset.css';
-import { siteDescription } from '../gridsome.config';
+import Meta from 'vue-meta';
+// import { siteDescription } from '../gridsome.config';
 
 export default function(Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout),
@@ -13,7 +14,8 @@ export default function(Vue, { router, head, isClient }) {
       rel: 'stylesheet',
       href: 'https://use.typekit.net/npd1kgb.css',
     });
-
+  Vue.use(Meta);
+  /*
   head.meta.push({
     property: 'og:description',
     name: 'og:description',
@@ -45,5 +47,5 @@ export default function(Vue, { router, head, isClient }) {
   head.meta.push({
     property: 'twitter:url',
     content: 'https://twitter.com/jasontcrabtree',
-  });
+  }); */
 }

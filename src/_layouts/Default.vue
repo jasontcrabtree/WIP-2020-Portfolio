@@ -2,9 +2,12 @@
 import MainNav from "@/components/MainNav";
 import BgColumn from "@/components/BgColumn";
 import Footer from "@/components/Footer";
+import siteDescription from "./../../gridsome.config";
+
+let ROOT_PATH = "/";
 
 export default {
-  meta: [
+  /*  meta: [
     {
       key: "og:type",
       name: "og:type",
@@ -27,7 +30,51 @@ export default {
       content:
         "https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png"
     }
-  ],
+  ], */
+
+  data() {
+    return {};
+  },
+  metaInfo() {
+    return {
+      title: this.$page.post.title,
+      meta: [
+        // Twitter Card
+        { name: "twitter:card", content: "summary" },
+        { name: "twitter:title", content: "Jason's Design and Tech Blog" },
+        {
+          name: "twitter:description",
+          content:
+            "Online home of Jason Crabtree, Product Designer and kiwi. Fan of tech, people, social justice and seeing the world."
+        },
+        // image must be an absolute path
+        {
+          name: "twitter:image",
+          content:
+            "https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png"
+        },
+        // Facebook OpenGraph
+        { property: "og:title", content: "Jason's Design and Tech Blog" },
+        {
+          property: "og:site_name",
+          content:
+            "Online home of Jason Crabtree, Product Designer and kiwi. Fan of tech, people, social justice and seeing the world."
+        },
+        { property: "og:type", content: "website" },
+        {
+          property: "og:image",
+          content:
+            "https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png"
+        },
+        {
+          property: "og:description",
+          content:
+            "Online home of Jason Crabtree, Product Designer and kiwi. Fan of tech, people, social justice and seeing the world."
+        }
+      ]
+    };
+  },
+
   components: {
     MainNav,
     BgColumn,
