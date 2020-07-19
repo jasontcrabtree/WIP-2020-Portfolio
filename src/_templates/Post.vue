@@ -18,29 +18,24 @@ export default {
   metaInfo() {
     return {
       title: this.$page.post.title,
-      // meta: [{ name: "description", content: this.$page.post.description }]
-      meta: [
-        {
-          name: 'description',
-          content: this.$page.post.description,
-        },
-        {
-          property: 'og:title',
-          content: this.$page.post.title,
-        },
-        {
-          property: 'og:description',
-          cotent: this.$page.post.description,
-        },
-        /*  {
-          property: 'og:image',
-          content:
-            this.$page.post.image ||
-            'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png',
-        }, */
-      ],
+      // description: this.$page.post.description,
+      meta: [{ name: "description", content: this.$page.post.description }]
+      //   meta: [
+      //     {
+      //       name: "description",
+      //       content: this.$page.post.description
+      //     },
+      //     {
+      //       property: "og:title",
+      //       content: this.$page.post.title
+      //     },
+      //     {
+      //       property: "og:description",
+      //       cotent: this.$page.post.description
+      //     }
+      //   ]
     };
-  },
+  }
 };
 </script>
 
@@ -71,7 +66,7 @@ export default {
 }
 
 h1 {
-  font-family: 'p22-mackinac-pro', Georgia, serif;
+  font-family: "p22-mackinac-pro", Georgia, serif;
   font-weight: 800;
 }
 

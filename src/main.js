@@ -16,35 +16,35 @@ export default function(Vue, { router, head, isClient }) {
     });
 
   head.meta.push({
-    key: 'og:description',
+    property: 'og:description',
     name: 'og:description',
     content: siteDescription,
   });
   head.meta.push({
-    key: 'twitter:description',
+    property: 'twitter:description',
     name: 'twitter:description',
     content: siteDescription,
   });
   head.meta.push({
-    key: 'og:image',
+    property: 'og:image',
     content:
       'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png',
   });
   head.meta.push({
-    key: 'twitter:card',
+    property: 'twitter:card',
     content: 'summary_large_image',
   });
   head.meta.push({
-    key: 'twitter:creator',
+    property: 'twitter:creator',
     content: '@jasontcrabtree',
   });
   head.meta.push({
-    key: 'twitter:image',
+    property: 'twitter:image',
     content:
       'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png',
   });
   head.meta.push({
-    key: 'twitter:url',
+    property: 'twitter:url',
     content: 'https://jasontcrabtree.com/',
   });
 }
