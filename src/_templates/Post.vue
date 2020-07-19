@@ -17,23 +17,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.post.title,
-      // description: this.$page.post.description,
-      meta: [{ name: "description", content: this.$page.post.description }]
-      //   meta: [
-      //     {
-      //       name: "description",
-      //       content: this.$page.post.description
-      //     },
-      //     {
-      //       property: "og:title",
-      //       content: this.$page.post.title
-      //     },
-      //     {
-      //       property: "og:description",
-      //       cotent: this.$page.post.description
-      //     }
-      //   ]
+      title: this.$page.post.title
     };
   }
 };

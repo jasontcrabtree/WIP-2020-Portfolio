@@ -15,8 +15,8 @@ export default {
   // },
   metaInfo() {
     return {
-      title: this.$page.work.title,
-      meta: [{ name: "description", content: this.$page.work.description }]
+      title: this.$page.work.title
+      // meta: [{ name: "description", content: this.$page.work.description }]
     };
   }
 };
