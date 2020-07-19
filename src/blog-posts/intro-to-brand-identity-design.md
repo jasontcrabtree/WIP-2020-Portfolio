@@ -15,7 +15,7 @@ Each new project I worked on, I relied on tried but true boring basics. That mea
 
 In contrast, layout and hierarchy felt easier to learn. These ideas had structure and rhythm I could understand. Draw the eye to the important section of the page, highlight the key behaviour that part of the product encourages.
 
-But I know I can’t rely on the same design style forever. And I don’t want too! I love dynamic, unique creative directions. I just don’t quite know how to get there. So I did some research, lots of Skillshare classes, and even more notes. You can see the full list of Skillshare courses I took at the bottom of this post.
+But I know I can’t rely on the same design style forever. And I don’t want that! I love dynamic, unique creative directions. I just don’t quite know how to get there. So I did some research, lots of Skillshare classes, and even more notes. You can see the full list of Skillshare courses I took at the bottom of this post.
 
 ## What is a Brand? What is Identity Design
 
@@ -57,13 +57,13 @@ Effectively, Brand Strategy is an extension of overall Business Strategy.
 
 The brand exists because the business exists, which is to solve a particular problem for customers. The goals, purpose, mission and values, etc., all relate to the business strategy and are typically defined in the business plan.
 
-The idea of Brand Strategy being a subset of business strategy made even more sense when I considered companies that I thought had strong brands. This helped me see close ties between companies with a strong business strategy and strong brands. I wrote this explanation to me solidify this idea:
+The idea of Brand Strategy being a subset of business strategy made even more sense when I considered companies that I thought had strong brands. This helped me see close ties between companies with a strong business strategy and strong brands. I wrote this explanation for myself to help solidify this idea:
 
 *Brand design is understanding the overall **business strategy** (through company research), then creating a visual identity that matches that strategy. If your business strategy falls flat, it's difficult to develop a memorable brand. The best organisations have a successful business strategy and a matching visual identity that combines to create an effective, memorable and long-lasting brand.*
 
 ### Research
 
-Research is an important step of Brand Identity Design that helps uncovers the history of the company, the competitive landscape, the business strategy, customer opinion, relevant design trends, and importantly, things to avoid. Research typically involves gathering a mix of images, running interviews, and understanding business strategy and history.
+Research is an important step of Brand Identity Design that helps uncover the history of the company, the competitive landscape, the business strategy, customer opinion, relevant design trends, and importantly, things to avoid. Research typically involves gathering a mix of images, running interviews, and understanding business strategy and history.
 
 While some research will focus on other businesses in the same industry, often research focuses on completely different businesses or products. The important thing is to get a range of references which can be used to develop brand moodboards, choose colours, guide typography choices, and business tone of voices. The initial strategy, business input and overall brand identity goals will all influence the strategic direction.
 
@@ -84,7 +84,7 @@ Now we come to designing the visual expression of the brand. I’ll be the first
 ### Typography
 
 - [Alex Center](https://www.skillshare.com/classes/Brand-Identity-Design-How-to-Design-Brands-People-Care-About/90804207/projects) suggests focusing on touchpoints and testing typography options in context. Is the brand going to be shown a lot of packaging? Or is the main audience on Instagram? These use-cases need different font choices.
-- [Courtney Eliseo](https://www.skillshare.com/classes/Beyond-the-Logo-Crafting-a-Brand-Identity/1989648790/projects) emphasises choosing two different typefaces, with different weights as needed. Often serif heading fonts are paired with sans-serif body fonts, although this depends on your the tone and mood of the brand.
+- [Courtney Eliseo](https://www.skillshare.com/classes/Beyond-the-Logo-Crafting-a-Brand-Identity/1989648790/projects) emphasises choosing two different typefaces, with different weights as needed. Often serif heading fonts are paired with sans-serif body fonts, although this depends on the tone and mood of the brand.
 - Learn more about typography from the wonderful [Practical Typography, by Matthew Butterick](https://practicaltypography.com/)
 
 ### Visual Design Elements
