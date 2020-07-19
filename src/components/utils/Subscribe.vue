@@ -10,7 +10,10 @@ export default {};
     onsubmit="window.open('https://buttondown.email/jasontcrabtree', 'popupwindow')"
     class="subscribe-form--style tinyletter-sub-form"
   >
-    <p>Subscribe to receive new blog posts and updates. Loose Topics; Design, Technology, Society, Life!</p>
+    <p>
+      Subscribe to receive emails about new blog posts.
+      I write about learning Product Design and business design strategy analysis.
+    </p>
     <fieldset class="subscribe-form-fieldset--layout sub-fieldset--style">
       <label class="subscribe-label--style" for="bd-email">Your Email</label>
       <input

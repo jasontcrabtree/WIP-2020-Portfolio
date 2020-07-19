@@ -52,7 +52,7 @@ query ($page: Int) {
           <a
             href="http://twitter.com/jasontcrabtree"
           >@jasontcrabtree.</a>
-          I write blog posts about learning Product Design and Development, and opinion blog posts analysing business strategy design and design in society.
+          I write about learning Product Design and Development and strategy analysis focused on design in business and society.
         </p>
       </header>
 
