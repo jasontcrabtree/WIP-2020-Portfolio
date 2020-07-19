@@ -8,7 +8,6 @@ import '~/assets/reset.css';
 import { siteDescription } from '../gridsome.config';
 
 export default function(Vue, { router, head, isClient }) {
-  // Set default layout as a global component
   Vue.component('Layout', DefaultLayout),
     head.link.push({
       rel: 'stylesheet',
@@ -45,6 +44,6 @@ export default function(Vue, { router, head, isClient }) {
   });
   head.meta.push({
     property: 'twitter:url',
-    content: 'https://jasontcrabtree.com/',
+    content: 'https://twitter.com/jasontcrabtree',
   });
 }

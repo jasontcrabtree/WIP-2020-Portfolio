@@ -4,6 +4,30 @@ import BgColumn from "@/components/BgColumn";
 import Footer from "@/components/Footer";
 
 export default {
+  meta: [
+    {
+      key: "og:type",
+      name: "og:type",
+      content: "website"
+    },
+    {
+      key: "twitter:card",
+      name: "twitter:card",
+      content: "summary_large_image"
+    },
+    {
+      key: "og:image",
+      name: "og:image",
+      content:
+        "https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png"
+    },
+    {
+      key: "twitter:image",
+      name: "twitter:image",
+      content:
+        "https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png"
+    }
+  ],
   components: {
     MainNav,
     BgColumn,
