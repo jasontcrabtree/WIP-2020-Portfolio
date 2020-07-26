@@ -6,7 +6,6 @@ import DefaultLayout from '~/_layouts/Default.vue';
 import '~/assets/styles.css';
 import '~/assets/reset.css';
 import Meta from 'vue-meta';
-// import { siteDescription } from '../gridsome.config';
 
 export default function(Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout),
@@ -15,37 +14,34 @@ export default function(Vue, { router, head, isClient }) {
       href: 'https://use.typekit.net/npd1kgb.css',
     });
   Vue.use(Meta);
-  /*
-  head.meta.push({
-    property: 'og:description',
-    name: 'og:description',
-    content: siteDescription,
-  });
-  head.meta.push({
-    property: 'twitter:description',
-    name: 'twitter:description',
-    content: siteDescription,
-  });
-  head.meta.push({
-    property: 'og:image',
-    content:
-      'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png',
-  });
-  head.meta.push({
-    property: 'twitter:card',
-    content: 'summary_large_image',
-  });
-  head.meta.push({
-    property: 'twitter:creator',
-    content: '@jasontcrabtree',
-  });
-  head.meta.push({
-    property: 'twitter:image',
-    content:
-      'https://res.cloudinary.com/jasontcrabtree/image/upload/v1594587665/Portfolio-2020/social-card.png',
-  });
-  head.meta.push({
-    property: 'twitter:url',
-    content: 'https://twitter.com/jasontcrabtree',
-  }); */
 }
+/*
+(function() {
+  let preferredTheme;
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.body.setAttribute('data-theme', newTheme);
+    window.__onThemeChange(newTheme);
+  }
+
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) {}
+
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  };
+
+  const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light');
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})();
+ */

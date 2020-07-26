@@ -264,7 +264,7 @@ a:any-link {
 
 @media (prefers-color-scheme: light) {
   html {
-    background-color: #fff;
+    background-color: var(--white-100);
   }
   h1,
   h2,
@@ -361,6 +361,8 @@ hr {
 
   figure {
     background: #4c4c5a;
+    padding: 8px;
+    border-radius: 4px;
   }
 
   hr {
@@ -382,4 +384,8 @@ hr {
 
 ul li > ul {
   margin-left: 24px;
+}
+
+[data-theme='dark'] {
+  --white-100: red;
 }

@@ -10,8 +10,8 @@ import Subscribe from "@/components/utils/Subscribe";
 
 export default {
   components: {
-    Subscribe
-  }
+    Subscribe,
+  },
 };
 </script>
 
@@ -19,5 +19,12 @@ export default {
 .blog-post-subscribe-field {
   background: var(--blue-white-100);
   padding: 2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .blog-post-subscribe-field {
+    color: var(--dm-white-100);
+    background-color: #021322;
+  }
 }
 </style>
