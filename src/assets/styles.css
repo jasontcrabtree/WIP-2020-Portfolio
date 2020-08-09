@@ -158,6 +158,10 @@ ul {
   list-style-position: outside;
 }
 
+figcaption {
+  font-size: 0.9rem;
+}
+
 code {
   color: var(--primary-blue);
   background: var(--dm-white-text);

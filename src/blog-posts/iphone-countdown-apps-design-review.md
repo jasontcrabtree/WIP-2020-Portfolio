@@ -9,7 +9,7 @@ import BlogPostSubscribe from "@/components/BlogPostSubscribe";
 
 <BlogReadTime readTime="3:00"/>
 
-[> Skip to my recommendation for the best, most well designed iPhone Countdown app in 2020](/blog/iphone-countdown-apps-design-review/#recommendation)
+[> Skip to my recommendation for the best, most well designed iPhone Countdown app in 2020](/blog/iphone-countdown-apps-design-review/#final-recommendation-days-app)
 
 I have a big event coming up at the end of September, and given **gestures around, indicates the Year of ~2020~**, I’m looking for something to help me count down towards the event.
 
