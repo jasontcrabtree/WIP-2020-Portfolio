@@ -80,3 +80,8 @@ A GraphQL integration for Figma to use more live data directly in Figma.
 ## And finally, a plugin I'm excited to try soon
 
 **[Figmotion](https://www.figma.com/community/plugin/733025261168520714)**: Which adds keyframes and advanced animation capabilities to Figma. I haven't tried this yet (never quite enough time, but it looks *very* exciting!)
+
+<hr/>
+
+*Edit (mostly for me!):*
+Chroma Colours quick-adds selected (as many as you like) colours to the file's Local Styles. Perfect for quickly adding colour Styles after chosen.
