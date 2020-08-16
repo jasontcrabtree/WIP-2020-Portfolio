@@ -1,5 +1,5 @@
 ---
-date: 2020-08-06
+date: 2020-08-16
 description: 'Accidentally breaking* my computer through lack of experience and research, but being prepared beforehand. *Temporarily, hopefully!!'
 title: 'Recognising my knowledge limits: Computer Edition,'
 ---
@@ -16,7 +16,7 @@ So preparing for my appointment on Monday, yesterday I checked the Apple instruc
 
 Computers are humbling. There's always more to learn.
 
-The crux of the issue is this: 
+### The crux of the issue is this: 
 - The instructions say to open Find My on your MacBook, find the device in your list of devices, click the info icon (i in a circle), then click 'Remove Device'.
 - I couldn't see anything that said **Remove** device.
 - The only available action I could see was **Erase** device. 
