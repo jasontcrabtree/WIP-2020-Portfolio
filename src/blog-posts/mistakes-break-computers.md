@@ -1,7 +1,7 @@
 ---
 date: 2020-08-16
 description: 'Accidentally breaking* my computer through lack of experience and research, but being prepared beforehand. *Temporarily, hopefully!!'
-title: 'Recognising my knowledge limits: Computer Edition,'
+title: 'Recognising my knowledge limits: Computer Edition'
 ---
 
 import BlogReadTime from "@/components/utils/BlogReadTime";
