@@ -71,15 +71,7 @@ query {
         <div class="hero-children-container">
           <Social />
           <p class="hero-bio--layout hero-bio--bg large-paragraph-text">
-            Hello, I’m Jason. I'm a Designer interested in thoughtfully solving
-            meaningful, tough problems. I’m motivated by mission-driven work,
-            shared values and a diverse, welcoming and inclusive workplace
-            culture. I'm
-            <a
-              a
-              href="/jason-crabtree-resume.pdf"
-            >currently looking</a>
-            for a UX Designer role in London, UK.
+            Hello, I’m Jason. I'm a Designer and Developer interested in brand design, marketing design and front-end web development for New Zealand businesses. I'm a freelance Designer and Developer in Auckland, New Zealand, at <a href="https://lodestone.studio">Lodestone Studio</a>
           </p>
         </div>
       </section>
