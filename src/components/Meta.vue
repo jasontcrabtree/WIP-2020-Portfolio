@@ -16,13 +16,13 @@
 
     <meta content="website" property="og:type" />
 
-    <meta content="https://usescaffold.com/{{- canonical | default: -}}" property="og:url" />
+    <meta content="https://jasontcrabtree.com/{{- canonical | default: -}}" property="og:url" />
     <meta content="{{- image | default: metadata.image -}}" property="og:image" />
     <meta content="{{- image | default: metadata.image -}}" property="twitter:image" />
-    <meta content="https://usescaffold.com/" property="twitter:url" />
-    <meta content="@usescaffold" name="twitter:site" />
+    <meta content="https://jasontcrabtree.com/" property="twitter:url" />
+    <meta content="@jasontcrabtree" name="twitter:site" />
     <meta content="@jasontcrabtree" name="twitter:creator" />
     <meta content="summary_large_image" property="twitter:card" />
-    <link href="https://usescaffold.com/" rel="canonical" />
+    <link href="https://jasontcrabtree.com/" rel="canonical" />
   </div>
 </template>
