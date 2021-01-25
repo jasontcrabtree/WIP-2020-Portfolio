@@ -4,7 +4,7 @@
       <h3>With thanks</h3>
       <p>
         Made with care in
-        <strong>London, United Kingdom.</strong>
+        <strong>Auckland, New Zealand.</strong>
       </p>
       <p>My little online spot to show my ongoing work, learning and play.</p>
       <p>
@@ -16,7 +16,7 @@
       </p>
       <p>
         <small>
-          &copy; Copyright 2018-2020. Jason Crabtee.
+          &copy; Copyright 2018-2021. Jason Crabtee.
           <br />All rights reserved.
         </small>
       </p>

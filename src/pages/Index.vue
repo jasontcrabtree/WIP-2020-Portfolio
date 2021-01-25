@@ -60,8 +60,11 @@ query {
       <section class="hero-container">
         <div class="hero-header-parent">
           <h1 class="hero-header-h1--style hero-header-h1--layout">
-            UX Designer and Functional
-            <br />Design Enthusiast
+            Freelance Designer and
+            <br/>
+            Front-end Developer in
+            <!-- <br/> -->
+            Auckland, New Zealand
           </h1>
           <DecoDots
             style="box-sizing: content-box;"
@@ -71,7 +74,10 @@ query {
         <div class="hero-children-container">
           <Social />
           <p class="hero-bio--layout hero-bio--bg large-paragraph-text">
-            Hello, I’m Jason. I'm a Designer and Developer interested in brand design, marketing design and front-end web development for New Zealand businesses. I'm a freelance Designer and Developer in Auckland, New Zealand, at <a href="https://lodestone.studio">Lodestone Studio</a>
+            Hello, I’m Jason. I'm a Designer and Front-end Developer working on brand design, marketing design and front-end web development for New Zealand businesses.
+            <br/>
+            <br/>
+            I'm a freelance Designer and Developer in Auckland, New Zealand, at <a href="https://lodestone.studio">Lodestone Studio</a>
           </p>
         </div>
       </section>
@@ -317,8 +323,8 @@ query {
 
   .decoration-dots-header--layout {
     z-index: 2;
-    margin-left: -88px;
-    margin-top: 136px;
+    margin-left: -96px;
+    margin-top: 192px;
   }
 
   .hero-header-parent {
