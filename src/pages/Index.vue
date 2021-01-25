@@ -61,15 +61,15 @@ query {
         <div class="hero-header-parent">
           <h1 class="hero-header-h1--style hero-header-h1--layout">
             Freelance Designer and
-            <br/>
+            <!-- <br/> -->
             Front-end Developer in
             <!-- <br/> -->
             Auckland, New Zealand
-            <br/>
-          <DecoDots
+            <!-- <br/> -->
+          <!-- <DecoDots
             style="box-sizing: content-box;"
             class="decoration-dots-header--layout decoration-dots--color"
-          />
+          /> -->
           </h1>
         </div>
         <div class="hero-children-container">
