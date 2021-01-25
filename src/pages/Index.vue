@@ -65,11 +65,12 @@ query {
             Front-end Developer in
             <!-- <br/> -->
             Auckland, New Zealand
-          </h1>
+            <br/>
           <DecoDots
             style="box-sizing: content-box;"
             class="decoration-dots-header--layout decoration-dots--color"
           />
+          </h1>
         </div>
         <div class="hero-children-container">
           <Social />
@@ -217,6 +218,8 @@ query {
 
 .hero-header-h1--layout {
   padding: 24px;
+  width: fit-content;
+  max-width: 20ch;
 }
 
 .work-list-card {
@@ -323,8 +326,10 @@ query {
 
   .decoration-dots-header--layout {
     z-index: 2;
-    margin-left: -96px;
-    margin-top: 192px;
+    position: relative;
+    height: auto;
+    margin-top: -660px;
+    margin-left: 600px;
   }
 
   .hero-header-parent {
