@@ -81,10 +81,10 @@ query {
             Hello, I’m Jason. I'm a Front-End Developer and Designer focused on websites and design-systems. That can include designing them, building them, testing them and getting them in front of people for New Zealand businesses.
           </p>
           <p class=" large-paragraph-text">
-            I operate a Design and Development Studio, <a href="https://lodestone.studio">Lodestone Studio</a>, focused on Financial and Professional Services Companies and NZ Tech Companies.
+            I run a Design and Development Studio, <a href="https://lodestone.studio">Lodestone Studio</a>, focused on Financial and Professional Services Companies and NZ Tech Companies.
           </p>
           <p class=" large-paragraph-text">
-            For technical details, I mostly focus on using React with Gatsby, Prismic CMS for content and Styled-Components Chakra UI or BEM CSS for styling as appropriate. Overarching this — I significantly priotiise accessibility and performance as much as possible.
+            For technical details, I focus on using React with Gatsby, Prismic CMS for content and Styled-Components or CSS with BEM for styling as needed. Overarching this — I priotise accessibility and performance as much as possible.
           </p>
           </div>
         </div>
