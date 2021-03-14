@@ -12,28 +12,30 @@
   </li> -->
 <ul class="work-list-container">
     <li class="websites-list-card">
+      <a href="https://usescaffold.com/">
         <h2 class="card-title">UseScaffold</h2>
-        <a href="https://usescaffold.com/">Eleventy Digital eComm Website</a>
+        Eleventy Digital eComm Website</a>
     </li>
     <li class="websites-list-card">
+        <a href="https://sapwood.netlify.app/">
         <h2 class="card-title">Sapwood Demo</h2>
-        <a href="https://sapwood.netlify.app/">Demo Website: GatsbyJS & Prismic</a>
+        Demo Website: GatsbyJS & Prismic</a>
     </li>
     <li class="websites-list-card">
-        <h2 class="card-title">Sales-Email App</h2>
-        <a href="https://sales-emails.netlify.app/">NextJS App: Cold-Email Starters</a>
+        <a href="https://sales-emails.netlify.app/"><h2 class="card-title">Sales-Email App</h2>
+        NextJS App: Cold-Email Starters</a>
     </li>
     <li class="websites-list-card">
-        <h2 class="card-title">CharacterCounter</h2>
-        <a href="https://charactercounter.netlify.app/">Micro Website: Counts Characters</a>
+        <a href="https://charactercounter.netlify.app/"><h2 class="card-title">CharacterCounter</h2>
+        Micro Website: Counts Characters</a>
     </li>
     <li class="websites-list-card">
-        <h2 class="card-title">CSS Poster Codepen</h2>
-        <a href="https://codepen.io/jasontcrabtree/pen/qBbQXJP">Codepen Link</a>
+        <a href="https://codepen.io/jasontcrabtree/pen/qBbQXJP"><h2 class="card-title">CSS Poster Codepen</h2>
+        Codepen Link</a>
     </li>
     <li class="websites-list-card">
-        <h2 class="card-title">Zoe Lenzie-Smith</h2>
-        <a href="https://zoelenziesmith.com">Website: Zoelenziesmith.com</a>
+        <a href="https://zoelenziesmith.com"><h2 class="card-title">Zoe Lenzie-Smith</h2>
+        Website: Zoelenziesmith.com</a>
     </li>
 </ul>
 </template>
