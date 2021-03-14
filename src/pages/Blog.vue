@@ -15,7 +15,6 @@ export default {
   }
 };
 
-console.log("mroe blogs");
 </script>
 
 <page-query>

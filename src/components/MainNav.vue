@@ -15,10 +15,10 @@ export default {
     <NavDots style="box-sizing: content-box" class="nav-dots--layout decoration-dots--color" />
     <nav class="nav-list">
       <g-link to="/#home" class>Home</g-link>
-      <g-link to="/contact/">Contact</g-link>
+      <g-link to="/contact">Contact</g-link>
       <a href="/jason-crabtree-resume.pdf">Résumé</a>
       <g-link class="nav-hidden" to="/#work">Work</g-link>
-      <g-link to="/blog/">Blog</g-link>
+      <g-link to="/blog">Blog</g-link>
     </nav>
   </header>
 </template>

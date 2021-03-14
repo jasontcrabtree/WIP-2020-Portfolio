@@ -5,6 +5,7 @@ import BgColumn from "@/components/BgColumn";
 import Social from "@/components/utils/Social";
 import DribbbleGallery from "@/components/DribbbleGallery";
 import DecoDots from "~/assets/svgs/DecoDots.svg";
+import WebsiteProjects from '@/components/WebsiteProjects'
 
 export default {
   components: {
@@ -13,7 +14,8 @@ export default {
     Social,
     PostList,
     DribbbleGallery,
-    DecoDots
+    DecoDots,
+    WebsiteProjects
   },
   metaInfo: {
     title: "Home"
@@ -60,9 +62,9 @@ query {
       <section class="hero-container">
         <div class="hero-header-parent">
           <h1 class="hero-header-h1--style hero-header-h1--layout">
-            Freelance Designer and
+            Front-End Developer and
             <!-- <br/> -->
-            Front-end Developer in
+            Designer Freelancing in
             <!-- <br/> -->
             Auckland, New Zealand
             <!-- <br/> -->
@@ -74,19 +76,36 @@ query {
         </div>
         <div class="hero-children-container">
           <Social />
-          <p class="hero-bio--layout hero-bio--bg large-paragraph-text">
-            Hello, I’m Jason. I'm a Designer and Front-end Developer working on brand design, marketing design and front-end web development for New Zealand businesses.
-            <br/>
-            <br/>
-            I'm a freelance Designer and Developer in Auckland, New Zealand, at <a href="https://lodestone.studio">Lodestone Studio</a>
+          <div class="hero-bio--layout">
+          <p class=" large-paragraph-text">
+            Hello, I’m Jason. I'm a Front-End Developer and Designer focused on websites and design-systems. That can include designing them, building them, testing them and getting them in front of people for New Zealand businesses.
           </p>
+          <p class=" large-paragraph-text">
+            I operate a Design and Development Studio, <a href="https://lodestone.studio">Lodestone Studio</a>, focused on Financial and Professional Services Companies and NZ Tech Companies.
+          </p>
+          <p class=" large-paragraph-text">
+            For technical details, I mostly focus on using React with Gatsby, Prismic CMS for content and Styled-Components Chakra UI or BEM CSS for styling as appropriate. Overarching this — I significantly priotiise accessibility and performance as much as possible.
+          </p>
+          </div>
         </div>
       </section>
 
       <hr />
 
       <section class="work-list-container" id="work">
-        <h2 class="work-title">Case Studies and Process</h2>
+        <h2 class="work-title">Website Projects</h2>
+        <!-- <ul class="work-list-container">
+          <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
+        </ul> -->
+
+          <WebsiteProjects class="work-list-container"/>
+
+      </section>
+
+      <hr />
+
+      <section class="work-list-container" id="work">
+        <h2 class="work-title">Design Case Studies</h2>
         <ul class="work-list-container">
           <WorkList v-for="edge in $page.allWork.edges" :key="edge.node.id" :work="edge.node" />
         </ul>
@@ -112,7 +131,7 @@ query {
                 <span>
                   Digital Product Manager at IAG Insurance, NZ,
                   <a
-                    href="https://www.linkedin.com/in/dini-paranagama/"
+                    href="https://www.linkedin.com/in/dini-paranagama"
                   >LinkedIn</a>
                 </span>
               </div>
@@ -143,7 +162,7 @@ query {
                 <span>
                   Customer Experience Design Lead at IAG Insurance, NZ,
                   <a
-                    href="https://www.linkedin.com/in/natalie-van-baarlen-60ab73107/"
+                    href="https://www.linkedin.com/in/natalie-van-baarlen-60ab73107"
                   >LinkedIn</a>
                 </span>
               </div>
@@ -189,6 +208,11 @@ query {
   max-width: 48ch;
   width: auto;
   font-size: 24px;
+
+}
+
+.hero-bio--layout > * + * {
+  margin-top: 1.5rem;
 }
 
 .latest-posts-container > .index-blog-list-title--style > li > a > * + * {
@@ -297,10 +321,6 @@ query {
     font-size: var(--size-64);
   }
 
-  .hero-children-container {
-    align-items: center;
-  }
-
   .work-title,
   .h2-section-title {
     font-size: var(--size-40);
@@ -356,7 +376,7 @@ query {
 /* Narrow screens, tablets & phones */
 @media screen and (max-width: 960px) {
   .hero-children-container > ul {
-    margin-right: 24px;
+    margin-right: 0px;
   }
 
   .hero-header-h1--style {
