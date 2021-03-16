@@ -1,3 +1,25 @@
+<script>
+import ScaffoldSVG from '~/assets/svgs/ScaffoldSVG.svg'
+import SapwoodSVG from '~/assets/svgs/SapwoodSVG.svg'
+import SalesEmailsAppSVG from '~/assets/svgs/SalesEmailsAppSVG.svg'
+import CharacterCounterSVG from '~/assets/svgs/CharacterCounterSVG.svg'
+import CSSPosterSVG from '~/assets/svgs/CSSPosterSVG.svg'
+import ZoeSVG from '~/assets/svgs/ZoeSVG.svg'
+
+export default {
+    components: {
+      ScaffoldSVG,
+      SapwoodSVG,
+      SalesEmailsAppSVG,
+      CharacterCounterSVG,
+      CSSPosterSVG,
+      ZoeSVG
+  },
+  props: ["work"]
+};
+</script>
+
+
 <template>
   <!-- <li class="list-item websites-list-card">
     <g-link :to="work.path" class="read">
@@ -13,42 +35,54 @@
 <ul class="work-list-container">
     <li class="websites-list-card">
       <a href="https://usescaffold.com/">
+        <ScaffoldSVG class="cover-illustration"/>
         <h2 class="card-title">UseScaffold</h2>
         Eleventy Digital eComm Website</a>
     </li>
     <li class="websites-list-card">
         <a href="https://sapwood.netlify.app/">
+        <SapwoodSVG class="cover-illustration"/>
         <h2 class="card-title">Sapwood Demo</h2>
         Demo Website: GatsbyJS & Prismic</a>
     </li>
     <li class="websites-list-card">
-        <a href="https://sales-emails.netlify.app/"><h2 class="card-title">Sales-Email App</h2>
+        <a href="https://sales-emails.netlify.app/">
+        <SalesEmailsAppSVG class="cover-illustration"/>
+        <h2 class="card-title">Sales-Email App</h2>
         NextJS App: Cold-Email Starters</a>
     </li>
     <li class="websites-list-card">
-        <a href="https://charactercounter.netlify.app/"><h2 class="card-title">CharacterCounter</h2>
+        <a href="https://charactercounter.netlify.app/">
+         <CharacterCounterSVG class="cover-illustration"/>
+        <h2 class="card-title">CharacterCounter</h2>
         Micro Website: Counts Characters</a>
     </li>
     <li class="websites-list-card">
-        <a href="https://codepen.io/jasontcrabtree/pen/qBbQXJP"><h2 class="card-title">CSS Poster Codepen</h2>
-        Codepen Link</a>
+        <a href="https://codepen.io/jasontcrabtree/pen/qBbQXJP">
+        <CSSPosterSVG class="cover-illustration"/>
+        <h2 class="card-title">CSS Poster Layout</h2>
+        CodePen Public Link</a>
     </li>
     <li class="websites-list-card">
-        <a href="https://zoelenziesmith.com"><h2 class="card-title">Zoe Lenzie-Smith</h2>
-        Website: Zoelenziesmith.com</a>
+        <a href="https://zoelenziesmith.com">
+        <ZoeSVG class="cover-illustration"/>
+        <h2 class="card-title">Zoe LS Portfolio</h2>
+        Website: ZoeLenzieSmith.com</a>
     </li>
 </ul>
 </template>
 
-
-<script>
-
-export default {
-  props: ["work"]
-};
-</script>
-
 <style>
+
+.cover-illustration {
+  box-shadow: var(--shadow-extra-small);
+  border-radius: 16px;
+  transform: rotate(-4deg);
+}
+
+.cover-illustration:hover {
+  transform: rotate(-24deg);
+}
 
 .websites-list-card {
   box-shadow: var(--shadow-extra-small);
