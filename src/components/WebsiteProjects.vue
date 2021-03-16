@@ -74,14 +74,14 @@ export default {
 
 <style>
 
+:root {
+  --cover-rotation: -4deg;
+}
+
 .cover-illustration {
   box-shadow: var(--shadow-extra-small);
   border-radius: 16px;
-  transform: rotate(-4deg);
-}
-
-.cover-illustration:hover {
-  transform: rotate(-24deg);
+  transform: rotate(var(--cover-rotation));
 }
 
 .websites-list-card {
@@ -101,6 +101,8 @@ export default {
 
 .websites-list-card:hover {
   box-shadow: var(--shadow-medium);
+  --cover-rotation: 8deg;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 
