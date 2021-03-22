@@ -28,6 +28,8 @@
 
   --blue-white-100: #eef1ff;
 
+  --date-span-yellow: #fff8eb;
+
   --dm-white-text: #f0f4f8;
 
   --dots-color: #2cb1bc;
@@ -323,6 +325,9 @@ a:any-link {
 }
 
 .date--style {
+  background-color: var(--date-span-yellow);
+  padding: 2px 4px;
+  border-radius: 2px;
   color: var(--subheading-black-blue);
   text-transform: uppercase;
   font-weight: 500;

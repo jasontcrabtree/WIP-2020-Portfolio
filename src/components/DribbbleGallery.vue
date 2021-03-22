@@ -4,6 +4,116 @@
       <li>
         <figure>
           <g-image
+            src="~/assets/images/dribbble-shots/daily-ui-day-21.png"
+            alt="A concept website showcasing different professional software tools and how they can fit and work together."
+            width="1200"
+            height="900"
+            blur="100"
+            quality="100"
+          />
+          <figcaption class="figcaption--layout">
+            <span>
+              Daily UI #21: Smart Home Dashboard
+              <span class="date--style">March 2020</span>
+            </span>
+            <br />
+            <a
+              href="https://dribbble.com/shots/10830259-Daily-UI-Day-021-Household-Management-Dashboard"
+            >View Dribbble Shot</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <g-image
+            src="~/assets/images/dribbble-shots/daily-ui-day-17.png"
+            alt="A concept website showcasing different professional software tools and how they can fit and work together."
+            width="1200"
+            height="900"
+            blur="100"
+            quality="100"
+          />
+          <figcaption class="figcaption--layout">
+            <span>
+              Daily UI #17: Email Receipt Design
+              <span class="date--style">March 2020</span>
+            </span>
+            <br />
+            <a
+              href="https://dribbble.com/shots/10796937-Daily-UI-Day-017-Email-Receipt-Email-Client"
+            >View Dribbble Shot</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <g-image
+            src="~/assets/images/dribbble-shots/daily-ui-day-12.png"
+            alt="A concept website showcasing different professional software tools and how they can fit and work together."
+            width="1200"
+            height="900"
+            blur="100"
+            quality="100"
+          />
+          <figcaption class="figcaption--layout">
+            <span>
+              Daily UI #12: Modern Ecommerce Store
+              <span class="date--style">March 2020</span>
+            </span>
+            <br />
+            <a
+              href="https://dribbble.com/shots/10754071-Daily-UI-Day-012-eCommerce-Cushion-Store"
+            >View Dribbble Shot</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <g-image
+            src="~/assets/images/dribbble-shots/daily-ui-day-07.png"
+            alt="A concept website showcasing different professional software tools and how they can fit and work together."
+            width="1200"
+            height="900"
+            blur="100"
+            quality="100"
+          />
+          <figcaption class="figcaption--layout">
+            <span>
+              Daily UI #7: iOS App Settings Page
+              <span class="date--style">March 2020</span>
+            </span>
+            <br />
+            <a
+              href="https://dribbble.com/shots/10725356-Daily-UI-007-Settings-Page"
+            >View Dribbble Shot</a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <g-image
+            src="~/assets/images/dribbble-shots/daily-ui-day-03.png"
+            alt="A concept website showcasing different professional software tools and how they can fit and work together."
+            width="1200"
+            height="900"
+            blur="100"
+            quality="100"
+          />
+          <figcaption class="figcaption--layout">
+            <span>
+              Daily UI #3: First Look Landing Page
+              <span class="date--style">March 2020</span>
+            </span>
+            <br />
+            <a
+              href="https://dribbble.com/shots/10661535-Daily-UI-003-Landing-Page"
+            >View Dribbble Shot</a>
+          </figcaption>
+        </figure>
+      </li>
+      <!-- <li>
+        <figure>
+          <g-image
             src="~/assets/images/dribbble-shots/app-platform-website.png"
             alt="A concept website showcasing different professional software tools and how they can fit and work together."
             width="1200"
@@ -14,7 +124,7 @@
           <figcaption class="figcaption--layout">
             <span>
               App Stores & Platforms List concept
-              <span class="date--style">Feb 2020</span>
+              <span class="date--style">March 2020</span>
             </span>
             <br />
             <a
@@ -22,28 +132,7 @@
             >View Dribbble Shot</a>
           </figcaption>
         </figure>
-      </li>
-      <li>
-        <figure>
-          <g-image
-            src="~/assets/images/dribbble-shots/portfolio-wip.png"
-            alt="Exploring layouts for the Dribbble Gallery section of my website, which you're viewing now"
-            width="1200"
-            height="900"
-            blur="50"
-          />
-          <figcaption class="figcaption--layout">
-            <span>
-              Portfolio: 2020 Edition Work in Progress
-              <span class="date--style">Feb 2020</span>
-            </span>
-            <br />
-            <a
-              href="https://dribbble.com/shots/9841693-Portfolio-2020-Edition-AlwaysAWorkInProgress"
-            >View Dribbble Shot</a>
-          </figcaption>
-        </figure>
-      </li>
+      </li> -->
       <li>
         <figure>
           <g-image
@@ -55,59 +144,17 @@
           />
           <figcaption class="figcaption--layout">
             <span>
-              Medical Booking App Study
+              UI & UX Concept: Medical Scheduling App
               <span class="date--style">Jan 2020</span>
             </span>
             <br />
             <a
               href="https://dribbble.com/shots/9830555-Medical-Booking-App-Study"
-            >View Dribbble Shot</a>
+            >View Dribbble Shot</a> - <a href="/work/med-booking-app">Read Case Study</a>
           </figcaption>
         </figure>
       </li>
-      <li>
-        <figure>
-          <g-image
-            src="~/assets/images/dribbble-shots/blog-typesetting.png"
-            alt="Portfolio redesign work in progress focused on setting the typography for my blog, and contrasting with overlapping images."
-            width="1200"
-            height="900"
-            blur="50"
-          />
-          <figcaption class="figcaption--layout">
-            <span>
-              Personal blog layout design ft. Overlapping Grid
-              <span class="date--style">Jan 2020</span>
-            </span>
-            <br />
-            <a
-              href="https://dribbble.com/shots/9556319-Personal-blog-layout-design-ft-Overlapping-Grid"
-            >View Dribbble Shot</a>
-          </figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <g-image
-            src="~/assets/images/dribbble-shots/stylingo-pricing.png"
-            alt="An illustration heavy pricing page designed for a 99-designs submission."
-            width="1200"
-            height="900"
-            blur="50"
-          />
-          <figcaption class="figcaption--layout">
-            <span>
-              Pricing & Packages Page Wireframe Concept
-              <span class="date--style">Oct 2019</span>
-            </span>
-            <br />
-            <a
-              href="https://dribbble.com/shots/7556327-Pricing-Packages-Page-Wireframe-Concept"
-            >View Dribbble Shot</a>
-          </figcaption>
-        </figure>
-      </li>
-      <li>
+      <!-- <li>
         <figure>
           <g-image
             src="~/assets/images/dribbble-shots/chris-vector.png"
@@ -127,7 +174,7 @@
             >View Dribbble Shot</a>
           </figcaption>
         </figure>
-      </li>
+      </li> -->
     </ul>
   </transition>
 </template>

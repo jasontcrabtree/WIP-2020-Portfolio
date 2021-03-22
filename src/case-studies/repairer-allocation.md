@@ -1,5 +1,5 @@
 ---
-title: 'Design Discovery in a Traditional Insurance Company'
+title: 'Service Design: Discovery in a Traditional Insurance Company'
 description: 'A case study about Service Design, Design Discovery and Facilitation at a large, traditional insurance company'
 date: 2018-10-01
 image: 'https://res.cloudinary.com/jasontcrabtree/image/upload/v1573410855/Portfolio-Assets/IagDiscovery-Cover-Image-2.png'
