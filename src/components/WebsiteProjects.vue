@@ -21,17 +21,6 @@ export default {
 
 
 <template>
-  <!-- <li class="list-item websites-list-card">
-    <g-link :to="work.path" class="read">
-      <img :src="work.image" :alt="work.title" class="cover-image" />
-      <div class="card-details">
-        <h2 class="card-title" v-html="work.title" />
-        <span class="date--style">Project time: {{ work.date }}</span>
-        <p class="description" v-html="work.description" />
-        <span class="card-link">View case study</span>
-      </div>
-    </g-link>
-  </li> -->
 <ul class="work-list-container">
     <li class="websites-list-card">
       <a href="https://usescaffold.com/">
